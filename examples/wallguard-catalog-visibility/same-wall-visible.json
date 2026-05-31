@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "WallGuardCatalogVisibility",
+  "catalog_record_id": "catalog://client-a/matter-x/doc-001",
+  "resource_ref": "resource://client-a/matter-x/doc-001",
+  "resource_labels": {
+    "client_ref": "client://client-a",
+    "matter_ref": "matter://client-a/matter-x",
+    "wall_ref": "wall://client-a/matter-x",
+    "classification": "wall_restricted"
+  },
+  "requesting_subject_ref": "agent-wall-context://agent-alpha/client-a/matter-x",
+  "active_wall_ref": "wall://client-a/matter-x",
+  "visibility_decision": "visible",
+  "metadata_visibility": "full",
+  "existence_visible": true,
+  "rank_or_list_eligible": true,
+  "policy_refs": ["policy-fabric://wallguard.professional-workroom.v0"],
+  "receipt_refs": ["wallguard-receipt://catalog-same-wall-visible-001"],
+  "evidence_refs": ["SocioProphet/prophet-core-ingest#2", "SocioProphet/prophet-core-ledger#6"]
+}
