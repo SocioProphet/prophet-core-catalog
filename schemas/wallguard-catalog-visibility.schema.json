@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.socioprophet.org/prophet-core-catalog/wallguard-catalog-visibility.schema.json",
+  "title": "WallGuard Catalog Visibility",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "catalog_record_id",
+    "resource_ref",
+    "resource_labels",
+    "requesting_subject_ref",
+    "active_wall_ref",
+    "visibility_decision",
+    "metadata_visibility",
+    "existence_visible",
+    "rank_or_list_eligible",
+    "policy_refs",
+    "receipt_refs",
+    "evidence_refs"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1.0"},
+    "record_type": {"const": "WallGuardCatalogVisibility"},
+    "catalog_record_id": {"type": "string", "minLength": 1},
+    "resource_ref": {"type": "string", "minLength": 1},
+    "resource_labels": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["client_ref", "matter_ref", "wall_ref", "classification"],
+      "properties": {
+        "client_ref": {"type": "string", "minLength": 1},
+        "matter_ref": {"type": "string", "minLength": 1},
+        "wall_ref": {"type": "string", "minLength": 1},
+        "classification": {"enum": ["public", "firm_approved", "client_confidential", "matter_restricted", "wall_restricted", "clean_room_derived"]}
+      }
+    },
+    "requesting_subject_ref": {"type": "string", "minLength": 1},
+    "active_wall_ref": {"type": "string", "minLength": 1},
+    "visibility_decision": {"enum": ["visible", "withheld", "redacted", "quarantined", "fail_closed"]},
+    "metadata_visibility": {"enum": ["full", "redacted", "withheld"]},
+    "existence_visible": {"type": "boolean"},
+    "rank_or_list_eligible": {"type": "boolean"},
+    "policy_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "receipt_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "evidence_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+  }
+}
