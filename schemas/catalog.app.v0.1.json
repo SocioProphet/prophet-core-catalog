@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.socioprophet.ai/catalog/app.v0.1.json",
+  "title": "Catalog App Manifest v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "task", "runtime", "inputs", "outputs", "policy"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^app\\.[a-z0-9][a-z0-9_.-]*$"},
+    "name": {"type": "string", "minLength": 1},
+    "task": {"enum": ["ingest", "curate", "clean", "integrate", "query", "analyze", "visualize", "model", "entity-resolve", "publish", "report"]},
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "owner_repo"],
+      "properties": {
+        "kind": {"enum": ["api", "notebook", "agent", "workflow", "container", "script", "external"]},
+        "owner_repo": {"type": "string", "minLength": 1},
+        "entrypoint": {"type": "string"}
+      }
+    },
+    "inputs": {"type": "array", "items": {"type": "string"}},
+    "outputs": {"type": "array", "items": {"type": "string"}},
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requires_receipt", "allowed_privacy_classes"],
+      "properties": {
+        "requires_receipt": {"type": "boolean"},
+        "allowed_privacy_classes": {"type": "array", "items": {"type": "string"}},
+        "approval_required": {"type": "boolean"}
+      }
+    }
+  }
+}

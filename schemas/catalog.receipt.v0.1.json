@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.socioprophet.ai/catalog/receipt.v0.1.json",
+  "title": "Catalog Receipt Manifest v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "kind", "subject", "actor", "timestamp", "evidence"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^rcpt\\.[a-z0-9][a-z0-9_.-]*$"},
+    "kind": {"enum": ["source-access", "ingest", "transform", "validation", "policy-decision", "publication", "export"]},
+    "subject": {"type": "string", "minLength": 1},
+    "actor": {"type": "string", "minLength": 1},
+    "timestamp": {"type": "string", "minLength": 1},
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hash", "method"],
+      "properties": {
+        "hash": {"type": "string", "minLength": 1},
+        "method": {"type": "string", "minLength": 1},
+        "uri": {"type": "string"},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}

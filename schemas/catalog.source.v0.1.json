@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.socioprophet.ai/catalog/source.v0.1.json",
+  "title": "Catalog Source Manifest v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "domain",
+    "provider",
+    "access",
+    "license",
+    "freshness",
+    "policy",
+    "provenance"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^src\\.[a-z0-9][a-z0-9_.-]*$"},
+    "name": {"type": "string", "minLength": 1},
+    "domain": {"type": "string", "minLength": 1},
+    "provider": {"type": "string", "minLength": 1},
+    "access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "auth", "endpoint"],
+      "properties": {
+        "method": {"enum": ["api", "bulk-download", "file-upload", "database", "stream", "manual"]},
+        "auth": {"enum": ["none", "api-key", "oauth", "service-account", "client-provided", "manual"]},
+        "endpoint": {"type": "string", "minLength": 1},
+        "rate_limit": {"type": "string"}
+      }
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["class", "commercial_use", "redistribution"],
+      "properties": {
+        "class": {"enum": ["open", "public-domain", "permissive", "restricted", "licensed", "client-owned", "unknown"]},
+        "commercial_use": {"type": "boolean"},
+        "redistribution": {"enum": ["allowed", "restricted", "forbidden", "unknown"]},
+        "terms_url": {"type": "string"}
+      }
+    },
+    "freshness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cadence"],
+      "properties": {
+        "cadence": {"enum": ["realtime", "hourly", "daily", "weekly", "monthly", "quarterly", "annual", "ad-hoc", "unknown"]},
+        "expected_lag": {"type": "string"}
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["privacy_class", "product_eligible"],
+      "properties": {
+        "privacy_class": {"enum": ["public", "restricted-public", "client-confidential", "personal-data", "sensitive", "unknown"]},
+        "product_eligible": {"type": "boolean"},
+        "notes": {"type": "string"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strength", "canonical_url"],
+      "properties": {
+        "strength": {"enum": ["primary", "official", "aggregated", "derived", "unverified"]},
+        "canonical_url": {"type": "string", "minLength": 1},
+        "sample_hash": {"type": "string"}
+      }
+    }
+  }
+}
