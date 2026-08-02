@@ -31,18 +31,30 @@ def check(manifest_path: Path) -> list[str]:
         return errs
 
     ds_dir = manifest_path.parent
-    corpus = ds_dir / "regex-corpus.jsonl"
-    if corpus.exists():
+    # Every record needs a stable `id`; regex-dataset records additionally need a
+    # `pattern` (fail-closed so a manifest can't claim conformance it lacks).
+    needs_pattern = man.get("id") == "ds.regex-operational-dataset"
+    # Validate the canonical corpus.jsonl (shard-assembled), the regex-corpus.jsonl
+    # alias, and every per-repo contribution shard, so a bad shard fails the gate
+    # before assembly ever runs.
+    corpus_files = [ds_dir / "corpus.jsonl", ds_dir / "regex-corpus.jsonl"]
+    corpus_files += sorted((ds_dir / "contributions").glob("*.jsonl"))
+    for corpus in corpus_files:
+        if not corpus.exists():
+            continue
+        rel_name = corpus.relative_to(ds_dir).as_posix()
         for i, line in enumerate(corpus.read_text().splitlines(), 1):
             if not line.strip():
                 continue
             try:
                 rec = json.loads(line)
             except json.JSONDecodeError as e:
-                errs.append(f"{corpus.name}:{i} invalid JSON ({e})")
+                errs.append(f"{rel_name}:{i} invalid JSON ({e})")
                 continue
-            if not rec.get("id") or not rec.get("pattern"):
-                errs.append(f"{corpus.name}:{i} record missing id/pattern")
+            if not rec.get("id"):
+                errs.append(f"{rel_name}:{i} record missing id")
+            elif needs_pattern and not rec.get("pattern"):
+                errs.append(f"{rel_name}:{i} record missing pattern")
     return errs
 
 
