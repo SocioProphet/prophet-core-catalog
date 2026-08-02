@@ -14,7 +14,7 @@ Seeded 2026-08-02 by a read-only harvest of 13 first-party `~/dev` repos.
 | `classifier-set.json` | 12 named classifiers (secret-detection, pii-detection, path-traversal, semver, …) grouping pattern ids. |
 | `gbrg-blast-radius.jsonl` | GBRG-ready mapping: each pattern as a `SemanticCell` (`kind: pattern`, `rx://<id>`) + one `imports` edge per usage site (`code://<repo>/<file> -> rx://<id>`). |
 | `SCHEMA.md` | Record schema + the bipartite blast-radius model and misuse/dependency query recipes. |
-| `QUARANTINE-NOTE.md` | The 19 competitor-named patterns **withheld** from this public dataset per the estate hard rule, and why. |
+| `QUARANTINE-NOTE.md` | The 25 competitor-named patterns **withheld** from this public dataset per the estate hard rule, and why. |
 
 ## Blast-radius / dependency tracing (how agents use it)
 - **Who uses pattern X?** → `sources[]` on its corpus record, or all `imports` edges into `rx://<id>` in `gbrg-blast-radius.jsonl`.
