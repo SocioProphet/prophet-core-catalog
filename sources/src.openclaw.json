@@ -1,0 +1,31 @@
+{
+  "id": "src.openclaw",
+  "name": "Openclaw (SocioProphet estate repo)",
+  "domain": "code",
+  "provider": "SocioProphet/openclaw",
+  "access": {
+    "method": "bulk-download",
+    "auth": "none",
+    "endpoint": "https://github.com/SocioProphet/openclaw",
+    "rate_limit": "n/a"
+  },
+  "license": {
+    "class": "unknown",
+    "commercial_use": false,
+    "redistribution": "unknown",
+    "terms_url": "https://github.com/SocioProphet/openclaw/blob/main/LICENSE"
+  },
+  "freshness": {
+    "cadence": "ad-hoc",
+    "expected_lag": "commit-driven"
+  },
+  "policy": {
+    "privacy_class": "public",
+    "product_eligible": true,
+    "notes": "First-party estate repo (public visibility), harvested read-only. License not machine-verified; see repo LICENSE. observed_at 2026-08-02."
+  },
+  "provenance": {
+    "strength": "primary",
+    "canonical_url": "https://github.com/SocioProphet/openclaw"
+  }
+}
