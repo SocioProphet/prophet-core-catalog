@@ -10,10 +10,10 @@
     "rate_limit": "n/a"
   },
   "license": {
-    "class": "unknown",
-    "commercial_use": false,
-    "redistribution": "unknown",
-    "terms_url": "https://github.com/SocioProphet/cairnpath-mesh/blob/main/LICENSE"
+    "class": "permissive",
+    "commercial_use": true,
+    "redistribution": "allowed",
+    "terms_url": "https://github.com/SocioProphet/cairnpath-mesh/blob/548613e257f19a4f9dd02a8c41a2becc875ede50/LICENSE"
   },
   "freshness": {
     "cadence": "ad-hoc",
@@ -22,7 +22,7 @@
   "policy": {
     "privacy_class": "restricted-public",
     "product_eligible": true,
-    "notes": "First-party estate repo (organization visibility), harvested read-only. License not machine-verified; see repo LICENSE. observed_at 2026-08-02."
+    "notes": "First-party estate repo (organization visibility), harvested read-only. MIT LICENSE added in cairnpath-mesh#8; license now machine-verified permissive. observed_at 2026-08-02."
   },
   "provenance": {
     "strength": "primary",

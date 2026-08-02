@@ -144,7 +144,7 @@ ent:cairnpath-mesh a cat:CatalogEntry ;
   cat:status "active" ;
   dct:title "Cairnpath Mesh (SocioProphet estate repo)" ;
   cat:provenanceRef "https://github.com/SocioProphet/cairnpath-mesh" ;
-  dct:license "unknown" ;
+  dct:license "permissive" ;
   cat:describes res:cairnpath-mesh .
 res:cairnpath-mesh a cat:EstateResource ;
   dct:subject "code" ;
@@ -1205,6 +1205,18 @@ ent:prophet-workspace a cat:CatalogEntry ;
 res:prophet-workspace a cat:EstateResource ;
   dct:subject "code" ;
   rdfs:label "Prophet Workspace (SocioProphet estate repo)" .
+
+ent:pypi.jsonschema a cat:CatalogEntry ;
+  cat:catalogId "src.pypi.jsonschema" ;
+  cat:owner "python-jsonschema maintainers" ;
+  cat:status "active" ;
+  dct:title "jsonschema (PyPI)" ;
+  cat:provenanceRef "https://python-jsonschema.readthedocs.io/" ;
+  dct:license "permissive" ;
+  cat:describes res:pypi.jsonschema .
+res:pypi.jsonschema a cat:EstateResource ;
+  dct:subject "internal-operations/libraries" ;
+  rdfs:label "jsonschema (PyPI)" .
 
 ent:pypi.numpy a cat:CatalogEntry ;
   cat:catalogId "src.pypi.numpy" ;
