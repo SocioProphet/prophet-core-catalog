@@ -26,7 +26,7 @@ datasets/<dataset>/<derived...>                  # combined turtle, gbrg edges, 
 
 - On merge to `main`, each repo's CI runs the shared extractors (single source of truth in `extractors/`) scoped to itself and updates **its own** `contributions/<repo>.jsonl` via a reusable workflow (`git-ops-standards/.github/workflows/catalog-contribute.yml`, `workflow_call`).
 - The catalog's `assemble-catalog.yml` rebuilds `corpus.jsonl` + derived views + validates (fail-closed) on each contribution. It also auto-absorbs a seed monolith into shards, so the initial pull-harvest seed and the ongoing push-contribution converge.
-- Cross-repo write needs a **minted GitHub App / org token** (never a PAT — secrets minted in CI), scoped to contents+PRs on this repo. Secret name: `CATALOG_CONTRIB_TOKEN`.
+- Cross-repo write needs a **GitHub App installation token minted in CI** (never a PAT — secrets minted in CI), scoped to contents+PRs on this repo only. The reusable workflow mints it per run from the `socioprophet-catalog-contributor` App. Org secrets: `CATALOG_APP_ID` + `CATALOG_APP_PRIVATE_KEY`.
 
 ## Glossary
 Vocabulary terms and topics from `ds.topic-vocabulary` land in the **catalog glossary**: each topic and high-signal term becomes a glossary entry with an authored **definition** and **linked terms** (`skos:related` / `skos:broader` / `skos:narrower`), emitted both as SKOS turtle and in DataHub business-glossary form for native ingest.

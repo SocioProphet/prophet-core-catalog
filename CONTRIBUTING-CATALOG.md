@@ -35,12 +35,12 @@ share an `id` across shards are merged (union `sources`, recompute `use_count` a
    jobs:
      contribute:
        uses: SocioProphet/git-ops-standards/.github/workflows/catalog-contribute.yml@main
-       secrets:
-         catalog_token: ${{ secrets.CATALOG_CONTRIB_TOKEN }}
+       secrets: inherit   # forwards CATALOG_APP_ID / CATALOG_APP_PRIVATE_KEY
    ```
 
-2. Ensure the org/repo secret **`CATALOG_CONTRIB_TOKEN`** exists (see below). Until
-   it does, the stub is inert — it will no-op rather than fail.
+2. Ensure the two org secrets **`CATALOG_APP_ID`** + **`CATALOG_APP_PRIVATE_KEY`**
+   exist (see below). Until BOTH do, the stub is inert — it will no-op rather than
+   fail.
 
 On each merge to `main`, that workflow fetches `extractors/` from this repo (pinned
 by ref), runs them scoped to the caller repo, and opens/updates a PR here writing
@@ -81,19 +81,34 @@ Available extractors (CLI contract: `<repo_path> <repo_name> [--out FILE]`):
 | `ds.rules-policies` | `extractors/extract_rules_policies.py` | thin hook |
 | `ds.ci-workflows-tests` | `extractors/extract_ci_workflows_tests.py` | thin hook |
 
-## The token requirement
+## The credential requirement — token minted in CI, never a PAT
 
 Writing a shard into THIS repo from another repo's CI needs a cross-repo write
 credential. Per estate policy (**secrets are minted in CI, never long-lived
-PATs**), use a **GitHub App / org installation token**, exposed to the caller as
-the secret **`CATALOG_CONTRIB_TOKEN`**.
+PATs**), the reusable workflow **mints a short-lived GitHub App installation
+token in CI** (via `actions/create-github-app-token`, scoped to
+`prophet-core-catalog` only) from the App's id + private key. There is **no PAT
+anywhere** — no `CATALOG_CONTRIB_TOKEN`, no hand-created token.
 
-- **Secret name:** `CATALOG_CONTRIB_TOKEN`
-- **Minimum scope:** `contents: write` + `pull_requests: write` **on
-  `SocioProphet/prophet-core-catalog` only** (a GitHub App installation scoped to
-  this one repo). No org-admin, no other repos.
-- It is passed to the reusable workflow as the `catalog_token` secret input; it is
-  never hard-coded and never echoed.
+### The only operator setup (one-time)
 
-Until the secret is set org-wide, every caller stub is **inert** (no-op), so wiring
-consumers ahead of the secret is safe.
+1. **Create a GitHub App** named `socioprophet-catalog-contributor` under the
+   `SocioProphet` org with **repository permissions** `Contents: Read & write`
+   and `Pull requests: Read & write`, and **nothing else** (no org permissions,
+   no account permissions).
+2. **Install** that App on **`SocioProphet/prophet-core-catalog` only** — select
+   "Only select repositories" and pick just this repo. No other repos, no org-wide
+   install.
+3. Generate a private key for the App and store **two org secrets**:
+   - **`CATALOG_APP_ID`** — the App's numeric App ID.
+   - **`CATALOG_APP_PRIVATE_KEY`** — the full PEM private key.
+
+That's it. Callers forward these two secrets (`secrets: inherit`, or map
+`CATALOG_APP_ID` / `CATALOG_APP_PRIVATE_KEY` explicitly); the reusable workflow
+mints the token per run, uses it for the cross-repo checkout/push/PR, and it
+expires when the job ends. The private key is never echoed and the minted token
+is never hard-coded.
+
+Until BOTH secrets are set org-wide, every caller stub is **inert** (no-op) — the
+workflow cannot mint a token and simply exits 0 — so wiring consumers ahead of
+the App is safe.

@@ -34,5 +34,5 @@
   workflow, or file that is its evidence. A loop with an empty or unresolvable `recorded_in` is a
   **never-fired** control and should be treated as suspect.
 - `status` is honest: `live-pending-token` = wired but inert until an operator action (e.g. the
-  `CATALOG_CONTRIB_TOKEN` secret); `partial` = designed + partially enforced; `designed` = spec only.
+  `CATALOG_APP_ID` + `CATALOG_APP_PRIVATE_KEY` App secrets); `partial` = designed + partially enforced; `designed` = spec only.
 - These are curation seeds, not final governance labels; expand as loops mature.
