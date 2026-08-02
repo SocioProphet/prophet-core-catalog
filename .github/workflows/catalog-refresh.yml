@@ -1,0 +1,149 @@
+name: catalog-refresh
+
+# CENTRAL re-harvest — makes the contribution loop LIVE with NO operator App token.
+#
+# The distributed path (assemble-catalog.yml) waits for each estate repo to push its
+# own shard via a GitHub App installation token. This central path needs none of that:
+# the SocioProphet estate repos are readable, so a scheduled job INSIDE this repo can
+# read-only clone them, re-run the shared extractors here, refresh the per-repo shards,
+# reassemble + reindex, and commit with the same-repo GITHUB_TOKEN. The App token later
+# upgrades this to distributed real-time; until then this keeps the catalog fresh.
+#
+# The two paths CONVERGE: both write datasets/<ds>/contributions/<repo>.jsonl and both
+# run tools/assemble_dataset.py. See docs/CATALOG-PERCOLATION.md.
+#
+# FAIL-CLOSED: the percolation canary + schema/graph validators run BEFORE the commit
+# step; if any fails the job aborts and nothing lands. No-op guarded (skip commit if the
+# tree is unchanged). Concurrency-grouped so scheduled + manual runs never overlap.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # daily, 06:17 UTC
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max repos to clone (0 = all first-party code repos from sources/)."
+        required: false
+        default: "0"
+      public_only:
+        description: "Only clone repos marked auth:none / privacy:public."
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install validator deps
+        run: pip install --quiet jsonschema rdflib pyshacl
+
+      - name: Select estate repos to re-harvest (data-driven from sources/)
+        id: select
+        run: |
+          set -euo pipefail
+          ARGS=(--limit "${{ github.event.inputs.limit || '0' }}")
+          if [ "${{ github.event.inputs.public_only || 'false' }}" = "true" ]; then
+            ARGS+=(--public-only)
+          fi
+          python3 tools/select_refresh_repos.py "${ARGS[@]}" > "$RUNNER_TEMP/repos.tsv"
+          echo "selected $(wc -l < "$RUNNER_TEMP/repos.tsv") repo(s)"
+          cat "$RUNNER_TEMP/repos.tsv"
+
+      - name: Read-only clone each repo and re-run extractors -> per-repo shards
+        run: |
+          set -uo pipefail
+          CLONES="$RUNNER_TEMP/clones"; STAGE="$RUNNER_TEMP/stage"
+          mkdir -p "$CLONES" "$STAGE"
+          REGEX_CONTRIB="datasets/regex-operational-dataset/contributions"
+          ok=0; skipped=0
+          while IFS=$'\t' read -r slug repo_name; do
+            [ -z "$slug" ] && continue
+            dst="$CLONES/$repo_name"
+            # Anonymous, shallow, read-only. Public repos need no auth; the same-repo
+            # GITHUB_TOKEN cannot read other repos, so we do NOT use it here. Any repo
+            # that does not clone (private / moved) is skipped — fail-OPEN per repo,
+            # fail-CLOSED on the canary below.
+            if ! git clone --depth 1 --quiet "https://github.com/$slug.git" "$dst" 2>/dev/null; then
+              echo "skip  $slug (not anonymously cloneable)"; skipped=$((skipped+1)); continue
+            fi
+            # Schema-matched extractor -> committed regex dataset shard.
+            python3 extractors/extract_regex.py "$dst" "$repo_name" \
+              --out "$REGEX_CONTRIB/$repo_name.jsonl"
+            # Thin/hook extractors run too (liveness), but their v0 record schema differs
+            # from the committed monoliths, so their output is STAGED (artifact only), not
+            # committed, until the schema is reconciled with each dataset.
+            for ex in ci_workflows_tests rules_policies topic_vocabulary; do
+              mkdir -p "$STAGE/$ex"
+              python3 "extractors/extract_${ex}.py" "$dst" "$repo_name" \
+                --out "$STAGE/$ex/$repo_name.jsonl" 2>/dev/null || true
+            done
+            echo "ok    $slug"; ok=$((ok+1))
+            rm -rf "$dst"
+          done < "$RUNNER_TEMP/repos.tsv"
+          echo "re-harvested $ok repo(s), skipped $skipped"
+          if [ "$ok" -eq 0 ]; then
+            echo "::error::no repos re-harvested — refusing to proceed (fail-closed)"; exit 1
+          fi
+
+      - name: Upload staged (non-committed) hook-extractor output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: staged-hook-extractors
+          path: ${{ runner.temp }}/stage
+          if-no-files-found: ignore
+
+      - name: Assemble corpus from refreshed shards
+        run: python3 tools/assemble_dataset.py --all
+
+      - name: Regenerate estate graph (population + edges + typed models)
+        run: |
+          python3 tools/emit_estate_graph.py
+          python3 tools/emit_estate_edges.py
+          python3 tools/emit_model_catalog.py
+
+      - name: Rebuild queryable index + DataHub metadata
+        run: |
+          python3 tools/build_catalog_index.py
+          python3 tools/emit_datahub.py
+
+      - name: Validate (fail-closed) — manifests + estate graph conformance
+        run: |
+          python3 tools/validate_dataset_manifest.py
+          python3 tools/validate_estate_graph.py
+
+      - name: Percolation canary (FAIL-CLOSED — no commit if the catalog stops percolating)
+        run: python3 tools/verify_percolation.py
+
+      - name: Commit refreshed catalog (skip if unchanged)
+        run: |
+          set -euo pipefail
+          git config user.name  "catalog-refresh[bot]"
+          git config user.email "catalog-refresh[bot]@users.noreply.github.com"
+          git add datasets/**/contributions/*.jsonl \
+                  datasets/*/corpus.jsonl \
+                  datasets/*/regex-corpus.jsonl \
+                  datasets/*/gbrg-blast-radius.jsonl \
+                  datasets/estate-graph/*.ttl \
+                  catalog-index/** \
+                  datahub/** 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no refresh changes to commit — catalog already current"
+          else
+            git commit -m "chore(catalog): central re-harvest — refresh shards, index, graph [skip ci]"
+            git push
+          fi

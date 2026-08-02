@@ -45,3 +45,37 @@ GlossaryTerm per glossary entry (with its definition + related terms). Regenerat
 The index reflects the datasets as committed. Assets added by very recent merges
 (e.g. a new declared invariant in a gate merged minutes ago) appear only after the
 next harvest/contribution — which is exactly what the contribution loop closes.
+
+## Two convergent paths that close the loop
+The contribution loop is LIVE now, without waiting on the operator App token.
+
+* **Central path — `.github/workflows/catalog-refresh.yml` (NO token).** A scheduled
+  job (daily + `workflow_dispatch`) *inside this repo* read-only clones the estate
+  repos (data-driven from `sources/` via `tools/select_refresh_repos.py`; anonymous,
+  shallow, best-effort per repo), re-runs the shared `extractors/` here, refreshes
+  `datasets/<ds>/contributions/<repo>.jsonl`, then `assemble_dataset.py --all` →
+  `emit_estate_graph` → `build_catalog_index` → `emit_datahub`, runs the schema/graph
+  validators and the **fail-closed percolation canary**, and only then commits the
+  refreshed `datasets/** + catalog-index/** + datahub/**` with the same-repo
+  `GITHUB_TOKEN` (`contents: write`) and `[skip ci]`. If the canary fails, nothing
+  lands. This is the loop made live with zero cross-repo credentials.
+* **Distributed path — `.github/workflows/assemble-catalog.yml` (App token).** Each
+  estate repo pushes its own shard on merge to `main` via the reusable
+  `git-ops-standards` workflow, minting a scoped GitHub App installation token in CI.
+  Real-time, but needs the `socioprophet-catalog-contributor` App installed.
+
+**They converge:** both write the same `datasets/<ds>/contributions/<repo>.jsonl`
+shard contract and both reassemble with `tools/assemble_dataset.py`. The central path
+is the pull-harvest seed kept warm; the distributed path is the push-contribution.
+When the App token lands, real-time contributions simply override the daily refresh —
+no data-model change, because the shard is the single source of truth for both.
+
+### Sharding generalized beyond regex
+`tools/shard_dataset.py` fans ANY dataset's primary records out to
+`contributions/<repo>.jsonl` keyed on each record's `repo` (or its `sources[].repo`;
+no repo → `_unsourced.jsonl`), losslessly and single-owner, so decompose→assemble is a
+**byte-identical round-trip**. It writes a `contributions/_shard-manifest.json` that
+`assemble_dataset.py` reads to reconstruct each primary file verbatim (the regex
+dataset keeps its own union-merge path). `datasets/models/` is sharded this way as the
+worked example; `make validate` is unaffected because the index reads the top-level
+monoliths, not the `contributions/` subtree.
