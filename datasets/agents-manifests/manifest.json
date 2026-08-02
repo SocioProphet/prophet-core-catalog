@@ -1,0 +1,64 @@
+{
+  "id": "ds.agents-manifests",
+  "name": "Estate Agents & Manifests Catalog",
+  "version": "0.1.0",
+  "sources": [
+    "src.agent-registry",
+    "src.agent_descriptors",
+    "src.agentplane",
+    "src.procybernetica",
+    "src.prophet-mesh",
+    "src.scope-d",
+    "src.smart-tree",
+    "src.socioprophet-agent-standards",
+    "src.turtleterm"
+  ],
+  "schema": {
+    "format": "document",
+    "fields": [
+      "id",
+      "name",
+      "kind",
+      "repo",
+      "path",
+      "declared_capabilities",
+      "authority_refs",
+      "intent",
+      "connections",
+      "agent_plane_ref",
+      "registry_ref",
+      "standard_ref"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "Read-only harvest of first-party ~/dev repos (2026-08-02) of estate AGENTS and their MANIFESTS/CAPABILITIES: agent-registry AgentSpec/AgentRegistration/AgentCapabilityDeclaration/ToolGrant, prophet-mesh blueprints (agents/*.yaml, blueprints/*.yaml), SCOPE-D claude-subagent frontmatter (agents/**.md), MCP server configs (mcp.json/.mcp.json), agentplane Bundles + TurtleTerm A2A/agent-interop SkillManifests (a2a-card), agent_descriptors capability records, and ProCybernetica AgentCoordinateVector persona vectors. Each record is enriched with a connections graph (skills/tools/prompts/preferences/personas) and cross-referenced to the three agent-substrate systems: agent-plane (SocioProphet/agentplane), agent-registry (SocioProphet/agent-registry), agent-standards (SocioProphet/socioprophet-agent-standards). src.socioprophet-agent-standards is listed as the referenced-authority source for standard_ref and the agent-catalog-connectivity policy; no agent records are harvested from it. Duplicate/superset working copies (*.wt, *-chronos-superset, *-kairos-draft, prophet-platform branch clones), vendored nested repo copies, and third-party trees (AgenticaForge, agent-inbox, openclaw fork) excluded.",
+    "receipt_required": true,
+    "upstream_datasets": [
+      "ds.schemas-contracts"
+    ]
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line",
+      "every record has id+name+kind+repo+path",
+      "kind in {agent-manifest,blueprint,claude-subagent,mcp-server,a2a-card,capability-decl,other}",
+      "sources[] resolve to registered catalog sources (referential integrity)",
+      "declared_capabilities[] + authority_refs[] captured where present (no-invisible-authority)",
+      "connections{skills,tools,prompts,preferences,personas} best-effort blast-radius edges",
+      "agents missing registry_ref/standard_ref surfaced as the unregistered/unstandardized gap set"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
