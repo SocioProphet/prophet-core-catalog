@@ -1,0 +1,42 @@
+{
+  "id": "ds.internal_ops.libraries.gdi_event_envelope",
+  "name": "GDI AI4IT event-envelope \u2014 vendored into meshrush",
+  "version": "commit-63397561",
+  "sources": [
+    "src.global-devsecops-intelligence"
+  ],
+  "schema": {
+    "format": "mixed",
+    "fields": [
+      "timestamp",
+      "utc_timestamp",
+      "type",
+      "data"
+    ],
+    "schema_uri": "https://github.com/SocioProphet/global-devsecops-intelligence/blob/63397561063cd73ec00e0ed1fb7f5ac0838f3d1c/open-ai4it-spec/contracts/schemas/event-envelope.schema.json"
+  },
+  "lineage": {
+    "transform": "vendored hash-pinned into meshrush vendor/global-devsecops-intelligence (GDI-1) with PROVENANCE per-file sha256; weekly vendor-freshness sentinel",
+    "receipt_required": true,
+    "upstream_datasets": []
+  },
+  "quality": {
+    "checks": [
+      "license-permissive-verified",
+      "hash-pinned-provenance",
+      "conformance-gate-enforced",
+      "freshness-sentinel"
+    ],
+    "minimum_quality_gate": "permissive-license"
+  },
+  "access": {
+    "visibility": "organization",
+    "owners": [
+      "team:platform-engineering"
+    ],
+    "allowed_roles": [
+      "engineer",
+      "agent"
+    ]
+  }
+}
