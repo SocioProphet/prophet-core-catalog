@@ -1,0 +1,93 @@
+{
+  "generated_by": "tools/build_catalog_index.py",
+  "datasets": 12,
+  "assets": 53025,
+  "glossary_terms": 7724,
+  "edges": 19074,
+  "registry": [
+    {
+      "dataset": "adrs-docs",
+      "id": "ds.adrs-docs",
+      "version": "0.1.0",
+      "assets": 1140,
+      "sources": 145
+    },
+    {
+      "dataset": "agents-manifests",
+      "id": "ds.agents-manifests",
+      "version": "0.1.0",
+      "assets": 101,
+      "sources": 9
+    },
+    {
+      "dataset": "ci-workflows-tests",
+      "id": "ds.ci-workflows-tests",
+      "version": "0.1.0",
+      "assets": 1142,
+      "sources": 121
+    },
+    {
+      "dataset": "feedback-loops",
+      "id": "ds.feedback-loops",
+      "version": "0.1.0",
+      "assets": 13,
+      "sources": 8
+    },
+    {
+      "dataset": "models",
+      "id": "ds.models",
+      "version": "0.1.0",
+      "assets": 52,
+      "sources": 9
+    },
+    {
+      "dataset": "ontologies",
+      "id": "ds.ontologies",
+      "version": "0.1.0",
+      "assets": 360,
+      "sources": 21
+    },
+    {
+      "dataset": "regex-operational-dataset",
+      "id": "ds.regex-operational-dataset",
+      "version": "0.2.0",
+      "assets": 2308,
+      "sources": 13
+    },
+    {
+      "dataset": "rules-policies",
+      "id": "ds.rules-policies",
+      "version": "0.1.0",
+      "assets": 423,
+      "sources": 45
+    },
+    {
+      "dataset": "schemas-contracts",
+      "id": "ds.schemas-contracts",
+      "version": "0.1.0",
+      "assets": 2328,
+      "sources": 90
+    },
+    {
+      "dataset": "services-endpoints",
+      "id": "ds.services-endpoints",
+      "version": "0.1.0",
+      "assets": 430,
+      "sources": 27
+    },
+    {
+      "dataset": "stemmer-policy",
+      "id": "ds.stemmer-policy",
+      "version": "0.1.0",
+      "assets": 141,
+      "sources": 121
+    },
+    {
+      "dataset": "topic-vocabulary",
+      "id": "ds.topic-vocabulary",
+      "version": "0.1.0",
+      "assets": 44587,
+      "sources": 130
+    }
+  ]
+}

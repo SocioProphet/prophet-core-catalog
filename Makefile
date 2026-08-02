@@ -1,6 +1,19 @@
-.PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph
+.PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph catalog-index emit-datahub verify-percolation
 
-validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph
+validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation
+
+# READ half — ingest datasets into a queryable index; emit DataHub metadata.
+catalog-index:
+	python3 tools/build_catalog_index.py
+
+emit-datahub: catalog-index
+	python3 tools/emit_datahub.py
+
+# Fail-closed canary: the catalog must actually PERCOLATE (be answerable), not just
+# validate as write-only git. Rebuilds the index and asserts every dataset is covered,
+# the glossary + edges are non-empty, and canonical queries return real answers.
+verify-percolation:
+	python3 tools/verify_percolation.py
 
 validate-wallguard-catalog-visibility:
 	python3 tools/validate_wallguard_catalog_visibility.py
