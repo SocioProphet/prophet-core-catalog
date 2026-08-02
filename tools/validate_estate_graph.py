@@ -45,10 +45,14 @@ def main() -> int:
         print(f"ERR: {GRAPH} not found — run tools/emit_estate_graph.py first", file=sys.stderr)
         return 2
 
-    # 1. parse
+    # 1. parse (a malformed graph/vocab is a usage error, not a conformance verdict)
     data = Graph()
-    data.parse(GRAPH, format="turtle")
-    data.parse(VOCAB, format="turtle")
+    try:
+        data.parse(GRAPH, format="turtle")
+        data.parse(VOCAB, format="turtle")
+    except Exception as exc:  # rdflib raises various parser exceptions
+        print(f"FAIL parse: {exc}", file=sys.stderr)
+        return 2
     entries = len(list(data.query(
         "PREFIX cat: <https://socioprophet.github.io/ontogenesis/domains/estate-catalog#> "
         "SELECT ?e WHERE { ?e a cat:CatalogEntry }")))
@@ -56,7 +60,11 @@ def main() -> int:
 
     # 2. conform
     shapes = Graph()
-    shapes.parse(SHAPES, format="turtle")
+    try:
+        shapes.parse(SHAPES, format="turtle")
+    except Exception as exc:
+        print(f"FAIL parse: vendored shapes malformed: {exc}", file=sys.stderr)
+        return 2
     conforms, _report, text = validate(
         data_graph=data, shacl_graph=shapes, inference="rdfs", abort_on_first=False, advanced=True
     )

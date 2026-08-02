@@ -38,7 +38,8 @@ def esc(s: str) -> str:
 
 
 def org_of(provider: str) -> str:
-    # provider is "Org/repo"; the accountable owner is the org.
+    # provider is usually "Org/repo" (owner = the org); a few sources use a plain
+    # owner string (e.g. "NumPy Developers"), which is used as-is.
     return provider.split("/", 1)[0] if provider else "unknown"
 
 
