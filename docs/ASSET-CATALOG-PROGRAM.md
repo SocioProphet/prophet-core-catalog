@@ -2,7 +2,7 @@
 
 **Goal:** every estate asset is registered in this catalog, kept fresh by CI on each merge to `main`, traceable for reuse / expansion / validation / blast-radius, and — where it is vocabulary — surfaced in the **glossary** with definitions and linked terms.
 
-Backing store: DataHub (`docs/DATAHUB_CATALOG_SPINE.md`). Every dataset carries a manifest validating against `schemas/catalog.dataset.v0.1.json`, with a `README.md` + `SCHEMA.md` mirroring `datasets/regex-operational-dataset/` (the reference implementation).
+Backing store: DataHub (`docs/DATAHUB_CATALOG_SPINE.md`). Every dataset carries a manifest validating against `schemas/catalog.dataset.v0.1.json`, with a `README.md` + `SCHEMA.md`. The reference layout is `datasets/regex-operational-dataset/`, landing via PR #5 (not yet on `main` at time of writing) — new datasets mirror it.
 
 ## Asset classes (each = a catalog dataset)
 | Dataset id | Asset class | Status |
