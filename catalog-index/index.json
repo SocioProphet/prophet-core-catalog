@@ -1,9 +1,9 @@
 {
   "generated_by": "tools/build_catalog_index.py",
   "datasets": 12,
-  "assets": 53025,
+  "assets": 56141,
   "glossary_terms": 7724,
-  "edges": 19074,
+  "edges": 37360,
   "registry": [
     {
       "dataset": "adrs-docs",
@@ -37,7 +37,7 @@
       "dataset": "models",
       "id": "ds.models",
       "version": "0.1.0",
-      "assets": 52,
+      "assets": 60,
       "sources": 9
     },
     {
@@ -51,7 +51,7 @@
       "dataset": "regex-operational-dataset",
       "id": "ds.regex-operational-dataset",
       "version": "0.2.0",
-      "assets": 2308,
+      "assets": 5416,
       "sources": 13
     },
     {

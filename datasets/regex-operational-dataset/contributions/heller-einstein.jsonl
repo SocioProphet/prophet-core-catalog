@@ -1,0 +1,1 @@
+{"category": "other", "competitor_clean": true, "flags": "", "id": "rx-a5342f060a", "intent": "", "lang": "python", "pattern": "HE-PROJ-001\\s+(is|was|will be)\\s+modified", "provider_reference": false, "redos_suspect": false, "risk_class": "benign", "sources": [{"file": "tests/test_temporal_mechanics_provenance.py", "line": 35, "repo": "heller-einstein"}], "use_count": 1}
