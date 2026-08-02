@@ -1,0 +1,323 @@
+{
+  "attestation_ref": null,
+  "blob_id": "blob_catalog_who_uses_res_a26f9004a2a8",
+  "in_reply_to_digest": "sha256:1824c46c07937377097af199622649239acd4de48151b48221de7157e9174083",
+  "media_type": "application/vnd.socioprophet.catalog-result+json;v=0",
+  "method": "catalog.who_uses.RES",
+  "parent_ref": "blob_catalog_who_uses_req_1824c46c0793",
+  "payload": {
+    "result": {
+      "capped": 50,
+      "count": 176,
+      "query": "skills",
+      "rows": [
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-terminal-executor.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-mcp-bridge.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-superconscious-bridge.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-vscode-context.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agent-machine-bridge.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-policy-gate.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-neovim-context.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agent-registry-client.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-terminal-inspector.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-acp-ingress.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-bearbrowser-handoff.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agentplane-runner.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-a2a-gateway.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-session-ergonomics.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-tmux-bridge.json"
+        },
+        {
+          "from": "ag-ff100edd6d42",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-language-context.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-terminal-executor.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-mcp-bridge.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-superconscious-bridge.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-vscode-context.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agent-machine-bridge.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-policy-gate.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-neovim-context.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agent-registry-client.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-terminal-inspector.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-acp-ingress.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-bearbrowser-handoff.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agentplane-runner.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-a2a-gateway.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-session-ergonomics.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-tmux-bridge.json"
+        },
+        {
+          "from": "ag-5f6c1d50dde0",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-language-context.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-terminal-executor.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-mcp-bridge.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-superconscious-bridge.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-vscode-context.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agent-machine-bridge.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-policy-gate.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-neovim-context.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agent-registry-client.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-terminal-inspector.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-acp-ingress.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-bearbrowser-handoff.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-agentplane-runner.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-a2a-gateway.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-session-ergonomics.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-tmux-bridge.json"
+        },
+        {
+          "from": "ag-a5bfa7f04fdc",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-language-context.json"
+        },
+        {
+          "from": "ag-73d93e7726c6",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-terminal-executor.json"
+        },
+        {
+          "from": "ag-73d93e7726c6",
+          "line": null,
+          "rel": "connects:skills",
+          "to": "assets/sourceos/skills/turtle-mcp-bridge.json"
+        }
+      ]
+    },
+    "tool": "catalog.who_uses"
+  },
+  "payload_digest": "sha256:a26f9004a2a87a3e3e459260ecfb241afc95261683d1803314cc9f55a4560c7e",
+  "producer": "prophet-core-catalog/tools/catalog_mcp_server.py@catalog-mcp.v0",
+  "schema_version": "socioprophet-catalog-mcp-transport.v0",
+  "semantic_schema_ref": "prophet-core-catalog:catalog-mcp.v0#/CatalogResult",
+  "transport_profile": "tritrpc:docs/AGENT_SANDBOX_TRANSPORT_PROFILE.md"
+}

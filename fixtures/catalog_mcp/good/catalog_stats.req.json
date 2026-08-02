@@ -1,0 +1,16 @@
+{
+  "attestation_ref": null,
+  "blob_id": "blob_catalog_stats_req_99bff5df645f",
+  "media_type": "application/vnd.socioprophet.catalog-query+json;v=0",
+  "method": "catalog.stats.REQ",
+  "parent_ref": null,
+  "payload": {
+    "args": {},
+    "tool": "catalog.stats"
+  },
+  "payload_digest": "sha256:99bff5df645f5f3b9c6bc09d644547a6f59645ebdedce87582dee351ea859225",
+  "producer": "prophet-core-catalog/tools/catalog_mcp_server.py@catalog-mcp.v0",
+  "schema_version": "socioprophet-catalog-mcp-transport.v0",
+  "semantic_schema_ref": "prophet-core-catalog:catalog-mcp.v0#/CatalogQuery",
+  "transport_profile": "tritrpc:docs/AGENT_SANDBOX_TRANSPORT_PROFILE.md"
+}

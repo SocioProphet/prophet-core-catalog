@@ -1,6 +1,14 @@
-.PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph catalog-index emit-datahub verify-percolation
+.PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph catalog-index emit-datahub verify-percolation verify-catalog-mcp-transport
 
-validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation
+validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation verify-catalog-mcp-transport
+
+# House-protocol conformance: the catalog MCP surface MUST ride the TriTRPC transport
+# profile (canonical JSON + sha256 digest binding + typed media type + typed envelope +
+# method naming). Verifier has teeth both ways: good frames MUST pass, tampered frames
+# MUST be rejected. See docs/CATALOG-MCP.md and socioprophet-agent-standards
+# docs/standards/031-mcp-house-protocol.md ("all MCP must use the house protocol").
+verify-catalog-mcp-transport:
+	python3 tools/verify_catalog_mcp_transport.py
 
 # READ half — ingest datasets into a queryable index; emit DataHub metadata.
 catalog-index:
