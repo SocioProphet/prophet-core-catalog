@@ -342,6 +342,18 @@ res:gitea-sovereign a cat:EstateResource ;
   dct:subject "code" ;
   rdfs:label "Gitea Sovereign (SocioProphet estate repo)" .
 
+ent:github.cairnpath-mesh-schemas a cat:CatalogEntry ;
+  cat:catalogId "src.github.cairnpath-mesh-schemas" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "cairnpath-mesh normative CairnPath schemas" ;
+  cat:provenanceRef "https://github.com/SocioProphet/cairnpath-mesh" ;
+  dct:license "permissive" ;
+  cat:describes res:github.cairnpath-mesh-schemas .
+res:github.cairnpath-mesh-schemas a cat:EstateResource ;
+  dct:subject "internal-operations/libraries" ;
+  rdfs:label "cairnpath-mesh normative CairnPath schemas" .
+
 ent:global-devsecops-intelligence a cat:CatalogEntry ;
   cat:catalogId "src.global-devsecops-intelligence" ;
   cat:owner "SocioProphet" ;
@@ -1205,6 +1217,18 @@ ent:prophet-workspace a cat:CatalogEntry ;
 res:prophet-workspace a cat:EstateResource ;
   dct:subject "code" ;
   rdfs:label "Prophet Workspace (SocioProphet estate repo)" .
+
+ent:pypi.jsonschema a cat:CatalogEntry ;
+  cat:catalogId "src.pypi.jsonschema" ;
+  cat:owner "python-jsonschema maintainers" ;
+  cat:status "active" ;
+  dct:title "jsonschema (PyPI)" ;
+  cat:provenanceRef "https://python-jsonschema.readthedocs.io/" ;
+  dct:license "permissive" ;
+  cat:describes res:pypi.jsonschema .
+res:pypi.jsonschema a cat:EstateResource ;
+  dct:subject "internal-operations/libraries" ;
+  rdfs:label "jsonschema (PyPI)" .
 
 ent:pypi.numpy a cat:CatalogEntry ;
   cat:catalogId "src.pypi.numpy" ;

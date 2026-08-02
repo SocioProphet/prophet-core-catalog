@@ -1,0 +1,10 @@
+{
+  "id": "ds.internal_ops.libraries.cairnpath_mesh_schemas",
+  "name": "cairnpath-mesh normative schemas — vendored into meshrush",
+  "version": "commit-548613e",
+  "sources": ["src.github.cairnpath-mesh-schemas"],
+  "schema": {"format": "mixed", "fields": ["cairn/step.v0", "cairn/line.v0"], "schema_uri": "https://socioprophet.org/schemas/cairn/"},
+  "lineage": {"transform": "vendored hash-pinned into meshrush vendor/cairnpath-mesh (CP-04) with PROVENANCE per-file sha256", "receipt_required": true, "upstream_datasets": []},
+  "quality": {"checks": ["license-permissive-verified", "hash-pinned-provenance", "conformance-gate-enforced"], "minimum_quality_gate": "permissive-license"},
+  "access": {"visibility": "organization", "owners": ["team:platform-engineering"], "allowed_roles": ["engineer", "agent"]}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "src.pypi.jsonschema",
+  "name": "jsonschema (PyPI)",
+  "domain": "internal-operations/libraries",
+  "provider": "python-jsonschema maintainers",
+  "access": {"method": "bulk-download", "auth": "none", "endpoint": "https://pypi.org/project/jsonschema/", "rate_limit": "n/a"},
+  "license": {"class": "permissive", "commercial_use": true, "redistribution": "allowed", "terms_url": "https://github.com/python-jsonschema/jsonschema/blob/main/COPYING"},
+  "freshness": {"cadence": "ad-hoc", "expected_lag": "release-driven"},
+  "policy": {"privacy_class": "public", "product_eligible": true, "notes": "MIT permissive OSS; JSON Schema validation for conformance gates (meshrush CP-04)."},
+  "provenance": {"strength": "official", "canonical_url": "https://python-jsonschema.readthedocs.io/"}
+}

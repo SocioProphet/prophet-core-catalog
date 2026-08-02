@@ -1,0 +1,10 @@
+{
+  "id": "ds.internal_ops.libraries.jsonschema",
+  "name": "jsonschema — internal-operations vendored library",
+  "version": ">=4",
+  "sources": ["src.pypi.jsonschema"],
+  "schema": {"format": "mixed", "fields": ["Draft202012Validator", "validate", "iter_errors"]},
+  "lineage": {"transform": "vendored-dependency; declared as the meshrush '.[conformance]' extra", "receipt_required": true, "upstream_datasets": []},
+  "quality": {"checks": ["license-permissive-verified", "consumer-declared-extra"], "minimum_quality_gate": "permissive-license"},
+  "access": {"visibility": "organization", "owners": ["team:platform-engineering"], "allowed_roles": ["engineer", "agent"]}
+}
