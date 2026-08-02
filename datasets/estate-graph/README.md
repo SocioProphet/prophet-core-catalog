@@ -14,11 +14,16 @@ binding vocabulary — grounded in KBpedia/KKO, the same upper language HellGrap
   inventory datasets — `models.used_by`, `services.consumers`, `ontologies.imports` —
   keyed on the same `res:<slug>` scheme so a model used_by `noetica` JOINS `res:noetica`
   from `src.noetica`: one graph.
+- `estate-models.ttl` — generated (gap-a). `cat:Model` instances with **real** `modelDigest`s
+  (from `datasets/models/runtime-model-digests.jsonl`, captured from local ollama registry
+  manifests) + declared `license`, so the estate reasons MIT/Apache-only over models it
+  actually references.
 - `../../tools/emit_estate_graph.py` — P2 emitter (stdlib), reads `sources/src.*.json`.
 - `../../tools/emit_estate_edges.py` — P3 edge emitter (stdlib), reads the inventory datasets.
+- `../../tools/emit_model_catalog.py` — model-catalog emitter (real digests → `cat:Model`).
 - `../../tools/validate_estate_graph.py` — parse → SHACL-conform (vendored vocabulary) →
-  run the live-proof reasoning queries, including **blast radius** (transitive
-  `cat:dependsOn+`).
+  run the live-proof reasoning queries: **blast radius** (transitive `cat:dependsOn+`) and
+  the **MIT/Apache-only** license check over real `cat:Model` digests.
 
 ## Run
 ```

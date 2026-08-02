@@ -29,6 +29,7 @@ except ImportError as exc:  # pragma: no cover
 ROOT = Path(__file__).resolve().parents[1]
 GRAPH = ROOT / "datasets" / "estate-graph" / "estate-graph.ttl"
 EDGES = ROOT / "datasets" / "estate-graph" / "estate-edges.ttl"
+MODELS = ROOT / "datasets" / "estate-graph" / "estate-models.ttl"
 VOCAB = ROOT / "vendor" / "ontogenesis" / "estate-catalog.ttl"
 SHAPES = ROOT / "vendor" / "ontogenesis" / "estate-catalog.shacl.ttl"
 
@@ -44,9 +45,17 @@ SELECT ?target (COUNT(?src) AS ?dependents) WHERE {
 # Transitive blast radius of a specific node (multi-hop cat:dependsOn+).
 TRANSITIVE = CAT + "SELECT (COUNT(DISTINCT ?r) AS ?n) WHERE { ?r cat:dependsOn+ %s . }"
 
+# Governance: cat:Models whose license is NOT MIT/Apache-2.0 (the estate rule).
+LICENSE_QUERY = CAT + """
+SELECT ?m ?license WHERE {
+  ?m a cat:Model ; cat:license ?license .
+  FILTER(?license != "MIT" && ?license != "Apache-2.0")
+} ORDER BY ?m
+"""
+
 
 def main() -> int:
-    for f in (GRAPH, EDGES):
+    for f in (GRAPH, EDGES, MODELS):
         if not f.exists():
             print(f"ERR: {f} not found — run 'make estate-graph' first", file=sys.stderr)
             return 2
@@ -55,13 +64,15 @@ def main() -> int:
     try:
         data.parse(GRAPH, format="turtle")
         data.parse(EDGES, format="turtle")
+        data.parse(MODELS, format="turtle")
         data.parse(VOCAB, format="turtle")
     except Exception as exc:
         print(f"FAIL parse: {exc}", file=sys.stderr)
         return 2
     entries = len(list(data.query(CAT + "SELECT ?e WHERE { ?e a cat:CatalogEntry }")))
     edges = len(list(data.query(CAT + "SELECT ?s ?t WHERE { ?s cat:dependsOn ?t }")))
-    print(f"OK parse: {len(data)} triples, {entries} catalog entries, {edges} dependsOn edges")
+    models = len(list(data.query(CAT + "SELECT ?m WHERE { ?m a cat:Model }")))
+    print(f"OK parse: {len(data)} triples, {entries} catalog entries, {edges} dependsOn edges, {models} models")
 
     shapes = Graph()
     try:
@@ -92,6 +103,13 @@ def main() -> int:
     n = int(trows[0]["n"]) if trows else 0
     print(f"OK reason — transitive blast radius of {top.rsplit('/', 1)[-1]} "
           f"= {n} resource(s) depend on it (multi-hop cat:dependsOn+)")
+
+    # Governance: which catalogued models violate the MIT/Apache-only rule?
+    bad = list(data.query(LICENSE_QUERY))
+    print(f"OK reason — MIT/Apache-only check: {models} cat:Model(s), "
+          f"{len(bad)} NOT MIT/Apache (flagged over the graph):")
+    for r in bad:
+        print(f"    {str(r['m']).rsplit('/', 1)[-1]:28s} {str(r['license'])}")
     return 0
 
 
