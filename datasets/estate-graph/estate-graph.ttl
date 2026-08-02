@@ -348,7 +348,7 @@ ent:global-devsecops-intelligence a cat:CatalogEntry ;
   cat:status "active" ;
   dct:title "Global Devsecops Intelligence (SocioProphet estate repo)" ;
   cat:provenanceRef "https://github.com/SocioProphet/global-devsecops-intelligence" ;
-  dct:license "unknown" ;
+  dct:license "permissive" ;
   cat:describes res:global-devsecops-intelligence .
 res:global-devsecops-intelligence a cat:EstateResource ;
   dct:subject "security" ;
