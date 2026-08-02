@@ -1,7 +1,8 @@
 # REGEX Operational Dataset — Schema & Blast-Radius Model
 
 Governed, catalog-ready seed of the SocioProphet estate's REGEX corpus. Produced by a
-READ-ONLY harvest of first-party source under `~/dev`. Competitor-clean (see hard rule below).
+READ-ONLY harvest of first-party source under `~/dev`. First-party provider/security
+patterns are included (see policy below).
 
 ## Files
 
@@ -9,8 +10,10 @@ READ-ONLY harvest of first-party source under `~/dev`. Competitor-clean (see har
 |---|---|
 | `regex-corpus.jsonl` | one JSON object per DISTINCT pattern (record schema below) |
 | `classifier-set.json` | named classifiers grouping pattern ids + descriptions |
-| `excluded_competitor.jsonl` | patterns dropped by the competitor hard rule |
-| `HARVEST-REPORT.md` | counts, top-blast-radius patterns, ReDoS gaps, catalog/GBRG discovery |
+| `gbrg-blast-radius.jsonl` | GBRG projection: `SemanticCell kind:pattern` + `imports` edges per usage site |
+| `manifest.json` | catalog manifest (validates against `schemas/catalog.dataset.v0.1.json`) |
+| `README.md` | dataset overview + blast-radius query recipes |
+| `PROVIDER-REFERENCE-NOTE.md` | why first-party provider/model & leaked-key detectors are included |
 | `SCHEMA.md` | this file |
 
 ## Record schema (`regex-corpus.jsonl`)
@@ -27,7 +30,8 @@ READ-ONLY harvest of first-party source under `~/dev`. Competitor-clean (see har
   "use_count": <int>,                    // total usage sites == len(sources) after dedup
   "risk_class": "catastrophic|sensitive|benign",
   "redos_suspect": <bool>,               // nested-quantifier / catastrophic-backtracking shape
-  "competitor_clean": true               // always true in the corpus; dirty ones are excluded
+  "competitor_clean": true,              // true; competitor/client MARKETING materials are excluded
+  "provider_reference": <bool>           // true when the pattern/site references a provider we integrate (first-party, allowed)
 }
 ```
 
@@ -38,15 +42,16 @@ Field notes:
 - **risk_class** rubric: `catastrophic` = secret/credential detectors, command-injection and destructive-command detectors, path-escape guards; `sensitive` = PII and path locators; `benign` = version/identifier/generic structural validators.
 - **redos_suspect** = `true` when the pattern contains `(…+)+`, `(…*)*`, `(.*)*`, `(?:…+)+`, `(\S+)+`, or an alternation group under an outer quantifier — shapes prone to catastrophic backtracking.
 
-## Competitor hard rule
+## Hard rule (governance)
 
-Any pattern that literally encodes a competitor brand name (palantir, foundry, databricks,
-snowflake, glean, darktrace, crowdstrike, c3.ai, scale ai, langchain, cohere, openai,
-anthropic, huggingface, writer, abnormal, baap, liminal) is EXCLUDED from the corpus and
-logged to `excluded_competitor.jsonl` as `{pattern, lang, reason: "competitor:<name>", source}`.
-Match is word-bounded, case-insensitive. Credential *format* detectors (e.g. `sk-ant-…`,
-`ghp_…`, `AKIA…`) are retained because they encode key shapes, not brand words — flagged for
-human review before public release.
+Excluded: competitor/client **marketing** materials (this scrubbed the seed deck — Palantir,
+BAAP, Liminal). **Included** (first-party policy, `provider_reference: true`): our own
+security/routing patterns, including leaked-key detectors (`sk-ant-…`, `sk-proj-…`,
+`ANTHROPIC_API_KEY`) and model-router allow-lists — these are the estate's own policies, not
+competitor materials (no clients today). See `PROVIDER-REFERENCE-NOTE.md` for the decision and
+the client-onboarding escape hatch (split an `organization`/`restricted` variant then). The
+validator (`tools/validate_dataset_manifest.py`) gates on schema + JSONL validity + `id`/`pattern`
+presence, and is fail-closed when a data-bearing manifest ships no data file.
 
 ## Blast-radius model
 

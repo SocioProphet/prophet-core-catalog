@@ -31,18 +31,26 @@ def check(manifest_path: Path) -> list[str]:
         return errs
 
     ds_dir = manifest_path.parent
-    corpus = ds_dir / "regex-corpus.jsonl"
-    if corpus.exists():
-        for i, line in enumerate(corpus.read_text().splitlines(), 1):
+    fmt = man.get("schema", {}).get("format")
+    jsonl_files = sorted(ds_dir.glob("*.jsonl"))
+    has_data = bool(jsonl_files) or any(ds_dir.glob("*.ttl")) or any(ds_dir.glob("*.yml"))
+    # fail-closed: a data-bearing manifest that ships no data file must NOT pass silently.
+    if fmt in {"document", "table", "mixed", "graph", "timeseries", "vector", "raster"} and not has_data:
+        errs.append(f"{ds_dir.name}: manifest declares format '{fmt}' but no data file "
+                    f"(*.jsonl / *.ttl / *.yml) is present next to it")
+    # id/pattern integrity applies to the regex corpus shape; JSONL parse validity to all.
+    corpus_names = {"regex-corpus.jsonl", "corpus.jsonl"}
+    for jf in jsonl_files:
+        for i, line in enumerate(jf.read_text().splitlines(), 1):
             if not line.strip():
                 continue
             try:
                 rec = json.loads(line)
             except json.JSONDecodeError as e:
-                errs.append(f"{corpus.name}:{i} invalid JSON ({e})")
+                errs.append(f"{jf.name}:{i} invalid JSON ({e})")
                 continue
-            if not rec.get("id") or not rec.get("pattern"):
-                errs.append(f"{corpus.name}:{i} record missing id/pattern")
+            if jf.name in corpus_names and (not rec.get("id") or not rec.get("pattern")):
+                errs.append(f"{jf.name}:{i} record missing id/pattern")
     return errs
 
 
