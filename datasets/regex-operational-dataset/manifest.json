@@ -1,0 +1,65 @@
+{
+  "id": "ds.regex-operational-dataset",
+  "name": "Estate Regex Operational Dataset",
+  "version": "0.2.0",
+  "sources": [
+    "src.agent-machine",
+    "src.agent-registry",
+    "src.git-ops-standards",
+    "src.guardrail-fabric",
+    "src.memory-mesh",
+    "src.model-router",
+    "src.noetica",
+    "src.procybernetica",
+    "src.prophet-mesh",
+    "src.prophet-platform",
+    "src.scope-d",
+    "src.sociosphere",
+    "src.superconscious"
+  ],
+  "schema": {
+    "format": "document",
+    "fields": [
+      "category",
+      "competitor_clean",
+      "flags",
+      "id",
+      "intent",
+      "lang",
+      "pattern",
+      "provider_reference",
+      "redos_suspect",
+      "risk_class",
+      "sources",
+      "use_count"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "Read-only ripgrep/AST harvest of first-party ~/dev repos (2026-08-02), deduped by sha1. Provider/model and leaked-key detector patterns are INCLUDED at full fidelity as first-party security/routing policy (no clients; see PROVIDER-REFERENCE-NOTE.md); source paths unmasked. Competitor/client marketing materials remain excluded.",
+    "receipt_required": true,
+    "upstream_datasets": []
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line",
+      "every record has id+pattern",
+      "dedup-by-pattern-sha1",
+      "provider_reference tagged (not excluded)",
+      "redos_suspect flagged for review",
+      "risk_class in {catastrophic,sensitive,benign}"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
