@@ -20,6 +20,7 @@ and routing policy, not client materials. The only hard exclusion is *competitor
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -184,6 +185,13 @@ def _decode(raw: str, lang: str) -> str:
     if lang == "python":
         # Bodies were captured from r"" or "" literals; keep backslashes literal.
         return raw
+    if lang == "jsonschema":
+        # Body was captured from inside a JSON string value, so it is still
+        # JSON-escaped ("\\d+" -> we must decode to "\d+"). Unescape via json.
+        try:
+            return json.loads('"' + raw + '"')
+        except Exception:
+            return raw
     return raw
 
 

@@ -15,7 +15,8 @@ assemble-catalog.yml calls, so it also runs locally / by hand:
 Behaviour
 ---------
 1. If `contributions/*.jsonl` exist, they are the source of truth: read all,
-   merge records that share an `id` (union sources, sum use_count, union flags,
+   merge records that share an `id` (union sources, recompute use_count as
+   len(sources) after dedup, union flags,
    OR the risk booleans, max risk_class), write `corpus.jsonl`.
 2. AUTO-ABSORB: if there are NO shards yet but a pre-existing monolith
    (`corpus.jsonl` or the regex dataset's `regex-corpus.jsonl`) is present, it
@@ -77,17 +78,19 @@ def _merge(records: list[dict]) -> list[dict]:
         cur = agg.get(rid)
         if cur is None:
             agg[rid] = json.loads(json.dumps(rec))  # deep copy
-            agg[rid].setdefault("sources", [])
+            # normalise: a shard may carry "sources": null / omit it entirely
+            if not isinstance(agg[rid].get("sources"), list):
+                agg[rid]["sources"] = []
             continue
-        # union sources (dedup by repo/file/line)
+        # union sources (dedup by repo/file/line); tolerate null/omitted sources
         seen = {(s.get("repo"), s.get("file"), s.get("line")) for s in cur["sources"]}
-        for s in rec.get("sources", []):
+        for s in (rec.get("sources") or []):
             key = (s.get("repo"), s.get("file"), s.get("line"))
             if key not in seen:
                 cur["sources"].append(s)
                 seen.add(key)
-        # union flags
-        cur["flags"] = "".join(sorted(set(cur.get("flags", "")) | set(rec.get("flags", ""))))
+        # union flags (tolerate null/omitted flags)
+        cur["flags"] = "".join(sorted(set(cur.get("flags") or "") | set(rec.get("flags") or "")))
         # OR risk booleans, max risk_class
         cur["redos_suspect"] = bool(cur.get("redos_suspect")) or bool(rec.get("redos_suspect"))
         cur["provider_reference"] = bool(cur.get("provider_reference")) or bool(rec.get("provider_reference"))

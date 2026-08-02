@@ -18,7 +18,7 @@ datasets/<dataset>/
 A repo owns exactly its own `contributions/<repo>.jsonl`. The catalog-side job
 (`.github/workflows/assemble-catalog.yml` → `tools/assemble_dataset.py`) merges
 all shards into `corpus.jsonl` and rebuilds the derived views. Records that
-share an `id` across shards are merged (union `sources`, sum `use_count`, union
+share an `id` across shards are merged (union `sources`, recompute `use_count` as len(sources), union
 `flags`, OR the risk booleans, max `risk_class`).
 
 ## How a repo opts in
