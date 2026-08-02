@@ -1,0 +1,96 @@
+{
+  "id": "ds.rules-policies",
+  "name": "Estate Rules & Policies Inventory",
+  "version": "0.1.0",
+  "sources": [
+    "src.agent-machine",
+    "src.agentplane",
+    "src.bearbrowser",
+    "src.cloudshell-fog",
+    "src.delivery-excellence-automation",
+    "src.exodus",
+    "src.functional-model-surfaces",
+    "src.guardrail-fabric",
+    "src.hellgraph",
+    "src.holmes",
+    "src.human-digital-twin",
+    "src.mcp-a2a-zero-trust",
+    "src.memory-mesh",
+    "src.model-governance-ledger",
+    "src.noetica",
+    "src.ontogenesis",
+    "src.policy-fabric",
+    "src.procybernetica",
+    "src.profit-mpcc",
+    "src.prophet-core-catalog",
+    "src.prophet-core-policy",
+    "src.prophet-domain-gaia-ontology",
+    "src.prophet-mesh",
+    "src.prophet-platform",
+    "src.scope-d",
+    "src.sherlock-search",
+    "src.slash-topics",
+    "src.socioprophet",
+    "src.socioprophet-standards-knowledge",
+    "src.socioprophet-standards-storage",
+    "src.socios",
+    "src.socios-installer",
+    "src.sociosphere",
+    "src.source-os",
+    "src.sourceos",
+    "src.sourceos-boot",
+    "src.sourceos-continuum",
+    "src.sourceos-devtools",
+    "src.sourceos-spec",
+    "src.sourceos-syncd",
+    "src.superconscious",
+    "src.tritfabric",
+    "src.tritrpc",
+    "src.turtleterm",
+    "src.workstation-contracts"
+  ],
+  "schema": {
+    "format": "document",
+    "fields": [
+      "id",
+      "name",
+      "kind",
+      "engine",
+      "repo",
+      "path",
+      "line",
+      "intent",
+      "enforced",
+      "ref_count",
+      "sources"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "READ-ONLY harvest of first-party ~/dev repos (2026-08-02): 125 canonical repos after excluding derived checkouts (*.wt, _*, -chronos-superset, -hellgraph-*, -standards), vendored/build trees (node_modules, dist, target, vendor, /cv/sources/ and git-pinned @<sha> external ontologies), examples/fixtures/tests, and third-party/pure-math repos. Policy-as-code (rego/kyverno/gatekeeper), SHACL shape files, gates, guardrails, invariants (INV-* ids + named estate invariants), and access (WallGuard/RBAC) definitions extracted at definition granularity. `enforced` set from a strict wiring corpus (.github/workflows, Makefile/justfile/Taskfile, .pre-commit, kustomization/argocd) referencing the policy by identifier, basename, or path; prose/named invariants are recorded as declared (enforcement, if any, lives in the gate that checks them). Blast radius (`sources[]`) from a single global word-bounded ripgrep pass; non-distinctive idents (>150 sites) collapse to the definition site. No client/competitor materials.",
+    "receipt_required": true,
+    "upstream_datasets": []
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line",
+      "every record has id+name+kind+repo+path",
+      "kind in {policy-as-code,shacl,gate,guardrail,invariant,access}",
+      "enforced is boolean (CI/gate-wiring evidence, else declared)",
+      "dedup by (kind,name,repo/path)",
+      "competitor/client-clean; vendored+build trees excluded"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
