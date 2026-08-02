@@ -1,0 +1,75 @@
+{
+  "id": "ds.services-endpoints",
+  "name": "Estate Services & Endpoints Inventory",
+  "version": "0.1.0",
+  "sources": [
+    "src.agent-machine",
+    "src.api-contracts",
+    "src.bearbrowser",
+    "src.cloudshell-fog",
+    "src.gitea-sovereign",
+    "src.hellgraph",
+    "src.memory-mesh",
+    "src.noetica",
+    "src.openclaw",
+    "src.policy-fabric",
+    "src.prophet-health",
+    "src.prophet-mesh",
+    "src.prophet-platform",
+    "src.prophet-platform-standards",
+    "src.sherlock-search",
+    "src.smart-tree",
+    "src.socioprophet",
+    "src.socioprophet-standards-knowledge",
+    "src.socios-linux__cloudshell-fog",
+    "src.sociosphere",
+    "src.sourceos-build",
+    "src.sourceos-continuum",
+    "src.sourceos-devtools",
+    "src.sourceos-shell",
+    "src.sourceos-spec",
+    "src.speechlab",
+    "src.tritfabric"
+  ],
+  "schema": {
+    "format": "document",
+    "fields": [
+      "id",
+      "name",
+      "kind",
+      "repo",
+      "path",
+      "endpoints",
+      "consumers",
+      "intent"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "Read-only os.walk + PyYAML/regex/AST-lite harvest of first-party ~/dev repos (2026-08-02). Duplicate clones collapsed by `git remote get-url origin` (kept one canonical dir per upstream repo; dropped prophet-platform-{hellgraph-metrics,hellgraph-outage-fix,mesh-gate-fix,mesh-portability}, holmes-fix-search-wiring, sociosphere-kairos-draft). Skipped *.wt worktrees, _*-prefixed dirs, *-chronos-superset/*-chronos-ci mirrors, and node_modules/vendor/vendored/dist/target/build/.venv/site-packages trees. Third-party AgenticaForge and agent-inbox EXCLUDED per estate boundary. services.jsonl = one record per service surface: k8s Service/Ingress/Deployment|StatefulSet|DaemonSet (name+ports), ArgoCD Application/Rollout, docker-compose service (ports+depends_on), gRPC `service` defs in .proto (rpc methods), FastAPI/Flask decorator routes, Express/Fastify/Nest JS/TS routes, and OpenAPI/Swagger paths. endpoints[] = routes/ports (best-effort, capped for very large route tables). consumers[] = best-effort reverse edges: Ingress->backend Service and compose depends_on. No client/competitor materials; provider integration surface (e.g. Porter gRPC contracts) is first-party and included.",
+    "receipt_required": true,
+    "upstream_datasets": []
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line",
+      "every record has id+name+kind+repo+path",
+      "kind in {k8s-service,ingress,deployment,http-api,grpc-service,compose-service,argocd-app,other}",
+      "id = svc-<sha1[0:10] of kind|repo|path|name>, deduped",
+      "endpoints/consumers are best-effort (heuristic extraction, not runtime discovery)",
+      "first-party only (AgenticaForge/agent-inbox excluded; duplicate clones deduped by origin)"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
