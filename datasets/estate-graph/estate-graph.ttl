@@ -1,0 +1,1820 @@
+@prefix cat:  <https://socioprophet.github.io/ontogenesis/domains/estate-catalog#> .
+@prefix ent:  <https://catalog.socioprophet.ai/estate/entry/> .
+@prefix res:  <https://catalog.socioprophet.ai/estate/resource/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+ent:agent-machine a cat:CatalogEntry ;
+  cat:catalogId "src.agent-machine" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Agent Machine (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/agent-machine" ;
+  dct:license "unknown" ;
+  cat:describes res:agent-machine .
+res:agent-machine a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Agent Machine (SocioProphet estate repo)" .
+
+ent:agent-registry a cat:CatalogEntry ;
+  cat:catalogId "src.agent-registry" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Agent Registry (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/agent-registry" ;
+  dct:license "unknown" ;
+  cat:describes res:agent-registry .
+res:agent-registry a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Agent Registry (SocioProphet estate repo)" .
+
+ent:agent-term a cat:CatalogEntry ;
+  cat:catalogId "src.agent-term" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Agent Term (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/agent-term" ;
+  dct:license "unknown" ;
+  cat:describes res:agent-term .
+res:agent-term a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Agent Term (SocioProphet estate repo)" .
+
+ent:agent_descriptors a cat:CatalogEntry ;
+  cat:catalogId "src.agent_descriptors" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Agent Descriptors (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/agent_descriptors" ;
+  dct:license "unknown" ;
+  cat:describes res:agent_descriptors .
+res:agent_descriptors a cat:EstateResource ;
+  dct:subject "ontology" ;
+  rdfs:label "Agent Descriptors (SocioProphet estate repo)" .
+
+ent:agentos-spine a cat:CatalogEntry ;
+  cat:catalogId "src.agentos-spine" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Agentos Spine (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/agentos-spine" ;
+  dct:license "unknown" ;
+  cat:describes res:agentos-spine .
+res:agentos-spine a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Agentos Spine (SocioProphet estate repo)" .
+
+ent:agentos-starter a cat:CatalogEntry ;
+  cat:catalogId "src.agentos-starter" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Agentos Starter (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/agentos-starter" ;
+  dct:license "unknown" ;
+  cat:describes res:agentos-starter .
+res:agentos-starter a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Agentos Starter (SocioProphet estate repo)" .
+
+ent:agentplane a cat:CatalogEntry ;
+  cat:catalogId "src.agentplane" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Agentplane (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/agentplane" ;
+  dct:license "unknown" ;
+  cat:describes res:agentplane .
+res:agentplane a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Agentplane (SocioProphet estate repo)" .
+
+ent:alexandrian-academy a cat:CatalogEntry ;
+  cat:catalogId "src.alexandrian-academy" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Alexandrian Academy (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/alexandrian-academy" ;
+  dct:license "unknown" ;
+  cat:describes res:alexandrian-academy .
+res:alexandrian-academy a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Alexandrian Academy (SocioProphet estate repo)" .
+
+ent:api-contracts a cat:CatalogEntry ;
+  cat:catalogId "src.api-contracts" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Api Contracts (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/api-contracts" ;
+  dct:license "unknown" ;
+  cat:describes res:api-contracts .
+res:api-contracts a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Api Contracts (SocioProphet estate repo)" .
+
+ent:bearbrowser a cat:CatalogEntry ;
+  cat:catalogId "src.bearbrowser" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Bearbrowser (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/bearbrowser" ;
+  dct:license "unknown" ;
+  cat:describes res:bearbrowser .
+res:bearbrowser a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Bearbrowser (SocioProphet estate repo)" .
+
+ent:bsd-proof-program a cat:CatalogEntry ;
+  cat:catalogId "src.bsd-proof-program" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Bsd Proof Program (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/bsd-proof-program" ;
+  dct:license "unknown" ;
+  cat:describes res:bsd-proof-program .
+res:bsd-proof-program a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Bsd Proof Program (SocioProphet estate repo)" .
+
+ent:cairnpath-mesh a cat:CatalogEntry ;
+  cat:catalogId "src.cairnpath-mesh" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Cairnpath Mesh (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/cairnpath-mesh" ;
+  dct:license "unknown" ;
+  cat:describes res:cairnpath-mesh .
+res:cairnpath-mesh a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Cairnpath Mesh (SocioProphet estate repo)" .
+
+ent:cloudshell-fog a cat:CatalogEntry ;
+  cat:catalogId "src.cloudshell-fog" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Cloudshell Fog (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/cloudshell-fog" ;
+  dct:license "unknown" ;
+  cat:describes res:cloudshell-fog .
+res:cloudshell-fog a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Cloudshell Fog (SocioProphet estate repo)" .
+
+ent:contractforge a cat:CatalogEntry ;
+  cat:catalogId "src.contractforge" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Contractforge (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/contractforge" ;
+  dct:license "unknown" ;
+  cat:describes res:contractforge .
+res:contractforge a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Contractforge (SocioProphet estate repo)" .
+
+ent:delivery-excellence-automation a cat:CatalogEntry ;
+  cat:catalogId "src.delivery-excellence-automation" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Delivery Excellence Automation (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/delivery-excellence-automation" ;
+  dct:license "unknown" ;
+  cat:describes res:delivery-excellence-automation .
+res:delivery-excellence-automation a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Delivery Excellence Automation (SocioProphet estate repo)" .
+
+ent:delivery-excellence-boards a cat:CatalogEntry ;
+  cat:catalogId "src.delivery-excellence-boards" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Delivery Excellence Boards (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/delivery-excellence-boards" ;
+  dct:license "unknown" ;
+  cat:describes res:delivery-excellence-boards .
+res:delivery-excellence-boards a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Delivery Excellence Boards (SocioProphet estate repo)" .
+
+ent:delivery-excellence-bounties a cat:CatalogEntry ;
+  cat:catalogId "src.delivery-excellence-bounties" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Delivery Excellence Bounties (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/delivery-excellence-bounties" ;
+  dct:license "unknown" ;
+  cat:describes res:delivery-excellence-bounties .
+res:delivery-excellence-bounties a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Delivery Excellence Bounties (SocioProphet estate repo)" .
+
+ent:delivery-excellence-innersource a cat:CatalogEntry ;
+  cat:catalogId "src.delivery-excellence-innersource" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Delivery Excellence Innersource (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/delivery-excellence-innersource" ;
+  dct:license "unknown" ;
+  cat:describes res:delivery-excellence-innersource .
+res:delivery-excellence-innersource a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Delivery Excellence Innersource (SocioProphet estate repo)" .
+
+ent:delivery-excellence a cat:CatalogEntry ;
+  cat:catalogId "src.delivery-excellence" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Delivery Excellence (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/delivery-excellence" ;
+  dct:license "unknown" ;
+  cat:describes res:delivery-excellence .
+res:delivery-excellence a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Delivery Excellence (SocioProphet estate repo)" .
+
+ent:economic-prophet a cat:CatalogEntry ;
+  cat:catalogId "src.economic-prophet" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Economic Prophet (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/economic-prophet" ;
+  dct:license "unknown" ;
+  cat:describes res:economic-prophet .
+res:economic-prophet a cat:EstateResource ;
+  dct:subject "finance" ;
+  rdfs:label "Economic Prophet (SocioProphet estate repo)" .
+
+ent:embeddinglab a cat:CatalogEntry ;
+  cat:catalogId "src.embeddinglab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Embeddinglab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/embeddinglab" ;
+  dct:license "unknown" ;
+  cat:describes res:embeddinglab .
+res:embeddinglab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Embeddinglab (SocioProphet estate repo)" .
+
+ent:enhancements a cat:CatalogEntry ;
+  cat:catalogId "src.enhancements" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Enhancements (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/enhancements" ;
+  dct:license "unknown" ;
+  cat:describes res:enhancements .
+res:enhancements a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Enhancements (SocioProphet estate repo)" .
+
+ent:evidence-intake-kernel a cat:CatalogEntry ;
+  cat:catalogId "src.evidence-intake-kernel" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Evidence Intake Kernel (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/evidence-intake-kernel" ;
+  dct:license "unknown" ;
+  cat:describes res:evidence-intake-kernel .
+res:evidence-intake-kernel a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Evidence Intake Kernel (SocioProphet estate repo)" .
+
+ent:exodus a cat:CatalogEntry ;
+  cat:catalogId "src.exodus" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Exodus (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/exodus" ;
+  dct:license "unknown" ;
+  cat:describes res:exodus .
+res:exodus a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Exodus (SocioProphet estate repo)" .
+
+ent:functional-model-surfaces a cat:CatalogEntry ;
+  cat:catalogId "src.functional-model-surfaces" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Functional Model Surfaces (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/functional-model-surfaces" ;
+  dct:license "unknown" ;
+  cat:describes res:functional-model-surfaces .
+res:functional-model-surfaces a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Functional Model Surfaces (SocioProphet estate repo)" .
+
+ent:gaia-world-model a cat:CatalogEntry ;
+  cat:catalogId "src.gaia-world-model" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Gaia World Model (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/gaia-world-model" ;
+  dct:license "unknown" ;
+  cat:describes res:gaia-world-model .
+res:gaia-world-model a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Gaia World Model (SocioProphet estate repo)" .
+
+ent:git-ops-standards a cat:CatalogEntry ;
+  cat:catalogId "src.git-ops-standards" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Git Ops Standards (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/git-ops-standards" ;
+  dct:license "unknown" ;
+  cat:describes res:git-ops-standards .
+res:git-ops-standards a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Git Ops Standards (SocioProphet estate repo)" .
+
+ent:gitea-sovereign a cat:CatalogEntry ;
+  cat:catalogId "src.gitea-sovereign" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Gitea Sovereign (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/gitea-sovereign" ;
+  dct:license "unknown" ;
+  cat:describes res:gitea-sovereign .
+res:gitea-sovereign a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Gitea Sovereign (SocioProphet estate repo)" .
+
+ent:global-devsecops-intelligence a cat:CatalogEntry ;
+  cat:catalogId "src.global-devsecops-intelligence" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Global Devsecops Intelligence (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/global-devsecops-intelligence" ;
+  dct:license "unknown" ;
+  cat:describes res:global-devsecops-intelligence .
+res:global-devsecops-intelligence a cat:EstateResource ;
+  dct:subject "security" ;
+  rdfs:label "Global Devsecops Intelligence (SocioProphet estate repo)" .
+
+ent:goose-notes a cat:CatalogEntry ;
+  cat:catalogId "src.goose-notes" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Goose Notes (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/goose-notes" ;
+  dct:license "unknown" ;
+  cat:describes res:goose-notes .
+res:goose-notes a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Goose Notes (SocioProphet estate repo)" .
+
+ent:graphbrain-contract a cat:CatalogEntry ;
+  cat:catalogId "src.graphbrain-contract" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Graphbrain Contract (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/graphbrain-contract" ;
+  dct:license "unknown" ;
+  cat:describes res:graphbrain-contract .
+res:graphbrain-contract a cat:EstateResource ;
+  dct:subject "ontology" ;
+  rdfs:label "Graphbrain Contract (SocioProphet estate repo)" .
+
+ent:graphlab a cat:CatalogEntry ;
+  cat:catalogId "src.graphlab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Graphlab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/graphlab" ;
+  dct:license "unknown" ;
+  cat:describes res:graphlab .
+res:graphlab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Graphlab (SocioProphet estate repo)" .
+
+ent:guardrail-fabric a cat:CatalogEntry ;
+  cat:catalogId "src.guardrail-fabric" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Guardrail Fabric (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/guardrail-fabric" ;
+  dct:license "unknown" ;
+  cat:describes res:guardrail-fabric .
+res:guardrail-fabric a cat:EstateResource ;
+  dct:subject "security" ;
+  rdfs:label "Guardrail Fabric (SocioProphet estate repo)" .
+
+ent:heller-dirac a cat:CatalogEntry ;
+  cat:catalogId "src.heller-dirac" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Heller-Dirac (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/Heller-Dirac" ;
+  dct:license "unknown" ;
+  cat:describes res:heller-dirac .
+res:heller-dirac a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Heller-Dirac (SocioProphet estate repo)" .
+
+ent:heller-einstein a cat:CatalogEntry ;
+  cat:catalogId "src.heller-einstein" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Heller-Einstein (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/Heller-Einstein" ;
+  dct:license "unknown" ;
+  cat:describes res:heller-einstein .
+res:heller-einstein a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Heller-Einstein (SocioProphet estate repo)" .
+
+ent:heller-godel a cat:CatalogEntry ;
+  cat:catalogId "src.heller-godel" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Heller Godel (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/heller-godel" ;
+  dct:license "unknown" ;
+  cat:describes res:heller-godel .
+res:heller-godel a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Heller Godel (SocioProphet estate repo)" .
+
+ent:heller-winters-theorem a cat:CatalogEntry ;
+  cat:catalogId "src.heller-winters-theorem" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Heller Winters Theorem (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/heller-winters-theorem" ;
+  dct:license "unknown" ;
+  cat:describes res:heller-winters-theorem .
+res:heller-winters-theorem a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Heller Winters Theorem (SocioProphet estate repo)" .
+
+ent:hellgraph-bench a cat:CatalogEntry ;
+  cat:catalogId "src.hellgraph-bench" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Hellgraph Bench (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/hellgraph-bench" ;
+  dct:license "unknown" ;
+  cat:describes res:hellgraph-bench .
+res:hellgraph-bench a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Hellgraph Bench (SocioProphet estate repo)" .
+
+ent:hellgraph a cat:CatalogEntry ;
+  cat:catalogId "src.hellgraph" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Hellgraph (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/hellgraph" ;
+  dct:license "unknown" ;
+  cat:describes res:hellgraph .
+res:hellgraph a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Hellgraph (SocioProphet estate repo)" .
+
+ent:hodge-program-proof a cat:CatalogEntry ;
+  cat:catalogId "src.hodge-program-proof" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "hodge-program-proof (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/hodge-program-proof" ;
+  dct:license "unknown" ;
+  cat:describes res:hodge-program-proof .
+res:hodge-program-proof a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "hodge-program-proof (SocioProphet estate repo)" .
+
+ent:holmes-fix-search-wiring a cat:CatalogEntry ;
+  cat:catalogId "src.holmes-fix-search-wiring" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Holmes Fix Search Wiring (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/holmes-fix-search-wiring" ;
+  dct:license "unknown" ;
+  cat:describes res:holmes-fix-search-wiring .
+res:holmes-fix-search-wiring a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Holmes Fix Search Wiring (SocioProphet estate repo)" .
+
+ent:holmes a cat:CatalogEntry ;
+  cat:catalogId "src.holmes" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Holmes (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/holmes" ;
+  dct:license "unknown" ;
+  cat:describes res:holmes .
+res:holmes a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Holmes (SocioProphet estate repo)" .
+
+ent:holographme a cat:CatalogEntry ;
+  cat:catalogId "src.holographme" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Holographme (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/holographme" ;
+  dct:license "unknown" ;
+  cat:describes res:holographme .
+res:holographme a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Holographme (SocioProphet estate repo)" .
+
+ent:homebrew-prophet a cat:CatalogEntry ;
+  cat:catalogId "src.homebrew-prophet" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Homebrew Prophet (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/homebrew-prophet" ;
+  dct:license "unknown" ;
+  cat:describes res:homebrew-prophet .
+res:homebrew-prophet a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Homebrew Prophet (SocioProphet estate repo)" .
+
+ent:homebrew-tap a cat:CatalogEntry ;
+  cat:catalogId "src.homebrew-tap" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Homebrew Tap (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/homebrew-tap" ;
+  dct:license "unknown" ;
+  cat:describes res:homebrew-tap .
+res:homebrew-tap a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Homebrew Tap (SocioProphet estate repo)" .
+
+ent:hphd-zeta-mirror-lattice a cat:CatalogEntry ;
+  cat:catalogId "src.hphd-zeta-mirror-lattice" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "hphd-zeta-mirror-lattice (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/hphd-zeta-mirror-lattice" ;
+  dct:license "unknown" ;
+  cat:describes res:hphd-zeta-mirror-lattice .
+res:hphd-zeta-mirror-lattice a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "hphd-zeta-mirror-lattice (SocioProphet estate repo)" .
+
+ent:human-digital-twin a cat:CatalogEntry ;
+  cat:catalogId "src.human-digital-twin" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Human Digital Twin (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/human-digital-twin" ;
+  dct:license "unknown" ;
+  cat:describes res:human-digital-twin .
+res:human-digital-twin a cat:EstateResource ;
+  dct:subject "health" ;
+  rdfs:label "Human Digital Twin (SocioProphet estate repo)" .
+
+ent:hyperswarm-agent-composable-cluster-scaleup a cat:CatalogEntry ;
+  cat:catalogId "src.hyperswarm-agent-composable-cluster-scaleup" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Hyperswarm Agent Composable Cluster Scaleup (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/hyperswarm-agent-composable-cluster-scaleup" ;
+  dct:license "unknown" ;
+  cat:describes res:hyperswarm-agent-composable-cluster-scaleup .
+res:hyperswarm-agent-composable-cluster-scaleup a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Hyperswarm Agent Composable Cluster Scaleup (SocioProphet estate repo)" .
+
+ent:identity-is-prime-reference a cat:CatalogEntry ;
+  cat:catalogId "src.identity-is-prime-reference" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Identity Is Prime Reference (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/identity-is-prime-reference" ;
+  dct:license "unknown" ;
+  cat:describes res:identity-is-prime-reference .
+res:identity-is-prime-reference a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Identity Is Prime Reference (SocioProphet estate repo)" .
+
+ent:imagelab a cat:CatalogEntry ;
+  cat:catalogId "src.imagelab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Imagelab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/imagelab" ;
+  dct:license "unknown" ;
+  cat:describes res:imagelab .
+res:imagelab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Imagelab (SocioProphet estate repo)" .
+
+ent:lampstand a cat:CatalogEntry ;
+  cat:catalogId "src.lampstand" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Lampstand (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/lampstand" ;
+  dct:license "unknown" ;
+  cat:describes res:lampstand .
+res:lampstand a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Lampstand (SocioProphet estate repo)" .
+
+ent:lattice-forge a cat:CatalogEntry ;
+  cat:catalogId "src.lattice-forge" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "lattice-forge (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/lattice-forge" ;
+  dct:license "unknown" ;
+  cat:describes res:lattice-forge .
+res:lattice-forge a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "lattice-forge (SocioProphet estate repo)" .
+
+ent:liminal-backrooms a cat:CatalogEntry ;
+  cat:catalogId "src.liminal-backrooms" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Liminal Backrooms (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/liminal-backrooms" ;
+  dct:license "unknown" ;
+  cat:describes res:liminal-backrooms .
+res:liminal-backrooms a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Liminal Backrooms (SocioProphet estate repo)" .
+
+ent:liminal_backrooms a cat:CatalogEntry ;
+  cat:catalogId "src.liminal_backrooms" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Liminal Backrooms (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/liminal_backrooms" ;
+  dct:license "unknown" ;
+  cat:describes res:liminal_backrooms .
+res:liminal_backrooms a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Liminal Backrooms (SocioProphet estate repo)" .
+
+ent:m2-env-bootstrap a cat:CatalogEntry ;
+  cat:catalogId "src.m2-env-bootstrap" ;
+  cat:owner "mdheller" ;
+  cat:status "active" ;
+  dct:title "m2-env-bootstrap (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/mdheller/m2-env-bootstrap" ;
+  dct:license "unknown" ;
+  cat:describes res:m2-env-bootstrap .
+res:m2-env-bootstrap a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "m2-env-bootstrap (SocioProphet estate repo)" .
+
+ent:mcp-a2a-zero-trust a cat:CatalogEntry ;
+  cat:catalogId "src.mcp-a2a-zero-trust" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Mcp A2a Zero Trust (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/mcp-a2a-zero-trust" ;
+  dct:license "unknown" ;
+  cat:describes res:mcp-a2a-zero-trust .
+res:mcp-a2a-zero-trust a cat:EstateResource ;
+  dct:subject "security" ;
+  rdfs:label "Mcp A2a Zero Trust (SocioProphet estate repo)" .
+
+ent:mellumwork a cat:CatalogEntry ;
+  cat:catalogId "src.mellumwork" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Mellumwork (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/mellumwork" ;
+  dct:license "unknown" ;
+  cat:describes res:mellumwork .
+res:mellumwork a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Mellumwork (SocioProphet estate repo)" .
+
+ent:memory-mesh a cat:CatalogEntry ;
+  cat:catalogId "src.memory-mesh" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Memory Mesh (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/memory-mesh" ;
+  dct:license "unknown" ;
+  cat:describes res:memory-mesh .
+res:memory-mesh a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Memory Mesh (SocioProphet estate repo)" .
+
+ent:meshrush a cat:CatalogEntry ;
+  cat:catalogId "src.meshrush" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Meshrush (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/meshrush" ;
+  dct:license "unknown" ;
+  cat:describes res:meshrush .
+res:meshrush a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Meshrush (SocioProphet estate repo)" .
+
+ent:model-governance-ledger a cat:CatalogEntry ;
+  cat:catalogId "src.model-governance-ledger" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Model Governance Ledger (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/model-governance-ledger" ;
+  dct:license "unknown" ;
+  cat:describes res:model-governance-ledger .
+res:model-governance-ledger a cat:EstateResource ;
+  dct:subject "security" ;
+  rdfs:label "Model Governance Ledger (SocioProphet estate repo)" .
+
+ent:model-router a cat:CatalogEntry ;
+  cat:catalogId "src.model-router" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Model Router (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/model-router" ;
+  dct:license "unknown" ;
+  cat:describes res:model-router .
+res:model-router a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Model Router (SocioProphet estate repo)" .
+
+ent:new-hope a cat:CatalogEntry ;
+  cat:catalogId "src.new-hope" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "New Hope (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/new-hope" ;
+  dct:license "unknown" ;
+  cat:describes res:new-hope .
+res:new-hope a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "New Hope (SocioProphet estate repo)" .
+
+ent:newhope-slash-topics-integration a cat:CatalogEntry ;
+  cat:catalogId "src.newhope-slash-topics-integration" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Newhope Slash Topics Integration (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/newhope-slash-topics-integration" ;
+  dct:license "unknown" ;
+  cat:describes res:newhope-slash-topics-integration .
+res:newhope-slash-topics-integration a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Newhope Slash Topics Integration (SocioProphet estate repo)" .
+
+ent:nix-openclaw a cat:CatalogEntry ;
+  cat:catalogId "src.nix-openclaw" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Nix Openclaw (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/nix-openclaw" ;
+  dct:license "unknown" ;
+  cat:describes res:nix-openclaw .
+res:nix-openclaw a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Nix Openclaw (SocioProphet estate repo)" .
+
+ent:nlboot a cat:CatalogEntry ;
+  cat:catalogId "src.nlboot" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Nlboot (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/nlboot" ;
+  dct:license "unknown" ;
+  cat:describes res:nlboot .
+res:nlboot a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Nlboot (SocioProphet estate repo)" .
+
+ent:nlplab a cat:CatalogEntry ;
+  cat:catalogId "src.nlplab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Nlplab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/nlplab" ;
+  dct:license "unknown" ;
+  cat:describes res:nlplab .
+res:nlplab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Nlplab (SocioProphet estate repo)" .
+
+ent:noetica-impair a cat:CatalogEntry ;
+  cat:catalogId "src.noetica-impair" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Noetica Impair (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/noetica-impair" ;
+  dct:license "unknown" ;
+  cat:describes res:noetica-impair .
+res:noetica-impair a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Noetica Impair (SocioProphet estate repo)" .
+
+ent:noetica a cat:CatalogEntry ;
+  cat:catalogId "src.noetica" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Noetica (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/Noetica" ;
+  dct:license "unknown" ;
+  cat:describes res:noetica .
+res:noetica a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Noetica (SocioProphet estate repo)" .
+
+ent:np-program a cat:CatalogEntry ;
+  cat:catalogId "src.np-program" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "np-program (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/np-program" ;
+  dct:license "unknown" ;
+  cat:describes res:np-program .
+res:np-program a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "np-program (SocioProphet estate repo)" .
+
+ent:ns-program a cat:CatalogEntry ;
+  cat:catalogId "src.ns-program" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "ns-program (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/ns-program" ;
+  dct:license "unknown" ;
+  cat:describes res:ns-program .
+res:ns-program a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "ns-program (SocioProphet estate repo)" .
+
+ent:ocrlab a cat:CatalogEntry ;
+  cat:catalogId "src.ocrlab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Ocrlab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/ocrlab" ;
+  dct:license "unknown" ;
+  cat:describes res:ocrlab .
+res:ocrlab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Ocrlab (SocioProphet estate repo)" .
+
+ent:ontogenesis a cat:CatalogEntry ;
+  cat:catalogId "src.ontogenesis" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Ontogenesis (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/ontogenesis" ;
+  dct:license "unknown" ;
+  cat:describes res:ontogenesis .
+res:ontogenesis a cat:EstateResource ;
+  dct:subject "ontology" ;
+  rdfs:label "Ontogenesis (SocioProphet estate repo)" .
+
+ent:openclaw a cat:CatalogEntry ;
+  cat:catalogId "src.openclaw" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Openclaw (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/openclaw" ;
+  dct:license "unknown" ;
+  cat:describes res:openclaw .
+res:openclaw a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Openclaw (SocioProphet estate repo)" .
+
+ent:orion-field-intelligence a cat:CatalogEntry ;
+  cat:catalogId "src.orion-field-intelligence" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Orion Field Intelligence (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/orion-field-intelligence" ;
+  dct:license "unknown" ;
+  cat:describes res:orion-field-intelligence .
+res:orion-field-intelligence a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Orion Field Intelligence (SocioProphet estate repo)" .
+
+ent:policy-fabric a cat:CatalogEntry ;
+  cat:catalogId "src.policy-fabric" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Policy Fabric (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/policy-fabric" ;
+  dct:license "unknown" ;
+  cat:describes res:policy-fabric .
+res:policy-fabric a cat:EstateResource ;
+  dct:subject "security" ;
+  rdfs:label "Policy Fabric (SocioProphet estate repo)" .
+
+ent:procybernetica a cat:CatalogEntry ;
+  cat:catalogId "src.procybernetica" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "ProCybernetica (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/ProCybernetica" ;
+  dct:license "unknown" ;
+  cat:describes res:procybernetica .
+res:procybernetica a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "ProCybernetica (SocioProphet estate repo)" .
+
+ent:profit-mpcc a cat:CatalogEntry ;
+  cat:catalogId "src.profit-mpcc" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Profit Mpcc (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/profit-mpcc" ;
+  dct:license "unknown" ;
+  cat:describes res:profit-mpcc .
+res:profit-mpcc a cat:EstateResource ;
+  dct:subject "finance" ;
+  rdfs:label "Profit Mpcc (SocioProphet estate repo)" .
+
+ent:prophet-aggregate a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-aggregate" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Aggregate (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-aggregate" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-aggregate .
+res:prophet-aggregate a cat:EstateResource ;
+  dct:subject "finance" ;
+  rdfs:label "Prophet Aggregate (SocioProphet estate repo)" .
+
+ent:prophet-cli a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-cli" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Cli (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-cli" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-cli .
+res:prophet-cli a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Prophet Cli (SocioProphet estate repo)" .
+
+ent:prophet-core-catalog a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-catalog" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Core Catalog (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-catalog" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-catalog .
+res:prophet-core-catalog a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Prophet Core Catalog (SocioProphet estate repo)" .
+
+ent:prophet-core-contracts a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-contracts" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Core Contracts (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-contracts" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-contracts .
+res:prophet-core-contracts a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Prophet Core Contracts (SocioProphet estate repo)" .
+
+ent:prophet-core-infra a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-infra" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "prophet-core-infra (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-infra" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-infra .
+res:prophet-core-infra a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "prophet-core-infra (SocioProphet estate repo)" .
+
+ent:prophet-core-ingest a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-ingest" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "prophet-core-ingest (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-ingest" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-ingest .
+res:prophet-core-ingest a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "prophet-core-ingest (SocioProphet estate repo)" .
+
+ent:prophet-core-ledger a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-ledger" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Core Ledger (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-ledger" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-ledger .
+res:prophet-core-ledger a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Prophet Core Ledger (SocioProphet estate repo)" .
+
+ent:prophet-core-libs a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-libs" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "prophet-core-libs (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-libs" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-libs .
+res:prophet-core-libs a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "prophet-core-libs (SocioProphet estate repo)" .
+
+ent:prophet-core-ops-brief a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-ops-brief" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "prophet-core-ops-brief (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-ops-brief" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-ops-brief .
+res:prophet-core-ops-brief a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "prophet-core-ops-brief (SocioProphet estate repo)" .
+
+ent:prophet-core-policy a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-policy" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Core Policy (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-policy" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-policy .
+res:prophet-core-policy a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Prophet Core Policy (SocioProphet estate repo)" .
+
+ent:prophet-core-query a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-query" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Core Query (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-query" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-query .
+res:prophet-core-query a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Prophet Core Query (SocioProphet estate repo)" .
+
+ent:prophet-core-scaffolder a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-core-scaffolder" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "prophet-core-scaffolder (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-core-scaffolder" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-core-scaffolder .
+res:prophet-core-scaffolder a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "prophet-core-scaffolder (SocioProphet estate repo)" .
+
+ent:prophet-domain-gaia-curation-vault a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-domain-gaia-curation-vault" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "prophet-domain-gaia-curation-vault (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-domain-gaia-curation-vault" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-domain-gaia-curation-vault .
+res:prophet-domain-gaia-curation-vault a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "prophet-domain-gaia-curation-vault (SocioProphet estate repo)" .
+
+ent:prophet-domain-gaia-ontology a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-domain-gaia-ontology" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Domain Gaia Ontology (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-domain-gaia-ontology" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-domain-gaia-ontology .
+res:prophet-domain-gaia-ontology a cat:EstateResource ;
+  dct:subject "ontology" ;
+  rdfs:label "Prophet Domain Gaia Ontology (SocioProphet estate repo)" .
+
+ent:prophet-health a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-health" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Health (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-health" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-health .
+res:prophet-health a cat:EstateResource ;
+  dct:subject "health" ;
+  rdfs:label "Prophet Health (SocioProphet estate repo)" .
+
+ent:prophet-mesh a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-mesh" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Mesh (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-mesh" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-mesh .
+res:prophet-mesh a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Prophet Mesh (SocioProphet estate repo)" .
+
+ent:prophet-platform-standards a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-platform-standards" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Platform Standards (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-platform-standards" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-platform-standards .
+res:prophet-platform-standards a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Prophet Platform Standards (SocioProphet estate repo)" .
+
+ent:prophet-platform a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-platform" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Platform (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-platform" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-platform .
+res:prophet-platform a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Prophet Platform (SocioProphet estate repo)" .
+
+ent:prophet-sheaf-diff a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-sheaf-diff" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "prophet-sheaf-diff (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-sheaf-diff" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-sheaf-diff .
+res:prophet-sheaf-diff a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "prophet-sheaf-diff (SocioProphet estate repo)" .
+
+ent:prophet-sheaf-hellgraph a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-sheaf-hellgraph" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Sheaf Hellgraph (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-sheaf-hellgraph" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-sheaf-hellgraph .
+res:prophet-sheaf-hellgraph a cat:EstateResource ;
+  dct:subject "finance" ;
+  rdfs:label "Prophet Sheaf Hellgraph (SocioProphet estate repo)" .
+
+ent:prophet-sheaf a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-sheaf" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Sheaf (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-sheaf" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-sheaf .
+res:prophet-sheaf a cat:EstateResource ;
+  dct:subject "finance" ;
+  rdfs:label "Prophet Sheaf (SocioProphet estate repo)" .
+
+ent:prophet-truth a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-truth" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Truth (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-truth" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-truth .
+res:prophet-truth a cat:EstateResource ;
+  dct:subject "finance" ;
+  rdfs:label "Prophet Truth (SocioProphet estate repo)" .
+
+ent:prophet-workspace a cat:CatalogEntry ;
+  cat:catalogId "src.prophet-workspace" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Prophet Workspace (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/prophet-workspace" ;
+  dct:license "unknown" ;
+  cat:describes res:prophet-workspace .
+res:prophet-workspace a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Prophet Workspace (SocioProphet estate repo)" .
+
+ent:pypi.numpy a cat:CatalogEntry ;
+  cat:catalogId "src.pypi.numpy" ;
+  cat:owner "NumPy Developers" ;
+  cat:status "active" ;
+  dct:title "NumPy (PyPI)" ;
+  cat:provenanceRef "https://numpy.org/" ;
+  dct:license "permissive" ;
+  cat:describes res:pypi.numpy .
+res:pypi.numpy a cat:EstateResource ;
+  dct:subject "internal-operations/libraries" ;
+  rdfs:label "NumPy (PyPI)" .
+
+ent:regis-entity-graph a cat:CatalogEntry ;
+  cat:catalogId "src.regis-entity-graph" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Regis Entity Graph (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/regis-entity-graph" ;
+  dct:license "unknown" ;
+  cat:describes res:regis-entity-graph .
+res:regis-entity-graph a cat:EstateResource ;
+  dct:subject "ontology" ;
+  rdfs:label "Regis Entity Graph (SocioProphet estate repo)" .
+
+ent:scope-d a cat:CatalogEntry ;
+  cat:catalogId "src.scope-d" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "SCOPE-D (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/SCOPE-D" ;
+  dct:license "unknown" ;
+  cat:describes res:scope-d .
+res:scope-d a cat:EstateResource ;
+  dct:subject "security" ;
+  rdfs:label "SCOPE-D (SocioProphet estate repo)" .
+
+ent:semantic-serdes a cat:CatalogEntry ;
+  cat:catalogId "src.semantic-serdes" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Semantic Serdes (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/semantic-serdes" ;
+  dct:license "unknown" ;
+  cat:describes res:semantic-serdes .
+res:semantic-serdes a cat:EstateResource ;
+  dct:subject "ontology" ;
+  rdfs:label "Semantic Serdes (SocioProphet estate repo)" .
+
+ent:sherlock-search a cat:CatalogEntry ;
+  cat:catalogId "src.sherlock-search" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sherlock Search (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sherlock-search" ;
+  dct:license "unknown" ;
+  cat:describes res:sherlock-search .
+res:sherlock-search a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sherlock Search (SocioProphet estate repo)" .
+
+ent:shortcut-overlay a cat:CatalogEntry ;
+  cat:catalogId "src.shortcut-overlay" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Shortcut Overlay (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/shortcut-overlay" ;
+  dct:license "unknown" ;
+  cat:describes res:shortcut-overlay .
+res:shortcut-overlay a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Shortcut Overlay (SocioProphet estate repo)" .
+
+ent:slash-topics a cat:CatalogEntry ;
+  cat:catalogId "src.slash-topics" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Slash Topics (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/slash-topics" ;
+  dct:license "unknown" ;
+  cat:describes res:slash-topics .
+res:slash-topics a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Slash Topics (SocioProphet estate repo)" .
+
+ent:smart-tree a cat:CatalogEntry ;
+  cat:catalogId "src.smart-tree" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Smart Tree (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/smart-tree" ;
+  dct:license "unknown" ;
+  cat:describes res:smart-tree .
+res:smart-tree a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Smart Tree (SocioProphet estate repo)" .
+
+ent:socioprophet-agent-standards a cat:CatalogEntry ;
+  cat:catalogId "src.socioprophet-agent-standards" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioprophet Agent Standards (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioprophet-agent-standards" ;
+  dct:license "unknown" ;
+  cat:describes res:socioprophet-agent-standards .
+res:socioprophet-agent-standards a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Socioprophet Agent Standards (SocioProphet estate repo)" .
+
+ent:socioprophet-docs-main a cat:CatalogEntry ;
+  cat:catalogId "src.socioprophet-docs-main" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioprophet Docs Main (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioprophet-docs-main" ;
+  dct:license "unknown" ;
+  cat:describes res:socioprophet-docs-main .
+res:socioprophet-docs-main a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socioprophet Docs Main (SocioProphet estate repo)" .
+
+ent:socioprophet-dotgithub a cat:CatalogEntry ;
+  cat:catalogId "src.socioprophet-dotgithub" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioprophet Dotgithub (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioprophet-dotgithub" ;
+  dct:license "unknown" ;
+  cat:describes res:socioprophet-dotgithub .
+res:socioprophet-dotgithub a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socioprophet Dotgithub (SocioProphet estate repo)" .
+
+ent:socioprophet-seed-deck a cat:CatalogEntry ;
+  cat:catalogId "src.socioprophet-seed-deck" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioprophet Seed Deck (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioprophet-seed-deck" ;
+  dct:license "unknown" ;
+  cat:describes res:socioprophet-seed-deck .
+res:socioprophet-seed-deck a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socioprophet Seed Deck (SocioProphet estate repo)" .
+
+ent:socioprophet-standards-knowledge a cat:CatalogEntry ;
+  cat:catalogId "src.socioprophet-standards-knowledge" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioprophet Standards Knowledge (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioprophet-standards-knowledge" ;
+  dct:license "unknown" ;
+  cat:describes res:socioprophet-standards-knowledge .
+res:socioprophet-standards-knowledge a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Socioprophet Standards Knowledge (SocioProphet estate repo)" .
+
+ent:socioprophet-standards-storage a cat:CatalogEntry ;
+  cat:catalogId "src.socioprophet-standards-storage" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioprophet Standards Storage (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioprophet-standards-storage" ;
+  dct:license "unknown" ;
+  cat:describes res:socioprophet-standards-storage .
+res:socioprophet-standards-storage a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Socioprophet Standards Storage (SocioProphet estate repo)" .
+
+ent:socioprophet-web a cat:CatalogEntry ;
+  cat:catalogId "src.socioprophet-web" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioprophet Web (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioprophet-web" ;
+  dct:license "unknown" ;
+  cat:describes res:socioprophet-web .
+res:socioprophet-web a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socioprophet Web (SocioProphet estate repo)" .
+
+ent:socioprophet a cat:CatalogEntry ;
+  cat:catalogId "src.socioprophet" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioprophet (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioprophet" ;
+  dct:license "unknown" ;
+  cat:describes res:socioprophet .
+res:socioprophet a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socioprophet (SocioProphet estate repo)" .
+
+ent:socios-ignition a cat:CatalogEntry ;
+  cat:catalogId "src.socios-ignition" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socios Ignition (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socios-ignition" ;
+  dct:license "unknown" ;
+  cat:describes res:socios-ignition .
+res:socios-ignition a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socios Ignition (SocioProphet estate repo)" .
+
+ent:socios-installer a cat:CatalogEntry ;
+  cat:catalogId "src.socios-installer" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socios Installer (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socios-installer" ;
+  dct:license "unknown" ;
+  cat:describes res:socios-installer .
+res:socios-installer a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socios Installer (SocioProphet estate repo)" .
+
+ent:socios-linux--cloudshell-fog a cat:CatalogEntry ;
+  cat:catalogId "src.socios-linux--cloudshell-fog" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socios Linux  Cloudshell Fog (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socios-linux--cloudshell-fog" ;
+  dct:license "unknown" ;
+  cat:describes res:socios-linux--cloudshell-fog .
+res:socios-linux--cloudshell-fog a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socios Linux  Cloudshell Fog (SocioProphet estate repo)" .
+
+ent:socios-linux__cloudshell-fog a cat:CatalogEntry ;
+  cat:catalogId "src.socios-linux__cloudshell-fog" ;
+  cat:owner "SociOS-Linux" ;
+  cat:status "active" ;
+  dct:title "cloudshell-fog (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SociOS-Linux/cloudshell-fog" ;
+  dct:license "unknown" ;
+  cat:describes res:socios-linux__cloudshell-fog .
+res:socios-linux__cloudshell-fog a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "cloudshell-fog (SocioProphet estate repo)" .
+
+ent:socios a cat:CatalogEntry ;
+  cat:catalogId "src.socios" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "SocioS (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/SocioS" ;
+  dct:license "unknown" ;
+  cat:describes res:socios .
+res:socios a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "SocioS (SocioProphet estate repo)" .
+
+ent:socioslinux-web a cat:CatalogEntry ;
+  cat:catalogId "src.socioslinux-web" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Socioslinux Web (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/socioslinux-web" ;
+  dct:license "unknown" ;
+  cat:describes res:socioslinux-web .
+res:socioslinux-web a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Socioslinux Web (SocioProphet estate repo)" .
+
+ent:sociosphere a cat:CatalogEntry ;
+  cat:catalogId "src.sociosphere" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sociosphere (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sociosphere" ;
+  dct:license "unknown" ;
+  cat:describes res:sociosphere .
+res:sociosphere a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sociosphere (SocioProphet estate repo)" .
+
+ent:source-os a cat:CatalogEntry ;
+  cat:catalogId "src.source-os" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Source Os (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/source-os" ;
+  dct:license "unknown" ;
+  cat:describes res:source-os .
+res:source-os a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Source Os (SocioProphet estate repo)" .
+
+ent:sourceos-a2a-mcp-bootstrap a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-a2a-mcp-bootstrap" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos A2a Mcp Bootstrap (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-a2a-mcp-bootstrap" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-a2a-mcp-bootstrap .
+res:sourceos-a2a-mcp-bootstrap a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos A2a Mcp Bootstrap (SocioProphet estate repo)" .
+
+ent:sourceos-boot a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-boot" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Boot (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-boot" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-boot .
+res:sourceos-boot a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Boot (SocioProphet estate repo)" .
+
+ent:sourceos-build a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-build" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Build (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-build" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-build .
+res:sourceos-build a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Build (SocioProphet estate repo)" .
+
+ent:sourceos-continuum a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-continuum" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Continuum (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-continuum" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-continuum .
+res:sourceos-continuum a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Continuum (SocioProphet estate repo)" .
+
+ent:sourceos-devtools a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-devtools" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Devtools (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-devtools" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-devtools .
+res:sourceos-devtools a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Devtools (SocioProphet estate repo)" .
+
+ent:sourceos-model-carry a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-model-carry" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Model Carry (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-model-carry" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-model-carry .
+res:sourceos-model-carry a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Model Carry (SocioProphet estate repo)" .
+
+ent:sourceos-shell a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-shell" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Shell (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-shell" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-shell .
+res:sourceos-shell a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Shell (SocioProphet estate repo)" .
+
+ent:sourceos-spec a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-spec" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Spec (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-spec" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-spec .
+res:sourceos-spec a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Spec (SocioProphet estate repo)" .
+
+ent:sourceos-syncd a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-syncd" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Syncd (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-syncd" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-syncd .
+res:sourceos-syncd a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Syncd (SocioProphet estate repo)" .
+
+ent:sourceos-working-spine a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-working-spine" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Working Spine (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-working-spine" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-working-spine .
+res:sourceos-working-spine a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Working Spine (SocioProphet estate repo)" .
+
+ent:sourceos-workspace a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos-workspace" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos Workspace (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos-workspace" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos-workspace .
+res:sourceos-workspace a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos Workspace (SocioProphet estate repo)" .
+
+ent:sourceos a cat:CatalogEntry ;
+  cat:catalogId "src.sourceos" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sourceos (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sourceos" ;
+  dct:license "unknown" ;
+  cat:describes res:sourceos .
+res:sourceos a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sourceos (SocioProphet estate repo)" .
+
+ent:sp-orchestrator a cat:CatalogEntry ;
+  cat:catalogId "src.sp-orchestrator" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Sp Orchestrator (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/sp-orchestrator" ;
+  dct:license "unknown" ;
+  cat:describes res:sp-orchestrator .
+res:sp-orchestrator a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Sp Orchestrator (SocioProphet estate repo)" .
+
+ent:speechlab a cat:CatalogEntry ;
+  cat:catalogId "src.speechlab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Speechlab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/speechlab" ;
+  dct:license "unknown" ;
+  cat:describes res:speechlab .
+res:speechlab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Speechlab (SocioProphet estate repo)" .
+
+ent:superconscious a cat:CatalogEntry ;
+  cat:catalogId "src.superconscious" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Superconscious (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/superconscious" ;
+  dct:license "unknown" ;
+  cat:describes res:superconscious .
+res:superconscious a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Superconscious (SocioProphet estate repo)" .
+
+ent:synapseiq a cat:CatalogEntry ;
+  cat:catalogId "src.synapseiq" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Synapseiq (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/synapseiq" ;
+  dct:license "unknown" ;
+  cat:describes res:synapseiq .
+res:synapseiq a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Synapseiq (SocioProphet estate repo)" .
+
+ent:systems-learning-loops a cat:CatalogEntry ;
+  cat:catalogId "src.systems-learning-loops" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Systems Learning Loops (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/systems-learning-loops" ;
+  dct:license "unknown" ;
+  cat:describes res:systems-learning-loops .
+res:systems-learning-loops a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Systems Learning Loops (SocioProphet estate repo)" .
+
+ent:timeserieslab a cat:CatalogEntry ;
+  cat:catalogId "src.timeserieslab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Timeserieslab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/timeserieslab" ;
+  dct:license "unknown" ;
+  cat:describes res:timeserieslab .
+res:timeserieslab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Timeserieslab (SocioProphet estate repo)" .
+
+ent:translationlab a cat:CatalogEntry ;
+  cat:catalogId "src.translationlab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Translationlab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/translationlab" ;
+  dct:license "unknown" ;
+  cat:describes res:translationlab .
+res:translationlab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Translationlab (SocioProphet estate repo)" .
+
+ent:tritfabric a cat:CatalogEntry ;
+  cat:catalogId "src.tritfabric" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Tritfabric (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/tritfabric" ;
+  dct:license "unknown" ;
+  cat:describes res:tritfabric .
+res:tritfabric a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Tritfabric (SocioProphet estate repo)" .
+
+ent:tritrpc a cat:CatalogEntry ;
+  cat:catalogId "src.tritrpc" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Tritrpc (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/tritrpc" ;
+  dct:license "unknown" ;
+  cat:describes res:tritrpc .
+res:tritrpc a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Tritrpc (SocioProphet estate repo)" .
+
+ent:turtleterm a cat:CatalogEntry ;
+  cat:catalogId "src.turtleterm" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Turtleterm (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/turtleterm" ;
+  dct:license "unknown" ;
+  cat:describes res:turtleterm .
+res:turtleterm a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Turtleterm (SocioProphet estate repo)" .
+
+ent:usol-space-library a cat:CatalogEntry ;
+  cat:catalogId "src.usol-space-library" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "uSOL-space-library (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/uSOL-space-library" ;
+  dct:license "unknown" ;
+  cat:describes res:usol-space-library .
+res:usol-space-library a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "uSOL-space-library (SocioProphet estate repo)" .
+
+ent:videolab a cat:CatalogEntry ;
+  cat:catalogId "src.videolab" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Videolab (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/videolab" ;
+  dct:license "unknown" ;
+  cat:describes res:videolab .
+res:videolab a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Videolab (SocioProphet estate repo)" .
+
+ent:workspace-inventory a cat:CatalogEntry ;
+  cat:catalogId "src.workspace-inventory" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Workspace Inventory (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/workspace-inventory" ;
+  dct:license "unknown" ;
+  cat:describes res:workspace-inventory .
+res:workspace-inventory a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Workspace Inventory (SocioProphet estate repo)" .
+
+ent:workstation-contracts a cat:CatalogEntry ;
+  cat:catalogId "src.workstation-contracts" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Workstation Contracts (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/workstation-contracts" ;
+  dct:license "unknown" ;
+  cat:describes res:workstation-contracts .
+res:workstation-contracts a cat:EstateResource ;
+  dct:subject "legal" ;
+  rdfs:label "Workstation Contracts (SocioProphet estate repo)" .
+
+ent:yang-mills a cat:CatalogEntry ;
+  cat:catalogId "src.yang-mills" ;
+  cat:owner "SocioProphet" ;
+  cat:status "active" ;
+  dct:title "Yang Mills (SocioProphet estate repo)" ;
+  cat:provenanceRef "https://github.com/SocioProphet/yang-mills" ;
+  dct:license "unknown" ;
+  cat:describes res:yang-mills .
+res:yang-mills a cat:EstateResource ;
+  dct:subject "code" ;
+  rdfs:label "Yang Mills (SocioProphet estate repo)" .
+

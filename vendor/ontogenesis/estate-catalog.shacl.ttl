@@ -1,0 +1,28 @@
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix cat:  <https://socioprophet.github.io/ontogenesis/domains/estate-catalog#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+cat:CatalogEntryShape a sh:NodeShape ;
+  sh:targetClass cat:CatalogEntry ;
+  sh:property [ sh:path cat:catalogId ; sh:datatype xsd:string ; sh:minCount 1 ; sh:maxCount 1 ;
+    sh:message "CatalogEntry must have exactly one catalogId." ] ;
+  sh:property [ sh:path cat:owner ; sh:datatype xsd:string ; sh:minCount 1 ;
+    sh:message "CatalogEntry must declare an owner string (unowned = ungoverned)." ] ;
+  sh:property [ sh:path cat:status ; sh:datatype xsd:string ; sh:minCount 1 ; sh:maxCount 1 ;
+    sh:in ( "active" "deprecated" "retired" ) ;
+    sh:message "CatalogEntry must declare status in {active, deprecated, retired}." ] .
+
+cat:ModelShape a sh:NodeShape ;
+  sh:targetClass cat:Model ;
+  sh:property [ sh:path cat:modelDigest ; sh:datatype xsd:string ; sh:minCount 1 ; sh:maxCount 1 ;
+    sh:pattern "^sha256:[a-fA-F0-9]{64}$" ;
+    sh:message "Model must carry a content-addressed modelDigest (sha256:...) joining it to the model store." ] ;
+  sh:property [ sh:path cat:license ; sh:datatype xsd:string ; sh:minCount 1 ; sh:maxCount 1 ;
+    sh:message "Model must declare an SPDX license so the MIT/Apache-only rule is reasoned over the graph." ] .
+
+# NOTE: the shapes ABOVE enforce only what rdfs inference cannot mask (cardinality /
+# value / pattern). Range enforcement (cat:runsOn → Infrastructure, cat:usesModel →
+# Model) is deliberately left to rdfs:range in the OWL and is NOT re-checked as SHACL:
+# the gate runs pyshacl with inference="rdfs", which COERCES a ranged object to the
+# range type rather than rejecting it, so an sh:class range check can never fire. The
+# ranges still enrich the reasoning graph.
