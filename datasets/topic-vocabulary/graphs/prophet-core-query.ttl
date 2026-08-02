@@ -1,0 +1,1742 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-actions> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 6), co-occurring with action, mail, layer, api, open. Appears in 48 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "actions" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-array> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "'array' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, properties, number, min. Present across 69 estate repo(s): HolographMe, Noetica, ProCybernetica, SCOPE-D, SourceOS, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "array" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-branches> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "branches" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contracts> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in synapseiq (LDA topic 3), co-occurring with record, source, envelope, adapter, canonical. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "contracts" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-core> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in goose-notes (LDA topic 3), co-occurring with description, scope, command, pre, configured. Appears in 22 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "core" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-draft202012> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-contracts (LDA topic 7), co-occurring with example, path, claim, errors, append. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "draft202012" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-input> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 8), co-occurring with text, tool, number, length, line. Appears in 21 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "input" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-install> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 5), co-occurring with gateway, openclaw, cli, port, open. Appears in 38 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "install" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-load> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 9), co-occurring with path, schema, fail, record, root. Appears in 18 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "load" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-location> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-spec (LDA topic 1), co-occurring with spatial, radio, context, spine, receipt. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "location" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-main> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "'main' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, state. Present across 57 estate repo(s): HolographMe, agent-machine, agent-term, agentos-spine, agentos-starter, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "main" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-memory> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 2), co-occurring with path, dir, file, env, join. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "memory" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-min> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "'min' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, array, properties, number. Present across 55 estate repo(s): HolographMe, Noetica, ProCybernetica, SCOPE-D, SourceOS, agent-registry…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "min" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-missing> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "'missing' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, fail. Present across 37 estate repo(s): ProCybernetica, SourceOS, agentos-spine, agentplane, embeddinglab, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "missing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-obligation> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "'obligation' — a high-signal concept in the sp-orchestrator vocabulary (LDA topic 5), co-occurring with transform, epistemic, level, totality, ceiling. Present across 6 estate repo(s): contractforge, delivery-excellence-innersource, mellumwork, prophet-core-query, socioprophet-standards-storage, sp-orchestrator." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "obligation" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-observed> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in model-governance-ledger (LDA topic 4), co-occurring with prophet, socio, workspace, evidence, schema. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "observed" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-pack> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in tritfabric (LDA topic 3), co-occurring with path, dir, manifest, source, projection. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "pack" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-paths> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in economic-prophet (LDA topic 0), co-occurring with edge, path, warrant, sign, weight. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "paths" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-plan> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 23 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "plan" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-properties> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "'properties' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, array, number, min. Present across 78 estate repo(s): BearBrowser, Heller-Godel, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "properties" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-run> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "'run' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, store, state, main. Present across 91 estate repo(s): BearBrowser, Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "run" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-runs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 17 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "runs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-schemas> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "'schemas' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 6), co-occurring with schema, examples, path, validate, example. Present across 31 estate repo(s): Heller-Godel, HolographMe, SourceOS, agentos-spine, alexandrian-academy, cairnpath-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "schemas" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-ubuntu> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in delivery-excellence-automation (LDA topic 5), co-occurring with python, validate, pip, actions, uses. Appears in 16 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "ubuntu" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-uses> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "'uses' — a high-signal concept in the memory-mesh vocabulary (LDA topic 4), co-occurring with python, validate, scripts, install, run. Present across 46 estate repo(s): HolographMe, agent-registry, cloudshell-fog, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "uses" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validator> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "'validator' — a high-signal concept in the prophet-platform vocabulary (LDA topic 1), co-occurring with pytest, fixture, exception, report, schema. Present across 21 estate repo(s): ProCybernetica, agentos-spine, alexandrian-academy, contractforge, delivery-excellence, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "validator" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workflow> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in policy-fabric (LDA topic 8), co-occurring with fabric, agentplane, pfd, release, required. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "workflow" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workflows> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-catalog (LDA topic 7), co-occurring with dataset, repo, asset, datasets, assets. Appears in 11 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "workflows" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-errors> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'errors' — a high-signal concept in the prophet-mesh vocabulary (LDA topic 6), co-occurring with append, required, missing, isinstance, policy. Present across 24 estate repo(s): BearBrowser, SCOPE-D, agent-registry, delivery-excellence-automation, exodus, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "errors" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-examples> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1> ;
+    skos:definition "'examples' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 6), co-occurring with schema, schemas, path, validate, example. Present across 38 estate repo(s): HolographMe, SociOS-Linux__cloudshell-fog, agent-machine, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "examples" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-input> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 8), co-occurring with text, tool, number, length, line. Appears in 21 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "input" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-install> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 5), co-occurring with gateway, openclaw, cli, port, open. Appears in 38 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "install" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-load> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 9), co-occurring with path, schema, fail, record, root. Appears in 18 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "load" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-missing> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'missing' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, fail. Present across 37 estate repo(s): ProCybernetica, SourceOS, agentos-spine, agentplane, embeddinglab, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "missing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-outputs> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'outputs' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, required, scaffold, purpose, definitions. Present across 11 estate repo(s): Heller-Winters-Theorem, HolographMe, economic-prophet, holmes, holmes-fix-search-wiring, homebrew-prophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "outputs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-pack> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in tritfabric (LDA topic 3), co-occurring with path, dir, manifest, source, projection. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "pack" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-properties> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'properties' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, array, number, min. Present across 78 estate repo(s): BearBrowser, Heller-Godel, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "properties" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-required> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0> ;
+    skos:definition "'required' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, scaffold, purpose, definitions, outputs. Present across 91 estate repo(s): Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "required" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-root> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'root' — a high-signal concept in the prophet-platform vocabulary (LDA topic 0), co-occurring with path, record, platform, release, runtime. Present across 65 estate repo(s): Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "root" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-search> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 4), co-occurring with smart, tree, project, mode, mcp. Appears in 34 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "search" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validator> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'validator' — a high-signal concept in the prophet-platform vocabulary (LDA topic 1), co-occurring with pytest, fixture, exception, report, schema. Present across 21 estate repo(s): ProCybernetica, agentos-spine, alexandrian-academy, contractforge, delivery-excellence, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "validator" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflows> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-catalog (LDA topic 7), co-occurring with dataset, repo, asset, datasets, assets. Appears in 11 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "workflows" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workroom> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in agent-term (LDA topic 1), co-occurring with event, result, metadata, policy, workspace. Appears in 11 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "workroom" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-additional> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'additional' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 2), co-occurring with description, properties, srcos, urn, schema. Present across 70 estate repo(s): BearBrowser, HolographMe, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "additional" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-draft202012> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-contracts (LDA topic 7), co-occurring with example, path, claim, errors, append. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "draft202012" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-include> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 6), co-occurring with lexer, text, keyword, whitespace, pygments. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "include" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-object> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 5), co-occurring with schema, label, array, properties, number. Appears in 82 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "object" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sorted> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in SourceOS (LDA topic 2), co-occurring with cfg, nft, table, ports, tcp. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "sorted" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-validate> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 1), co-occurring with pytest, validator, fixture, exception, report. Appears in 66 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "validate" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-validator> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "'validator' — a high-signal concept in the prophet-platform vocabulary (LDA topic 1), co-occurring with pytest, fixture, exception, report, schema. Present across 21 estate repo(s): ProCybernetica, agentos-spine, alexandrian-academy, contractforge, delivery-excellence, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "validator" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contract> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 4), co-occurring with run, receipt, governed, admission, attempt. Appears in 37 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "contract" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-outputs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "'outputs' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, required, scaffold, purpose, definitions. Present across 11 estate repo(s): Heller-Winters-Theorem, HolographMe, economic-prophet, holmes, holmes-fix-search-wiring, homebrew-prophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "outputs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-path> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-required> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "'required' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, scaffold, purpose, definitions, outputs. Present across 91 estate repo(s): Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "required" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-root> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> ;
+    skos:definition "'root' — a high-signal concept in the prophet-platform vocabulary (LDA topic 0), co-occurring with path, record, platform, release, runtime. Present across 65 estate repo(s): Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "root" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-scripts> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> ;
+    skos:definition "'scripts' — a high-signal concept in the BearBrowser vocabulary (LDA topic 0), co-occurring with bearbrowser, bear, run, source, verify. Present across 22 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "scripts" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-search> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 4), co-occurring with smart, tree, project, mode, mcp. Appears in 34 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "search" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workroom> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in agent-term (LDA topic 1), co-occurring with event, result, metadata, policy, workspace. Appears in 11 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "workroom" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-actions> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 6), co-occurring with action, mail, layer, api, open. Appears in 48 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "actions" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-evidence> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0> ;
+    skos:definition "'evidence' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, policy, kind, source. Present across 86 estate repo(s): HolographMe, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "evidence" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-length> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'length' — a high-signal concept in the openclaw vocabulary (LDA topic 8), co-occurring with text, tool, number, line, content. Present across 50 estate repo(s): Noetica, ProCybernetica, SCOPE-D, agentplane, alexandrian-academy, cairnpath-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "length" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-paths> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in economic-prophet (LDA topic 0), co-occurring with edge, path, warrant, sign, weight. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "paths" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-policy> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'policy' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, kind, source, evidence. Present across 92 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "policy" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-run> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'run' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, store, state, main. Present across 91 estate repo(s): BearBrowser, Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "run" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-scripts> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1> ;
+    skos:definition "'scripts' — a high-signal concept in the BearBrowser vocabulary (LDA topic 0), co-occurring with bearbrowser, bear, run, source, verify. Present across 22 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "scripts" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-sources> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 0), co-occurring with subsec, toc, formalism, overview, ledger. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "sources" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-uses> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'uses' — a high-signal concept in the memory-mesh vocabulary (LDA topic 4), co-occurring with python, validate, scripts, install, run. Present across 46 estate repo(s): HolographMe, agent-registry, cloudshell-fog, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "uses" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflow> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in policy-fabric (LDA topic 8), co-occurring with fabric, agentplane, pfd, release, required. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "workflow" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-actions> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 6), co-occurring with action, mail, layer, api, open. Appears in 48 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "actions" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-errors> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "'errors' — a high-signal concept in the prophet-mesh vocabulary (LDA topic 6), co-occurring with append, required, missing, isinstance, policy. Present across 24 estate repo(s): BearBrowser, SCOPE-D, agent-registry, delivery-excellence-automation, exodus, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "errors" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-example> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "'example' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, synthetic, refs. Present across 57 estate repo(s): BearBrowser, Heller-Godel, HolographMe, SCOPE-D, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "example" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-load> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 9), co-occurring with path, schema, fail, record, root. Appears in 18 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "load" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-path> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-paths> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in economic-prophet (LDA topic 0), co-occurring with edge, path, warrant, sign, weight. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "paths" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-prophet> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'prophet' — a high-signal concept in the sociosphere vocabulary (LDA topic 6), co-occurring with socio, repo, runtime, policy, evidence. Present across 76 estate repo(s): ProCybernetica, agent-registry, agent-term, agentos-spine, agentos-starter, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "prophet" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-root> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "'root' — a high-signal concept in the prophet-platform vocabulary (LDA topic 0), co-occurring with path, record, platform, release, runtime. Present across 65 estate repo(s): Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "root" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-run> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'run' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, store, state, main. Present across 91 estate repo(s): BearBrowser, Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "run" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-scripts> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1> ;
+    skos:definition "'scripts' — a high-signal concept in the BearBrowser vocabulary (LDA topic 0), co-occurring with bearbrowser, bear, run, source, verify. Present across 22 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "scripts" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-step> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "'step' — a high-signal concept in the tritfabric vocabulary (LDA topic 8), co-occurring with path, run, root, validate, status. Present across 8 estate repo(s): cairnpath-mesh, functional-model-surfaces, identity-is-prime-reference, noetica-impair, prophet-core-query, socioslinux-web…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "step" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-uses> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'uses' — a high-signal concept in the memory-mesh vocabulary (LDA topic 4), co-occurring with python, validate, scripts, install, run. Present across 46 estate repo(s): HolographMe, agent-registry, cloudshell-fog, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "uses" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'min' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, array, properties, number. Present across 55 estate repo(s): HolographMe, Noetica, ProCybernetica, SCOPE-D, SourceOS, agent-registry…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "min" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "'demo' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 3), co-occurring with source, osm, gaia, refs, attribution. Present across 38 estate repo(s): ProCybernetica, agent-machine, agent-registry, cairnpath-mesh, cloudshell-fog, contractforge…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "demo" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "'examples' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 6), co-occurring with schema, schemas, path, validate, example. Present across 38 estate repo(s): HolographMe, SociOS-Linux__cloudshell-fog, agent-machine, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "examples" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "'policy' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, kind, source, evidence. Present across 92 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "policy" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "'python' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 2), co-occurring with awesome, media, png, icon, open. Present across 45 estate repo(s): HolographMe, SourceOS, agent-term, agentos-starter, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "python" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 1), co-occurring with pytest, validator, fixture, exception, report. Appears in 66 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "validate" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "'missing' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, fail. Present across 37 estate repo(s): ProCybernetica, SourceOS, agentos-spine, agentplane, embeddinglab, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "missing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in policy-fabric (LDA topic 8), co-occurring with fabric, agentplane, pfd, release, required. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "workflow" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'step' — a high-signal concept in the tritfabric vocabulary (LDA topic 8), co-occurring with path, run, root, validate, status. Present across 8 estate repo(s): cairnpath-mesh, functional-model-surfaces, identity-is-prime-reference, noetica-impair, prophet-core-query, socioslinux-web…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "step" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1> ;
+    skos:definition "'refs' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, example, synthetic. Present across 61 estate repo(s): Noetica, ProCybernetica, SCOPE-D, agent-machine, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "refs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'length' — a high-signal concept in the openclaw vocabulary (LDA topic 8), co-occurring with text, tool, number, line, content. Present across 50 estate repo(s): Noetica, ProCybernetica, SCOPE-D, agentplane, alexandrian-academy, cairnpath-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "length" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'properties' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, array, number, min. Present across 78 estate repo(s): BearBrowser, Heller-Godel, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "properties" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "'evidence' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, policy, kind, source. Present across 86 estate repo(s): HolographMe, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "evidence" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'prophet' — a high-signal concept in the sociosphere vocabulary (LDA topic 6), co-occurring with socio, repo, runtime, policy, evidence. Present across 76 estate repo(s): ProCybernetica, agent-registry, agent-term, agentos-spine, agentos-starter, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "prophet" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 4), co-occurring with run, receipt, governed, admission, attempt. Appears in 37 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "contract" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'example' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, synthetic, refs. Present across 57 estate repo(s): BearBrowser, Heller-Godel, HolographMe, SCOPE-D, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "example" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 4), co-occurring with run, receipt, governed, admission, attempt. Appears in 37 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "contract" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 0 derived by latent Dirichlet allocation over the prophet-core-query corpus; centres on the co-occurring vocabulary step, refs, example, path, root — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-draft202012>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-location>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-observed>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validator>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workroom> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-draft202012>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-location>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-observed>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validator>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workroom> ;
+    skos:prefLabel "LDA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 1 derived by latent Dirichlet allocation over the prophet-core-query corpus; centres on the co-occurring vocabulary validate, python, scripts, example, examples — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-branches>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workflows> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-branches>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workflows> ;
+    skos:prefLabel "LDA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 2 derived by latent Dirichlet allocation over the prophet-core-query corpus; centres on the co-occurring vocabulary refs, demo, evidence, step, required — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-input>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-pack>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workroom> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-input>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-pack>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workroom> ;
+    skos:prefLabel "LDA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 3 derived by latent Dirichlet allocation over the prophet-core-query corpus; centres on the co-occurring vocabulary prophet, contract, evidence, policy, example — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contracts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-core>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-memory>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-obligation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workflow> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contracts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-core>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-memory>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-obligation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workflow> ;
+    skos:prefLabel "LDA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-query corpus; centres on the co-occurring vocabulary refs, demo, evidence, example, step — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-input>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-pack>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workroom> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-input>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-pack>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workroom> ;
+    skos:prefLabel "LSA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-query corpus; centres on the co-occurring vocabulary python, validate, refs, scripts, contract — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflows> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflows> ;
+    skos:prefLabel "LSA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-query corpus; centres on the co-occurring vocabulary demo, step, sources, path, example — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validator>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflow> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validator>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflow> ;
+    skos:prefLabel "LSA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-query corpus; centres on the co-occurring vocabulary array, contract, min, refs, length — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflow> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflow> ;
+    skos:prefLabel "LSA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 0 derived by latent-semantic indexing (gensim LSI) over the prophet-core-query corpus; centres on the co-occurring vocabulary demo, refs, array, contract, min — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> ;
+    skos:prefLabel "LSI topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 1 derived by latent-semantic indexing (gensim LSI) over the prophet-core-query corpus; centres on the co-occurring vocabulary python, array, contract, refs, scripts — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> ;
+    skos:prefLabel "LSI topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 2 derived by latent-semantic indexing (gensim LSI) over the prophet-core-query corpus; centres on the co-occurring vocabulary sources, errors, missing, load, root — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-draft202012>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-include>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sorted>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-validator> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-draft202012>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-include>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sorted>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-validator> ;
+    skos:prefLabel "LSI topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 3 derived by latent-semantic indexing (gensim LSI) over the prophet-core-query corpus; centres on the co-occurring vocabulary array, demo, min, properties, length — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-additional>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-object>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-additional>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-object>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> ;
+    skos:prefLabel "LSI topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "'prophet' — a high-signal concept in the sociosphere vocabulary (LDA topic 6), co-occurring with socio, repo, runtime, policy, evidence. Present across 76 estate repo(s): ProCybernetica, agent-registry, agent-term, agentos-spine, agentos-starter, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "prophet" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contracts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-core>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-memory>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-obligation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workflow> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'min' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, array, properties, number. Present across 55 estate repo(s): HolographMe, Noetica, ProCybernetica, SCOPE-D, SourceOS, agent-registry…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "min" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'python' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 2), co-occurring with awesome, media, png, icon, open. Present across 45 estate repo(s): HolographMe, SourceOS, agent-term, agentos-starter, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "python" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflows> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 0), co-occurring with subsec, toc, formalism, overview, ledger. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "sources" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-draft202012>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-include>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sorted>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-validator> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 1), co-occurring with pytest, validator, fixture, exception, report. Appears in 66 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "validate" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-branches>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workflows> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-3> ;
+    skos:definition "'example' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, synthetic, refs. Present across 57 estate repo(s): BearBrowser, Heller-Godel, HolographMe, SCOPE-D, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "example" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-examples>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "'refs' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, example, synthetic. Present across 61 estate repo(s): Noetica, ProCybernetica, SCOPE-D, agent-machine, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "refs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-input>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-pack>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workroom> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'array' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, properties, number, min. Present across 69 estate repo(s): HolographMe, Noetica, ProCybernetica, SCOPE-D, SourceOS, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "array" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflow> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-2> ;
+    skos:definition "'demo' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 3), co-occurring with source, osm, gaia, refs, attribution. Present across 38 estate repo(s): ProCybernetica, agent-machine, agent-registry, cairnpath-mesh, cloudshell-fog, contractforge…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "demo" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-errors>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validator>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workflow> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'python' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 2), co-occurring with awesome, media, png, icon, open. Present across 45 estate repo(s): HolographMe, SourceOS, agent-term, agentos-starter, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "python" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-step> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-topic-2> ;
+    skos:definition "'step' — a high-signal concept in the tritfabric vocabulary (LDA topic 8), co-occurring with path, run, root, validate, status. Present across 8 estate repo(s): cairnpath-mesh, functional-model-surfaces, identity-is-prime-reference, noetica-impair, prophet-core-query, socioslinux-web…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "step" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-draft202012>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-load>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-location>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-observed>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-validator>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LDA-workroom> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'demo' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 3), co-occurring with source, osm, gaia, refs, attribution. Present across 38 estate repo(s): ProCybernetica, agent-machine, agent-registry, cairnpath-mesh, cloudshell-fog, contractforge…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "demo" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-refs> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-topic-3> ;
+    skos:definition "'refs' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, example, synthetic. Present across 61 estate repo(s): Noetica, ProCybernetica, SCOPE-D, agent-machine, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "refs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-array>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-evidence>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-input>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-pack>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-search>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-step>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-validate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSA-workroom> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-array> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-topic-3> ;
+    skos:definition "'array' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with schema, label, properties, number, min. Present across 69 estate repo(s): HolographMe, Noetica, ProCybernetica, SCOPE-D, SourceOS, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> ;
+    skos:prefLabel "array" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-additional>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-demo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-length>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-min>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-object>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-paths>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-properties>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-refs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-uses>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query#LSI-workflow> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-query> a skos:ConceptScheme ;
+    rdfs:label "prophet-core-query" ;
+    dct:title "Topic vocabulary — prophet-core-query" .
+

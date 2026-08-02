@@ -1,0 +1,1834 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-agent> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0> ;
+    skos:definition "'agent' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, run, store, state, main. Present across 62 estate repo(s): BearBrowser, HolographMe, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "agent" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-assets> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "'assets' — a high-signal concept in the socioprophet-docs-main vocabulary (LDA topic 9), co-occurring with scss, hugo, doks, modules, hyas. Present across 5 estate repo(s): SociOS-Linux__cloudshell-fog, orion-field-intelligence, prophet-core-catalog, socioprophet-docs-main, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "assets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-bootstrap> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'bootstrap' — a high-signal concept in the agent-machine vocabulary (LDA topic 8), co-occurring with activation, runtime, evidence, local, release. Present across 9 estate repo(s): agent-machine, memory-mesh, prophet-cli, socioprophet-agent-standards, socios, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "bootstrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-changes> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "'changes' — a high-signal concept in the socios-installer vocabulary (LDA topic 7), co-occurring with installer, coreos, install, ignition, iso. Present across 6 estate repo(s): Heller-Winters-Theorem, gitea-sovereign, prophet-cli, socios-ignition, socios-installer, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "changes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-configs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 0), co-occurring with fog, defines, butane, repo, profile. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "configs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-contract> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 4), co-occurring with run, receipt, governed, admission, attempt. Appears in 37 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "contract" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-directory> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 3), co-occurring with path, url, config, req, metadata. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "directory" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-edge> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0> ;
+    skos:definition "'edge' — a high-signal concept in the sociosphere vocabulary (LDA topic 5), co-occurring with graph, identity, policy, evidence, description. Present across 21 estate repo(s): SCOPE-D, agentplane, alexandrian-academy, cairnpath-mesh, economic-prophet, graphbrain-contract…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "edge" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-extend> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in tritfabric (LDA topic 4), co-occurring with enc, err, bytes, byte, len. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "extend" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-linux> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'linux' — a high-signal concept in the source-os vocabulary (LDA topic 2), co-occurring with dev, workstation, bin, sourceos, profiles. Present across 33 estate repo(s): BearBrowser, SourceOS, agent-machine, agentos-spine, agentos-starter, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "linux" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-luks> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in enhancements (LDA topic 0), co-occurring with boot, disk, label, dev, filesystem. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "luks" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-make> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "'make' — a high-signal concept in the nlboot vocabulary (LDA topic 8), co-occurring with release, rust, nlboot, run, client. Present across 29 estate repo(s): agent-machine, agent-term, cloudshell-fog, embeddinglab, global-devsecops-intelligence, graphlab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "make" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-mco> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 2), co-occurring with openshift, butane, config, machine, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "mco" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-metadata> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "'metadata' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with path, url, config, req, pip. Present across 31 estate repo(s): agent-registry, agent-term, cloudshell-fog, delivery-excellence, delivery-excellence-automation, delivery-excellence-bounties…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "metadata" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-optional> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0> ;
+    skos:definition "'optional' — a high-signal concept in the prophet-platform vocabulary (LDA topic 9), co-occurring with text, line, style, tuple, file. Present across 14 estate repo(s): agent-term, agentos-starter, cairnpath-mesh, graphbrain-contract, human-digital-twin, identity-is-prime-reference…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "optional" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-output> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 0), co-occurring with path, file, size, files, writer. Appears in 26 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "output" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-raw> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 0), co-occurring with config, account, cfg, channel, resolve. Appears in 22 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "raw" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-resources> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform-standards (LDA topic 3), co-occurring with prophet, standards, schema, platform, api. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "resources" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-rhcos> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 2), co-occurring with openshift, butane, config, machine, open. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "rhcos" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-scaffold> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'scaffold' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, required, purpose, definitions, outputs. Present across 6 estate repo(s): Heller-Winters-Theorem, bsd-proof-program, gaia-world-model, socios, socios-ignition, sourceos-shell." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "scaffold" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-service> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 45 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "service" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-soci> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'soci' — a high-signal concept in the agentos-spine vocabulary (LDA topic 3), co-occurring with linux, source, spine, repo, canonical. Present across 10 estate repo(s): SourceOS, agentos-spine, embeddinglab, enhancements, functional-model-surfaces, socioprophet-docs-main…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "soci" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-socios> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "'socios' — a high-signal concept in the socios vocabulary (LDA topic 3), co-occurring with proxy, smart, katello, content, receipt. Present across 10 estate repo(s): SourceOS, agentos-spine, enhancements, model-governance-ledger, prophet-platform-standards, socios…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "socios" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-source> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'source' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, policy, kind, evidence. Present across 96 estate repo(s): BearBrowser, Heller-Godel, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "source" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tooling> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 1), co-occurring with butane, ignition, fcos, tools, example. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "tooling" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-variant> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 2), co-occurring with openshift, butane, config, machine, open. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "variant" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-worker> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "'worker' — a high-signal concept in the ontogenesis vocabulary (LDA topic 3), co-occurring with actor, task, leaknet, run, robo. Present across 4 estate repo(s): ontogenesis, prophet-core-ledger, socios-ignition, tritrpc." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "worker" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-wrapper> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 0), co-occurring with expect, length, number, label, fetch. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "wrapper" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-boot> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-spec (LDA topic 2), co-occurring with description, properties, srcos, urn, schema. Appears in 11 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "boot" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-bootstrap> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "'bootstrap' — a high-signal concept in the agent-machine vocabulary (LDA topic 8), co-occurring with activation, runtime, evidence, local, release. Present across 9 estate repo(s): agent-machine, memory-mesh, prophet-cli, socioprophet-agent-standards, socios, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "bootstrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fcos> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "'fcos' — a high-signal concept in the socios-ignition vocabulary (LDA topic 1), co-occurring with butane, ignition, tools, example, ign. Present across 2 estate repo(s): enhancements, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "fcos" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ign> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "'ign' — a high-signal concept in the socios-ignition vocabulary (LDA topic 1), co-occurring with butane, ignition, fcos, tools, example. Present across 1 estate repo(s): socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "ign" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-lvm> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "'lvm' — a high-signal concept in the agentos-spine vocabulary (LDA topic 8), co-occurring with fog, lane, topic, agentos, spine. Present across 2 estate repo(s): agentos-spine, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "lvm" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-make> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "'make' — a high-signal concept in the nlboot vocabulary (LDA topic 8), co-occurring with release, rust, nlboot, run, client. Present across 29 estate repo(s): agent-machine, agent-term, cloudshell-fog, embeddinglab, global-devsecops-intelligence, graphlab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "make" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-metadata> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "'metadata' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with path, url, config, req, pip. Present across 31 estate repo(s): agent-registry, agent-term, cloudshell-fog, delivery-excellence, delivery-excellence-automation, delivery-excellence-bounties…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "metadata" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-mkdir> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LSA topic 3), co-occurring with minimal, config, worker, machine, constraints. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "mkdir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-pretty> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'pretty' — a high-signal concept in the sourceos-syncd vocabulary (LDA topic 0), co-occurring with help, content, katello, sync, receipt. Present across 2 estate repo(s): socios-ignition, sourceos-syncd." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "pretty" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-render> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in agent-machine (LDA topic 8), co-occurring with activation, bootstrap, runtime, evidence, local. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "render" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-rhcos> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 2), co-occurring with openshift, butane, config, machine, open. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "rhcos" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-service> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 45 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "service" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-strict> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'strict' — a high-signal concept in the sourceos-build vocabulary (LDA topic 2), co-occurring with schema, jsonschema, example, sourceos, schemas. Present across 8 estate repo(s): embeddinglab, graphlab, imagelab, ocrlab, prophet-aggregate, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "strict" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tooling> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 1), co-occurring with butane, ignition, fcos, tools, example. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "tooling" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-agent> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'agent' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, run, store, state, main. Present across 62 estate repo(s): BearBrowser, HolographMe, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "agent" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-bootstrap> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'bootstrap' — a high-signal concept in the agent-machine vocabulary (LDA topic 8), co-occurring with activation, runtime, evidence, local, release. Present across 9 estate repo(s): agent-machine, memory-mesh, prophet-cli, socioprophet-agent-standards, socios, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "bootstrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-bump> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LSI topic 3), co-occurring with minimal, constraints, remove, changes, luks. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "bump" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-compression> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 4), co-occurring with smart, tree, project, mode, mcp. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "compression" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-container> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 8), co-occurring with mjx, math, svg, xmlns, jax. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "container" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-containerized> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LSI topic 2), co-occurring with tooling, make, luks, changes, remove. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "containerized" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-contract> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 4), co-occurring with run, receipt, governed, admission, attempt. Appears in 37 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "contract" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-defines> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 3), co-occurring with fog, srv, profile, boot, lvm. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "defines" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-devices> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LSI topic 0), co-occurring with fog, srv, profile, scaffold, lvm. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "devices" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-enforce> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform-standards (LDA topic 1), co-occurring with kyverno, pod, policy, security, policies. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "enforce" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-example> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "'example' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, synthetic, refs. Present across 57 estate repo(s): BearBrowser, Heller-Godel, HolographMe, SCOPE-D, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "example" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-express> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LSI topic 3), co-occurring with minimal, constraints, remove, changes, luks. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "express" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fips> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "'fips' — a high-signal concept in the socioprophet-standards-storage vocabulary (LDA topic 6), co-occurring with audit, tls, vault, security, service. Present across 3 estate repo(s): prophet-platform-standards, socioprophet-standards-storage, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "fips" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-force> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "'force' — a high-signal concept in the enhancements vocabulary (LSI topic 6), co-occurring with artifact, cosa, cmd, builds, code. Present across 3 estate repo(s): enhancements, prophet-aggregate, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "force" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-ign> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "'ign' — a high-signal concept in the socios-ignition vocabulary (LDA topic 1), co-occurring with butane, ignition, fcos, tools, example. Present across 1 estate repo(s): socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "ign" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-image> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "'image' — a high-signal concept in the TurtleTerm vocabulary (LDA topic 2), co-occurring with std, raw, u32, extern, unsafe. Present across 26 estate repo(s): SociOS-Linux__cloudshell-fog, TurtleTerm, agent-machine, agentos-spine, cloudshell-fog, enhancements…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "image" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-linux> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'linux' — a high-signal concept in the source-os vocabulary (LDA topic 2), co-occurring with dev, workstation, bin, sourceos, profiles. Present across 33 estate repo(s): BearBrowser, SourceOS, agent-machine, agentos-spine, agentos-starter, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "linux" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-mco> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 2), co-occurring with openshift, butane, config, machine, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "mco" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-metadata> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> ;
+    skos:definition "'metadata' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with path, url, config, req, pip. Present across 31 estate repo(s): agent-registry, agent-term, cloudshell-fog, delivery-excellence, delivery-excellence-automation, delivery-excellence-bounties…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "metadata" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-open> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "open" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-provisioning> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LSI topic 2), co-occurring with tooling, make, luks, changes, remove. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "provisioning" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-raw> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 0), co-occurring with config, account, cfg, channel, resolve. Appears in 22 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "raw" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-realization> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'realization' — a high-signal concept in the socioprophet-standards-knowledge vocabulary (LDA topic 2), co-occurring with proof, artifact, receipt, profile, capability. Present across 3 estate repo(s): socioprophet-standards-knowledge, socios-ignition, source-os." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "realization" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-service> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 45 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "service" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shot> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LSI topic 0), co-occurring with fog, srv, profile, scaffold, lvm. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "shot" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-soci> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'soci' — a high-signal concept in the agentos-spine vocabulary (LDA topic 3), co-occurring with linux, source, spine, repo, canonical. Present across 10 estate repo(s): SourceOS, agentos-spine, embeddinglab, enhancements, functional-model-surfaces, socioprophet-docs-main…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "soci" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-transpile> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LSI topic 2), co-occurring with tooling, make, luks, changes, remove. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "transpile" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-variant> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 2), co-occurring with openshift, butane, config, machine, open. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "variant" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-versions> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 3), co-occurring with notes, status, subsections, file, exists. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "versions" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-worker> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "'worker' — a high-signal concept in the ontogenesis vocabulary (LDA topic 3), co-occurring with actor, task, leaknet, run, robo. Present across 4 estate repo(s): ontogenesis, prophet-core-ledger, socios-ignition, tritrpc." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "worker" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-wrapper> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 0), co-occurring with expect, length, number, label, fetch. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "wrapper" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-open> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "open" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-shift> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 5), co-occurring with event, mouse, modifiers, wezterm, action. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "shift" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-variant> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 2), co-occurring with openshift, butane, config, machine, open. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "variant" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-config> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "'config' — a high-signal concept in the openclaw vocabulary (LDA topic 0), co-occurring with account, cfg, channel, resolve, entry. Present across 23 estate repo(s): SociOS-Linux__cloudshell-fog, SourceOS, TurtleTerm, agent-term, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "config" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-example> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "'example' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, synthetic, refs. Present across 57 estate repo(s): BearBrowser, Heller-Godel, HolographMe, SCOPE-D, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "example" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tools> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fcos> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "'fcos' — a high-signal concept in the socios-ignition vocabulary (LDA topic 1), co-occurring with butane, ignition, tools, example, ign. Present across 2 estate repo(s): enhancements, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "fcos" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tools> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ign> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "'ign' — a high-signal concept in the socios-ignition vocabulary (LDA topic 1), co-occurring with butane, ignition, fcos, tools, example. Present across 1 estate repo(s): socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "ign" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-lvm> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'lvm' — a high-signal concept in the agentos-spine vocabulary (LDA topic 8), co-occurring with fog, lane, topic, agentos, spine. Present across 2 estate repo(s): agentos-spine, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "lvm" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-repo> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0> ;
+    skos:definition "'repo' — a high-signal concept in the sociosphere vocabulary (LDA topic 6), co-occurring with prophet, socio, runtime, policy, evidence. Present across 59 estate repo(s): HolographMe, SCOPE-D, SourceOS, agent-machine, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "repo" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-shift> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 5), co-occurring with event, mouse, modifiers, wezterm, action. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "shift" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tools> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 21 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "tools" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-breaking> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in functional-model-surfaces (LDA topic 9), co-occurring with path, sys, file, maturity, change. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "breaking" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-constraints> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'constraints' — a high-signal concept in the usol-space-library vocabulary (LDA topic 3), co-occurring with col, alt, mag, max, pick. Present across 3 estate repo(s): cairnpath-mesh, socios-ignition, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "constraints" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-example> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'example' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 0), co-occurring with schema, scope, policy, synthetic, refs. Present across 57 estate repo(s): BearBrowser, Heller-Godel, HolographMe, SCOPE-D, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "example" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ignition> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "'ignition' — a high-signal concept in the socios-installer vocabulary (LDA topic 5), co-occurring with iso, config, file, path, initrd. Present across 5 estate repo(s): SourceOS, agentos-spine, enhancements, socios-ignition, socios-installer." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "ignition" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-profile> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "'profile' — a high-signal concept in the openclaw vocabulary (LDA topic 7), co-occurring with model, provider, api, auth, models. Present across 37 estate repo(s): BearBrowser, ProCybernetica, SociOS-Linux__cloudshell-fog, SourceOS, agent-machine, agent-registry…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "profile" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tools> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 21 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "tools" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-breaking> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in functional-model-surfaces (LDA topic 9), co-occurring with path, sys, file, maturity, change. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "breaking" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-butane> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> ;
+    skos:definition "'butane' — a high-signal concept in the socios-ignition vocabulary (LDA topic 1), co-occurring with ignition, fcos, tools, example, ign. Present across 2 estate repo(s): SourceOS, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "butane" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-lvm> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'lvm' — a high-signal concept in the agentos-spine vocabulary (LDA topic 8), co-occurring with fog, lane, topic, agentos, spine. Present across 2 estate repo(s): agentos-spine, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "lvm" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-scaffold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-make> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "'make' — a high-signal concept in the nlboot vocabulary (LDA topic 8), co-occurring with release, rust, nlboot, run, client. Present across 29 estate repo(s): agent-machine, agent-term, cloudshell-fog, embeddinglab, global-devsecops-intelligence, graphlab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "make" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-openshift> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> ;
+    skos:definition "'openshift' — a high-signal concept in the socios-ignition vocabulary (LDA topic 2), co-occurring with butane, config, machine, open, shift. Present across 1 estate repo(s): socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "openshift" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-profile> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'profile' — a high-signal concept in the openclaw vocabulary (LDA topic 7), co-occurring with model, provider, api, auth, models. Present across 37 estate repo(s): BearBrowser, ProCybernetica, SociOS-Linux__cloudshell-fog, SourceOS, agent-machine, agent-registry…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "profile" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-scaffold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-scaffold> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'scaffold' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, required, purpose, definitions, outputs. Present across 6 estate repo(s): Heller-Winters-Theorem, bsd-proof-program, gaia-world-model, socios, socios-ignition, sourceos-shell." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "scaffold" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shift> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 5), co-occurring with event, mouse, modifiers, wezterm, action. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "shift" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-srv> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "'srv' — a high-signal concept in the socios-ignition vocabulary (LDA topic 3), co-occurring with fog, profile, boot, lvm, service. Present across 4 estate repo(s): SourceOS, agentos-spine, socios-ignition, workstation-contracts." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "srv" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-scaffold> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tools> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 21 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "tools" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-spec (LDA topic 2), co-occurring with description, properties, srcos, urn, schema. Appears in 11 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "boot" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 3), co-occurring with fog, srv, profile, boot, lvm. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "defines" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-repo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "'machine' — a high-signal concept in the Noetica vocabulary (LDA topic 0), co-occurring with kind, rel, line, lang, agent. Present across 15 estate repo(s): Noetica, SociOS-Linux__cloudshell-fog, evidence-intake-kernel, functional-model-surfaces, mcp-a2a-zero-trust, memory-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "machine" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "open" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'srv' — a high-signal concept in the socios-ignition vocabulary (LDA topic 3), co-occurring with fog, profile, boot, lvm, service. Present across 4 estate repo(s): SourceOS, agentos-spine, socios-ignition, workstation-contracts." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "srv" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 0), co-occurring with config, account, cfg, channel, resolve. Appears in 22 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "raw" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "'config' — a high-signal concept in the openclaw vocabulary (LDA topic 0), co-occurring with account, cfg, channel, resolve, entry. Present across 23 estate repo(s): SociOS-Linux__cloudshell-fog, SourceOS, TurtleTerm, agent-term, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "config" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "'constraints' — a high-signal concept in the usol-space-library vocabulary (LDA topic 3), co-occurring with col, alt, mag, max, pick. Present across 3 estate repo(s): cairnpath-mesh, socios-ignition, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "constraints" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'changes' — a high-signal concept in the socios-installer vocabulary (LDA topic 7), co-occurring with installer, coreos, install, ignition, iso. Present across 6 estate repo(s): Heller-Winters-Theorem, gitea-sovereign, prophet-cli, socios-ignition, socios-installer, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "changes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in enhancements (LDA topic 0), co-occurring with boot, disk, label, dev, filesystem. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "luks" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'remove' — a high-signal concept in the socios-ignition vocabulary (LSI topic 3), co-occurring with minimal, constraints, changes, luks, config. Present across 2 estate repo(s): prophet-sheaf-hellgraph, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "remove" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "'srv' — a high-signal concept in the socios-ignition vocabulary (LDA topic 3), co-occurring with fog, profile, boot, lvm, service. Present across 4 estate repo(s): SourceOS, agentos-spine, socios-ignition, workstation-contracts." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "srv" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-profile> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'worker' — a high-signal concept in the ontogenesis vocabulary (LDA topic 3), co-occurring with actor, task, leaknet, run, robo. Present across 4 estate repo(s): ontogenesis, prophet-core-ledger, socios-ignition, tritrpc." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "worker" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'profile' — a high-signal concept in the openclaw vocabulary (LDA topic 7), co-occurring with model, provider, api, auth, models. Present across 37 estate repo(s): BearBrowser, ProCybernetica, SociOS-Linux__cloudshell-fog, SourceOS, agent-machine, agent-registry…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "profile" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'machine' — a high-signal concept in the Noetica vocabulary (LDA topic 0), co-occurring with kind, rel, line, lang, agent. Present across 15 estate repo(s): Noetica, SociOS-Linux__cloudshell-fog, evidence-intake-kernel, functional-model-surfaces, mcp-a2a-zero-trust, memory-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "machine" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "'changes' — a high-signal concept in the socios-installer vocabulary (LDA topic 7), co-occurring with installer, coreos, install, ignition, iso. Present across 6 estate repo(s): Heller-Winters-Theorem, gitea-sovereign, prophet-cli, socios-ignition, socios-installer, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "changes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in enhancements (LDA topic 0), co-occurring with boot, disk, label, dev, filesystem. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "luks" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "'remove' — a high-signal concept in the socios-ignition vocabulary (LSI topic 3), co-occurring with minimal, constraints, changes, luks, config. Present across 2 estate repo(s): prophet-sheaf-hellgraph, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "remove" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "'ignition' — a high-signal concept in the socios-installer vocabulary (LDA topic 5), co-occurring with iso, config, file, path, initrd. Present across 5 estate repo(s): SourceOS, agentos-spine, enhancements, socios-ignition, socios-installer." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "ignition" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tools> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "'config' — a high-signal concept in the openclaw vocabulary (LDA topic 0), co-occurring with account, cfg, channel, resolve, entry. Present across 23 estate repo(s): SociOS-Linux__cloudshell-fog, SourceOS, TurtleTerm, agent-term, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "config" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "'openshift' — a high-signal concept in the socios-ignition vocabulary (LDA topic 2), co-occurring with butane, config, machine, open, shift. Present across 1 estate repo(s): socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "openshift" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 0 derived by latent Dirichlet allocation over the socios-ignition corpus; centres on the co-occurring vocabulary fog, defines, butane, repo, profile — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-agent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-configs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-edge>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-extend>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-optional>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-resources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-agent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-configs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-edge>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-extend>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-optional>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-resources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> ;
+    skos:prefLabel "LDA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 1 derived by latent Dirichlet allocation over the socios-ignition corpus; centres on the co-occurring vocabulary butane, ignition, fcos, tools, example — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-assets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-output>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-socios>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-wrapper> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-assets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-output>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-socios>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-wrapper> ;
+    skos:prefLabel "LDA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 2 derived by latent Dirichlet allocation over the socios-ignition corpus; centres on the co-occurring vocabulary openshift, butane, config, machine, open — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-mco>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-rhcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-variant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-worker> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-mco>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-rhcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-variant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-worker> ;
+    skos:prefLabel "LDA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 3 derived by latent Dirichlet allocation over the socios-ignition corpus; centres on the co-occurring vocabulary fog, srv, profile, boot, lvm — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-directory>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-linux>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-scaffold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-soci>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-directory>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-linux>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-scaffold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-soci>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> ;
+    skos:prefLabel "LDA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the socios-ignition corpus; centres on the co-occurring vocabulary fog, butane, openshift, srv, config — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-variant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-variant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> ;
+    skos:prefLabel "LSA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the socios-ignition corpus; centres on the co-occurring vocabulary fog, srv, butane, openshift, profile — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-variant> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-variant> ;
+    skos:prefLabel "LSA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the socios-ignition corpus; centres on the co-occurring vocabulary butane, openshift, luks, changes, remove — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-rhcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tools> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-rhcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tools> ;
+    skos:prefLabel "LSA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the socios-ignition corpus; centres on the co-occurring vocabulary minimal, config, worker, machine, constraints — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-mkdir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-pretty>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-render>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-strict>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-mkdir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-pretty>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-render>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-strict>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> ;
+    skos:prefLabel "LSA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 0 derived by latent-semantic indexing (gensim LSI) over the socios-ignition corpus; centres on the co-occurring vocabulary fog, srv, profile, scaffold, lvm — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-agent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-devices>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-linux>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-realization>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-scaffold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-soci>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-srv> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-agent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-devices>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-linux>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-realization>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-scaffold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-soci>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-srv> ;
+    skos:prefLabel "LSI topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 1 derived by latent-semantic indexing (gensim LSI) over the socios-ignition corpus; centres on the co-occurring vocabulary minimal, openshift, config, butane, shift — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-mco>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-variant> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-mco>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-variant> ;
+    skos:prefLabel "LSI topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 2 derived by latent-semantic indexing (gensim LSI) over the socios-ignition corpus; centres on the co-occurring vocabulary tooling, make, luks, changes, remove — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-container>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-containerized>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-provisioning>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-transpile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-wrapper> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-container>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-containerized>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-provisioning>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-transpile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-wrapper> ;
+    skos:prefLabel "LSI topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 3 derived by latent-semantic indexing (gensim LSI) over the socios-ignition corpus; centres on the co-occurring vocabulary minimal, constraints, remove, changes, luks — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-bump>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-compression>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-enforce>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-express>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fips>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-force>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-versions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-worker> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-bump>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-compression>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-enforce>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-express>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fips>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-force>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-versions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-worker> ;
+    skos:prefLabel "LSI topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "'openshift' — a high-signal concept in the socios-ignition vocabulary (LDA topic 2), co-occurring with butane, config, machine, open, shift. Present across 1 estate repo(s): socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "openshift" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-mco>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-rhcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-variant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-worker> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fog> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in cloudshell-fog (LDA topic 1), co-occurring with session, cloudshell, policy, token, oidc. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "fog" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-agent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-devices>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-linux>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-realization>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-scaffold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-soci>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tooling> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 1), co-occurring with butane, ignition, fcos, tools, example. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "tooling" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-container>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-containerized>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-provisioning>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-transpile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-wrapper> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in speechlab (LDA topic 1), co-occurring with root, text, proto, parse, semantic. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "minimal" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-mkdir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-pretty>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-render>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-strict>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in cloudshell-fog (LDA topic 1), co-occurring with session, cloudshell, policy, token, oidc. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "fog" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-minimal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-variant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-worker> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-butane> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-topic-2> ;
+    skos:definition "'butane' — a high-signal concept in the socios-ignition vocabulary (LDA topic 1), co-occurring with ignition, fcos, tools, example, ign. Present across 2 estate repo(s): SourceOS, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "butane" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-rhcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-srv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSA-tools> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-2> ;
+    skos:definition "'butane' — a high-signal concept in the socios-ignition vocabulary (LDA topic 1), co-occurring with ignition, fcos, tools, example, ign. Present across 2 estate repo(s): SourceOS, socios-ignition." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "butane" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-assets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-example>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fcos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-machine>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-output>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-socios>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-wrapper> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-fog> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in cloudshell-fog (LDA topic 1), co-occurring with session, cloudshell, policy, token, oidc. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "fog" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-agent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-boot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-configs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-contract>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-defines>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-directory>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-edge>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-extend>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-ignition>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-linux>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-lvm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-optional>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-profile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-resources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-scaffold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-soci>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LDA-srv> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-minimal> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in speechlab (LDA topic 1), co-occurring with root, text, proto, parse, semantic. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> ;
+    skos:prefLabel "minimal" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-breaking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-bump>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-butane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-compression>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-config>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-constraints>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-enforce>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-express>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-fips>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-force>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-luks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-mco>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-metadata>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-openshift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-raw>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-remove>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-shift>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-tools>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-variant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-versions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition#LSI-worker> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socios-ignition> a skos:ConceptScheme ;
+    rdfs:label "socios-ignition" ;
+    dct:title "Topic vocabulary — socios-ignition" .
+
