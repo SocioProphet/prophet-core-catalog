@@ -61,8 +61,11 @@ The contribution loop is LIVE now, without waiting on the operator App token.
   lands. This is the loop made live with zero cross-repo credentials.
 * **Distributed path — `.github/workflows/assemble-catalog.yml` (App token).** Each
   estate repo pushes its own shard on merge to `main` via the reusable
-  `git-ops-standards` workflow, minting a scoped GitHub App installation token in CI.
-  Real-time, but needs the `socioprophet-catalog-contributor` App installed.
+  `git-ops-standards` workflow, minting a scoped GitHub App installation token in CI
+  from the estate's **shared ops App** (`GH_OPS_APP_ID` / `GH_OPS_APP_PRIVATE_KEY`,
+  gated by `vars.GH_OPS_APP_CONFIGURED`) — no catalog-specific secret. Real-time,
+  and inert (green) until that shared App is configured with `contents` +
+  `pull_requests` write.
 
 **They converge:** both write the same `datasets/<ds>/contributions/<repo>.jsonl`
 shard contract and both reassemble with `tools/assemble_dataset.py`. The central path
