@@ -1,0 +1,60 @@
+{
+  "id": "ds.models",
+  "name": "Estate ML/AI Models Catalog",
+  "version": "0.1.0",
+  "sources": [
+    "src.embeddinglab",
+    "src.model-governance-ledger",
+    "src.model-router",
+    "src.noetica",
+    "src.noetica-impair",
+    "src.prophet-mesh",
+    "src.prophet-platform",
+    "src.sociosphere",
+    "src.sourceos-model-carry"
+  ],
+  "schema": {
+    "format": "document",
+    "fields": [
+      "id",
+      "name",
+      "provider",
+      "role",
+      "repo",
+      "path",
+      "used_by",
+      "governed",
+      "provider_reference",
+      "intent"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "Read-only ripgrep/AST harvest of first-party ~/dev repos (2026-08-02) for the ML/AI models the estate routes to, runs, trains, or governs: model-router routing mirrors (contracts/prophet-mesh/prophet-mesh-model-routing.v0.1.json + prophet-mesh specs), the noetica prophet-mesh.manifest.json local ollama fleet, sourceos-model-carry local-model profiles, model-governance-ledger governed model:// releases, noetica-impair base/SAE model refs, embeddinglab functional-model surface, and provider model ids in first-party code/config. Third-party provider model NAMES appearing in OUR routing/config are FIRST-PARTY provider references (provider_reference: true) per the ds.regex-operational-dataset PROVIDER-REFERENCE decision. Duplicate working clones (prophet-platform-*, *-chronos-ci), staging/restore trees, spec-intake, AgenticaForge and agent-inbox were excluded. used_by[] are best-effort blast-radius edges (repos observed referencing the model). Competitor/client MARKETING materials remain excluded.",
+    "receipt_required": true,
+    "upstream_datasets": []
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line",
+      "every record has id+name+provider+role",
+      "role in {routing-target,embedding,fine-tuned,judge,governed,other}",
+      "sources[] resolve to registered catalog sources (referential integrity)",
+      "provider_reference tagged (third-party provider ids in our routing/config are included, not excluded)",
+      "governed reflects a model-governance-ledger / weights_manifest / functional-service governance entry",
+      "used_by[] are best-effort blast-radius edges (repos referencing the model)"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
