@@ -1,0 +1,78 @@
+{
+  "id": "ds.ontologies",
+  "name": "Estate Ontologies & RDF Graph Inventory",
+  "version": "0.1.0",
+  "sources": [
+    "src.agent_descriptors",
+    "src.agentos-spine",
+    "src.agentos-starter",
+    "src.global-devsecops-intelligence",
+    "src.ontogenesis",
+    "src.orion-field-intelligence",
+    "src.procybernetica",
+    "src.prophet-domain-gaia-ontology",
+    "src.prophet-health",
+    "src.prophet-platform",
+    "src.socioprophet",
+    "src.socioprophet-standards-knowledge",
+    "src.socios",
+    "src.socioslinux-web",
+    "src.sociosphere",
+    "src.sourceos",
+    "src.sourceos-spec",
+    "src.speechlab",
+    "src.systems-learning-loops",
+    "src.tritfabric",
+    "src.workstation-contracts"
+  ],
+  "schema": {
+    "format": "mixed",
+    "fields": [
+      "base_iri",
+      "classes",
+      "concepts",
+      "id",
+      "imports",
+      "intent",
+      "kind",
+      "name",
+      "parse_error",
+      "parses",
+      "path",
+      "properties",
+      "repo",
+      "triples"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "Read-only rdflib harvest of first-party ~/dev repos (2026-08-02). Every *.ttl/*.owl/*.rdf/*.n3/*.jsonld under a canonical first-party repo is parsed with rdflib (turtle/n3/xml/json-ld) and one record emitted per graph file with triple/class/property/skos-concept counts, base IRI, owl:imports edges (blast-radius), a parses boolean, and a curation intent. Worktree/superset clones (*.wt, *-chronos-superset, *-kairos-draft, *-mesh-*), build mirrors (dist/, build/), and language envs (.venv, node_modules, site-packages) are skipped to avoid duplicates. Vendored EXTERNAL ontologies (SWEET, science-on-schema.org, environmental-exposure-ontology, gene-ontology obographs, BCO-DMO, KBpedia KKO) are recorded in third-party-vendored.jsonl at source-dir granularity and NOT ingested as ours. prophet-core-catalog's own derived SKOS turtle is excluded and cross-referenced to ds.topic-vocabulary (the topic-model-derived vocabulary), not re-ingested here.",
+    "receipt_required": true,
+    "upstream_datasets": [
+      "ds.topic-vocabulary"
+    ]
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line (ontologies.jsonl, third-party-vendored.jsonl)",
+      "every record has id+name+kind+repo+path+parses",
+      "rdflib parse attempted on every graph; result recorded in 'parses' (348/360 parse; the 12 failures are enumerated in README as gaps, not hidden)",
+      "kind in {owl,rdfs,skos,shacl,jsonld,rdf,n3}",
+      "imports[] = owl:imports IRIs (blast-radius out-edges)",
+      "first-party only; vendored external ontologies flagged third-party (third-party-vendored.jsonl), not counted as ours",
+      "no client/competitor marketing materials"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
