@@ -41,6 +41,19 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# Per-dataset harvest wiring (extractors/harvest_map.json). Datasets listed there
+# self-refresh: their PRIMARY file(s) are rebuilt from the per-repo contribution
+# shards written by a real extractor. See _assemble_harvest + docs/CATALOG-EXTRACTORS.md.
+HARVEST_MAP_PATH = ROOT / "extractors" / "harvest_map.json"
+
+
+def _harvest_map() -> dict:
+    try:
+        return json.loads(HARVEST_MAP_PATH.read_text(encoding="utf-8")).get("datasets", {})
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
 # Legacy monolith filenames that auto-absorb will consume, in priority order.
 MONOLITH_NAMES = ["corpus.jsonl", "regex-corpus.jsonl"]
 
@@ -197,11 +210,90 @@ def _assemble_general(ds_dir: Path, contrib_dir: Path) -> None:
           f"{len(id_to_line)} record(s) across single-owner shards")
 
 
+def _merge_union(records: list[dict]) -> list[dict]:
+    """Merge records sharing an id, unioning list fields (used_by/consumers) and
+    keeping the first scalar value. Used by harvest datasets whose same id recurs
+    across repos (e.g. one model referenced by many repos)."""
+    agg: dict[str, dict] = {}
+    for rec in records:
+        rid = rec.get("id")
+        if not rid:
+            raise SystemExit(f"FAIL harvest record missing id: {rec!r:.120}")
+        cur = agg.get(rid)
+        if cur is None:
+            agg[rid] = json.loads(json.dumps(rec))
+            continue
+        for key in ("used_by", "consumers", "imports", "endpoints", "sources"):
+            if isinstance(cur.get(key), list) or isinstance(rec.get(key), list):
+                merged = list(cur.get(key) or [])
+                seen = {json.dumps(x, sort_keys=True) for x in merged}
+                for x in (rec.get(key) or []):
+                    k = json.dumps(x, sort_keys=True)
+                    if k not in seen:
+                        merged.append(x)
+                        seen.add(k)
+                # scalars stay sorted only when primitive
+                cur[key] = sorted(merged) if merged and all(isinstance(x, str) for x in merged) else merged
+        cur["governed"] = bool(cur.get("governed")) or bool(rec.get("governed"))
+        cur["provider_reference"] = bool(cur.get("provider_reference")) or bool(rec.get("provider_reference"))
+    return sorted(agg.values(), key=lambda r: r["id"])
+
+
+def _assemble_harvest(ds_dir: Path, cfg: dict) -> None:
+    """Rebuild a dataset's PRIMARY file(s) from the per-repo shards a real extractor
+    wrote. Fail-SAFE: if no shards exist yet, the committed primary files are left
+    exactly as-is (the loop is a no-op until the extractor has run)."""
+    contrib_dir = ds_dir / cfg.get("contrib_dir", "contributions")
+    shards = sorted(p for p in contrib_dir.glob("*.jsonl") if not p.name.startswith("_")) \
+        if contrib_dir.exists() else []
+    if not shards:
+        print(f"  harvest: no shards under {contrib_dir.name}/ — primary file(s) left as committed")
+        return
+    records: list[dict] = []
+    for shard in shards:
+        records.extend(_read_jsonl(shard))
+    mode = cfg.get("merge", "single-owner")
+    total = 0
+    for fname, spec in cfg.get("primary_files", {}).items():
+        prefix = spec.get("id_prefix")
+        sel = [r for r in records if (prefix is None or str(r.get("id", "")).startswith(prefix))]
+        merged = _merge_union(sel) if mode == "union" else _dedup_single_owner(sel)
+        _write_jsonl(ds_dir / fname, merged)
+        total += len(merged)
+        print(f"  harvest: wrote {fname}: {len(merged)} records ({mode})")
+    print(f"  harvest: {total} record(s) from {len(shards)} shard(s); "
+          f"preserved {cfg.get('preserve', [])}")
+
+
+def _dedup_single_owner(records: list[dict]) -> list[dict]:
+    """Each id owned by exactly one repo: keep the last occurrence, sort by id.
+    A duplicate id across shards is a harvest bug, surfaced but not fatal."""
+    seen: dict[str, dict] = {}
+    dups = 0
+    for rec in records:
+        rid = rec.get("id")
+        if not rid:
+            raise SystemExit(f"FAIL harvest record missing id: {rec!r:.120}")
+        if rid in seen:
+            dups += 1
+        seen[rid] = rec
+    if dups:
+        sys.stderr.write(f"[assemble] warning: {dups} duplicate id(s) across single-owner shards\n")
+    return sorted(seen.values(), key=lambda r: r["id"])
+
+
 def assemble(ds_dir: Path) -> None:
     ds_dir = ds_dir.resolve()
     manifest = json.loads((ds_dir / "manifest.json").read_text()) if (ds_dir / "manifest.json").exists() else {}
     ds_id = manifest.get("id", ds_dir.name)
     print(f"assembling {ds_dir.name} ({ds_id})")
+
+    # Harvest datasets (real per-repo extractors) rebuild their named primary files
+    # from shards — take that path first, before the regex/general shard logic.
+    hcfg = _harvest_map().get(ds_dir.name)
+    if hcfg:
+        _assemble_harvest(ds_dir, hcfg)
+        return
 
     contrib_dir = ds_dir / "contributions"
 

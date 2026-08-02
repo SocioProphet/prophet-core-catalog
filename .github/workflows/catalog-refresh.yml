@@ -69,6 +69,18 @@ jobs:
           CLONES="$RUNNER_TEMP/clones"; STAGE="$RUNNER_TEMP/stage"
           mkdir -p "$CLONES" "$STAGE"
           REGEX_CONTRIB="datasets/regex-operational-dataset/contributions"
+          # Whole-catalog harvest: every dataset with a REAL per-repo extractor
+          # (extractors/harvest_map.json) refreshes its own committed shard each run.
+          # module : dataset-dir : shard-subdir
+          HARVEST="\
+          extract_schemas_contracts:schemas-contracts:contributions \
+          extract_services_endpoints:services-endpoints:contributions \
+          extract_ontologies:ontologies:contributions \
+          extract_adrs_docs:adrs-docs:contributions \
+          extract_agents_manifests:agents-manifests:contributions \
+          extract_rules_policies:rules-policies:contributions \
+          extract_ci_workflows_tests:ci-workflows-tests:contributions \
+          extract_models:models:harvest"
           ok=0; skipped=0
           while IFS=$'\t' read -r slug repo_name; do
             [ -z "$slug" ] && continue
@@ -80,17 +92,24 @@ jobs:
             if ! git clone --depth 1 --quiet "https://github.com/$slug.git" "$dst" 2>/dev/null; then
               echo "skip  $slug (not anonymously cloneable)"; skipped=$((skipped+1)); continue
             fi
-            # Schema-matched extractor -> committed regex dataset shard.
+            # Schema-matched regex extractor -> committed regex dataset shard.
             python3 extractors/extract_regex.py "$dst" "$repo_name" \
-              --out "$REGEX_CONTRIB/$repo_name.jsonl"
-            # Thin/hook extractors run too (liveness), but their v0 record schema differs
-            # from the committed monoliths, so their output is STAGED (artifact only), not
-            # committed, until the schema is reconciled with each dataset.
-            for ex in ci_workflows_tests rules_policies topic_vocabulary; do
-              mkdir -p "$STAGE/$ex"
+              --out "$REGEX_CONTRIB/$repo_name.jsonl" || true
+            # Whole-catalog extractors -> committed per-repo shards. Each writes a shard
+            # matching its dataset's record schema; tools/assemble_dataset.py then rebuilds
+            # the dataset's primary file(s) from ALL shards (harvest mode). A crashing
+            # extractor is isolated (|| true) so one bad repo cannot wedge the harvest.
+            for spec in $HARVEST; do
+              ex="${spec%%:*}"; rest="${spec#*:}"; ds="${rest%%:*}"; sub="${rest##*:}"
+              mkdir -p "datasets/$ds/$sub"
               python3 "extractors/extract_${ex}.py" "$dst" "$repo_name" \
-                --out "$STAGE/$ex/$repo_name.jsonl" 2>/dev/null || true
+                --out "datasets/$ds/$sub/$repo_name.jsonl" 2>/dev/null || true
             done
+            # topic-vocabulary is a CENTRAL rebuild (LSA/LSI/LDA over the whole corpus, not
+            # a per-repo shard — see docs/CATALOG-EXTRACTORS.md); its hook runs to STAGING.
+            mkdir -p "$STAGE/topic_vocabulary"
+            python3 extractors/extract_topic_vocabulary.py "$dst" "$repo_name" \
+              --out "$STAGE/topic_vocabulary/$repo_name.jsonl" 2>/dev/null || true
             echo "ok    $slug"; ok=$((ok+1))
             rm -rf "$dst"
           done < "$RUNNER_TEMP/repos.tsv"
@@ -99,11 +118,11 @@ jobs:
             echo "::error::no repos re-harvested — refusing to proceed (fail-closed)"; exit 1
           fi
 
-      - name: Upload staged (non-committed) hook-extractor output
+      - name: Upload staged (central-rebuild) topic-vocabulary hook output
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: staged-hook-extractors
+          name: staged-topic-vocabulary
           path: ${{ runner.temp }}/stage
           if-no-files-found: ignore
 
@@ -135,9 +154,8 @@ jobs:
           git config user.name  "catalog-refresh[bot]"
           git config user.email "catalog-refresh[bot]@users.noreply.github.com"
           git add datasets/**/contributions/*.jsonl \
-                  datasets/*/corpus.jsonl \
-                  datasets/*/regex-corpus.jsonl \
-                  datasets/*/gbrg-blast-radius.jsonl \
+                  datasets/models/harvest/*.jsonl \
+                  datasets/*/*.jsonl \
                   datasets/estate-graph/*.ttl \
                   catalog-index/** \
                   datahub/** 2>/dev/null || true

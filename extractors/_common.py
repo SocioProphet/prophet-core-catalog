@@ -60,6 +60,11 @@ def sha1_10(text: str) -> str:
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
 
 
+def sha1_hex(text: str, n: int) -> str:
+    """First n hex chars of sha1(text) — for dataset ids that use a width != 10."""
+    return hashlib.sha1(text.encode("utf-8")).hexdigest()[:n]
+
+
 def emit(records: list[dict], out_path: str | None) -> None:
     """Write records as JSONL (sorted by id) to out_path or stdout.
 
