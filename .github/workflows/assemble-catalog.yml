@@ -1,0 +1,58 @@
+name: assemble-catalog
+
+# Central assembly half of the "each repo updates its own contribution on merge
+# to main" mechanism (Lord Michael's asset-catalog directive). Estate repos push
+# their per-repo shard to datasets/<ds>/contributions/<repo>.jsonl (via the
+# git-ops-standards reusable workflow); this job concatenates+merges the shards
+# into the canonical corpus.jsonl, rebuilds derived views, validates, and commits
+# the assembled output back to main. FAIL-CLOSED: invalid output never lands.
+#
+# The path filter is scoped to contributions/** so the commit this job makes to
+# corpus.jsonl / derived views does NOT re-trigger it (no assembly loop).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "datasets/*/contributions/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: assemble-catalog
+  cancel-in-progress: false
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps (validator uses jsonschema)
+        run: pip install --quiet jsonschema
+
+      - name: Assemble every dataset from its contribution shards
+        # Auto-absorbs any legacy monolith on first run, then merges shards.
+        run: python3 tools/assemble_dataset.py --all
+
+      - name: Validate assembled output (fail closed)
+        run: python3 tools/validate_dataset_manifest.py
+
+      - name: Commit assembled corpus + derived views
+        run: |
+          set -euo pipefail
+          git config user.name  "catalog-assembler[bot]"
+          git config user.email "catalog-assembler[bot]@users.noreply.github.com"
+          git add datasets/*/corpus.jsonl \
+                  datasets/*/regex-corpus.jsonl \
+                  datasets/*/gbrg-blast-radius.jsonl 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no assembly changes to commit"
+          else
+            git commit -m "chore(catalog): assemble corpus from contribution shards [skip ci]"
+            git push
+          fi
