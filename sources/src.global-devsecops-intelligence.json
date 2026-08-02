@@ -22,7 +22,7 @@
   "policy": {
     "privacy_class": "restricted-public",
     "product_eligible": true,
-    "notes": "First-party estate repo (organization visibility), harvested read-only. License not machine-verified; see repo LICENSE. observed_at 2026-08-02. MIT verified; license class updated unknown->permissive 2026-08-02."
+    "notes": "First-party estate repo (organization visibility), harvested read-only. observed_at 2026-08-02. MIT verified; license class updated unknown->permissive 2026-08-02. License machine-verified MIT (permissive) 2026-08-02."
   },
   "provenance": {
     "strength": "primary",

@@ -13,7 +13,7 @@
       "type",
       "data"
     ],
-    "schema_uri": "https://github.com/SocioProphet/global-devsecops-intelligence/blob/main/open-ai4it-spec/contracts/schemas/event-envelope.schema.json"
+    "schema_uri": "https://github.com/SocioProphet/global-devsecops-intelligence/blob/63397561063cd73ec00e0ed1fb7f5ac0838f3d1c/open-ai4it-spec/contracts/schemas/event-envelope.schema.json"
   },
   "lineage": {
     "transform": "vendored hash-pinned into meshrush vendor/global-devsecops-intelligence (GDI-1) with PROVENANCE per-file sha256; weekly vendor-freshness sentinel",
