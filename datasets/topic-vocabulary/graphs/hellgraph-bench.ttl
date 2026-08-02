@@ -1,0 +1,2094 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-benchmark> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1> ;
+    skos:definition "'benchmark' — a high-signal concept in the exodus vocabulary (LDA topic 3), co-occurring with chunk, processing, retrieval, canonical, deterministic. Present across 9 estate repo(s): bsd-proof-program, contractforge, exodus, hellgraph-bench, human-digital-twin, model-governance-ledger…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "benchmark" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cluster> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-standards-storage (LDA topic 6), co-occurring with audit, tls, vault, security, service. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cluster" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cpu> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in tritfabric (LDA topic 5), co-occurring with gpu, mem, hour, usd, provider. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cpu" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-csr> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "csr" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-dgx> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 3), co-occurring with aws, gpu, efa, gteps, bandwidth. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "dgx" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-faster> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 0), co-occurring with gds, sssp, compute, win, bfs. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "faster" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-group> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "'group' — a high-signal concept in the openclaw vocabulary (LDA topic 1), co-occurring with message, channel, reply, telegram, discord. Present across 9 estate repo(s): Heller-Godel, api-contracts, delivery-excellence-automation, delivery-excellence-innersource, exodus, hellgraph-bench…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "group" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hbm> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 3), co-occurring with aws, gpu, efa, gteps, bandwidth. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hbm" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hell> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph (LDA topic 1), co-occurring with entry, atom, store, graph, backend. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hell" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hellgraph> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 1), co-occurring with artifact, gbrg, path, source, file. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hellgraph" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hpc7a> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 3), co-occurring with aws, gpu, efa, gteps, bandwidth. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hpc7a" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-instance> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "'instance' — a high-signal concept in the economic-prophet vocabulary (LDA topic 5), co-occurring with object, schema, path, components, weights. Present across 3 estate repo(s): economic-prophet, hellgraph-bench, sourceos-workspace." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "instance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-launch> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "'launch' — a high-signal concept in the sourceos-syncd vocabulary (LDA topic 7), co-occurring with policy, process, service, identity, event. Present across 3 estate repo(s): hellgraph-bench, sourceos-model-carry, sourceos-syncd." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "launch" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-millis> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 2), co-occurring with gds, sssp, win, bfs, neo4j. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "millis" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-placement> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in cloudshell-fog (LDA topic 1), co-occurring with session, cloudshell, policy, token, oidc. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "placement" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-single> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in superconscious (LDA topic 7), co-occurring with substrate, ndarray, real, regime, dof. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "single" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-source> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "'source' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, policy, kind, evidence. Present across 96 estate repo(s): BearBrowser, Heller-Godel, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "source" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-web> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in Noetica (LDA topic 0), co-occurring with kind, rel, line, lang, agent. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "web" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bfs> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "'bfs' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with gds, sssp, win, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "bfs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cdlp> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cdlp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-compute> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "'compute' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with google, terraform, provider, pull, resource. Present across 3 estate repo(s): hellgraph-bench, prophet-platform, sp-orchestrator." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "compute" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-csr> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "csr" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cuda> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 2), co-occurring with usize, msg, cugraph, cupy, cudf. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cuda" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-dst> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSA topic 2), co-occurring with edges, cugraph, gds, usize, msg. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "dst" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-east> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 4), co-occurring with ami, aws, hbm, xlarge, epyc. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "east" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-epyc> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'epyc' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 4), co-occurring with ami, aws, hbm, xlarge, spot. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "epyc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-f64> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'f64' — a high-signal concept in the hellgraph vocabulary (LDA topic 8), co-occurring with usize, vec, edges, boundary, owned. Present across 5 estate repo(s): hellgraph, hellgraph-bench, prophet-aggregate, prophet-truth, sp-orchestrator." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "f64" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-group> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1> ;
+    skos:definition "'group' — a high-signal concept in the openclaw vocabulary (LDA topic 1), co-occurring with message, channel, reply, telegram, discord. Present across 9 estate repo(s): Heller-Godel, api-contracts, delivery-excellence-automation, delivery-excellence-innersource, exodus, hellgraph-bench…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "group" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gteps> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1> ;
+    skos:definition "'gteps' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 3), co-occurring with aws, gpu, efa, bandwidth, group. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "gteps" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-h100> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in tritfabric (LDA topic 5), co-occurring with gpu, mem, hour, usd, provider. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "h100" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hell> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph (LDA topic 1), co-occurring with entry, atom, store, graph, backend. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hell" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hpc7a> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 3), co-occurring with aws, gpu, efa, gteps, bandwidth. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hpc7a" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-identical> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "identical" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-instance> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1> ;
+    skos:definition "'instance' — a high-signal concept in the economic-prophet vocabulary (LDA topic 5), co-occurring with object, schema, path, components, weights. Present across 3 estate repo(s): economic-prophet, hellgraph-bench, sourceos-workspace." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "instance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-instant> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'instant' — a high-signal concept in the prophet-aggregate vocabulary (LSI topic 7), co-occurring with f64, iri, reloaded, child, financial. Present across 2 estate repo(s): hellgraph-bench, prophet-aggregate." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "instant" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-iters> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSA topic 2), co-occurring with edges, cugraph, gds, usize, msg. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "iters" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-lcc> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "lcc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-line> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'line' — a high-signal concept in the prophet-platform vocabulary (LDA topic 9), co-occurring with text, optional, style, tuple, file. Present across 15 estate repo(s): BearBrowser, Noetica, TurtleTerm, cairnpath-mesh, contractforge, economic-prophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "line" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-millis> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 2), co-occurring with gds, sssp, win, bfs, neo4j. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "millis" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-oom> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSA topic 2), co-occurring with edges, cugraph, gds, usize, msg. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "oom" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-orkut> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "'orkut' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 0), co-occurring with gds, win, aws, faster, neo4j. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "orkut" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-quota> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'quota' — a high-signal concept in the model-router vocabulary (LDA topic 9), co-occurring with provider, available, tokens, local, estimated. Present across 3 estate repo(s): hellgraph-bench, model-router, sourceos-continuum." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "quota" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-receipts> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'receipts' — a high-signal concept in the sourceos-shell vocabulary (LDA topic 9), co-occurring with engine, srcos, helper, urn, policy. Present across 5 estate repo(s): BearBrowser, hellgraph-bench, prophet-core-catalog, sourceos-build, sourceos-shell." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "receipts" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-spot> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in tritfabric (LDA topic 5), co-occurring with gpu, mem, hour, usd, provider. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "spot" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-std> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'std' — a high-signal concept in the TurtleTerm vocabulary (LDA topic 2), co-occurring with raw, u32, extern, unsafe, image. Present across 10 estate repo(s): BearBrowser, TurtleTerm, alexandrian-academy, goose-notes, hellgraph, hellgraph-bench…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "std" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-wcc> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "wcc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-xlarge> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'xlarge' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 4), co-occurring with ami, aws, hbm, epyc, spot. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "xlarge" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-a100> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 4), co-occurring with ami, aws, hbm, xlarge, epyc. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "a100" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-benchmark> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "'benchmark' — a high-signal concept in the exodus vocabulary (LDA topic 3), co-occurring with chunk, processing, retrieval, canonical, deterministic. Present across 9 estate repo(s): bsd-proof-program, contractforge, exodus, hellgraph-bench, human-digital-twin, model-governance-ledger…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "benchmark" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-clean> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "'clean' — a high-signal concept in the holmes vocabulary (LDA topic 4), co-occurring with wall, synthesis, room, source, decision. Present across 8 estate repo(s): git-ops-standards, gitea-sovereign, hellgraph-bench, holmes, holmes-fix-search-wiring, prophet-core-catalog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "clean" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ddr> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 4), co-occurring with ami, aws, hbm, xlarge, epyc. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "ddr" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-dev> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2> ;
+    skos:definition "'dev' — a high-signal concept in the source-os vocabulary (LDA topic 2), co-occurring with workstation, bin, linux, sourceos, profiles. Present across 21 estate repo(s): BearBrowser, SourceOS, api-contracts, cairnpath-mesh, cloudshell-fog, enhancements…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "dev" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-east> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 4), co-occurring with ami, aws, hbm, xlarge, epyc. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "east" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-edges> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2> ;
+    skos:definition "'edges' — a high-signal concept in the Noetica vocabulary (LDA topic 2), co-occurring with label, rel, domain, neighbor, kbpedia. Present across 12 estate repo(s): Noetica, graphbrain-contract, hellgraph, hellgraph-bench, human-digital-twin, memory-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "edges" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-genoa> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 4), co-occurring with ami, aws, hbm, xlarge, epyc. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "genoa" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-google> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "'google' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with terraform, provider, compute, pull, resource. Present across 7 estate repo(s): exodus, goose-notes, hellgraph-bench, prophet-platform, prophet-workspace, semantic-serdes…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "google" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-group> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1> ;
+    skos:definition "'group' — a high-signal concept in the openclaw vocabulary (LDA topic 1), co-occurring with message, channel, reply, telegram, discord. Present across 9 estate repo(s): Heller-Godel, api-contracts, delivery-excellence-automation, delivery-excellence-innersource, exodus, hellgraph-bench…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "group" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hpc7a> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 3), co-occurring with aws, gpu, efa, gteps, bandwidth. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hpc7a" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-incumbents> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 0), co-occurring with gds, win, orkut, aws, faster. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "incumbents" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-instant> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'instant' — a high-signal concept in the prophet-aggregate vocabulary (LSI topic 7), co-occurring with f64, iri, reloaded, child, financial. Present across 2 estate repo(s): hellgraph-bench, prophet-aggregate." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "instant" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-line> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'line' — a high-signal concept in the prophet-platform vocabulary (LDA topic 9), co-occurring with text, optional, style, tuple, file. Present across 15 estate repo(s): BearBrowser, Noetica, TurtleTerm, cairnpath-mesh, contractforge, economic-prophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "line" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-louvain> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 0), co-occurring with gds, win, orkut, aws, faster. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "louvain" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-millis> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 2), co-occurring with gds, sssp, win, bfs, neo4j. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "millis" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-neo4j> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "neo4j" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-parallel> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "parallel" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-placement> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in cloudshell-fog (LDA topic 1), co-occurring with session, cloudshell, policy, token, oidc. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "placement" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-sssp> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "'sssp' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with gds, bfs, win, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "sssp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-wcc> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "wcc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-web> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in Noetica (LDA topic 0), co-occurring with kind, rel, line, lang, agent. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "web" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-clean> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2> ;
+    skos:definition "'clean' — a high-signal concept in the holmes vocabulary (LDA topic 4), co-occurring with wall, synthesis, room, source, decision. Present across 8 estate repo(s): git-ops-standards, gitea-sovereign, hellgraph-bench, holmes, holmes-fix-search-wiring, prophet-core-catalog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "clean" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-graphs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 1), co-occurring with gds, aws, neo4j, bfs, sssp. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "graphs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-ldbc> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 1), co-occurring with gds, aws, neo4j, bfs, sssp. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "ldbc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cuda> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 2), co-occurring with usize, msg, cugraph, cupy, cudf. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cuda" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-environ> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 2), co-occurring with usize, msg, cugraph, cupy, cudf. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "environ" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-oom> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSA topic 2), co-occurring with edges, cugraph, gds, usize, msg. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "oom" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-std> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'std' — a high-signal concept in the TurtleTerm vocabulary (LDA topic 2), co-occurring with raw, u32, extern, unsafe, image. Present across 10 estate repo(s): BearBrowser, TurtleTerm, alexandrian-academy, goose-notes, hellgraph, hellgraph-bench…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "std" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vram> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'vram' — a high-signal concept in the hellgraph-bench vocabulary (LSA topic 2), co-occurring with edges, cugraph, gds, usize, msg. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "vram" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bandwidth> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "'bandwidth' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 3), co-occurring with aws, gpu, efa, gteps, group. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "bandwidth" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gteps> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-edges> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "'edges' — a high-signal concept in the Noetica vocabulary (LDA topic 2), co-occurring with label, rel, domain, neighbor, kbpedia. Present across 12 estate repo(s): Noetica, graphbrain-contract, hellgraph, hellgraph-bench, human-digital-twin, memory-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "edges" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-efa> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "'efa' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 3), co-occurring with aws, gpu, gteps, bandwidth, group. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "efa" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gteps> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gteps> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "'gteps' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 3), co-occurring with aws, gpu, efa, bandwidth, group. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "gteps" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-benchmark> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'benchmark' — a high-signal concept in the exodus vocabulary (LDA topic 3), co-occurring with chunk, processing, retrieval, canonical, deterministic. Present across 9 estate repo(s): bsd-proof-program, contractforge, exodus, hellgraph-bench, human-digital-twin, model-governance-ledger…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "benchmark" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cudf> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'cudf' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 2), co-occurring with usize, msg, cugraph, cupy, u32. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cudf" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cupy> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'cupy' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 2), co-occurring with usize, msg, cugraph, cudf, u32. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cupy" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-environ> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LSI topic 2), co-occurring with usize, msg, cugraph, cupy, cudf. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "environ" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gpu> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1> ;
+    skos:definition "'gpu' — a high-signal concept in the tritfabric vocabulary (LDA topic 5), co-occurring with mem, hour, usd, provider, count. Present across 4 estate repo(s): hellgraph-bench, noetica-impair, sourceos-workspace, tritfabric." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "gpu" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-u32> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'u32' — a high-signal concept in the TurtleTerm vocabulary (LDA topic 2), co-occurring with std, raw, extern, unsafe, image. Present across 6 estate repo(s): TurtleTerm, hellgraph, hellgraph-bench, prophet-aggregate, prophet-sheaf, prophet-truth." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "u32" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vec> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-unwrap> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'unwrap' — a high-signal concept in the socios-installer vocabulary (LDA topic 1), co-occurring with buf, file, path, read, reader. Present across 9 estate repo(s): goose-notes, hellgraph, hellgraph-bench, nlboot, prophet-aggregate, prophet-sheaf…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "unwrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vec> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vec> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'vec' — a high-signal concept in the smart-tree vocabulary (LDA topic 7), co-occurring with path, context, session, content, project. Present across 14 estate repo(s): TurtleTerm, goose-notes, graphbrain-contract, hellgraph, hellgraph-bench, prophet-aggregate…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "vec" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vram> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'vram' — a high-signal concept in the hellgraph-bench vocabulary (LSA topic 2), co-occurring with edges, cugraph, gds, usize, msg. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "vram" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-bandwidth> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1> ;
+    skos:definition "'bandwidth' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 3), co-occurring with aws, gpu, efa, gteps, group. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "bandwidth" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-faster> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 0), co-occurring with gds, sssp, compute, win, bfs. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "faster" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-orkut>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-h100> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in tritfabric (LDA topic 5), co-occurring with gpu, mem, hour, usd, provider. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "h100" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-orkut> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "'orkut' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 0), co-occurring with gds, win, aws, faster, neo4j. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "orkut" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-quota> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "'quota' — a high-signal concept in the model-router vocabulary (LDA topic 9), co-occurring with provider, available, tokens, local, estimated. Present across 3 estate repo(s): hellgraph-bench, model-router, sourceos-continuum." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "quota" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-spot> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in tritfabric (LDA topic 5), co-occurring with gpu, mem, hour, usd, provider. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "spot" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-win> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> ;
+    skos:definition "'win' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with gds, sssp, bfs, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "win" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-orkut> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-identical> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "identical" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-lcc> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "lcc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-reached> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "reached" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "'compute' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with google, terraform, provider, pull, resource. Present across 3 estate repo(s): hellgraph-bench, prophet-platform, sp-orchestrator." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "compute" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'ami' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 4), co-occurring with aws, hbm, xlarge, epyc, spot. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "ami" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'bandwidth' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 3), co-occurring with aws, gpu, efa, gteps, group. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "bandwidth" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'efa' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 3), co-occurring with aws, gpu, gteps, bandwidth, group. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "efa" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 3), co-occurring with aws, gpu, efa, gteps, bandwidth. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hbm" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in liminal_backrooms (LDA topic 2), co-occurring with content, model, conversation, prompt, app. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "msg" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1> ;
+    skos:definition "'sssp' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with gds, bfs, win, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "sssp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'win' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with gds, sssp, bfs, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "win" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'cudf' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 2), co-occurring with usize, msg, cugraph, cupy, u32. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cudf" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'cugraph' — a high-signal concept in the hellgraph-bench vocabulary (LSA topic 2), co-occurring with edges, gds, usize, msg, vram. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cugraph" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'cupy' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 2), co-occurring with usize, msg, cugraph, cudf, u32. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cupy" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "'efa' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 3), co-occurring with aws, gpu, gteps, bandwidth, group. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "efa" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "'epyc' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 4), co-occurring with ami, aws, hbm, xlarge, spot. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "epyc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 3), co-occurring with aws, gpu, efa, gteps, bandwidth. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "hbm" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "'launch' — a high-signal concept in the sourceos-syncd vocabulary (LDA topic 7), co-occurring with policy, process, service, identity, event. Present across 3 estate repo(s): hellgraph-bench, sourceos-model-carry, sourceos-syncd." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "launch" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'u32' — a high-signal concept in the TurtleTerm vocabulary (LDA topic 2), co-occurring with std, raw, extern, unsafe, image. Present across 6 estate repo(s): TurtleTerm, hellgraph, hellgraph-bench, prophet-aggregate, prophet-sheaf, prophet-truth." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "u32" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'unwrap' — a high-signal concept in the socios-installer vocabulary (LDA topic 1), co-occurring with buf, file, path, read, reader. Present across 9 estate repo(s): goose-notes, hellgraph, hellgraph-bench, nlboot, prophet-aggregate, prophet-sheaf…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "unwrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "'vec' — a high-signal concept in the smart-tree vocabulary (LDA topic 7), co-occurring with path, context, session, content, project. Present across 14 estate repo(s): TurtleTerm, goose-notes, graphbrain-contract, hellgraph, hellgraph-bench, prophet-aggregate…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "vec" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "'xlarge' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 4), co-occurring with ami, aws, hbm, epyc, spot. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "xlarge" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cdlp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "'gpu' — a high-signal concept in the tritfabric vocabulary (LDA topic 5), co-occurring with mem, hour, usd, provider, count. Present across 4 estate repo(s): hellgraph-bench, noetica-impair, sourceos-workspace, tritfabric." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "gpu" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gteps> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "parallel" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "wcc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "neo4j" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'launch' — a high-signal concept in the sourceos-syncd vocabulary (LDA topic 7), co-occurring with policy, process, service, identity, event. Present across 3 estate repo(s): hellgraph-bench, sourceos-model-carry, sourceos-syncd." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "launch" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in liminal_backrooms (LDA topic 2), co-occurring with content, model, conversation, prompt, app. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "msg" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph-bench (LDA topic 4), co-occurring with gds, sssp, bfs, win, edges. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "neo4j" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "'win' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with gds, sssp, bfs, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "win" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "'cugraph' — a high-signal concept in the hellgraph-bench vocabulary (LSA topic 2), co-occurring with edges, gds, usize, msg, vram. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "cugraph" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vec> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "'bfs' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with gds, sssp, win, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "bfs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "'sssp' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with gds, bfs, win, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "sssp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 0 derived by latent Dirichlet allocation over the hellgraph-bench corpus; centres on the co-occurring vocabulary gds, sssp, compute, win, bfs — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-clean>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hellgraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-reached>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-clean>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hellgraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-reached>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> ;
+    skos:prefLabel "LDA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 1 derived by latent Dirichlet allocation over the hellgraph-bench corpus; centres on the co-occurring vocabulary gds, aws, neo4j, bfs, sssp — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-graphs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-ldbc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-graphs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-ldbc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> ;
+    skos:prefLabel "LDA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 2 derived by latent Dirichlet allocation over the hellgraph-bench corpus; centres on the co-occurring vocabulary gds, sssp, win, bfs, neo4j — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-clean>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-graphs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-ldbc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-reached>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-web>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-clean>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-graphs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-ldbc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-reached>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-web>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> ;
+    skos:prefLabel "LDA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 3 derived by latent Dirichlet allocation over the hellgraph-bench corpus; centres on the co-occurring vocabulary aws, gpu, efa, gteps, bandwidth — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cluster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-dgx>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gteps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hell>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-instance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-placement> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cluster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-dgx>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gteps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hell>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-instance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-placement> ;
+    skos:prefLabel "LDA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 4 derived by latent Dirichlet allocation over the hellgraph-bench corpus; centres on the co-occurring vocabulary gds, sssp, bfs, win, edges — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-csr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-reached>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-csr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-reached>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> ;
+    skos:prefLabel "LDA topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the hellgraph-bench corpus; centres on the co-occurring vocabulary gds, neo4j, aws, sssp, win — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hell>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-orkut>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hell>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-orkut>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win> ;
+    skos:prefLabel "LSA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the hellgraph-bench corpus; centres on the co-occurring vocabulary aws, efa, launch, gpu, bandwidth — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gteps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-instance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gteps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-instance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> ;
+    skos:prefLabel "LSA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the hellgraph-bench corpus; centres on the co-occurring vocabulary edges, cugraph, gds, usize, msg — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cuda>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-dst>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-iters>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-oom>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vram> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cuda>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-dst>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-iters>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-oom>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vram> ;
+    skos:prefLabel "LSA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the hellgraph-bench corpus; centres on the co-occurring vocabulary usize, u32, vec, cugraph, unwrap — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-csr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-f64>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-instant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-line>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-std>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vec>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vram> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-csr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-f64>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-instant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-line>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-std>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vec>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vram> ;
+    skos:prefLabel "LSA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 4 derived by latent-semantic analysis (TruncatedSVD) over the hellgraph-bench corpus; centres on the co-occurring vocabulary aws, ami, hbm, benchmark, launch — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-east>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-receipts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-xlarge> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-east>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-receipts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-xlarge> ;
+    skos:prefLabel "LSA topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 0 derived by latent-semantic indexing (gensim LSI) over the hellgraph-bench corpus; centres on the co-occurring vocabulary gds, win, orkut, aws, faster — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-clean>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-google>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-incumbents>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-louvain>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-orkut>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-web>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-win> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-clean>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-google>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-incumbents>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-louvain>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-orkut>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-web>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-win> ;
+    skos:prefLabel "LSI topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 1 derived by latent-semantic indexing (gensim LSI) over the hellgraph-bench corpus; centres on the co-occurring vocabulary aws, launch, efa, bandwidth, ami — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-placement>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-placement>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> ;
+    skos:prefLabel "LSI topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 2 derived by latent-semantic indexing (gensim LSI) over the hellgraph-bench corpus; centres on the co-occurring vocabulary usize, msg, cugraph, cupy, cudf — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cuda>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-oom>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-std>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vram> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cuda>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-oom>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-std>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vram> ;
+    skos:prefLabel "LSI topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 3 derived by latent-semantic indexing (gensim LSI) over the hellgraph-bench corpus; centres on the co-occurring vocabulary usize, u32, msg, unwrap, vec — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cuda>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-instant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-line>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-oom>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-std>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vram> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cuda>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-instant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-line>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-oom>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-std>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vram> ;
+    skos:prefLabel "LSI topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 4 derived by latent-semantic indexing (gensim LSI) over the hellgraph-bench corpus; centres on the co-occurring vocabulary ami, aws, hbm, xlarge, epyc — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-a100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ddr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-east>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-genoa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-a100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ddr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-east>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-genoa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> ;
+    skos:prefLabel "LSI topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2> ;
+    skos:definition "'edges' — a high-signal concept in the Noetica vocabulary (LDA topic 2), co-occurring with label, rel, domain, neighbor, kbpedia. Present across 12 estate repo(s): Noetica, graphbrain-contract, hellgraph, hellgraph-bench, human-digital-twin, memory-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "edges" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cuda>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-dst>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-iters>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-oom>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vram> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1> ;
+    skos:definition "'gds' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with sssp, bfs, win, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "gds" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-clean>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-google>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-incumbents>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-louvain>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-orkut>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-web>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "'ami' — a high-signal concept in the hellgraph-bench vocabulary (LSI topic 4), co-occurring with aws, hbm, xlarge, epyc, spot. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "ami" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-a100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ddr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-east>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-genoa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-usize> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 7), co-occurring with line, cursor, cell, term, row. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "usize" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cuda>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-instant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-line>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-oom>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-std>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vec>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-vram> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-3> ;
+    skos:definition "'aws' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 4), co-occurring with role, iam, policy, user, arn. Present across 4 estate repo(s): SCOPE-D, api-contracts, hellgraph-bench, socioprophet-standards-storage." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "aws" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cluster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-dgx>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gteps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hell>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-instance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-placement>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2> ;
+    skos:definition "'gds' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with sssp, bfs, win, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "gds" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hell>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-orkut>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 7), co-occurring with line, cursor, cell, term, row. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "usize" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-csr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cudf>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cupy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-environ>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-f64>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-instant>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-line>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-msg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-std>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-u32>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-unwrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vec>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-vram> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-aws> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-topic-4> ;
+    skos:definition "'aws' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 4), co-occurring with role, iam, policy, user, arn. Present across 4 estate repo(s): SCOPE-D, api-contracts, hellgraph-bench, socioprophet-standards-storage." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "aws" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-orkut>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-placement>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-win>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSI-xlarge> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gds> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-topic-4> ;
+    skos:definition "'gds' — a high-signal concept in the hellgraph-bench vocabulary (LDA topic 4), co-occurring with sssp, bfs, win, edges, compute. Present across 1 estate repo(s): hellgraph-bench." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "gds" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-aws>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-bfs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-cdlp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-clean>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-compute>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-csr>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-faster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-graphs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-hellgraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-identical>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-lcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-ldbc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-millis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-parallel>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-reached>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-wcc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-web>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LDA-win> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-aws> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-topic-4> ;
+    skos:definition "'aws' — a high-signal concept in the SCOPE-D vocabulary (LDA topic 4), co-occurring with role, iam, policy, user, arn. Present across 4 estate repo(s): SCOPE-D, api-contracts, hellgraph-bench, socioprophet-standards-storage." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> ;
+    skos:prefLabel "aws" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-ami>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-bandwidth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-benchmark>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-cugraph>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-east>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-edges>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-efa>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-epyc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gpu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-group>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-gteps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-h100>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hbm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-hpc7a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-instance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-launch>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-neo4j>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-quota>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-receipts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-spot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-sssp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-usize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-win>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench#LSA-xlarge> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/hellgraph-bench> a skos:ConceptScheme ;
+    rdfs:label "hellgraph-bench" ;
+    dct:title "Topic vocabulary — hellgraph-bench" .
+

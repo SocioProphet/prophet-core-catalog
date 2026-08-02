@@ -1,0 +1,1952 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-argparse> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 1), co-occurring with target, jcs, binascii, dry, carrier. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "argparse" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-blake3> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> ;
+    skos:definition "'blake3' — a high-signal concept in the exodus vocabulary (LDA topic 2), co-occurring with artifact, hash, path, event, registry. Present across 5 estate repo(s): exodus, new-hope, newhope-slash-topics-integration, slash-topics, sourceos-a2a-mcp-bootstrap." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "blake3" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bootstrap> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "'bootstrap' — a high-signal concept in the agent-machine vocabulary (LDA topic 8), co-occurring with activation, runtime, evidence, local, release. Present across 9 estate repo(s): agent-machine, memory-mesh, prophet-cli, socioprophet-agent-standards, socios, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "bootstrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bytearray> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 1), co-occurring with target, jcs, binascii, dry, carrier. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "bytearray" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bytes> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "'bytes' — a high-signal concept in the tritrpc vocabulary (LDA topic 0), co-occurring with len, payload, frame, stream, kind. Present across 23 estate repo(s): SourceOS, bsd-proof-program, cairnpath-mesh, exodus, goose-notes, hellgraph…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "bytes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-checkout> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 22 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "checkout" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dev> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "'dev' — a high-signal concept in the source-os vocabulary (LDA topic 2), co-occurring with workstation, bin, linux, sourceos, profiles. Present across 21 estate repo(s): BearBrowser, SourceOS, api-contracts, cairnpath-mesh, cloudshell-fog, enhancements…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "dev" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-digest> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 31 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "digest" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dumps> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "'dumps' — a high-signal concept in the sourceos-a2a-mcp-bootstrap vocabulary (LDA topic 3), co-occurring with path, fail, carrier, jcs, target. Present across 2 estate repo(s): evidence-intake-kernel, sourceos-a2a-mcp-bootstrap." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "dumps" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-final> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in graphbrain-contract (LDA topic 5), co-occurring with contract, graphbrain, pack, batch, repo. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "final" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-install> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 5), co-occurring with gateway, openclaw, cli, port, open. Appears in 38 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "install" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-latest> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in git-ops-standards (LDA topic 2), co-occurring with findings, branch, repos, high, health. Appears in 20 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "latest" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-locally> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in cloudshell-fog (LDA topic 6), co-occurring with cosign, oci, chains, artifacts, tekton. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "locally" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-make> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "'make' — a high-signal concept in the nlboot vocabulary (LDA topic 8), co-occurring with release, rust, nlboot, run, client. Present across 29 estate repo(s): agent-machine, agent-term, cloudshell-fog, embeddinglab, global-devsecops-intelligence, graphlab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "make" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-payload> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 6), co-occurring with url, opts, client, err, timeout. Appears in 36 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "payload" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pip3> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 2), co-occurring with run, uses, actions, python, pull. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "pip3" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-push> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in SCOPE-D (LDA topic 9), co-occurring with path, run, dir, join, file. Appears in 19 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "push" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-request> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "'request' — a high-signal concept in the prophet-platform vocabulary (LDA topic 4), co-occurring with response, headers, tone, event, skin. Present across 40 estate repo(s): SCOPE-D, agent-term, api-contracts, bsd-proof-program, contractforge, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "request" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-requirements> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-build (LDA topic 1), co-occurring with required, properties, request, schema, object. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "requirements" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-rpc> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "'rpc' — a high-signal concept in the tritfabric vocabulary (LDA topic 0), co-occurring with trit, avro, ternary, schema, context. Present across 13 estate repo(s): SourceOS, imagelab, lampstand, new-hope, ocrlab, sherlock-search…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "rpc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-runs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 17 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "runs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-secrets> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "'secrets' — a high-signal concept in the socioprophet-dotgithub vocabulary (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Present across 16 estate repo(s): delivery-excellence-boards, delivery-excellence-bounties, global-devsecops-intelligence, graphlab, hyperswarm-agent-composable-cluster-scaleup, nlplab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "secrets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-servers> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 0), co-occurring with a2a, mcp, live, dry, local. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "servers" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-sig> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 1), co-occurring with spiffe, hash, sha256, validators, worm. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "sig" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-single> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in superconscious (LDA topic 7), co-occurring with substrate, ndarray, real, regime, dof. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "single" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-sourceos> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 0), co-occurring with wezterm, turtle, lua, term, path. Appears in 43 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "sourceos" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-time> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 5), co-occurring with schema, label, array, properties, number. Appears in 30 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "time" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-typing> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in agentos-starter (LDA topic 6), co-occurring with witness, scope, bundle, grade, tri. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "typing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-ubuntu> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in delivery-excellence-automation (LDA topic 5), co-occurring with python, validate, pip, actions, uses. Appears in 16 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "ubuntu" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uds> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 0), co-occurring with a2a, mcp, live, dry, local. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "uds" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bytes> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "'bytes' — a high-signal concept in the tritrpc vocabulary (LDA topic 0), co-occurring with len, payload, frame, stream, kind. Present across 23 estate repo(s): SourceOS, bsd-proof-program, cairnpath-mesh, exodus, goose-notes, hellgraph…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "bytes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-carrier> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 3), co-occurring with repo, graph, manifest, loop, chronos. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "carrier" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-hashlib> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LSI topic 0), co-occurring with path, fail, target, jcs, sig. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "hashlib" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-jcs> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 2), co-occurring with path, envelope, schema, files, missing. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "jcs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-jobs> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in workstation-contracts (LDA topic 7), co-occurring with python, uses, actions, validate, read. Appears in 15 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "jobs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-latest> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in git-ops-standards (LDA topic 2), co-occurring with findings, branch, repos, high, health. Appears in 20 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "latest" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-opens> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LSA topic 3), co-occurring with socioprophet, local, a2a, live, bootstrap. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "opens" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-payload> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 6), co-occurring with url, opts, client, err, timeout. Appears in 36 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "payload" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-prophet> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1> ;
+    skos:definition "'prophet' — a high-signal concept in the sociosphere vocabulary (LDA topic 6), co-occurring with socio, repo, runtime, policy, evidence. Present across 76 estate repo(s): ProCybernetica, agent-registry, agent-term, agentos-spine, agentos-starter, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "prophet" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pull> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "'pull' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with google, terraform, provider, compute, resource. Present across 20 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, delivery-excellence-innersource, functional-model-surfaces, gitea-sovereign…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "pull" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-push> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in SCOPE-D (LDA topic 9), co-occurring with path, run, dir, join, file. Appears in 19 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "push" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-request> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "'request' — a high-signal concept in the prophet-platform vocabulary (LDA topic 4), co-occurring with response, headers, tone, event, skin. Present across 40 estate repo(s): SCOPE-D, agent-term, api-contracts, bsd-proof-program, contractforge, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "request" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requirements> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-build (LDA topic 1), co-occurring with required, properties, request, schema, object. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "requirements" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-rpc> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "'rpc' — a high-signal concept in the tritfabric vocabulary (LDA topic 0), co-occurring with trit, avro, ternary, schema, context. Present across 13 estate repo(s): SourceOS, imagelab, lampstand, new-hope, ocrlab, sherlock-search…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "rpc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-runs> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 17 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "runs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-secrets> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1> ;
+    skos:definition "'secrets' — a high-signal concept in the socioprophet-dotgithub vocabulary (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Present across 16 estate repo(s): delivery-excellence-boards, delivery-excellence-bounties, global-devsecops-intelligence, graphlab, hyperswarm-agent-composable-cluster-scaleup, nlplab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "secrets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-setup> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "setup" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sockets> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LSI topic 3), co-occurring with socioprophet, local, a2a, live, locally. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "sockets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sourceos> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 0), co-occurring with wezterm, turtle, lua, term, path. Appears in 43 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "sourceos" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-status> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 67 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "status" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-steps> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in identity-is-prime-reference (LDA topic 4), co-occurring with state, entity, cost, record, threshold. Appears in 20 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "steps" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-target> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 6), co-occurring with url, opts, client, err, timeout. Appears in 28 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "target" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-targets> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socios-installer (LDA topic 9), co-occurring with cargo, run, cache, arch, rust. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "targets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-time> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 5), co-occurring with schema, label, array, properties, number. Appears in 30 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "time" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-ubuntu> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in delivery-excellence-automation (LDA topic 5), co-occurring with python, validate, pip, actions, uses. Appears in 16 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "ubuntu" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-unhexlify> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LSI topic 0), co-occurring with path, fail, target, jcs, sig. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "unhexlify" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-binascii> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 3), co-occurring with path, fail, carrier, jcs, target. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "binascii" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-body> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 4), co-occurring with request, response, headers, tone, event. Appears in 17 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "body" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bytes> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "'bytes' — a high-signal concept in the tritrpc vocabulary (LDA topic 0), co-occurring with len, payload, frame, stream, kind. Present across 23 estate repo(s): SourceOS, bsd-proof-program, cairnpath-mesh, exodus, goose-notes, hellgraph…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "bytes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-checkout> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 22 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "checkout" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-digest> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 31 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "digest" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-dumps> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "'dumps' — a high-signal concept in the sourceos-a2a-mcp-bootstrap vocabulary (LDA topic 3), co-occurring with path, fail, carrier, jcs, target. Present across 2 estate repo(s): evidence-intake-kernel, sourceos-a2a-mcp-bootstrap." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "dumps" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-file> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "'file' — a high-signal concept in the prophet-platform vocabulary (LDA topic 9), co-occurring with text, line, optional, style, tuple. Present across 64 estate repo(s): Heller-Godel, Heller-Winters-Theorem, Noetica, SCOPE-D, TurtleTerm, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "file" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-final> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in graphbrain-contract (LDA topic 5), co-occurring with contract, graphbrain, pack, batch, repo. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "final" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-hashlib> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LSI topic 0), co-occurring with path, fail, target, jcs, sig. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "hashlib" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-latest> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in git-ops-standards (LDA topic 2), co-occurring with findings, branch, repos, high, health. Appears in 20 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "latest" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-make> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1> ;
+    skos:definition "'make' — a high-signal concept in the nlboot vocabulary (LDA topic 8), co-occurring with release, rust, nlboot, run, client. Present across 29 estate repo(s): agent-machine, agent-term, cloudshell-fog, embeddinglab, global-devsecops-intelligence, graphlab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "make" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-makefile> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in homebrew-prophet (LDA topic 6), co-occurring with validate, formulae, checkout, actions, uses. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "makefile" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-payload> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 6), co-occurring with url, opts, client, err, timeout. Appears in 36 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "payload" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-pip3> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 2), co-occurring with run, uses, actions, python, pull. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "pip3" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-pull> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "'pull' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with google, terraform, provider, compute, resource. Present across 20 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, delivery-excellence-innersource, functional-model-surfaces, gitea-sovereign…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "pull" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-push> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in SCOPE-D (LDA topic 9), co-occurring with path, run, dir, join, file. Appears in 19 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "push" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requirements> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-build (LDA topic 1), co-occurring with required, properties, request, schema, object. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "requirements" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-rpc> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "'rpc' — a high-signal concept in the tritfabric vocabulary (LDA topic 0), co-occurring with trit, avro, ternary, schema, context. Present across 13 estate repo(s): SourceOS, imagelab, lampstand, new-hope, ocrlab, sherlock-search…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "rpc" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-runs> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 17 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "runs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-secrets> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "'secrets' — a high-signal concept in the socioprophet-dotgithub vocabulary (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Present across 16 estate repo(s): delivery-excellence-boards, delivery-excellence-bounties, global-devsecops-intelligence, graphlab, hyperswarm-agent-composable-cluster-scaleup, nlplab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "secrets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-servers> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 0), co-occurring with a2a, mcp, live, dry, local. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "servers" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-setup> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 4), co-occurring with python, validate, scripts, install, uses. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "setup" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sourceos> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 0), co-occurring with wezterm, turtle, lua, term, path. Appears in 43 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "sourceos" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-steps> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in identity-is-prime-reference (LDA topic 4), co-occurring with state, entity, cost, record, threshold. Appears in 20 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "steps" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-time> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 5), co-occurring with schema, label, array, properties, number. Appears in 30 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "time" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-token> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 6), co-occurring with lexer, text, keyword, whitespace, pygments. Appears in 29 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "token" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-trit> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1> ;
+    skos:definition "'trit' — a high-signal concept in the tritfabric vocabulary (LDA topic 0), co-occurring with avro, rpc, ternary, schema, context. Present across 5 estate repo(s): new-hope, sourceos-a2a-mcp-bootstrap, tritfabric, tritrpc, workstation-contracts." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "trit" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-ubuntu> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in delivery-excellence-automation (LDA topic 5), co-occurring with python, validate, pip, actions, uses. Appears in 16 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "ubuntu" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-unhexlify> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LSI topic 0), co-occurring with path, fail, target, jcs, sig. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "unhexlify" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requires> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in guardrail-fabric (LDA topic 6), co-occurring with claim, policy, decision, action, admission. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "requires" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sockets> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LSI topic 3), co-occurring with socioprophet, local, a2a, live, locally. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "sockets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-targets> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socios-installer (LDA topic 9), co-occurring with cargo, run, cache, arch, rust. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "targets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uds> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 0), co-occurring with a2a, mcp, live, dry, local. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "uds" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-vault> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "'vault' — a high-signal concept in the socioprophet-standards-storage vocabulary (LDA topic 6), co-occurring with audit, tls, security, service, fips. Present across 4 estate repo(s): goose-notes, prophet-workspace, socioprophet-standards-storage, sourceos-a2a-mcp-bootstrap." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "vault" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-actions> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 6), co-occurring with action, mail, layer, api, open. Appears in 48 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "actions" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-fail> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "'fail' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, missing. Present across 38 estate repo(s): SCOPE-D, SourceOS, agent-registry, agentplane, alexandrian-academy, delivery-excellence…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "fail" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-file> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "'file' — a high-signal concept in the prophet-platform vocabulary (LDA topic 9), co-occurring with text, line, optional, style, tuple. Present across 64 estate repo(s): Heller-Godel, Heller-Winters-Theorem, Noetica, SCOPE-D, TurtleTerm, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "file" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-live> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in SCOPE-D (LDA topic 3), co-occurring with scan, operator, schema, policy, execution. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "live" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-local> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "'local' — a high-signal concept in the Noetica vocabulary (LDA topic 9), co-occurring with noetica, model, provider, agent, status. Present across 49 estate repo(s): Heller-Godel, Heller-Winters-Theorem, Noetica, SourceOS, TurtleTerm, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "local" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-prophet> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> ;
+    skos:definition "'prophet' — a high-signal concept in the sociosphere vocabulary (LDA topic 6), co-occurring with socio, repo, runtime, policy, evidence. Present across 76 estate repo(s): ProCybernetica, agent-registry, agent-term, agentos-spine, agentos-starter, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "prophet" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pull> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "'pull' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with google, terraform, provider, compute, resource. Present across 20 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, delivery-excellence-innersource, functional-model-surfaces, gitea-sovereign…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "pull" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uses> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "'uses' — a high-signal concept in the memory-mesh vocabulary (LDA topic 4), co-occurring with python, validate, scripts, install, run. Present across 46 estate repo(s): HolographMe, agent-registry, cloudshell-fog, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "uses" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-actions> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 6), co-occurring with action, mail, layer, api, open. Appears in 48 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "actions" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-binascii> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 3), co-occurring with path, fail, carrier, jcs, target. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "binascii" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sig> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dry> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "'dry' — a high-signal concept in the ProCybernetica vocabulary (LDA topic 1), co-occurring with policy, run, gate, admission, prophet. Present across 19 estate repo(s): ProCybernetica, SourceOS, agent-registry, agent-term, global-devsecops-intelligence, guardrail-fabric…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "dry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dumps> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "'dumps' — a high-signal concept in the sourceos-a2a-mcp-bootstrap vocabulary (LDA topic 3), co-occurring with path, fail, carrier, jcs, target. Present across 2 estate repo(s): evidence-intake-kernel, sourceos-a2a-mcp-bootstrap." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "dumps" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sig> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-fail> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "'fail' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, missing. Present across 38 estate repo(s): SCOPE-D, SourceOS, agent-registry, agentplane, alexandrian-academy, delivery-excellence…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "fail" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sig> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-locally> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in cloudshell-fog (LDA topic 6), co-occurring with cosign, oci, chains, artifacts, tekton. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "locally" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-make> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "'make' — a high-signal concept in the nlboot vocabulary (LDA topic 8), co-occurring with release, rust, nlboot, run, client. Present across 29 estate repo(s): agent-machine, agent-term, cloudshell-fog, embeddinglab, global-devsecops-intelligence, graphlab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "make" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-makefile> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in homebrew-prophet (LDA topic 6), co-occurring with validate, formulae, checkout, actions, uses. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "makefile" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pip3> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 2), co-occurring with run, uses, actions, python, pull. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "pip3" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requires> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in guardrail-fabric (LDA topic 6), co-occurring with claim, policy, decision, action, admission. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "requires" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sig> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 1), co-occurring with spiffe, hash, sha256, validators, worm. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "sig" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-actions> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 6), co-occurring with action, mail, layer, api, open. Appears in 48 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "actions" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bootstrap> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1> ;
+    skos:definition "'bootstrap' — a high-signal concept in the agent-machine vocabulary (LDA topic 8), co-occurring with activation, runtime, evidence, local, release. Present across 9 estate repo(s): agent-machine, memory-mesh, prophet-cli, socioprophet-agent-standards, socios, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "bootstrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-fail> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "'fail' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, missing. Present across 38 estate repo(s): SCOPE-D, SourceOS, agent-registry, agentplane, alexandrian-academy, delivery-excellence…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "fail" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-install> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 5), co-occurring with gateway, openclaw, cli, port, open. Appears in 38 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "install" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jcs> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 2), co-occurring with path, envelope, schema, files, missing. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "jcs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jobs> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in workstation-contracts (LDA topic 7), co-occurring with python, uses, actions, validate, read. Appears in 15 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "jobs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-locally> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in cloudshell-fog (LDA topic 6), co-occurring with cosign, oci, chains, artifacts, tekton. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "locally" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-mcp> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 7), co-occurring with path, context, vec, session, content. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "mcp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-python> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "'python' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 2), co-occurring with awesome, media, png, icon, open. Present across 45 estate repo(s): HolographMe, SourceOS, agent-term, agentos-starter, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "python" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sig> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 1), co-occurring with spiffe, hash, sha256, validators, worm. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "sig" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-target> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 6), co-occurring with url, opts, client, err, timeout. Appears in 28 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "target" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sig> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in SCOPE-D (LDA topic 3), co-occurring with scan, operator, schema, policy, execution. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "live" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-a2a-mcp-bootstrap (LDA topic 3), co-occurring with path, fail, carrier, jcs, target. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "binascii" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 7), co-occurring with path, context, vec, session, content. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "mcp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> ;
+    skos:definition "'python' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 2), co-occurring with awesome, media, png, icon, open. Present across 45 estate repo(s): HolographMe, SourceOS, agent-term, agentos-starter, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "python" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 7), co-occurring with mcp, description, hash, grant, tool. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "a2a" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "'bootstrap' — a high-signal concept in the agent-machine vocabulary (LDA topic 8), co-occurring with activation, runtime, evidence, local, release. Present across 9 estate repo(s): agent-machine, memory-mesh, prophet-cli, socioprophet-agent-standards, socios, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "bootstrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in SCOPE-D (LDA topic 3), co-occurring with scan, operator, schema, policy, execution. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "live" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "'local' — a high-signal concept in the Noetica vocabulary (LDA topic 9), co-occurring with noetica, model, provider, agent, status. Present across 49 estate repo(s): Heller-Godel, Heller-Winters-Theorem, Noetica, SourceOS, TurtleTerm, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "local" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "'python' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 2), co-occurring with awesome, media, png, icon, open. Present across 45 estate repo(s): HolographMe, SourceOS, agent-term, agentos-starter, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "python" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "'run' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, store, state, main. Present across 91 estate repo(s): BearBrowser, Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "run" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 2), co-occurring with path, envelope, schema, files, missing. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "jcs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 7), co-occurring with mcp, description, hash, grant, tool. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "a2a" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "'local' — a high-signal concept in the Noetica vocabulary (LDA topic 9), co-occurring with noetica, model, provider, agent, status. Present across 49 estate repo(s): Heller-Godel, Heller-Winters-Theorem, Noetica, SourceOS, TurtleTerm, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "local" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 3), co-occurring with repo, graph, manifest, loop, chronos. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "carrier" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "'dry' — a high-signal concept in the ProCybernetica vocabulary (LDA topic 1), co-occurring with policy, run, gate, admission, prophet. Present across 19 estate repo(s): ProCybernetica, SourceOS, agent-registry, agent-term, global-devsecops-intelligence, guardrail-fabric…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "dry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 0 derived by latent Dirichlet allocation over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary a2a, mcp, live, dry, local — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-final>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-servers>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-sourceos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uds> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-final>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-servers>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-sourceos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uds> ;
+    skos:prefLabel "LDA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 1 derived by latent Dirichlet allocation over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary target, jcs, binascii, dry, carrier — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-argparse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-blake3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bytearray>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-typing> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-argparse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-blake3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bytearray>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-typing> ;
+    skos:prefLabel "LDA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 2 derived by latent Dirichlet allocation over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary run, uses, actions, python, pull — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-checkout>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-request>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-checkout>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-request>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uses> ;
+    skos:prefLabel "LDA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 3 derived by latent Dirichlet allocation over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary path, fail, carrier, jcs, target — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-time> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-time> ;
+    skos:prefLabel "LDA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary path, fail, sig, dumps, binascii — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-hashlib>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-time>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-unhexlify> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-hashlib>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-time>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-unhexlify> ;
+    skos:prefLabel "LSA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary mcp, socioprophet, a2a, bootstrap, local — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sourceos> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sourceos> ;
+    skos:prefLabel "LSA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary uses, actions, python, run, pip3 — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-request>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-setup>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-request>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-setup>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> ;
+    skos:prefLabel "LSA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary socioprophet, local, a2a, live, bootstrap — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-opens>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sockets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-status>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-targets> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-opens>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sockets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-status>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-targets> ;
+    skos:prefLabel "LSA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 0 derived by latent-semantic indexing (gensim LSI) over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary path, fail, target, jcs, sig — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-body>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-hashlib>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-time>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-unhexlify> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-body>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-hashlib>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-time>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-unhexlify> ;
+    skos:prefLabel "LSI topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 1 derived by latent-semantic indexing (gensim LSI) over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary socioprophet, mcp, a2a, bootstrap, local — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-final>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sockets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sourceos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-targets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-trit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-vault> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-final>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sockets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sourceos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-targets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-trit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-vault> ;
+    skos:prefLabel "LSI topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 2 derived by latent-semantic indexing (gensim LSI) over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary uses, actions, python, install, jobs — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-checkout>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-setup>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-checkout>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-setup>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> ;
+    skos:prefLabel "LSI topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 3 derived by latent-semantic indexing (gensim LSI) over the sourceos-a2a-mcp-bootstrap corpus; centres on the co-occurring vocabulary socioprophet, local, a2a, live, locally — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-servers>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sockets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-targets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-token>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-vault> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-servers>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sockets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-targets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-token>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-vault> ;
+    skos:prefLabel "LSI topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-a2a> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in mcp-a2a-zero-trust (LDA topic 7), co-occurring with mcp, description, hash, grant, tool. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "a2a" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-final>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-servers>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-sourceos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uds> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-time> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 7), co-occurring with path, context, vec, session, content. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "mcp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sourceos> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-uses> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-2> ;
+    skos:definition "'uses' — a high-signal concept in the memory-mesh vocabulary (LDA topic 4), co-occurring with python, validate, scripts, install, run. Present across 46 estate repo(s): HolographMe, agent-registry, cloudshell-fog, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "uses" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-request>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-setup>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-ubuntu> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-path> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-0> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-body>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-hashlib>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-time>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-unhexlify> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uses> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-2> ;
+    skos:definition "'uses' — a high-signal concept in the memory-mesh vocabulary (LDA topic 4), co-occurring with python, validate, scripts, install, run. Present across 46 estate repo(s): HolographMe, agent-registry, cloudshell-fog, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "uses" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-checkout>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-jobs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-setup>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-ubuntu> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-run> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "'run' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, store, state, main. Present across 91 estate repo(s): BearBrowser, Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "run" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-checkout>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-install>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pip3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-pull>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-request>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-requirements>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-runs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-ubuntu>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-path> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bytes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dumps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-hashlib>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-payload>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sig>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-time>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-unhexlify> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-socioprophet> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-standards-storage (LDA topic 6), co-occurring with audit, tls, vault, security, service. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "socioprophet" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-opens>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-sockets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-status>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSA-targets> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-target> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 6), co-occurring with url, opts, client, err, timeout. Appears in 28 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "target" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-argparse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-binascii>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-blake3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-bytearray>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-carrier>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-jcs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-prophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LDA-typing> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-socioprophet> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-standards-storage (LDA topic 6), co-occurring with audit, tls, vault, security, service. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> ;
+    skos:prefLabel "socioprophet" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-a2a>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-final>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-live>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-locally>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-make>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-makefile>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-mcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-rpc>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-servers>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sockets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-sourceos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-targets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-token>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-trit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-uds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap#LSI-vault> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/sourceos-a2a-mcp-bootstrap> a skos:ConceptScheme ;
+    rdfs:label "sourceos-a2a-mcp-bootstrap" ;
+    dct:title "Topic vocabulary — sourceos-a2a-mcp-bootstrap" .
+

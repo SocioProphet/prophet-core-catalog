@@ -1,0 +1,2156 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-autonomous> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 3), co-occurring with authority, band, high, blocked, effective. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "autonomous" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-block> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "'block' — a high-signal concept in the economic-prophet vocabulary (LDA topic 9), co-occurring with idx, raw, lines, strip, parent. Present across 9 estate repo(s): SCOPE-D, economic-prophet, exodus, gitea-sovereign, graphbrain-contract, guardrail-fabric…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "block" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocks> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 1), co-occurring with gaia, policy, auditable, provenance, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "blocks" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-carry> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "'carry' — a high-signal concept in the Heller-Godel vocabulary (LDA topic 0), co-occurring with level, fnd, symbol, text, tame. Present across 12 estate repo(s): Heller-Godel, embeddinglab, functional-model-surfaces, graphlab, imagelab, nlplab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "carry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-dir> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-embedding> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in embeddinglab (LDA topic 2), co-occurring with service, model, prophet, socio, smoke. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "embedding" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-event> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "'event' — a high-signal concept in the prophet-platform vocabulary (LDA topic 4), co-occurring with request, response, headers, tone, skin. Present across 63 estate repo(s): BearBrowser, Heller-Godel, Noetica, ProCybernetica, SCOPE-D, TurtleTerm…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "event" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-fields> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'fields' — a high-signal concept in the socioprophet-agent-standards vocabulary (LDA topic 2), co-occurring with decision, required, status, policy, description. Present across 12 estate repo(s): HolographMe, cairnpath-mesh, contractforge, delivery-excellence, delivery-excellence-boards, functional-model-surfaces…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "fields" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-human> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "'human' — a high-signal concept in the ProCybernetica vocabulary (LDA topic 9), co-occurring with layer, term, prim, confidence, missing. Present across 19 estate repo(s): HolographMe, ProCybernetica, SourceOS, agent-term, cairnpath-mesh, delivery-excellence…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "human" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-inputs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 9), co-occurring with scope, required, scaffold, purpose, definitions. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "inputs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-isinstance> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 8), co-occurring with path, repo, root, registry, missing. Appears in 15 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "isinstance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-level> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 9), co-occurring with session, agent, run, store, state. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "level" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-observe> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 3), co-occurring with authority, band, high, blocked, effective. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "observe" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-passed> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 2), co-occurring with proof, claim, profile, workspace, check. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "passed" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-projection> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0> ;
+    skos:definition "'projection' — a high-signal concept in the tritfabric vocabulary (LDA topic 3), co-occurring with path, dir, manifest, source, schema. Present across 19 estate repo(s): HolographMe, ProCybernetica, agent-registry, delivery-excellence-boards, global-devsecops-intelligence, graphbrain-contract…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "projection" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-psychological> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 4), co-occurring with ranking, registration, features, parse, env. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "psychological" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-regis> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 5), co-occurring with graph, edge, identity, policy, evidence. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "regis" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-related> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "'related' — a high-signal concept in the socioprophet vocabulary (LDA topic 9), co-occurring with topic, source, page, target, surfaces. Present across 3 estate repo(s): prophet-core-policy, socioprophet, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "related" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-relative> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-model-carry (LDA topic 9), co-occurring with path, root, rel, profile, pack. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "relative" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-represent> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "'represent' — a high-signal concept in the prophet-core-policy vocabulary (LDA topic 3), co-occurring with authority, band, high, blocked, effective. Present across 1 estate repo(s): prophet-core-policy." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "represent" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-requested> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in agent-machine (LDA topic 0), co-occurring with signal, trust, external, provider, source. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "requested" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-review> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in ProCybernetica (LDA topic 2), co-occurring with evidence, authority, policy, governance, promotion. Appears in 36 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "review" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revocation> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in agent-registry (LDA topic 1), co-occurring with workspace, operations, policy, ops, context. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "revocation" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-searchable> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 1), co-occurring with gaia, policy, auditable, provenance, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "searchable" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-state> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0> ;
+    skos:definition "'state' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, main. Present across 58 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "state" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-tombstone> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 9), co-occurring with authority, decision, required, event, result. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "tombstone" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-twin> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "'twin' — a high-signal concept in the prophet-health vocabulary (LDA topic 8), co-occurring with health, scope, real, patient, record. Present across 13 estate repo(s): HolographMe, ProCybernetica, agent-registry, agentos-spine, agentos-starter, graphbrain-contract…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "twin" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-unrelated> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in homebrew-prophet (LDA topic 2), co-occurring with release, issue, validation, formula, body. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "unrelated" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-validator> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "'validator' — a high-signal concept in the prophet-platform vocabulary (LDA topic 1), co-occurring with pytest, fixture, exception, report, schema. Present across 21 estate repo(s): ProCybernetica, agentos-spine, alexandrian-academy, contractforge, delivery-excellence, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "validator" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-active> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 9), co-occurring with pane, window, tab, mux, domain. Appears in 13 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "active" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocked> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in exodus (LDA topic 5), co-occurring with path, example, schema, failures, source. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "blocked" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-commit> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in exodus (LDA topic 7), co-occurring with receipt, bundle, hash, ed25519, seal. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "commit" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-decision> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 52 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "decision" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-equal> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2> ;
+    skos:definition "'equal' — a high-signal concept in the Noetica vocabulary (LDA topic 1), co-occurring with path, scope, allow, store, read. Present across 11 estate repo(s): Noetica, gitea-sovereign, hellgraph, liminal_backrooms, meshrush, prophet-core-policy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "equal" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcomes> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'outcomes' — a high-signal concept in the prophet-core-policy vocabulary (LDA topic 2), co-occurring with policy, path, rule, missing, assertion. Present across 3 estate repo(s): orion-field-intelligence, prophet-core-policy, sp-orchestrator." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "outcomes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policies> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'policies' — a high-signal concept in the prophet-platform-standards vocabulary (LDA topic 1), co-occurring with kyverno, pod, policy, security, resources. Present across 7 estate repo(s): SociOS-Linux__cloudshell-fog, cloudshell-fog, human-digital-twin, orion-field-intelligence, prophet-core-policy, prophet-platform-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "policies" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-pricing> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in model-router (LDA topic 5), co-occurring with cost, profile, lane, million, price. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "pricing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-prohibited> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LSI topic 3), co-occurring with authority, targeting, unrelated, band, tombstone. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "prohibited" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-recipient> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in human-digital-twin (LDA topic 2), co-occurring with record, personhood, evidence, raw, bound. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "recipient" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-reuse> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in delivery-excellence-innersource (LDA topic 4), co-occurring with readiness, asset, contribution, reusable, repo. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "reuse" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-review> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in ProCybernetica (LDA topic 2), co-occurring with evidence, authority, policy, governance, promotion. Appears in 36 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "review" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-root> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'root' — a high-signal concept in the prophet-platform vocabulary (LDA topic 0), co-occurring with path, record, platform, release, runtime. Present across 65 estate repo(s): Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "root" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-scope> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0> ;
+    skos:definition "'scope' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with required, scaffold, purpose, definitions, outputs. Present across 32 estate repo(s): Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, agent-machine, agent-registry…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "scope" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-targeting> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "'targeting' — a high-signal concept in the prophet-core-policy vocabulary (LSI topic 3), co-occurring with authority, unrelated, band, tombstone, decision. Present across 1 estate repo(s): prophet-core-policy." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "targeting" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-unknown> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 3), co-occurring with expect, mock, message, result, text. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "unknown" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-unrelated> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in homebrew-prophet (LDA topic 2), co-occurring with release, issue, validation, formula, body. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "unrelated" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-action> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "'action' — a high-signal concept in the openclaw vocabulary (LDA topic 4), co-occurring with div, exec, schema, title, bubbles. Present across 35 estate repo(s): BearBrowser, HolographMe, Noetica, ProCybernetica, SCOPE-D, SourceOS…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "action" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-active> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 9), co-occurring with pane, window, tab, mux, domain. Appears in 13 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "active" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-blocks> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 1), co-occurring with gaia, policy, auditable, provenance, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "blocks" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-decision> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 52 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "decision" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-declared> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'declared' — a high-signal concept in the superconscious vocabulary (LDA topic 2), co-occurring with seal, composition, circuit, manifest, composed. Present across 5 estate repo(s): holmes, prophet-core-policy, sourceos-boot, sourceos-syncd, superconscious." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "declared" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-expired> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LSI topic 0), co-occurring with recipient, consent, tombstone, revocation, state. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "expired" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-main> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1> ;
+    skos:definition "'main' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, state. Present across 57 estate repo(s): HolographMe, agent-machine, agent-term, agentos-spine, agentos-starter, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "main" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policies> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'policies' — a high-signal concept in the prophet-platform-standards vocabulary (LDA topic 1), co-occurring with kyverno, pod, policy, security, resources. Present across 7 estate repo(s): SociOS-Linux__cloudshell-fog, cloudshell-fog, human-digital-twin, orion-field-intelligence, prophet-core-policy, prophet-platform-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "policies" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purpose> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "'purpose' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, required, scaffold, definitions, outputs. Present across 14 estate repo(s): Heller-Winters-Theorem, agent-registry, agentos-starter, delivery-excellence-automation, delivery-excellence-innersource, homebrew-prophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "purpose" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revoked> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 9), co-occurring with memory, grant, distribution, wall, decision. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "revoked" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-scope> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "'scope' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with required, scaffold, purpose, definitions, outputs. Present across 32 estate repo(s): Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, agent-machine, agent-registry…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "scope" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-searchable> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 1), co-occurring with gaia, policy, auditable, provenance, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "searchable" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-snapshot> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in Noetica (LDA topic 0), co-occurring with kind, rel, line, lang, agent. Appears in 11 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "snapshot" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-assertion> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in agent-machine (LDA topic 5), co-occurring with path, root, policy, plan, argument. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "assertion" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-dir> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-fields> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'fields' — a high-signal concept in the socioprophet-agent-standards vocabulary (LDA topic 2), co-occurring with decision, required, status, policy, description. Present across 12 estate repo(s): HolographMe, cairnpath-mesh, contractforge, delivery-excellence, delivery-excellence-boards, functional-model-surfaces…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "fields" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-isinstance> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 8), co-occurring with path, repo, root, registry, missing. Appears in 15 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "isinstance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-level> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 9), co-occurring with session, agent, run, store, state. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "level" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-missing> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'missing' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, fail. Present across 37 estate repo(s): ProCybernetica, SourceOS, agentos-spine, agentplane, embeddinglab, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "missing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-open> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "open" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-pricing> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in model-router (LDA topic 5), co-occurring with cost, profile, lane, million, price. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "pricing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-prohibited> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LSI topic 3), co-occurring with authority, targeting, unrelated, band, tombstone. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "prohibited" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purposes> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LSI topic 3), co-occurring with authority, targeting, unrelated, band, tombstone. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "purposes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-ranking> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in timeserieslab (LDA topic 4), co-occurring with terms, query, expected, matched, text. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "ranking" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-related> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "'related' — a high-signal concept in the socioprophet vocabulary (LDA topic 9), co-occurring with topic, source, page, target, surfaces. Present across 3 estate repo(s): prophet-core-policy, socioprophet, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "related" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-reuse> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in delivery-excellence-innersource (LDA topic 4), co-occurring with readiness, asset, contribution, reusable, repo. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "reuse" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-assertion> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in agent-machine (LDA topic 5), co-occurring with path, root, policy, plan, argument. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "assertion" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-auditable> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> ;
+    skos:definition "'auditable' — a high-signal concept in the prophet-core-policy vocabulary (LDA topic 1), co-occurring with gaia, policy, provenance, open, rule. Present across 3 estate repo(s): prophet-core-ledger, prophet-core-policy, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "auditable" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-provenance> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-commit> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in exodus (LDA topic 7), co-occurring with receipt, bundle, hash, ed25519, seal. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "commit" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-consent> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in human-digital-twin (LDA topic 9), co-occurring with human, policy, research, status, blocked. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "consent" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-effective> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in contractforge (LDA topic 8), co-occurring with settlement, line, model, status, source. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "effective" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-high> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-env> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "'env' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, dir, file, join, process. Present across 28 estate repo(s): BearBrowser, TurtleTerm, cairnpath-mesh, cloudshell-fog, global-devsecops-intelligence, hyperswarm-agent-composable-cluster-scaleup…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "env" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-features>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-registration> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-features> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in noetica-impair (LDA topic 8), co-occurring with toy, dense, rig, preset, noetica. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "features" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-registration> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-high> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in SCOPE-D (LDA topic 2), co-occurring with risk, score, severity, schema, surface. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "high" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-effective> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-missing> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'missing' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, fail. Present across 37 estate repo(s): ProCybernetica, SourceOS, agentos-spine, agentplane, embeddinglab, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "missing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-open> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "open" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-provenance> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcomes> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'outcomes' — a high-signal concept in the prophet-core-policy vocabulary (LDA topic 2), co-occurring with policy, path, rule, missing, assertion. Present across 3 estate repo(s): orion-field-intelligence, prophet-core-policy, sp-orchestrator." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "outcomes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-provenance> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in gaia-world-model (LDA topic 3), co-occurring with source, osm, gaia, refs, demo. Appears in 42 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "provenance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-registration> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in agent-term (LDA topic 7), co-occurring with event, registry, metadata, adapter, tool. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "registration" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-features>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-required> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'required' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, scaffold, purpose, definitions, outputs. Present across 91 estate repo(s): Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "required" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revoked> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 9), co-occurring with memory, grant, distribution, wall, decision. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "revoked" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-root> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'root' — a high-signal concept in the prophet-platform vocabulary (LDA topic 0), co-occurring with path, record, platform, release, runtime. Present across 65 estate repo(s): Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "root" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rules> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in policy-fabric (LDA topic 1), co-occurring with selector, rule, path, capability, provider. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "rules" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-assertion> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in agent-machine (LDA topic 5), co-occurring with path, root, policy, plan, argument. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "assertion" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocks> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 1), co-occurring with gaia, policy, auditable, provenance, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "blocks" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-description> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0> ;
+    skos:definition "'description' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 9), co-occurring with urn, srcos, schema, event, properties. Present across 39 estate repo(s): Noetica, SociOS-Linux__cloudshell-fog, cloudshell-fog, contractforge, delivery-excellence-boards, delivery-excellence-bounties…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "description" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-dir> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-expired> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LSI topic 0), co-occurring with recipient, consent, tombstone, revocation, state. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "expired" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-fields> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'fields' — a high-signal concept in the socioprophet-agent-standards vocabulary (LDA topic 2), co-occurring with decision, required, status, policy, description. Present across 12 estate repo(s): HolographMe, cairnpath-mesh, contractforge, delivery-excellence, delivery-excellence-boards, functional-model-surfaces…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "fields" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-isinstance> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 8), co-occurring with path, repo, root, registry, missing. Appears in 15 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "isinstance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-missing> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'missing' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, fail. Present across 37 estate repo(s): ProCybernetica, SourceOS, agentos-spine, agentplane, embeddinglab, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "missing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-open> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "open" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcome> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0> ;
+    skos:definition "'outcome' — a high-signal concept in the guardrail-fabric vocabulary (LDA topic 0), co-occurring with action, decision, runtime, trust, ops. Present across 10 estate repo(s): SociOS-Linux__cloudshell-fog, agent-term, delivery-excellence-automation, functional-model-surfaces, guardrail-fabric, holmes-fix-search-wiring…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "outcome" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-requested> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in agent-machine (LDA topic 0), co-occurring with signal, trust, external, provider, source. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "requested" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-consent> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in human-digital-twin (LDA topic 9), co-occurring with human, policy, research, status, blocked. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "consent" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-requested> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in agent-machine (LDA topic 0), co-occurring with signal, trust, external, provider, source. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "requested" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "'description' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 9), co-occurring with urn, srcos, schema, event, properties. Present across 39 estate repo(s): Noetica, SociOS-Linux__cloudshell-fog, cloudshell-fog, contractforge, delivery-excellence-boards, delivery-excellence-bounties…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "description" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in memory-mesh (LDA topic 9), co-occurring with memory, grant, distribution, wall, decision. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "revoked" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in contractforge (LDA topic 8), co-occurring with settlement, line, model, status, source. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "effective" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in gaia-world-model (LDA topic 3), co-occurring with source, osm, gaia, refs, demo. Appears in 42 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "provenance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in homebrew-prophet (LDA topic 2), co-occurring with release, issue, validation, formula, body. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "unrelated" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 0), co-occurring with purpose, authority, outcome, description, consent. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "band" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-high>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in exodus (LDA topic 5), co-occurring with path, example, schema, failures, source. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "blocked" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-high>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "'parse' — a high-signal concept in the socioprophet-web vocabulary (LDA topic 0), co-occurring with color, math, storybook, rgb, create. Present across 10 estate repo(s): SourceOS, economic-prophet, evidence-intake-kernel, liminal_backrooms, ontogenesis, prophet-core-policy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "parse" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-features>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-registration> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'rule' — a high-signal concept in the policy-fabric vocabulary (LDA topic 1), co-occurring with selector, path, capability, provider, append. Present across 18 estate repo(s): agentos-starter, contractforge, delivery-excellence-boards, delivery-excellence-bounties, delivery-excellence-innersource, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "rule" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'auditable' — a high-signal concept in the prophet-core-policy vocabulary (LDA topic 1), co-occurring with gaia, policy, provenance, open, rule. Present across 3 estate repo(s): prophet-core-ledger, prophet-core-policy, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "auditable" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 0), co-occurring with purpose, authority, outcome, description, consent. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "band" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in human-digital-twin (LDA topic 9), co-occurring with human, policy, research, status, blocked. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "consent" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in contractforge (LDA topic 8), co-occurring with settlement, line, model, status, source. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "effective" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in gaia-world-model (LDA topic 3), co-occurring with source, osm, gaia, refs, demo. Appears in 42 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "provenance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'rule' — a high-signal concept in the policy-fabric vocabulary (LDA topic 1), co-occurring with selector, path, capability, provider, append. Present across 18 estate repo(s): agentos-starter, contractforge, delivery-excellence-boards, delivery-excellence-bounties, delivery-excellence-innersource, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "rule" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'auditable' — a high-signal concept in the prophet-core-policy vocabulary (LDA topic 1), co-occurring with gaia, policy, provenance, open, rule. Present across 3 estate repo(s): prophet-core-ledger, prophet-core-policy, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "auditable" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-policy (LDA topic 0), co-occurring with purpose, authority, outcome, description, consent. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "band" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'rule' — a high-signal concept in the policy-fabric vocabulary (LDA topic 1), co-occurring with selector, path, capability, provider, append. Present across 18 estate repo(s): agentos-starter, contractforge, delivery-excellence-boards, delivery-excellence-bounties, delivery-excellence-innersource, git-ops-standards…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "rule" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2> ;
+    skos:definition "'state' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, main. Present across 58 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "state" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "'targeting' — a high-signal concept in the prophet-core-policy vocabulary (LSI topic 3), co-occurring with authority, unrelated, band, tombstone, decision. Present across 1 estate repo(s): prophet-core-policy." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "targeting" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "'state' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, main. Present across 58 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "state" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'policy' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, kind, source, evidence. Present across 92 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "policy" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in agent-registry (LDA topic 1), co-occurring with workspace, operations, policy, ops, context. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "revocation" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'outcome' — a high-signal concept in the guardrail-fabric vocabulary (LDA topic 0), co-occurring with action, decision, runtime, trust, ops. Present across 10 estate repo(s): SociOS-Linux__cloudshell-fog, agent-term, delivery-excellence-automation, functional-model-surfaces, guardrail-fabric, holmes-fix-search-wiring…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "outcome" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 9), co-occurring with authority, decision, required, event, result. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "tombstone" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 0 derived by latent Dirichlet allocation over the prophet-core-policy corpus; centres on the co-occurring vocabulary purpose, authority, outcome, description, consent — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-projection>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-review>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-tombstone> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-projection>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-review>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-tombstone> ;
+    skos:prefLabel "LDA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 1 derived by latent Dirichlet allocation over the prophet-core-policy corpus; centres on the co-occurring vocabulary gaia, policy, auditable, provenance, open — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-relative>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-searchable> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-relative>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-searchable> ;
+    skos:prefLabel "LDA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 2 derived by latent Dirichlet allocation over the prophet-core-policy corpus; centres on the co-occurring vocabulary policy, path, rule, missing, assertion — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-regis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rules> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-regis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rules> ;
+    skos:prefLabel "LDA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 3 derived by latent Dirichlet allocation over the prophet-core-policy corpus; centres on the co-occurring vocabulary authority, band, high, blocked, effective — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-autonomous>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-carry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-event>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-high>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-observe>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-passed>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-represent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-twin> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-autonomous>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-carry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-event>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-high>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-observe>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-passed>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-represent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-twin> ;
+    skos:prefLabel "LDA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 4 derived by latent Dirichlet allocation over the prophet-core-policy corpus; centres on the co-occurring vocabulary ranking, registration, features, parse, env — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-block>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-embedding>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-features>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-human>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-psychological>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-registration>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-related>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rules>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-unrelated>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-validator> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-block>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-embedding>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-features>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-human>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-psychological>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-registration>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-related>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rules>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-unrelated>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-validator> ;
+    skos:prefLabel "LDA topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-policy corpus; centres on the co-occurring vocabulary purpose, consent, revocation, outcome, description — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-review>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-scope>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-review>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-scope>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone> ;
+    skos:prefLabel "LSA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-policy corpus; centres on the co-occurring vocabulary policy, gaia, path, rule, provenance — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> ;
+    skos:prefLabel "LSA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-policy corpus; centres on the co-occurring vocabulary authority, band, effective, revocation, tombstone — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-active>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-equal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-unknown> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-active>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-equal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-unknown> ;
+    skos:prefLabel "LSA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-policy corpus; centres on the co-occurring vocabulary purpose, authority, tombstone, revocation, state — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-decision>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-pricing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-prohibited>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-reuse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-unrelated> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-decision>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-pricing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-prohibited>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-reuse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-unrelated> ;
+    skos:prefLabel "LSA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 4 derived by latent-semantic analysis (TruncatedSVD) over the prophet-core-policy corpus; centres on the co-occurring vocabulary gaia, path, rule, auditable, provenance — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policies>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policies>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> ;
+    skos:prefLabel "LSA topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 0 derived by latent-semantic indexing (gensim LSI) over the prophet-core-policy corpus; centres on the co-occurring vocabulary recipient, consent, tombstone, revocation, state — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-action>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-active>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-scope>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-searchable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-snapshot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-action>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-active>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-scope>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-searchable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-snapshot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> ;
+    skos:prefLabel "LSI topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 1 derived by latent-semantic indexing (gensim LSI) over the prophet-core-policy corpus; centres on the co-occurring vocabulary gaia, path, policy, rule, auditable — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> ;
+    skos:prefLabel "LSI topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 2 derived by latent-semantic indexing (gensim LSI) over the prophet-core-policy corpus; centres on the co-occurring vocabulary authority, band, effective, tombstone, targeting — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-pricing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-prohibited>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purposes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-related>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-reuse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-pricing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-prohibited>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purposes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-related>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-reuse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> ;
+    skos:prefLabel "LSI topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 3 derived by latent-semantic indexing (gensim LSI) over the prophet-core-policy corpus; centres on the co-occurring vocabulary authority, targeting, unrelated, band, tombstone — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-decision>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-pricing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-prohibited>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purposes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-related>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-reuse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-decision>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-pricing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-prohibited>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purposes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-related>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-reuse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> ;
+    skos:prefLabel "LSI topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 4 derived by latent-semantic indexing (gensim LSI) over the prophet-core-policy corpus; centres on the co-occurring vocabulary gaia, path, rule, auditable, provenance — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-declared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policies>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-declared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policies>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule> ;
+    skos:prefLabel "LSI topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1> ;
+    skos:definition "'gaia' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 3), co-occurring with source, osm, refs, demo, attribution. Present across 7 estate repo(s): delivery-excellence, gaia-world-model, guardrail-fabric, meshrush, prophet-core-policy, socioprophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "gaia" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-relative>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-searchable> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-ranking> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in timeserieslab (LDA topic 4), co-occurring with terms, query, expected, matched, text. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "ranking" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-block>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-embedding>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-features>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-human>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-parse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-psychological>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-registration>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-related>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rules>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-unrelated>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-validator> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in human-digital-twin (LDA topic 2), co-occurring with record, personhood, evidence, raw, bound. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "recipient" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-action>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-active>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-scope>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-searchable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-snapshot>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "'purpose' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, required, scaffold, definitions, outputs. Present across 14 estate repo(s): Heller-Winters-Theorem, agent-registry, agentos-starter, delivery-excellence-automation, delivery-excellence-innersource, homebrew-prophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "purpose" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-projection>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-review>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'gaia' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 3), co-occurring with source, osm, refs, demo, attribution. Present across 7 estate repo(s): delivery-excellence, gaia-world-model, guardrail-fabric, meshrush, prophet-core-policy, socioprophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "gaia" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policies>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in agent-registry (LDA topic 1), co-occurring with workspace, operations, policy, ops, context. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "revocation" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 9), co-occurring with authority, decision, required, event, result. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "tombstone" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-authority> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-3> ;
+    skos:definition "'authority' — a high-signal concept in the sociosphere vocabulary (LDA topic 9), co-occurring with decision, required, event, result, policy. Present across 26 estate repo(s): HolographMe, ProCybernetica, SCOPE-D, agent-registry, agent-term, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "authority" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-autonomous>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-carry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-event>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-high>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-observe>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-passed>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-represent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-twin> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-4> ;
+    skos:definition "'policy' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, kind, source, evidence. Present across 92 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "policy" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-rule> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-authority> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-3> ;
+    skos:definition "'authority' — a high-signal concept in the sociosphere vocabulary (LDA topic 9), co-occurring with decision, required, event, result, policy. Present across 26 estate repo(s): HolographMe, ProCybernetica, SCOPE-D, agent-registry, agent-term, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "authority" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-decision>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-pricing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-prohibited>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-purposes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-ranking>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-related>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-reuse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-unrelated> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-gaia> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-topic-4> ;
+    skos:definition "'gaia' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 3), co-occurring with source, osm, refs, demo, attribution. Present across 7 estate repo(s): delivery-excellence, gaia-world-model, guardrail-fabric, meshrush, prophet-core-policy, socioprophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "gaia" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-declared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policies>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSI-tombstone> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-policy> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-topic-2> ;
+    skos:definition "'policy' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, kind, source, evidence. Present across 92 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "policy" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-assertion>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-fields>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-gaia>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-isinstance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-missing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-outcomes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-regis>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-root>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rule>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LDA-rules> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "'authority' — a high-signal concept in the sociosphere vocabulary (LDA topic 9), co-occurring with decision, required, event, result, policy. Present across 26 estate repo(s): HolographMe, ProCybernetica, SCOPE-D, agent-registry, agent-term, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "authority" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-active>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-commit>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-equal>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-unknown> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-purpose> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-topic-3> ;
+    skos:definition "'purpose' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, required, scaffold, definitions, outputs. Present across 14 estate repo(s): Heller-Winters-Theorem, agent-registry, agentos-starter, delivery-excellence-automation, delivery-excellence-innersource, homebrew-prophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> ;
+    skos:prefLabel "purpose" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-authority>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-band>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-blocks>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-consent>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-decision>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-description>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-effective>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-expired>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-outcome>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-policy>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-pricing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-prohibited>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-recipient>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-requested>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-reuse>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-review>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revocation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-revoked>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-scope>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-targeting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-tombstone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy#LSA-unrelated> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-core-policy> a skos:ConceptScheme ;
+    rdfs:label "prophet-core-policy" ;
+    dct:title "Topic vocabulary — prophet-core-policy" .
+

@@ -1,0 +1,2344 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-append> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 35 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "append" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-apply> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in BearBrowser (LDA topic 9), co-occurring with tor, esr, mode, firefox, build. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "apply" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-base> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 27 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "base" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-changes> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "'changes' — a high-signal concept in the socios-installer vocabulary (LDA topic 7), co-occurring with installer, coreos, install, ignition, iso. Present across 6 estate repo(s): Heller-Winters-Theorem, gitea-sovereign, prophet-cli, socios-ignition, socios-installer, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "changes" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cluster> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-standards-storage (LDA topic 6), co-occurring with audit, tls, vault, security, service. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cluster" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-command> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 1), co-occurring with message, channel, group, reply, telegram. Appears in 21 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "command" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dependency> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in git-ops-standards (LDA topic 8), co-occurring with branch, git, estate, worktree, check. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dependency" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-diff> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 6), co-occurring with file, path, operation, content, category. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "diff" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dim> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3> ;
+    skos:definition "'dim' — a high-signal concept in the Noetica vocabulary (LDA topic 8), co-occurring with number, causal, gyg, pct, dag. Present across 4 estate repo(s): Heller-Godel, Noetica, hellgraph, prophet-cli." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dim" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-entry> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "'entry' — a high-signal concept in the openclaw vocabulary (LDA topic 0), co-occurring with config, account, cfg, channel, resolve. Present across 17 estate repo(s): ProCybernetica, delivery-excellence-automation, goose-notes, hellgraph, mellumwork, model-governance-ledger…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "entry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-file> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "'file' — a high-signal concept in the prophet-platform vocabulary (LDA topic 9), co-occurring with text, line, optional, style, tuple. Present across 64 estate repo(s): Heller-Godel, Heller-Winters-Theorem, Noetica, SCOPE-D, TurtleTerm, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "file" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-help> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "'help' — a high-signal concept in the sourceos-syncd vocabulary (LDA topic 0), co-occurring with content, katello, sync, receipt, pretty. Present across 9 estate repo(s): TurtleTerm, agent-term, agentos-spine, global-devsecops-intelligence, lampstand, prophet-cli…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "help" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-join> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "'join' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, dir, file, env, process. Present across 12 estate repo(s): Noetica, SCOPE-D, agentplane, nix-openclaw, nlboot, openclaw…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "join" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-links> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in goose-notes (LDA topic 7), co-occurring with description, configured, pre, command, scope. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "links" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlays> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 0), co-occurring with service, overlay, env, build, dir. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "overlays" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-path> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-pkg> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "'pkg' — a high-signal concept in the prophet-mesh vocabulary (LDA topic 9), co-occurring with edge, graph, provenance, shortlist, ops. Present across 4 estate repo(s): prophet-cli, prophet-mesh, sherlock-search, sourceos-workspace." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "pkg" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-points> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in gaia-world-model (LDA topic 0), co-occurring with pin, wire, owner, connected, address. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "points" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-pyproject> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 2), co-occurring with cli, info, egg, commands, init. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "pyproject" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-result> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3> ;
+    skos:definition "'result' — a high-signal concept in the openclaw vocabulary (LDA topic 3), co-occurring with expect, mock, message, text, media. Present across 43 estate repo(s): BearBrowser, ProCybernetica, SCOPE-D, TurtleTerm, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "result" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-single> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in superconscious (LDA topic 7), co-occurring with substrate, ndarray, real, regime, dof. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "single" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-sources> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 0), co-occurring with subsec, toc, formalism, overview, ledger. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "sources" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-starting> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-workspace (LDA topic 5), co-occurring with codex, repo, sourceos, program, initial. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "starting" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-state> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "'state' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, main. Present across 58 estate repo(s): BearBrowser, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "state" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-table> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1> ;
+    skos:definition "'table' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 4), co-occurring with claim, artifact, path, run, registry. Present across 5 estate repo(s): Heller-Winters-Theorem, SourceOS, bsd-proof-program, prophet-cli, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "table" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-tears> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 4), co-occurring with env, desktop, mail, red, target. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "tears" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-upgrade> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 4), co-occurring with env, desktop, mail, red, target. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "upgrade" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-approve> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LSI topic 5), co-occurring with scripts, workspace, terraform, kustomize, overlay. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "approve" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-auto> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-mesh (LDA topic 9), co-occurring with edge, pkg, graph, provenance, shortlist. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "auto" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cmd> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0> ;
+    skos:definition "'cmd' — a high-signal concept in the enhancements vocabulary (LDA topic 5), co-occurring with build, cosa, ostree, support, container. Present across 8 estate repo(s): SourceOS, TurtleTerm, enhancements, evidence-intake-kernel, liminal_backrooms, prophet-cli…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cmd" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cyan> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 1), co-occurring with env, service, click, terraform, kustomize. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cyan" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-dir> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-dry> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3> ;
+    skos:definition "'dry' — a high-signal concept in the ProCybernetica vocabulary (LDA topic 1), co-occurring with policy, run, gate, admission, prophet. Present across 19 estate repo(s): ProCybernetica, SourceOS, agent-registry, agent-term, global-devsecops-intelligence, guardrail-fabric…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-init> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "init" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-level> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 9), co-occurring with session, agent, run, store, state. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "level" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-links> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in goose-notes (LDA topic 7), co-occurring with description, configured, pre, command, scope. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "links" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-plan> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 23 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "plan" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-requires> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in guardrail-fabric (LDA topic 6), co-occurring with claim, policy, decision, action, admission. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "requires" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-base> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 27 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "base" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-click> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0> ;
+    skos:definition "'click' — a high-signal concept in the prophet-cli vocabulary (LDA topic 1), co-occurring with env, service, terraform, kustomize, overlay. Present across 1 estate repo(s): prophet-cli." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "click" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cmd> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0> ;
+    skos:definition "'cmd' — a high-signal concept in the enhancements vocabulary (LDA topic 5), co-occurring with build, cosa, ostree, support, container. Present across 8 estate repo(s): SourceOS, TurtleTerm, enhancements, evidence-intake-kernel, liminal_backrooms, prophet-cli…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cmd" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cyan> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 1), co-occurring with env, service, click, terraform, kustomize. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cyan" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dependency> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in git-ops-standards (LDA topic 8), co-occurring with branch, git, estate, worktree, check. Appears in 10 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dependency" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-diff> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in smart-tree (LDA topic 6), co-occurring with file, path, operation, content, category. Appears in 6 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "diff" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dry> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "'dry' — a high-signal concept in the ProCybernetica vocabulary (LDA topic 1), co-occurring with policy, run, gate, admission, prophet. Present across 19 estate repo(s): ProCybernetica, SourceOS, agent-registry, agent-term, global-devsecops-intelligence, guardrail-fabric…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-entry> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "'entry' — a high-signal concept in the openclaw vocabulary (LDA topic 0), co-occurring with config, account, cfg, channel, resolve. Present across 17 estate repo(s): ProCybernetica, delivery-excellence-automation, goose-notes, hellgraph, mellumwork, model-governance-ledger…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "entry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kust> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LSI topic 4), co-occurring with overlay, service, env, overlays, kustomize. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "kust" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-level> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 9), co-occurring with session, agent, run, store, state. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "level" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-local> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0> ;
+    skos:definition "'local' — a high-signal concept in the Noetica vocabulary (LDA topic 9), co-occurring with noetica, model, provider, agent, status. Present across 49 estate repo(s): Heller-Godel, Heller-Winters-Theorem, Noetica, SourceOS, TurtleTerm, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "local" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-path> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "'path' — a high-signal concept in the prophet-platform vocabulary (LDA topic 3), co-occurring with url, config, req, metadata, pip. Present across 107 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, ProCybernetica…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "path" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-plan> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 23 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "plan" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-run> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "'run' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, store, state, main. Present across 91 estate repo(s): BearBrowser, Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "run" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-toml> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in hellgraph (LSA topic 9), co-occurring with metta, workspace, equal, cargo, number. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "toml" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-bootstrap> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "'bootstrap' — a high-signal concept in the agent-machine vocabulary (LDA topic 8), co-occurring with activation, runtime, evidence, local, release. Present across 9 estate repo(s): agent-machine, memory-mesh, prophet-cli, socioprophet-agent-standards, socios, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "bootstrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-init> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "init" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-source> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "'source' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, policy, kind, evidence. Present across 96 estate repo(s): BearBrowser, Heller-Godel, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "source" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-build> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 5), co-occurring with path, res, status, token, release. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "build" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-check> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "'check' — a high-signal concept in the sociosphere vocabulary (LDA topic 2), co-occurring with proof, claim, profile, workspace, gate. Present across 24 estate repo(s): Heller-Godel, Heller-Winters-Theorem, delivery-excellence-innersource, exodus, git-ops-standards, global-devsecops-intelligence…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "check" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-commands> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in goose-notes (LDA topic 3), co-occurring with description, scope, command, pre, configured. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "commands" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-init> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-desktop> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in enhancements (LDA topic 3), co-occurring with workstation, profile, execution, source, agent. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "desktop" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-mail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-red>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-egg> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "'egg' — a high-signal concept in the prophet-cli vocabulary (LDA topic 2), co-occurring with cli, info, commands, init, workspace. Present across 1 estate repo(s): prophet-cli." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "egg" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-init> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-green> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in agentos-starter (LDA topic 7), co-occurring with source, repo, layer, risk, adapter. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "green" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-info> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "info" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-init> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-infra> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 1), co-occurring with env, service, click, terraform, kustomize. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "infra" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-init> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "init" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-info> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-mail> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "'mail' — a high-signal concept in the socioprophet vocabulary (LDA topic 6), co-occurring with action, layer, api, open, source. Present across 4 estate repo(s): agentos-spine, prophet-cli, prophet-workspace, socioprophet." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "mail" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-desktop>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-red>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-main> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "'main' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, state. Present across 57 estate repo(s): HolographMe, agent-machine, agent-term, agentos-spine, agentos-starter, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "main" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-red> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in agentos-starter (LDA topic 9), co-occurring with tool, registry, gate, source, small. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "red" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-desktop>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-mail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-target> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-run> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1> ;
+    skos:definition "'run' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, store, state, main. Present across 91 estate repo(s): BearBrowser, Heller-Winters-Theorem, Noetica, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "run" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-scripts> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "'scripts' — a high-signal concept in the BearBrowser vocabulary (LDA topic 0), co-occurring with bearbrowser, bear, run, source, verify. Present across 22 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "scripts" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-services> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "'services' — a high-signal concept in the memory-mesh vocabulary (LDA topic 5), co-occurring with finance, app, saa, main, runtime. Present across 8 estate repo(s): memory-mesh, prophet-cli, prophet-core-catalog, prophet-health, prophet-platform-standards, shortcut-overlay…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "services" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-target> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 6), co-occurring with url, opts, client, err, timeout. Appears in 28 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "target" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-desktop>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-mail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-red> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-terraform> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1> ;
+    skos:definition "'terraform' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with google, provider, compute, pull, resource. Present across 3 estate repo(s): prophet-cli, prophet-platform, sourceos-build." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "terraform" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-click> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0> ;
+    skos:definition "'click' — a high-signal concept in the prophet-cli vocabulary (LDA topic 1), co-occurring with env, service, terraform, kustomize, overlay. Present across 1 estate repo(s): prophet-cli." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "click" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-infra> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 1), co-occurring with env, service, click, terraform, kustomize. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "infra" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlays> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 0), co-occurring with service, overlay, env, build, dir. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "overlays" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-approve> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LSI topic 5), co-occurring with scripts, workspace, terraform, kustomize, overlay. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "approve" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-auto> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-mesh (LDA topic 9), co-occurring with edge, pkg, graph, provenance, shortlist. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "auto" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dev> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "'dev' — a high-signal concept in the source-os vocabulary (LDA topic 2), co-occurring with workstation, bin, linux, sourceos, profiles. Present across 21 estate repo(s): BearBrowser, SourceOS, api-contracts, cairnpath-mesh, cloudshell-fog, enhancements…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dev" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dir> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-docker> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "'docker' — a high-signal concept in the sourceos-continuum vocabulary (LDA topic 3), co-occurring with image, tag, registry, build, shell. Present across 3 estate repo(s): prophet-cli, shortcut-overlay, sourceos-continuum." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "docker" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlays> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 0), co-occurring with service, overlay, env, build, dir. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "overlays" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-prog> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LSI topic 5), co-occurring with scripts, workspace, terraform, kustomize, overlay. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "prog" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-tooling> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in socios-ignition (LDA topic 1), co-occurring with butane, ignition, fcos, tools, example. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "tooling" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in exodus (LDA topic 3), co-occurring with benchmark, chunk, processing, retrieval, canonical. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "overlay" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 6), co-occurring with color, cairo, width, dynamic, height. Appears in 31 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "surface" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3> ;
+    skos:definition "'click' — a high-signal concept in the prophet-cli vocabulary (LDA topic 1), co-occurring with env, service, terraform, kustomize, overlay. Present across 1 estate repo(s): prophet-cli." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "click" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3> ;
+    skos:definition "'cmd' — a high-signal concept in the enhancements vocabulary (LDA topic 5), co-occurring with build, cosa, ostree, support, container. Present across 8 estate repo(s): SourceOS, TurtleTerm, enhancements, evidence-intake-kernel, liminal_backrooms, prophet-cli…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cmd" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in gitea-sovereign (LDA topic 4), co-occurring with runtime, gitea, disabled, local, fail. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "compose" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "'docker' — a high-signal concept in the sourceos-continuum vocabulary (LDA topic 3), co-occurring with image, tag, registry, build, shell. Present across 3 estate repo(s): prophet-cli, shortcut-overlay, sourceos-continuum." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "docker" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "'local' — a high-signal concept in the Noetica vocabulary (LDA topic 9), co-occurring with noetica, model, provider, agent, status. Present across 49 estate repo(s): Heller-Godel, Heller-Winters-Theorem, Noetica, SourceOS, TurtleTerm, agent-machine…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "local" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 1), co-occurring with message, channel, group, reply, telegram. Appears in 21 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "command" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 6), co-occurring with color, cairo, width, dynamic, height. Appears in 31 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "surface" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "'ade' — a high-signal concept in the sourceos-workspace vocabulary (LDA topic 9), co-occurring with prophet, bootstrap, cli, docs, engine. Present across 2 estate repo(s): prophet-cli, sourceos-workspace." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "ade" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in gitea-sovereign (LDA topic 4), co-occurring with runtime, gitea, disabled, local, fail. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "compose" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in ontogenesis (LDA topic 7), co-occurring with state, event, task, process, actor. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "delegation" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "'repo' — a high-signal concept in the sociosphere vocabulary (LDA topic 6), co-occurring with prophet, socio, runtime, policy, evidence. Present across 59 estate repo(s): HolographMe, SCOPE-D, SourceOS, agent-machine, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "repo" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> ;
+    skos:definition "'kustomize' — a high-signal concept in the prophet-cli vocabulary (LDA topic 1), co-occurring with env, service, click, terraform, overlay. Present across 4 estate repo(s): cloudshell-fog, prophet-cli, prophet-platform, tritfabric." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "kustomize" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-terraform> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "info" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 9), co-occurring with text, line, optional, style, tuple. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "info" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 2), co-occurring with path, dir, file, env, join. Appears in 41 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "workspace" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 1), co-occurring with env, service, click, terraform, kustomize. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cyan" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-cli (LDA topic 1), co-occurring with env, service, click, terraform, kustomize. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "option" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3> ;
+    skos:definition "'bootstrap' — a high-signal concept in the agent-machine vocabulary (LDA topic 8), co-occurring with activation, runtime, evidence, local, release. Present across 9 estate repo(s): agent-machine, memory-mesh, prophet-cli, socioprophet-agent-standards, socios, socios-ignition…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "bootstrap" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in goose-notes (LDA topic 3), co-occurring with description, scope, command, pre, configured. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "commands" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in ontogenesis (LDA topic 7), co-occurring with state, event, task, process, actor. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "delegation" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3> ;
+    skos:definition "'repo' — a high-signal concept in the sociosphere vocabulary (LDA topic 6), co-occurring with prophet, socio, runtime, policy, evidence. Present across 59 estate repo(s): HolographMe, SCOPE-D, SourceOS, agent-machine, agent-registry, agent-term…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "repo" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3> ;
+    skos:definition "'source' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, policy, kind, evidence. Present across 96 estate repo(s): BearBrowser, Heller-Godel, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "source" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 45 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "service" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 0 derived by latent Dirichlet allocation over the prophet-cli corpus; centres on the co-occurring vocabulary service, overlay, env, build, dir — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-base>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-diff>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-services>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-base>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-diff>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-services>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> ;
+    skos:prefLabel "LDA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 1 derived by latent Dirichlet allocation over the prophet-cli corpus; centres on the co-occurring vocabulary env, service, click, terraform, kustomize — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-apply>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-table>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-terraform> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-apply>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-table>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-terraform> ;
+    skos:prefLabel "LDA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 2 derived by latent Dirichlet allocation over the prophet-cli corpus; centres on the co-occurring vocabulary cli, info, egg, commands, init — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dependency>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-entry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-links>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-pkg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-points>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-pyproject>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dependency>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-entry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-links>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-pkg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-points>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-pyproject>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> ;
+    skos:prefLabel "LDA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 3 derived by latent Dirichlet allocation over the prophet-cli corpus; centres on the co-occurring vocabulary workspace, env, docker, local, compose — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-check>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dim>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-green>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-result>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-check>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dim>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-green>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-result>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> ;
+    skos:prefLabel "LDA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 4 derived by latent Dirichlet allocation over the prophet-cli corpus; centres on the co-occurring vocabulary env, desktop, mail, red, target — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-append>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cluster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-desktop>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-help>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-join>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-mail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-red>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-tears>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-upgrade> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-append>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cluster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-desktop>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-help>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-join>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-mail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-red>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-tears>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-upgrade> ;
+    skos:prefLabel "LDA topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 5 derived by latent Dirichlet allocation over the prophet-cli corpus; centres on the co-occurring vocabulary cli, scripts, main, env, workspace — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-check>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-green>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-services>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-starting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-check>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-green>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-services>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-starting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> ;
+    skos:prefLabel "LDA topic 5" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the prophet-cli corpus; centres on the co-occurring vocabulary env, workspace, main, kustomize, click — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> ;
+    skos:prefLabel "LSA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the prophet-cli corpus; centres on the co-occurring vocabulary cli, main, env, scripts, egg — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> ;
+    skos:prefLabel "LSA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the prophet-cli corpus; centres on the co-occurring vocabulary ade, repo, bootstrap, delegation, source — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> ;
+    skos:prefLabel "LSA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the prophet-cli corpus; centres on the co-occurring vocabulary overlay, service, env, kustomize, egg — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> ;
+    skos:prefLabel "LSA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 4 derived by latent-semantic analysis (TruncatedSVD) over the prophet-cli corpus; centres on the co-occurring vocabulary egg, info, main, scripts, overlay — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-links>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-links>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service> ;
+    skos:prefLabel "LSA topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 5 derived by latent-semantic analysis (TruncatedSVD) over the prophet-cli corpus; centres on the co-occurring vocabulary workspace, scripts, terraform, cli, kustomize — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> ;
+    skos:prefLabel "LSA topic 5" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "'cli' — a high-signal concept in the openclaw vocabulary (LDA topic 5), co-occurring with gateway, openclaw, port, open, service. Present across 16 estate repo(s): TurtleTerm, agent-machine, agent-term, enhancements, holmes, holmes-fix-search-wiring…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cli" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "'terraform' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with google, provider, compute, pull, resource. Present across 3 estate repo(s): prophet-cli, prophet-platform, sourceos-build." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "terraform" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 0 derived by latent-semantic indexing (gensim LSI) over the prophet-cli corpus; centres on the co-occurring vocabulary env, workspace, main, kustomize, service — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> ;
+    skos:prefLabel "LSI topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 1 derived by latent-semantic indexing (gensim LSI) over the prophet-cli corpus; centres on the co-occurring vocabulary main, scripts, env, cli, terraform — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-prog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-tooling> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-prog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-tooling> ;
+    skos:prefLabel "LSI topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 2 derived by latent-semantic indexing (gensim LSI) over the prophet-cli corpus; centres on the co-occurring vocabulary egg, ade, delegation, repo, surface — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface> ;
+    skos:prefLabel "LSI topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 3 derived by latent-semantic indexing (gensim LSI) over the prophet-cli corpus; centres on the co-occurring vocabulary egg, info, delegation, repo, ade — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dependency>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-entry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-toml> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dependency>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-entry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-toml> ;
+    skos:prefLabel "LSI topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 4 derived by latent-semantic indexing (gensim LSI) over the prophet-cli corpus; centres on the co-occurring vocabulary overlay, service, env, overlays, kustomize — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-base>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-diff>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kust>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-base>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-diff>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kust>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform> ;
+    skos:prefLabel "LSI topic 4" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 5 derived by latent-semantic indexing (gensim LSI) over the prophet-cli corpus; centres on the co-occurring vocabulary scripts, workspace, terraform, kustomize, overlay — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-prog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-prog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> ;
+    skos:prefLabel "LSI topic 5" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "'terraform' — a high-signal concept in the prophet-platform vocabulary (LDA topic 8), co-occurring with google, provider, compute, pull, resource. Present across 3 estate repo(s): prophet-cli, prophet-platform, sourceos-build." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "terraform" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> ;
+    skos:definition "'main' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, state. Present across 57 estate repo(s): HolographMe, agent-machine, agent-term, agentos-spine, agentos-starter, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "main" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 45 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "service" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "'kustomize' — a high-signal concept in the prophet-cli vocabulary (LDA topic 1), co-occurring with env, service, click, terraform, overlay. Present across 4 estate repo(s): cloudshell-fog, prophet-cli, prophet-platform, tritfabric." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "kustomize" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3> ;
+    skos:definition "'ade' — a high-signal concept in the sourceos-workspace vocabulary (LDA topic 9), co-occurring with prophet, bootstrap, cli, docs, engine. Present across 2 estate repo(s): prophet-cli, sourceos-workspace." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "ade" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4> ;
+    skos:definition "'egg' — a high-signal concept in the prophet-cli vocabulary (LDA topic 2), co-occurring with cli, info, commands, init, workspace. Present across 1 estate repo(s): prophet-cli." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "egg" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-links>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-requires>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "'scripts' — a high-signal concept in the BearBrowser vocabulary (LDA topic 0), co-occurring with bearbrowser, bear, run, source, verify. Present across 22 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "scripts" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 2), co-occurring with path, dir, file, env, join. Appears in 41 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "workspace" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "'kustomize' — a high-signal concept in the prophet-cli vocabulary (LDA topic 1), co-occurring with env, service, click, terraform, overlay. Present across 4 estate repo(s): cloudshell-fog, prophet-cli, prophet-platform, tritfabric." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "kustomize" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3> ;
+    skos:definition "'egg' — a high-signal concept in the prophet-cli vocabulary (LDA topic 2), co-occurring with cli, info, commands, init, workspace. Present across 1 estate repo(s): prophet-cli." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "egg" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dependency>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-entry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-level>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-toml> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "'env' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, dir, file, join, process. Present across 28 estate repo(s): BearBrowser, TurtleTerm, cairnpath-mesh, cloudshell-fog, global-devsecops-intelligence, hyperswarm-agent-composable-cluster-scaleup…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "env" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in exodus (LDA topic 3), co-occurring with benchmark, chunk, processing, retrieval, canonical. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "overlay" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-base>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-diff>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kust>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 45 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "service" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-base>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-diff>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-services>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 2), co-occurring with path, dir, file, env, join. Appears in 41 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "workspace" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-check>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dim>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-green>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-result>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "'cli' — a high-signal concept in the openclaw vocabulary (LDA topic 5), co-occurring with gateway, openclaw, port, open, service. Present across 16 estate repo(s): TurtleTerm, agent-machine, agent-term, enhancements, holmes, holmes-fix-search-wiring…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cli" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4> ;
+    skos:definition "'main' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, state. Present across 57 estate repo(s): HolographMe, agent-machine, agent-term, agentos-spine, agentos-starter, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "main" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-prog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "Estate vocabulary term prominent in exodus (LDA topic 3), co-occurring with benchmark, chunk, processing, retrieval, canonical. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "overlay" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-bootstrap>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-delegation>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-dry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlays>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-repo>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-surface>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-scripts> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-topic-5> ;
+    skos:definition "'scripts' — a high-signal concept in the BearBrowser vocabulary (LDA topic 0), co-occurring with bearbrowser, bear, run, source, verify. Present across 22 estate repo(s): BearBrowser, HolographMe, bsd-proof-program, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "scripts" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-approve>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-auto>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dev>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-plan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-prog>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-tooling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSI-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-env> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-topic-5> ;
+    skos:definition "'env' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, dir, file, join, process. Present across 28 estate repo(s): BearBrowser, TurtleTerm, cairnpath-mesh, cloudshell-fog, global-devsecops-intelligence, hyperswarm-agent-composable-cluster-scaleup…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "env" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-ade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-command>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LSA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "'cli' — a high-signal concept in the openclaw vocabulary (LDA topic 5), co-occurring with gateway, openclaw, port, open, service. Present across 16 estate repo(s): TurtleTerm, agent-machine, agent-term, enhancements, holmes, holmes-fix-search-wiring…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "cli" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-check>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-commands>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dependency>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-egg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-entry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-green>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-info>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-init>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-links>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-pkg>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-points>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-pyproject>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-services>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-sources>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-starting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-env> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-3>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-4>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-topic-5> ;
+    skos:definition "'env' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, dir, file, join, process. Present across 28 estate repo(s): BearBrowser, TurtleTerm, cairnpath-mesh, cloudshell-fog, global-devsecops-intelligence, hyperswarm-agent-composable-cluster-scaleup…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> ;
+    skos:prefLabel "env" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-append>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-apply>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-changes>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cli>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-click>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cluster>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cmd>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-compose>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-cyan>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-desktop>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-docker>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-file>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-help>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-infra>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-join>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-kustomize>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-local>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-mail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-option>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-overlay>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-path>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-red>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-run>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-scripts>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-single>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-state>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-table>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-target>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-tears>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-terraform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-upgrade>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli#LDA-workspace> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/prophet-cli> a skos:ConceptScheme ;
+    rdfs:label "prophet-cli" ;
+    dct:title "Topic vocabulary — prophet-cli" .
+

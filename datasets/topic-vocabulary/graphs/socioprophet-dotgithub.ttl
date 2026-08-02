@@ -1,0 +1,1792 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ajv> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 0), co-occurring with bundle, sign, image, secrets, gcp. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "ajv" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-basic> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "basic" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-digest> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 31 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "digest" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-dir> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-env> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "'env' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, dir, file, join, process. Present across 28 estate repo(s): BearBrowser, TurtleTerm, cairnpath-mesh, cloudshell-fog, global-devsecops-intelligence, hyperswarm-agent-composable-cluster-scaleup…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "env" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-git> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 7), co-occurring with local, workspace, state, branch, candidate. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "git" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-hold> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-core-contracts (LDA topic 2), co-occurring with conflict, sync, local, remote, reconcile. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "hold" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-latest> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in git-ops-standards (LDA topic 2), co-occurring with findings, branch, repos, high, health. Appears in 20 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "latest" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-main> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "'main' — a high-signal concept in the openclaw vocabulary (LDA topic 9), co-occurring with session, agent, run, store, state. Present across 57 estate repo(s): HolographMe, agent-machine, agent-term, agentos-spine, agentos-starter, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "main" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-npm> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-docs-main (LDA topic 9), co-occurring with scss, hugo, doks, modules, hyas. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "npm" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-password> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "password" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pasting> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 1), co-occurring with pypi, build, lane, ops, exists. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "pasting" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-platform> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "'platform' — a high-signal concept in the prophet-platform vocabulary (LDA topic 0), co-occurring with path, record, root, release, runtime. Present across 37 estate repo(s): SociOS-Linux__cloudshell-fog, SourceOS, alexandrian-academy, contractforge, delivery-excellence, delivery-excellence-automation…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "platform" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publishing> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 1), co-occurring with pypi, build, lane, ops, exists. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "publishing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-release> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0> ;
+    skos:definition "'release' — a high-signal concept in the prophet-platform vocabulary (LDA topic 0), co-occurring with path, record, platform, root, runtime. Present across 41 estate repo(s): BearBrowser, ProCybernetica, SourceOS, agent-machine, agent-registry, agentplane…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "release" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-repos> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in sociosphere (LDA topic 8), co-occurring with path, repo, root, registry, missing. Appears in 9 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "repos" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-required> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "'required' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, scaffold, purpose, definitions, outputs. Present across 91 estate repo(s): Heller-Winters-Theorem, HolographMe, ProCybernetica, SCOPE-D, SociOS-Linux__cloudshell-fog, SourceOS…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "required" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-schema> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0> ;
+    skos:definition "'schema' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with label, array, properties, number, min. Present across 89 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "schema" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-schemas> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0> ;
+    skos:definition "'schemas' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 6), co-occurring with schema, examples, path, validate, example. Present across 31 estate repo(s): Heller-Godel, HolographMe, SourceOS, agentos-spine, alexandrian-academy, cairnpath-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "schemas" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-socioprophet> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-standards-storage (LDA topic 6), co-occurring with audit, tls, vault, security, service. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "socioprophet" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-username> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "username" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-actions> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 6), co-occurring with action, mail, layer, api, open. Appears in 48 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "actions" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-attach> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "'attach' — a high-signal concept in the cloudshell-fog vocabulary (LDA topic 8), co-occurring with session, docs, fog, current, placement. Present across 5 estate repo(s): SociOS-Linux__cloudshell-fog, cloudshell-fog, socioprophet-dotgithub, sourceos-continuum, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "attach" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-backbone> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LSA topic 1), co-occurring with estate, holds, auditable, readme, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "backbone" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-calls> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "'calls' — a high-signal concept in the sociosphere vocabulary (LDA topic 4), co-occurring with cell, cells, code, iri, verdict. Present across 2 estate repo(s): socioprophet-dotgithub, sociosphere." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "calls" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-draft> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 3), co-occurring with notes, status, subsections, file, exists. Appears in 18 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "draft" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-environment> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "'environment' — a high-signal concept in the model-router vocabulary (LDA topic 0), co-occurring with state, runtime, validation, router, run. Present across 8 estate repo(s): global-devsecops-intelligence, model-router, socioprophet-dotgithub, socioslinux-web, sociosphere, sourceos-build…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "environment" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-fail> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "'fail' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, missing. Present across 38 estate repo(s): SCOPE-D, SourceOS, agent-registry, agentplane, alexandrian-academy, delivery-excellence…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "fail" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-hand> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "'hand' — a high-signal concept in the socioprophet-dotgithub vocabulary (LSI topic 1), co-occurring with software, holds, readme, rolling, calls. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "hand" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-inputs> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 9), co-occurring with scope, required, scaffold, purpose, definitions. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "inputs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pipeline> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 7), co-occurring with artifact, sourceos, evidence, gate, verdict. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "pipeline" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publishing> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 1), co-occurring with pypi, build, lane, ops, exists. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "publishing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-rolling> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "'rolling' — a high-signal concept in the socioprophet-dotgithub vocabulary (LSI topic 1), co-occurring with software, holds, hand, readme, calls. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "rolling" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-schema> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "'schema' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with label, array, properties, number, min. Present across 89 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "schema" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-schemas> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "'schemas' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 6), co-occurring with schema, examples, path, validate, example. Present across 31 estate repo(s): Heller-Godel, HolographMe, SourceOS, agentos-spine, alexandrian-academy, cairnpath-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "schemas" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-secrets> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0> ;
+    skos:definition "'secrets' — a high-signal concept in the socioprophet-dotgithub vocabulary (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Present across 16 estate repo(s): delivery-excellence-boards, delivery-excellence-bounties, global-devsecops-intelligence, graphlab, hyperswarm-agent-composable-cluster-scaleup, nlplab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "secrets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-service> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 45 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "service" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-shared> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in mellumwork (LDA topic 5), co-occurring with tier, episode, token, upstream, demotion. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "shared" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-software> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 1), co-occurring with emoji, extended, sign, letter, x00. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "software" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-tmp> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-syncd (LDA topic 1), co-occurring with store, event, syncd, root, state. Appears in 13 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "tmp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-trusted> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "'trusted' — a high-signal concept in the nlboot vocabulary (LDA topic 2), co-occurring with boot, recovery, signature, verification, release. Present across 4 estate repo(s): delivery-excellence-innersource, nlboot, prophet-mesh, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "trusted" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-usage> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 8), co-occurring with text, tool, number, length, line. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "usage" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-validate> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 1), co-occurring with pytest, validator, fixture, exception, report. Appears in 66 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "validate" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-wide> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "'wide' — a high-signal concept in the git-ops-standards vocabulary (LDA topic 4), co-occurring with token, state, branch, registry, worktree. Present across 2 estate repo(s): git-ops-standards, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "wide" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-account> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0> ;
+    skos:definition "'account' — a high-signal concept in the openclaw vocabulary (LDA topic 0), co-occurring with config, cfg, channel, resolve, entry. Present across 7 estate repo(s): SCOPE-D, economic-prophet, global-devsecops-intelligence, openclaw, prophet-workspace, socioprophet-dotgithub…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "account" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-attach> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "'attach' — a high-signal concept in the cloudshell-fog vocabulary (LDA topic 8), co-occurring with session, docs, fog, current, placement. Present across 5 estate repo(s): SociOS-Linux__cloudshell-fog, cloudshell-fog, socioprophet-dotgithub, sourceos-continuum, usol-space-library." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "attach" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-auditable> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "'auditable' — a high-signal concept in the prophet-core-policy vocabulary (LDA topic 1), co-occurring with gaia, policy, provenance, open, rule. Present across 3 estate repo(s): prophet-core-ledger, prophet-core-policy, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "auditable" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-backbone> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LSA topic 1), co-occurring with estate, holds, auditable, readme, open. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "backbone" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-calls> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "'calls' — a high-signal concept in the sociosphere vocabulary (LDA topic 4), co-occurring with cell, cells, code, iri, verdict. Present across 2 estate repo(s): socioprophet-dotgithub, sociosphere." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "calls" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dir> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-fail> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "'fail' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, registry, missing. Present across 38 estate repo(s): SCOPE-D, SourceOS, agent-registry, agentplane, alexandrian-academy, delivery-excellence…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "fail" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-inputs> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 9), co-occurring with scope, required, scaffold, purpose, definitions. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "inputs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-lane> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0> ;
+    skos:definition "'lane' — a high-signal concept in the yang-mills vocabulary (LDA topic 0), co-occurring with source, theorem, vii, beta, fri. Present across 16 estate repo(s): Heller-Winters-Theorem, SourceOS, agentos-spine, cairnpath-mesh, delivery-excellence, model-router…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "lane" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-open> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "open" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pipeline> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in agentplane (LDA topic 7), co-occurring with artifact, sourceos, evidence, gate, verdict. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "pipeline" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-provenance> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in gaia-world-model (LDA topic 3), co-occurring with source, osm, gaia, refs, demo. Appears in 42 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "provenance" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-provider> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0> ;
+    skos:definition "'provider' — a high-signal concept in the openclaw vocabulary (LDA topic 7), co-occurring with model, api, auth, profile, models. Present across 27 estate repo(s): Noetica, agent-machine, agent-term, agentos-spine, api-contracts, exodus…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "provider" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-schema> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "'schema' — a high-signal concept in the prophet-platform vocabulary (LDA topic 5), co-occurring with label, array, properties, number, min. Present across 89 estate repo(s): BearBrowser, Heller-Godel, Heller-Winters-Theorem, HolographMe, Noetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "schema" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-schemas> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "'schemas' — a high-signal concept in the sourceos-spec vocabulary (LDA topic 6), co-occurring with schema, examples, path, validate, example. Present across 31 estate repo(s): Heller-Godel, HolographMe, SourceOS, agentos-spine, alexandrian-academy, cairnpath-mesh…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "schemas" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-service> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 7), co-occurring with graph, model, policy, kind, source. Appears in 45 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "service" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-shared> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in mellumwork (LDA topic 5), co-occurring with tier, episode, token, upstream, demotion. Appears in 5 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "shared" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-source> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "'source' — a high-signal concept in the prophet-platform vocabulary (LDA topic 7), co-occurring with graph, model, policy, kind, evidence. Present across 96 estate repo(s): BearBrowser, Heller-Godel, HolographMe, Noetica, ProCybernetica, SCOPE-D…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "source" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-tmp> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in sourceos-syncd (LDA topic 1), co-occurring with store, event, syncd, root, state. Appears in 13 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "tmp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-usage> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 8), co-occurring with text, tool, number, length, line. Appears in 3 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "usage" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-username> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "username" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-wide> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "'wide' — a high-signal concept in the git-ops-standards vocabulary (LDA topic 4), co-occurring with token, state, branch, registry, worktree. Present across 2 estate repo(s): git-ops-standards, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "wide" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-outputs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "'outputs' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 9), co-occurring with scope, required, scaffold, purpose, definitions. Present across 11 estate repo(s): Heller-Winters-Theorem, HolographMe, economic-prophet, holmes, holmes-fix-search-wiring, homebrew-prophet…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "outputs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-steps> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in identity-is-prime-reference (LDA topic 4), co-occurring with state, entity, cost, record, threshold. Appears in 20 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "steps" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-exists> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "'exists' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 3), co-occurring with notes, status, subsections, file, operator. Present across 12 estate repo(s): Heller-Winters-Theorem, agent-registry, hyperswarm-agent-composable-cluster-scaleup, nix-openclaw, nlboot, ontogenesis…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "exists" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ops>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-lane> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "'lane' — a high-signal concept in the yang-mills vocabulary (LDA topic 0), co-occurring with source, theorem, vii, beta, fri. Present across 16 estate repo(s): Heller-Winters-Theorem, SourceOS, agentos-spine, cairnpath-mesh, delivery-excellence, model-router…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "lane" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-exists>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ops>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ops> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "'ops' — a high-signal concept in the guardrail-fabric vocabulary (LDA topic 0), co-occurring with action, decision, runtime, trust, outcome. Present across 17 estate repo(s): BearBrowser, agent-registry, agent-term, agentos-spine, agentos-starter, functional-model-surfaces…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "ops" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-exists>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publish> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "'publish' — a high-signal concept in the policy-fabric vocabulary (LDA topic 5), co-occurring with branch, git, status, merge, tags. Present across 4 estate repo(s): policy-fabric, prophet-core-catalog, smart-tree, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "publish" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auditable> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "'auditable' — a high-signal concept in the prophet-core-policy vocabulary (LDA topic 1), co-occurring with gaia, policy, provenance, open, rule. Present across 3 estate repo(s): prophet-core-ledger, prophet-core-policy, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "auditable" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-readme> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auth> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "'auth' — a high-signal concept in the openclaw vocabulary (LDA topic 7), co-occurring with model, provider, api, profile, models. Present across 10 estate repo(s): ProCybernetica, global-devsecops-intelligence, hellgraph, mellumwork, openclaw, prophet-core-catalog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "auth" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dist> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 3), co-occurring with path, url, config, req, metadata. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "dist" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-gcp> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in noetica-impair (LDA topic 0), co-occurring with job, plane, run, impair, gke. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "gcp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-holds> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "'holds' — a high-signal concept in the socioprophet-dotgithub vocabulary (LSI topic 1), co-occurring with software, hand, readme, rolling, calls. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "holds" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-readme> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-open> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in openclaw (LDA topic 7), co-occurring with model, provider, api, auth, profile. Appears in 24 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "open" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-readme> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-readme> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "'readme' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 5), co-occurring with sec, base, variance, toc, chapter. Present across 7 estate repo(s): Heller-Winters-Theorem, delivery-excellence-innersource, homebrew-prophet, ocrlab, prophet-core-contracts, socioprophet-dotgithub…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "readme" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-open> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-uses> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "'uses' — a high-signal concept in the memory-mesh vocabulary (LDA topic 4), co-occurring with python, validate, scripts, install, run. Present across 46 estate repo(s): HolographMe, agent-registry, cloudshell-fog, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "uses" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-draft> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 3), co-occurring with notes, status, subsections, file, exists. Appears in 18 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "draft" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-environment> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "'environment' — a high-signal concept in the model-router vocabulary (LDA topic 0), co-occurring with state, runtime, validation, router, run. Present across 8 estate repo(s): global-devsecops-intelligence, model-router, socioprophet-dotgithub, socioslinux-web, sociosphere, sourceos-build…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "environment" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-hand> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "'hand' — a high-signal concept in the socioprophet-dotgithub vocabulary (LSI topic 1), co-occurring with software, holds, readme, rolling, calls. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "hand" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-holds> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "'holds' — a high-signal concept in the socioprophet-dotgithub vocabulary (LSI topic 1), co-occurring with software, hand, readme, rolling, calls. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "holds" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-password> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "password" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publish> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "'publish' — a high-signal concept in the policy-fabric vocabulary (LDA topic 5), co-occurring with branch, git, status, merge, tags. Present across 4 estate repo(s): policy-fabric, prophet-core-catalog, smart-tree, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "publish" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publishing> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 1), co-occurring with pypi, build, lane, ops, exists. Appears in 1 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "publishing" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-readme> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "'readme' — a high-signal concept in the Heller-Winters-Theorem vocabulary (LDA topic 5), co-occurring with sec, base, variance, toc, chapter. Present across 7 estate repo(s): Heller-Winters-Theorem, delivery-excellence-innersource, homebrew-prophet, ocrlab, prophet-core-contracts, socioprophet-dotgithub…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "readme" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-rolling> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "'rolling' — a high-signal concept in the socioprophet-dotgithub vocabulary (LSI topic 1), co-occurring with software, holds, hand, readme, calls. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "rolling" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-validate> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 1), co-occurring with pytest, validator, fixture, exception, report. Appears in 66 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "validate" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "'auth' — a high-signal concept in the openclaw vocabulary (LDA topic 7), co-occurring with model, provider, api, profile, models. Present across 10 estate repo(s): ProCybernetica, global-devsecops-intelligence, hellgraph, mellumwork, openclaw, prophet-core-catalog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "auth" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in SCOPE-D (LDA topic 9), co-occurring with path, run, dir, join, file. Appears in 19 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "push" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2> ;
+    skos:definition "Estate vocabulary term prominent in noetica-impair (LDA topic 0), co-occurring with job, plane, run, impair, gke. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "gcp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2> ;
+    skos:definition "'secrets' — a high-signal concept in the socioprophet-dotgithub vocabulary (LDA topic 2), co-occurring with registry, inputs, auth, image, build. Present across 16 estate repo(s): delivery-excellence-boards, delivery-excellence-bounties, global-devsecops-intelligence, graphlab, hyperswarm-agent-composable-cluster-scaleup, nlplab…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "secrets" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 2), co-occurring with color, style, deprecated, markup, bold. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "sign" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 0), co-occurring with bundle, sign, image, secrets, gcp. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "ajv" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 5), co-occurring with path, res, status, token, release. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "build" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "'dir' — a high-signal concept in the openclaw vocabulary (LDA topic 2), co-occurring with path, file, env, join, process. Present across 29 estate repo(s): BearBrowser, Noetica, SCOPE-D, agent-registry, agentos-spine, alexandrian-academy…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "dir" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "'pypi' — a high-signal concept in the socioprophet-dotgithub vocabulary (LDA topic 1), co-occurring with build, lane, ops, exists, main. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "pypi" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in noetica-impair (LDA topic 0), co-occurring with job, plane, run, impair, gke. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "gcp" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "'publish' — a high-signal concept in the policy-fabric vocabulary (LDA topic 5), co-occurring with branch, git, status, merge, tags. Present across 4 estate repo(s): policy-fabric, prophet-core-catalog, smart-tree, socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "publish" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 2), co-occurring with color, style, deprecated, markup, bold. Appears in 7 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "sign" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet-dotgithub (LDA topic 0), co-occurring with bundle, sign, image, secrets, gcp. Appears in 2 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "ajv" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "'python' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 2), co-occurring with awesome, media, png, icon, open. Present across 45 estate repo(s): HolographMe, SourceOS, agent-term, agentos-starter, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "python" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in Heller-Winters-Theorem (LDA topic 9), co-occurring with scope, required, scaffold, purpose, definitions. Appears in 12 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "inputs" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 27 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "bundle" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "'pypi' — a high-signal concept in the socioprophet-dotgithub vocabulary (LDA topic 1), co-occurring with build, lane, ops, exists, main. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "pypi" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "'image' — a high-signal concept in the TurtleTerm vocabulary (LDA topic 2), co-occurring with std, raw, u32, extern, unsafe. Present across 26 estate repo(s): SociOS-Linux__cloudshell-fog, TurtleTerm, agent-machine, agentos-spine, cloudshell-fog, enhancements…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "image" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "'uses' — a high-signal concept in the memory-mesh vocabulary (LDA topic 4), co-occurring with python, validate, scripts, install, run. Present across 46 estate repo(s): HolographMe, agent-registry, cloudshell-fog, contractforge, delivery-excellence-automation, delivery-excellence-innersource…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "uses" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 0 derived by latent Dirichlet allocation over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary bundle, sign, image, secrets, gcp — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-git>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-release>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-git>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-release>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> ;
+    skos:prefLabel "LDA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 1 derived by latent Dirichlet allocation over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary pypi, build, lane, ops, exists — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-exists>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-hold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-npm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ops>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pasting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-platform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-repos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-exists>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-hold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-npm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ops>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pasting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-platform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-repos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> ;
+    skos:prefLabel "LDA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 2 derived by latent Dirichlet allocation over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary registry, inputs, auth, image, build — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-basic>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-username>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-basic>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-username>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> ;
+    skos:prefLabel "LDA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LDA" ;
+    skos:definition "Topic 3 derived by latent Dirichlet allocation over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary registry, inputs, uses, build, push — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> ;
+    skos:prefLabel "LDA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 27 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "bundle" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary image, registry, bundle, build, publish — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-uses> ;
+    skos:prefLabel "LSA topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary estate, holds, auditable, readme, open — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-backbone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-calls>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pipeline>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-shared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-software>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-usage>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-wide> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-backbone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-calls>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pipeline>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-shared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-software>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-usage>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-wide> ;
+    skos:prefLabel "LSA topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary registry, bundle, image, ajv, sign — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-attach>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-tmp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-validate> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-attach>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-tmp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-validate> ;
+    skos:prefLabel "LSA topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSA" ;
+    skos:definition "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary python, dist, pypi, bundle, publish — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-trusted>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-uses> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-trusted>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-uses> ;
+    skos:prefLabel "LSA topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 0 derived by latent-semantic indexing (gensim LSI) over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary image, registry, gcp, bundle, pypi — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-account>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-provider>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-service> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-account>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-provider>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-service> ;
+    skos:prefLabel "LSI topic 0" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 1 derived by latent-semantic indexing (gensim LSI) over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary software, holds, hand, readme, rolling — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-backbone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-calls>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pipeline>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-shared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-usage>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-wide> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-backbone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-calls>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pipeline>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-shared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-usage>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-wide> ;
+    skos:prefLabel "LSI topic 1" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 2 derived by latent-semantic indexing (gensim LSI) over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary registry, dist, python, ajv, bundle — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-username>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-validate> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-username>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-validate> ;
+    skos:prefLabel "LSI topic 2" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> a skos:Collection,
+        skos:Concept ;
+    dct:source "LSI" ;
+    skos:definition "Topic 3 derived by latent-semantic indexing (gensim LSI) over the socioprophet-dotgithub corpus; centres on the co-occurring vocabulary dist, bundle, python, ajv, pypi — the shared theme these terms co-express." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:member <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-attach>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-tmp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-validate> ;
+    skos:narrower <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-attach>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-tmp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-validate> ;
+    skos:prefLabel "LSI topic 3" .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "'pypi' — a high-signal concept in the socioprophet-dotgithub vocabulary (LDA topic 1), co-occurring with build, lane, ops, exists, main. Present across 1 estate repo(s): socioprophet-dotgithub." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "pypi" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-exists>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-hold>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-main>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-npm>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ops>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pasting>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-platform>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-repos>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-required>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-mesh (LDA topic 9), co-occurring with edge, pkg, graph, provenance, shortlist. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "estate" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-backbone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-calls>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pipeline>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-shared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-software>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-usage>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-wide> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-software> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in TurtleTerm (LDA topic 1), co-occurring with emoji, extended, sign, letter, x00. Appears in 4 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "software" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-auditable>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-backbone>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-calls>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-hand>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-holds>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-open>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pipeline>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-provenance>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-readme>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-rolling>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-shared>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-source>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-usage>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-wide> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2> ;
+    skos:definition "'image' — a high-signal concept in the TurtleTerm vocabulary (LDA topic 2), co-occurring with std, raw, u32, extern, unsafe. Present across 26 estate repo(s): SociOS-Linux__cloudshell-fog, TurtleTerm, agent-machine, agentos-spine, cloudshell-fog, enhancements…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "image" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-account>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-provider>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-service> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2> ;
+    skos:definition "'registry' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, missing, fail. Present across 26 estate repo(s): Heller-Godel, Heller-Winters-Theorem, agent-registry, agent-term, agentos-spine, agentos-starter…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "registry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-username>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in socioprophet (LDA topic 5), co-occurring with path, res, status, token, release. Appears in 25 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "build" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-exists>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-lane>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ops>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-bundle> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-1> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 0), co-occurring with path, record, platform, root, release. Appears in 27 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "bundle" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-git>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-release>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2> ;
+    skos:definition "'image' — a high-signal concept in the TurtleTerm vocabulary (LDA topic 2), co-occurring with std, raw, u32, extern, unsafe. Present across 26 estate repo(s): SociOS-Linux__cloudshell-fog, TurtleTerm, agent-machine, agentos-spine, cloudshell-fog, enhancements…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "image" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-service>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "'python' — a high-signal concept in the gaia-world-model vocabulary (LDA topic 2), co-occurring with awesome, media, png, icon, open. Present across 45 estate repo(s): HolographMe, SourceOS, agent-term, agentos-starter, bsd-proof-program, cloudshell-fog…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "python" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-actions>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dist>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-trusted>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-dist> a skos:Concept ;
+    dct:source "LSI" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-topic-3> ;
+    skos:definition "Estate vocabulary term prominent in prophet-platform (LDA topic 3), co-occurring with path, url, config, req, metadata. Appears in 8 estate repo(s)." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "dist" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-attach>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-environment>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-publishing>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-pypi>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-registry>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-tmp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSI-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-registry> a skos:Concept ;
+    dct:source "LDA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-topic-3> ;
+    skos:definition "'registry' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, missing, fail. Present across 26 estate repo(s): Heller-Godel, Heller-Winters-Theorem, agent-registry, agent-term, agentos-spine, agentos-starter…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "registry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-basic>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-digest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-env>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-inputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-latest>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-outputs>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-password>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-push>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-secrets>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-socioprophet>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-steps>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-username>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LDA-uses> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-registry> a skos:Concept ;
+    dct:source "LSA" ;
+    skos:broader <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-0>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-1>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-2>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-topic-3> ;
+    skos:definition "'registry' — a high-signal concept in the sociosphere vocabulary (LDA topic 8), co-occurring with path, repo, root, missing, fail. Present across 26 estate repo(s): Heller-Godel, Heller-Winters-Theorem, agent-registry, agent-term, agentos-spine, agentos-starter…." ;
+    skos:inScheme <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> ;
+    skos:prefLabel "registry" ;
+    skos:related <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-ajv>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-attach>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-auth>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-build>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-bundle>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-dir>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-draft>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-estate>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-fail>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-gcp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-image>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-publish>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-python>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-schema>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-schemas>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-sign>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-tmp>,
+        <https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub#LSA-validate> .
+
+<https://catalog.socioprophet.ai/topic-vocabulary/socioprophet-dotgithub> a skos:ConceptScheme ;
+    rdfs:label "socioprophet-dotgithub" ;
+    dct:title "Topic vocabulary — socioprophet-dotgithub" .
+
