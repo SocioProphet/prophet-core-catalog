@@ -1,0 +1,973 @@
+{
+  "attestation_ref": null,
+  "blob_id": "blob_catalog_define_res_254cc0843781",
+  "in_reply_to_digest": "sha256:a6d778bf0b7813509c32672d69c61f2fc4a9f77e0cb7922a4df7a0184e8478a7",
+  "media_type": "application/vnd.socioprophet.catalog-result+json;v=0",
+  "method": "catalog.define.RES",
+  "parent_ref": "blob_catalog_define_req_a6d778bf0b78",
+  "payload": {
+    "result": {
+      "capped": 50,
+      "count": 3750,
+      "rows": [
+        {
+          "definition": "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary policy, agent, action, credential, decision — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 0",
+          "narrower_terms": [
+            "policy",
+            "agent",
+            "action",
+            "credential",
+            "decision",
+            "bear",
+            "bearbrowser",
+            "runtime"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary build, action, source, bear, linux — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 1",
+          "narrower_terms": [
+            "build",
+            "action",
+            "source",
+            "bear",
+            "linux",
+            "decision",
+            "bash",
+            "scripts"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary credential, action, boundary, pref, line — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 2",
+          "narrower_terms": [
+            "credential",
+            "action",
+            "boundary",
+            "pref",
+            "line",
+            "workspace",
+            "device",
+            "runtime"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary line, errors, pref, properties, user — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 3",
+          "narrower_terms": [
+            "line",
+            "errors",
+            "pref",
+            "properties",
+            "user",
+            "append",
+            "memory",
+            "device"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 4 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary pref, properties, tor, scripts, bash — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 4",
+          "narrower_terms": [
+            "pref",
+            "properties",
+            "tor",
+            "scripts",
+            "bash",
+            "user",
+            "rfp",
+            "enabled"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 5 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary receipt, properties, device, session, additional — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 5",
+          "narrower_terms": [
+            "receipt",
+            "properties",
+            "device",
+            "session",
+            "additional",
+            "object",
+            "automation",
+            "errors"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 6 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary properties, receipt, line, errors, additional — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 6",
+          "narrower_terms": [
+            "properties",
+            "receipt",
+            "line",
+            "errors",
+            "additional",
+            "credential",
+            "append",
+            "boundary"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 7 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary pref, boundary, scripts, credential, source — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 7",
+          "narrower_terms": [
+            "pref",
+            "boundary",
+            "scripts",
+            "credential",
+            "source",
+            "checkout",
+            "user",
+            "receipt"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 8 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary device, adapter, action, agent, receipt — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 8",
+          "narrower_terms": [
+            "device",
+            "adapter",
+            "action",
+            "agent",
+            "receipt",
+            "state",
+            "broker",
+            "errors"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 9 derived by latent-semantic analysis (TruncatedSVD) over the BearBrowser corpus; centres on the co-occurring vocabulary pref, tor, boundary, user, credential — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSA topic 9",
+          "narrower_terms": [
+            "pref",
+            "tor",
+            "boundary",
+            "user",
+            "credential",
+            "rfp",
+            "enabled",
+            "patch"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 0 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary action, credential, receipt, decision, properties — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 0",
+          "narrower_terms": [
+            "action",
+            "credential",
+            "receipt",
+            "decision",
+            "properties",
+            "boundary",
+            "agent",
+            "automation"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 1 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary properties, pref, tor, build, bash — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 1",
+          "narrower_terms": [
+            "properties",
+            "pref",
+            "tor",
+            "build",
+            "bash",
+            "linux",
+            "packaging",
+            "errors"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 2 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary boundary, pref, line, credential, properties — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 2",
+          "narrower_terms": [
+            "boundary",
+            "pref",
+            "line",
+            "credential",
+            "properties",
+            "errors",
+            "action",
+            "workspace"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 3 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary errors, line, properties, device, append — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 3",
+          "narrower_terms": [
+            "errors",
+            "line",
+            "properties",
+            "device",
+            "append",
+            "memory",
+            "adapter",
+            "cockpit"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 4 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary pref, properties, tor, bash, enabled — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 4",
+          "narrower_terms": [
+            "pref",
+            "properties",
+            "tor",
+            "bash",
+            "enabled",
+            "scripts",
+            "rfp",
+            "checkout"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 5 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary properties, receipt, additional, errors, device — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 5",
+          "narrower_terms": [
+            "properties",
+            "receipt",
+            "additional",
+            "errors",
+            "device",
+            "session",
+            "object",
+            "pref"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 6 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary receipt, properties, boundary, line, errors — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 6",
+          "narrower_terms": [
+            "receipt",
+            "properties",
+            "boundary",
+            "line",
+            "errors",
+            "credential",
+            "additional",
+            "receipts"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 7 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary pref, boundary, checkout, scripts, bash — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 7",
+          "narrower_terms": [
+            "pref",
+            "boundary",
+            "checkout",
+            "scripts",
+            "bash",
+            "validate",
+            "source",
+            "enabled"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 8 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary pref, boundary, tor, receipt, enabled — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 8",
+          "narrower_terms": [
+            "pref",
+            "boundary",
+            "tor",
+            "receipt",
+            "enabled",
+            "rfp",
+            "operation",
+            "patches"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 9 derived by latent-semantic indexing (gensim LSI) over the BearBrowser corpus; centres on the co-occurring vocabulary device, adapter, action, errors, broker — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LSI topic 9",
+          "narrower_terms": [
+            "device",
+            "adapter",
+            "action",
+            "errors",
+            "broker",
+            "agent",
+            "line",
+            "state"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 0 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary bearbrowser, bear, scripts, run, source — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 0",
+          "narrower_terms": [
+            "bearbrowser",
+            "bear",
+            "scripts",
+            "run",
+            "source",
+            "verify",
+            "bash",
+            "linux"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 1 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary action, policy, agent, event, decision — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 1",
+          "narrower_terms": [
+            "action",
+            "policy",
+            "agent",
+            "event",
+            "decision",
+            "run",
+            "bearbrowser",
+            "user"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 2 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary memory, action, record, text, esc — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 2",
+          "narrower_terms": [
+            "memory",
+            "action",
+            "record",
+            "text",
+            "esc",
+            "actions",
+            "path",
+            "sidecar"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 3 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary properties, feature, history, multi, ops — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 3",
+          "narrower_terms": [
+            "properties",
+            "feature",
+            "history",
+            "multi",
+            "ops",
+            "bpf",
+            "bearhistory",
+            "dev"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 4 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary pref, user, enabled, network, privacy — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 4",
+          "narrower_terms": [
+            "pref",
+            "user",
+            "enabled",
+            "network",
+            "privacy",
+            "web",
+            "media",
+            "rfp"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 5 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary engine, dumpcap, host, tcpdump, path — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 5",
+          "narrower_terms": [
+            "engine",
+            "dumpcap",
+            "host",
+            "tcpdump",
+            "path",
+            "tshark",
+            "pcap",
+            "buffer"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 6 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary state, path, device, bear, decision — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 6",
+          "narrower_terms": [
+            "state",
+            "path",
+            "device",
+            "bear",
+            "decision",
+            "serde",
+            "bearbrowser",
+            "sys"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 7 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary path, decision, errors, line, receipt — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 7",
+          "narrower_terms": [
+            "path",
+            "decision",
+            "errors",
+            "line",
+            "receipt",
+            "policy",
+            "append",
+            "text"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 8 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary text, rfp, font, patch, canvas — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 8",
+          "narrower_terms": [
+            "text",
+            "rfp",
+            "font",
+            "patch",
+            "canvas",
+            "patches",
+            "fonts",
+            "build"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 9 derived by latent Dirichlet allocation over the BearBrowser corpus; centres on the co-occurring vocabulary tor, esr, mode, firefox, build — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "BearBrowser · LDA topic 9",
+          "narrower_terms": [
+            "tor",
+            "esr",
+            "mode",
+            "firefox",
+            "build",
+            "patch",
+            "cohort",
+            "spoof"
+          ],
+          "related_terms": [],
+          "repos": [
+            "BearBrowser"
+          ]
+        },
+        {
+          "definition": "Topic 0 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary fnd, text, proof, mth, carry — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 0",
+          "narrower_terms": [
+            "fnd",
+            "text",
+            "proof",
+            "mth",
+            "carry",
+            "does",
+            "theorem",
+            "hodge"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 1 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary fnd, pfk, hodge, proof, artifact — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 1",
+          "narrower_terms": [
+            "fnd",
+            "pfk",
+            "hodge",
+            "proof",
+            "artifact",
+            "schema",
+            "tame",
+            "preflight"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 2 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary fraction, fnd, pfk, tuple, alpha — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 2",
+          "narrower_terms": [
+            "fraction",
+            "fnd",
+            "pfk",
+            "tuple",
+            "alpha",
+            "schema",
+            "rho",
+            "level"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 3 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary hodge, pfk, schema, fraction, artifact — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 3",
+          "narrower_terms": [
+            "hodge",
+            "pfk",
+            "schema",
+            "fraction",
+            "artifact",
+            "fnd",
+            "primes",
+            "event"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 4 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary tame, carry, symbol, hodge, deligne — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 4",
+          "narrower_terms": [
+            "tame",
+            "carry",
+            "symbol",
+            "hodge",
+            "deligne",
+            "mth",
+            "fraction",
+            "closure"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 5 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary hodge, horizon, matrix, row, tuple — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 5",
+          "narrower_terms": [
+            "hodge",
+            "horizon",
+            "matrix",
+            "row",
+            "tuple",
+            "perm",
+            "circle",
+            "context"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 6 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary fraction, hodge, tame, carry, symbol — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 6",
+          "narrower_terms": [
+            "fraction",
+            "hodge",
+            "tame",
+            "carry",
+            "symbol",
+            "mth",
+            "grade",
+            "matrix"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 7 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary omega, bsd, fnd, spin, path — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 7",
+          "narrower_terms": [
+            "omega",
+            "bsd",
+            "fnd",
+            "spin",
+            "path",
+            "text",
+            "program",
+            "gate"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 8 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary weights, bsd, sigma, fraction, artifact — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 8",
+          "narrower_terms": [
+            "weights",
+            "bsd",
+            "sigma",
+            "fraction",
+            "artifact",
+            "omega",
+            "period",
+            "program"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 9 derived by latent-semantic analysis (TruncatedSVD) over the Heller-Godel corpus; centres on the co-occurring vocabulary audit, period, legacy, path, abelian — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSA topic 9",
+          "narrower_terms": [
+            "audit",
+            "period",
+            "legacy",
+            "path",
+            "abelian",
+            "topology",
+            "wheel",
+            "factoring"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 0 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary fnd, mth, carry, preflight, hodge — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 0",
+          "narrower_terms": [
+            "fnd",
+            "mth",
+            "carry",
+            "preflight",
+            "hodge",
+            "text",
+            "grade",
+            "tame"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 1 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary fnd, hodge, pfk, schema, preflight — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 1",
+          "narrower_terms": [
+            "fnd",
+            "hodge",
+            "pfk",
+            "schema",
+            "preflight",
+            "artifact",
+            "tame",
+            "mth"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 2 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary fraction, pfk, tuple, schema, alpha — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 2",
+          "narrower_terms": [
+            "fraction",
+            "pfk",
+            "tuple",
+            "schema",
+            "alpha",
+            "fnd",
+            "beta",
+            "hodge"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 3 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary hodge, pfk, schema, fraction, event — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 3",
+          "narrower_terms": [
+            "hodge",
+            "pfk",
+            "schema",
+            "fraction",
+            "event",
+            "artifact",
+            "primes",
+            "properties"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 4 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary tame, symbol, hodge, fraction, carry — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 4",
+          "narrower_terms": [
+            "tame",
+            "symbol",
+            "hodge",
+            "fraction",
+            "carry",
+            "deligne",
+            "closure",
+            "pfk"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 5 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary fraction, matrix, perm, young, circle — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 5",
+          "narrower_terms": [
+            "fraction",
+            "matrix",
+            "perm",
+            "young",
+            "circle",
+            "generators",
+            "atlas",
+            "row"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 6 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary fraction, hodge, tame, carry, symbol — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 6",
+          "narrower_terms": [
+            "fraction",
+            "hodge",
+            "tame",
+            "carry",
+            "symbol",
+            "horizon",
+            "mth",
+            "grade"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 7 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary omega, period, subgroup, eisenstein, spin — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 7",
+          "narrower_terms": [
+            "omega",
+            "period",
+            "subgroup",
+            "eisenstein",
+            "spin",
+            "fnd",
+            "perm",
+            "horizon"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 8 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary audit, legacy, topology, clock, props — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 8",
+          "narrower_terms": [
+            "audit",
+            "legacy",
+            "topology",
+            "clock",
+            "props",
+            "mono",
+            "kind",
+            "workflow"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        },
+        {
+          "definition": "Topic 9 derived by latent-semantic indexing (gensim LSI) over the Heller-Godel corpus; centres on the co-occurring vocabulary period, weights, legacy, factoring, audit — the shared theme these terms co-express.",
+          "kind": "topic",
+          "name": "Heller-Godel · LSI topic 9",
+          "narrower_terms": [
+            "period",
+            "weights",
+            "legacy",
+            "factoring",
+            "audit",
+            "bsd",
+            "wheel",
+            "abelian"
+          ],
+          "related_terms": [],
+          "repos": [
+            "Heller-Godel"
+          ]
+        }
+      ],
+      "term": "topic"
+    },
+    "tool": "catalog.define"
+  },
+  "payload_digest": "sha256:254cc0843781869d62b9d560a817758493b7dd4270b081de7412f185a695e061",
+  "producer": "prophet-core-catalog/tools/catalog_mcp_server.py@catalog-mcp.v0",
+  "schema_version": "socioprophet-catalog-mcp-transport.v0",
+  "semantic_schema_ref": "prophet-core-catalog:catalog-mcp.v0#/CatalogResult",
+  "transport_profile": "tritrpc:docs/AGENT_SANDBOX_TRANSPORT_PROFILE.md"
+}

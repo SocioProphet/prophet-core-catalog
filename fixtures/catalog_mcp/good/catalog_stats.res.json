@@ -1,0 +1,108 @@
+{
+  "attestation_ref": null,
+  "blob_id": "blob_catalog_stats_res_a3a1fc685627",
+  "in_reply_to_digest": "sha256:99bff5df645f5f3b9c6bc09d644547a6f59645ebdedce87582dee351ea859225",
+  "media_type": "application/vnd.socioprophet.catalog-result+json;v=0",
+  "method": "catalog.stats.RES",
+  "parent_ref": "blob_catalog_stats_req_99bff5df645f",
+  "payload": {
+    "result": {
+      "assets": 53025,
+      "datasets": 12,
+      "edges": 19074,
+      "glossary_terms": 7724,
+      "registry": [
+        {
+          "assets": 1140,
+          "dataset": "adrs-docs",
+          "id": "ds.adrs-docs",
+          "sources": 145,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 101,
+          "dataset": "agents-manifests",
+          "id": "ds.agents-manifests",
+          "sources": 9,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 1142,
+          "dataset": "ci-workflows-tests",
+          "id": "ds.ci-workflows-tests",
+          "sources": 121,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 13,
+          "dataset": "feedback-loops",
+          "id": "ds.feedback-loops",
+          "sources": 8,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 52,
+          "dataset": "models",
+          "id": "ds.models",
+          "sources": 9,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 360,
+          "dataset": "ontologies",
+          "id": "ds.ontologies",
+          "sources": 21,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 2308,
+          "dataset": "regex-operational-dataset",
+          "id": "ds.regex-operational-dataset",
+          "sources": 13,
+          "version": "0.2.0"
+        },
+        {
+          "assets": 423,
+          "dataset": "rules-policies",
+          "id": "ds.rules-policies",
+          "sources": 45,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 2328,
+          "dataset": "schemas-contracts",
+          "id": "ds.schemas-contracts",
+          "sources": 90,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 430,
+          "dataset": "services-endpoints",
+          "id": "ds.services-endpoints",
+          "sources": 27,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 141,
+          "dataset": "stemmer-policy",
+          "id": "ds.stemmer-policy",
+          "sources": 121,
+          "version": "0.1.0"
+        },
+        {
+          "assets": 44587,
+          "dataset": "topic-vocabulary",
+          "id": "ds.topic-vocabulary",
+          "sources": 130,
+          "version": "0.1.0"
+        }
+      ]
+    },
+    "tool": "catalog.stats"
+  },
+  "payload_digest": "sha256:a3a1fc6856271f9de7b36fe9180ebe4d41bf09af51cbe2fe3e24df414eeb584c",
+  "producer": "prophet-core-catalog/tools/catalog_mcp_server.py@catalog-mcp.v0",
+  "schema_version": "socioprophet-catalog-mcp-transport.v0",
+  "semantic_schema_ref": "prophet-core-catalog:catalog-mcp.v0#/CatalogResult",
+  "transport_profile": "tritrpc:docs/AGENT_SANDBOX_TRANSPORT_PROFILE.md"
+}

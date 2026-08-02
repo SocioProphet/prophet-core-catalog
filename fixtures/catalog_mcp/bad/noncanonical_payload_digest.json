@@ -1,0 +1,18 @@
+{
+  "attestation_ref": null,
+  "blob_id": "blob_catalog_who_uses_req_1824c46c0793",
+  "media_type": "application/vnd.socioprophet.catalog-query+json;v=0",
+  "method": "catalog.who_uses.REQ",
+  "parent_ref": null,
+  "payload": {
+    "args": {
+      "query": "skills"
+    },
+    "tool": "catalog.who_uses"
+  },
+  "payload_digest": "sha256:d7f2e812aaa5f11fe1d24f79c72b34ceabbbb27328f3363e9ba0eabdf69a46ae",
+  "producer": "prophet-core-catalog/tools/catalog_mcp_server.py@catalog-mcp.v0",
+  "schema_version": "socioprophet-catalog-mcp-transport.v0",
+  "semantic_schema_ref": "prophet-core-catalog:catalog-mcp.v0#/CatalogQuery",
+  "transport_profile": "tritrpc:docs/AGENT_SANDBOX_TRANSPORT_PROFILE.md"
+}
