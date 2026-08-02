@@ -1,0 +1,25 @@
+{
+  "id": "ds.internal_ops.libraries.numpy",
+  "name": "NumPy — internal-operations vendored library",
+  "version": ">=1.26",
+  "sources": ["src.pypi.numpy"],
+  "schema": {
+    "format": "mixed",
+    "fields": ["ndarray", "linalg", "linalg.eigh", "fft", "random"],
+    "schema_uri": "https://numpy.org/doc/stable/reference/"
+  },
+  "lineage": {
+    "transform": "vendored-dependency; declared as an optional extra in consumer pyproject (e.g. meshrush '.[scientific]')",
+    "receipt_required": true,
+    "upstream_datasets": []
+  },
+  "quality": {
+    "checks": ["license-permissive-verified", "sbom-listed", "consumer-declared-extra"],
+    "minimum_quality_gate": "permissive-license"
+  },
+  "access": {
+    "visibility": "organization",
+    "owners": ["team:platform-engineering"],
+    "allowed_roles": ["engineer", "agent"]
+  }
+}
