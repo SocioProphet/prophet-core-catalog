@@ -144,7 +144,7 @@ ent:cairnpath-mesh a cat:CatalogEntry ;
   cat:status "active" ;
   dct:title "Cairnpath Mesh (SocioProphet estate repo)" ;
   cat:provenanceRef "https://github.com/SocioProphet/cairnpath-mesh" ;
-  dct:license "unknown" ;
+  dct:license "permissive" ;
   cat:describes res:cairnpath-mesh .
 res:cairnpath-mesh a cat:EstateResource ;
   dct:subject "code" ;
@@ -341,18 +341,6 @@ ent:gitea-sovereign a cat:CatalogEntry ;
 res:gitea-sovereign a cat:EstateResource ;
   dct:subject "code" ;
   rdfs:label "Gitea Sovereign (SocioProphet estate repo)" .
-
-ent:github.cairnpath-mesh-schemas a cat:CatalogEntry ;
-  cat:catalogId "src.github.cairnpath-mesh-schemas" ;
-  cat:owner "SocioProphet" ;
-  cat:status "active" ;
-  dct:title "cairnpath-mesh normative CairnPath schemas" ;
-  cat:provenanceRef "https://github.com/SocioProphet/cairnpath-mesh" ;
-  dct:license "permissive" ;
-  cat:describes res:github.cairnpath-mesh-schemas .
-res:github.cairnpath-mesh-schemas a cat:EstateResource ;
-  dct:subject "internal-operations/libraries" ;
-  rdfs:label "cairnpath-mesh normative CairnPath schemas" .
 
 ent:global-devsecops-intelligence a cat:CatalogEntry ;
   cat:catalogId "src.global-devsecops-intelligence" ;
