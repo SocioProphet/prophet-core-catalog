@@ -36,7 +36,10 @@ This document and `ds.feedback-loops` are themselves catalog assets: they carry 
 (`sources[]`), validate through the same fail-closed gate, and will be kept fresh by the same
 contribution loop they describe. The catalog catalogs its own governance — which is the point.
 
-The one loop still open by an operator action, not code: **catalog-contribution** is
-`live-pending-token` until the `CATALOG_APP_ID` + `CATALOG_APP_PRIVATE_KEY` org secrets are set (the
-`socioprophet-catalog-contributor` App, whose token is minted in CI). That is recorded honestly
-here rather than reported as done.
+The **catalog-contribution** loop mints its token in CI from the estate's shared ops App (the
+already-provisioned `GH_OPS_APP_ID` / `GH_OPS_APP_PRIVATE_KEY` org secrets, gated by
+`vars.GH_OPS_APP_CONFIGURED`) — no catalog-specific secret and no per-consumer operator action.
+It is `live-pending-token` only in that it stays inert (green) until the shared App is
+configured estate-wide and granted `contents` + `pull_requests` write; that one-time permission
+grant on the existing org App is the sole human step (GitHub does not expose App-permission
+management to CI/WIF identities). Recorded honestly here rather than reported as fully closed.

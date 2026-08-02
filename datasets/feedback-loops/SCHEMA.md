@@ -33,6 +33,8 @@
 - `recorded_in` entries are **blast-radius edges** from a loop/lifecycle to the concrete PR, issue,
   workflow, or file that is its evidence. A loop with an empty or unresolvable `recorded_in` is a
   **never-fired** control and should be treated as suspect.
-- `status` is honest: `live-pending-token` = wired but inert until an operator action (e.g. the
-  `CATALOG_APP_ID` + `CATALOG_APP_PRIVATE_KEY` App secrets); `partial` = designed + partially enforced; `designed` = spec only.
+- `status` is honest: `live-pending-token` = wired but inert until a one-time bootstrap (e.g. the
+  shared ops App — `GH_OPS_APP_ID` / `GH_OPS_APP_PRIVATE_KEY`, gated by `vars.GH_OPS_APP_CONFIGURED`
+  — being configured and granted `contents` + `pull_requests` write; no per-consumer secret);
+  `partial` = designed + partially enforced; `designed` = spec only.
 - These are curation seeds, not final governance labels; expand as loops mature.
