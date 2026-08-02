@@ -1,0 +1,31 @@
+{
+  "id": "src.contractforge",
+  "name": "Contractforge (SocioProphet estate repo)",
+  "domain": "legal",
+  "provider": "SocioProphet/contractforge",
+  "access": {
+    "method": "bulk-download",
+    "auth": "service-account",
+    "endpoint": "https://github.com/SocioProphet/contractforge",
+    "rate_limit": "n/a"
+  },
+  "license": {
+    "class": "unknown",
+    "commercial_use": false,
+    "redistribution": "unknown",
+    "terms_url": "https://github.com/SocioProphet/contractforge/blob/main/LICENSE"
+  },
+  "freshness": {
+    "cadence": "ad-hoc",
+    "expected_lag": "commit-driven"
+  },
+  "policy": {
+    "privacy_class": "restricted-public",
+    "product_eligible": true,
+    "notes": "First-party estate repo (organization visibility), harvested read-only. License not machine-verified; see repo LICENSE. observed_at 2026-08-02."
+  },
+  "provenance": {
+    "strength": "primary",
+    "canonical_url": "https://github.com/SocioProphet/contractforge"
+  }
+}
