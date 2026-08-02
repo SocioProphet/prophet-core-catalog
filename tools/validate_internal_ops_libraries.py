@@ -51,31 +51,42 @@ def main() -> int:
     source_schema = load_json(SOURCE_SCHEMA)
     dataset_schema = load_json(DATASET_SCHEMA)
 
+    def rel(path: Path) -> str:
+        return str(path.relative_to(ROOT))
+
     sources: dict[str, dict] = {}
     for path in sorted(SOURCES_DIR.glob("*.json")) if SOURCES_DIR.exists() else []:
         record = load_json(path)
-        problems += check_schema(record, source_schema, label=path.name)
-        sources[record.get("id", path.name)] = record
+        label = rel(path)
+        problems += check_schema(record, source_schema, label=label)
+        sid = record.get("id", label)
+        if sid in sources:
+            # Fail closed: a duplicate id would otherwise overwrite the earlier
+            # record and make referential/license checks run against the wrong one.
+            problems.append(f"{label}: duplicate source id '{sid}'")
+        else:
+            sources[sid] = record
 
-    datasets: list[tuple[Path, dict]] = []
+    datasets: list[tuple[str, dict]] = []
     if DATASETS_DIR.exists():
         for path in sorted(DATASETS_DIR.rglob("*.json")):
             record = load_json(path)
-            problems += check_schema(record, dataset_schema, label=path.name)
-            datasets.append((path, record))
+            label = rel(path)
+            problems += check_schema(record, dataset_schema, label=label)
+            datasets.append((label, record))
 
     # Semantic checks.
-    for path, record in datasets:
+    for label, record in datasets:
         for src_id in record.get("sources", []):
             src = sources.get(src_id)
             if src is None:
-                problems.append(f"{path.name}: references unknown source '{src_id}'")
+                problems.append(f"{label}: references unknown source '{src_id}'")
                 continue
             if record.get("id", "").startswith(LIBRARY_PREFIX):
                 lic = src.get("license", {}).get("class")
                 if lic not in PERMISSIVE_CLASSES:
                     problems.append(
-                        f"{path.name}: vendored library depends on source '{src_id}' "
+                        f"{label}: vendored library depends on source '{src_id}' "
                         f"with non-permissive license class '{lic}' "
                         f"(allowed: {sorted(PERMISSIVE_CLASSES)})"
                     )
