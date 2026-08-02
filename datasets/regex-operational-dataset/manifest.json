@@ -1,0 +1,63 @@
+{
+  "id": "ds.regex-operational-dataset",
+  "name": "Estate Regex Operational Dataset",
+  "version": "0.1.0",
+  "sources": [
+    "src.agent-machine",
+    "src.agent-registry",
+    "src.git-ops-standards",
+    "src.guardrail-fabric",
+    "src.memory-mesh",
+    "src.model-router",
+    "src.noetica",
+    "src.procybernetica",
+    "src.prophet-mesh",
+    "src.prophet-platform",
+    "src.scope-d",
+    "src.sociosphere",
+    "src.superconscious"
+  ],
+  "schema": {
+    "format": "document",
+    "fields": [
+      "category",
+      "competitor_clean",
+      "flags",
+      "id",
+      "intent",
+      "lang",
+      "pattern",
+      "redos_suspect",
+      "risk_class",
+      "sources",
+      "use_count"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "Read-only ripgrep/AST harvest of first-party ~/dev repos (2026-08-02); identical patterns deduped by sha1; competitor model/vendor-name and AI key-prefix patterns quarantined out per estate hard rule.",
+    "receipt_required": true,
+    "upstream_datasets": []
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line",
+      "dedup-by-pattern-sha1",
+      "competitor_clean==true (public corpus)",
+      "redos_suspect flagged for review",
+      "risk_class in {catastrophic,sensitive,benign}"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
