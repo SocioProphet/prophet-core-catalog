@@ -19,7 +19,12 @@ Seeded 2026-08-02 by a read-only harvest of 13 first-party `~/dev` repos.
 ## Blast-radius / dependency tracing (how agents use it)
 - **Who uses pattern X?** → `sources[]` on its corpus record, or all `imports` edges into `rx://<id>` in `gbrg-blast-radius.jsonl`.
 - **Highest-blast-radius patterns** = highest `use_count` (top today: `\s+` 132; `\/$` 95; `^sha256:[a-f0-9]{64}$` 71 — the provenance/receipt shapes).
-- **Misuse / risk sweep** → filter `risk_class: catastrophic` (secret-shaped) or `redos_suspect: true` (catastrophic-backtracking shapes; 11 flagged — see the ReDoS tracking issue).
+- **Misuse / risk sweep** → filter `risk_class: catastrophic` (secret-shaped) or `redos_suspect: true` (catastrophic-backtracking shapes; 11 flagged — see the ReDoS tracking issue #6 and the remediation file below).
+
+## ReDoS remediation (issue #6)
+- **Worklist:** `redos-remediations.jsonl` — one record per flagged pattern: `{id, original, hardened, rationale, sites:[{repo,file,line}], status}`. This catalog delivers the **verified hardened patterns + the exact usage sites**; the actual source edits land in the owning repos via their own PRs.
+- **Status:** all 11 `status: "proposed"`. Empirical timing (CPython `re` + V8) shows **none exhibit exponential catastrophic backtracking** — every flagged shape has a *disjoint separator* (literal `.`, `\s`/`[ \t]` vs. a word class) or uses the Friedl unrolled quote matcher `(?:[^"\\]|\\.)*`, so decomposition is unambiguous and backtracking is already linear (worst adversarial case ~4 ms on 60 KB). They are true-positives on *shape* but **unbounded**, which still trips static scanners and leaves worst-case work uncapped.
+- **Fix strategy:** bound each pattern — keep the `^…$` anchors, add per-token length caps (`{1,N}`), cap repetition counts, replace `\s` with `[ \t]` where line-local, and use possessive/atomic runs where the engine supports it (Python 3.11+). Every hardened pattern was verified to (a) still match its intended inputs and (b) drop worst-case adversarial time to sub-millisecond. **None required escalation.**
 
 ## Governance
 - **First-party provider refs are included** (`provider_reference: true`) as the estate's own security/routing policy — see `PROVIDER-REFERENCE-NOTE.md`. Competitor/client *marketing* materials remain excluded. The validator gates on JSONL validity + `id`/`pattern` presence.
