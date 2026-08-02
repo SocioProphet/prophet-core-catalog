@@ -1,0 +1,1 @@
+{"id": "mdl-50f3dea9ef", "name": "sentence-transformers/all-MiniLM-L6-v2", "provider": "sentence-transformers", "role": "embedding", "repo": "sociosphere", "path": "(code reference)", "used_by": ["sociosphere", "tritfabric"], "governed": false, "provider_reference": true, "intent": "MiniLM sentence-embedding for local similarity / classification"}

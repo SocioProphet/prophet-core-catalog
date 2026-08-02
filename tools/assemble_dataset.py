@@ -44,6 +44,11 @@ ROOT = Path(__file__).resolve().parents[1]
 # Legacy monolith filenames that auto-absorb will consume, in priority order.
 MONOLITH_NAMES = ["corpus.jsonl", "regex-corpus.jsonl"]
 
+# Written by tools/shard_dataset.py when a dataset is decomposed with the
+# generalized (lossless, single-owner) sharder. Its presence switches assemble
+# from the regex union-merge path to a byte-identical primary-file reconstruction.
+GENERAL_SHARD_MANIFEST = "_shard-manifest.json"
+
 _RISK_ORDER = {"benign": 0, "sensitive": 1, "catastrophic": 2}
 
 
@@ -170,6 +175,28 @@ def _build_gbrg(corpus: list[dict], out: Path) -> None:
     out.write_text(body, encoding="utf-8")
 
 
+def _assemble_general(ds_dir: Path, contrib_dir: Path) -> None:
+    """Generalized path: reconstruct each primary file byte-identically from the
+    single-owner shards, using the manifest tools/shard_dataset.py wrote. Lossless
+    round-trip — no domain-specific merge, no corpus.jsonl (the primary files ARE
+    the corpus for these datasets)."""
+    man = json.loads((contrib_dir / GENERAL_SHARD_MANIFEST).read_text(encoding="utf-8"))
+    id_to_line: dict[str, str] = {}
+    for shard in sorted(contrib_dir.glob("*.jsonl")):
+        for line in shard.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            id_to_line[str(json.loads(line)["id"])] = line
+    for fname, spec in man["primary_files"].items():
+        lines = [id_to_line[str(rid)] for rid in spec["ids"]]
+        body = "\n".join(lines)
+        if body:
+            body += "\n"
+        (ds_dir / fname).write_text(body, encoding="utf-8")
+    print(f"  reconstructed {len(man['primary_files'])} primary file(s) from "
+          f"{len(id_to_line)} record(s) across single-owner shards")
+
+
 def assemble(ds_dir: Path) -> None:
     ds_dir = ds_dir.resolve()
     manifest = json.loads((ds_dir / "manifest.json").read_text()) if (ds_dir / "manifest.json").exists() else {}
@@ -177,6 +204,13 @@ def assemble(ds_dir: Path) -> None:
     print(f"assembling {ds_dir.name} ({ds_id})")
 
     contrib_dir = ds_dir / "contributions"
+
+    # Generalized single-owner shards (tools/shard_dataset.py) reconstruct the
+    # original primary files verbatim — take that path before the regex merge.
+    if (contrib_dir / GENERAL_SHARD_MANIFEST).exists():
+        _assemble_general(ds_dir, contrib_dir)
+        return
+
     shards = sorted(contrib_dir.glob("*.jsonl")) if contrib_dir.exists() else []
 
     if not shards:
