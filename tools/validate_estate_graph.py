@@ -45,12 +45,14 @@ SELECT ?target (COUNT(?src) AS ?dependents) WHERE {
 # Transitive blast radius of a specific node (multi-hop cat:dependsOn+).
 TRANSITIVE = CAT + "SELECT (COUNT(DISTINCT ?r) AS ?n) WHERE { ?r cat:dependsOn+ %s . }"
 
-# Governance: cat:Models whose license is NOT MIT/Apache-2.0 (the estate rule).
+# Governance: cat:Models violating MIT/Apache-only, with how many resources depend on
+# each (license x blast radius — a real, actionable finding over the joined graph).
 LICENSE_QUERY = CAT + """
-SELECT ?m ?license WHERE {
+SELECT ?m ?license (COUNT(?dep) AS ?dependents) WHERE {
   ?m a cat:Model ; cat:license ?license .
   FILTER(?license != "MIT" && ?license != "Apache-2.0")
-} ORDER BY ?m
+  OPTIONAL { ?dep cat:dependsOn ?m }
+} GROUP BY ?m ?license ORDER BY DESC(?dependents)
 """
 
 
@@ -107,9 +109,9 @@ def main() -> int:
     # Governance: which catalogued models violate the MIT/Apache-only rule?
     bad = list(data.query(LICENSE_QUERY))
     print(f"OK reason — MIT/Apache-only check: {models} cat:Model(s), "
-          f"{len(bad)} NOT MIT/Apache (flagged over the graph):")
+          f"{len(bad)} NOT MIT/Apache (flagged, with dependents = license blast radius):")
     for r in bad:
-        print(f"    {str(r['m']).rsplit('/', 1)[-1]:28s} {str(r['license'])}")
+        print(f"    {str(r['m']).rsplit('/', 1)[-1]:22s} {str(r['license']):30s} {int(r['dependents'])} dependents")
     return 0
 
 

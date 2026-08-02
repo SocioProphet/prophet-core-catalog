@@ -4,51 +4,57 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 
-res:mdl-local-deepseek-r1-1-5b a cat:Model ;
-  cat:modelDigest "sha256:aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc" ;
-  cat:license "MIT" ;
-  rdfs:label "deepseek-r1:1.5b" ;
+res:mdl-0cdbe1a781 a cat:Model ;
+  cat:modelDigest "sha256:2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730" ;
+  cat:license "Apache-2.0" ;
+  rdfs:label "qwen2.5:7b" ;
   dct:subject "model" .
 
-res:mdl-local-deepseek-r1-8b a cat:Model ;
-  cat:modelDigest "sha256:e6a7edc1a4d7d9b2de136a221a57336b76316cfe53a252aeba814496c5ae439d" ;
-  cat:license "MIT" ;
-  rdfs:label "deepseek-r1:8b" ;
-  dct:subject "model" .
-
-res:mdl-local-dolphin3-8b a cat:Model ;
+res:mdl-3c10c8899a a cat:Model ;
   cat:modelDigest "sha256:1eee6953530837b2b17d61a4e6f71a5aa31c9714cfcf3cb141aa5c1972b5116b" ;
   cat:license "LicenseRef-Llama-3.1-Community" ;
   rdfs:label "dolphin3:8b" ;
   dct:subject "model" .
 
-res:mdl-local-llama3-2-3b a cat:Model ;
-  cat:modelDigest "sha256:dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff" ;
-  cat:license "LicenseRef-Llama-3.2-Community" ;
-  rdfs:label "llama3.2:3b" ;
-  dct:subject "model" .
-
-res:mdl-local-llava-13b a cat:Model ;
-  cat:modelDigest "sha256:87d5b13e5157d3a67f8e10a46d8a846ec2b68c1f731e3dfe1546a585432b8fa0" ;
-  cat:license "LicenseRef-Llama-Community" ;
-  rdfs:label "llava:13b" ;
-  dct:subject "model" .
-
-res:mdl-local-nomic-embed-text-latest a cat:Model ;
+res:mdl-62b89a408f a cat:Model ;
   cat:modelDigest "sha256:970aa74c0a90ef7482477cf803618e776e173c007bf957f635f1015bfcfef0e6" ;
   cat:license "Apache-2.0" ;
-  rdfs:label "nomic-embed-text:latest" ;
+  rdfs:label "nomic-embed-text" ;
   dct:subject "model" .
 
-res:mdl-local-qwen2-5-coder-7b a cat:Model ;
+res:mdl-87efe78e73 a cat:Model ;
   cat:modelDigest "sha256:60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463" ;
   cat:license "Apache-2.0" ;
   rdfs:label "qwen2.5-coder:7b" ;
   dct:subject "model" .
 
-res:mdl-local-qwen2-5-7b a cat:Model ;
+res:mdl-8b088c720a a cat:Model ;
+  cat:modelDigest "sha256:dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff" ;
+  cat:license "LicenseRef-Llama-3.2-Community" ;
+  rdfs:label "llama3.2:3b" ;
+  dct:subject "model" .
+
+res:mdl-8c7bf65ba4 a cat:Model ;
+  cat:modelDigest "sha256:87d5b13e5157d3a67f8e10a46d8a846ec2b68c1f731e3dfe1546a585432b8fa0" ;
+  cat:license "LicenseRef-Llama-Community" ;
+  rdfs:label "llava:13b" ;
+  dct:subject "model" .
+
+res:mdl-ae25d3b5e5 a cat:Model ;
   cat:modelDigest "sha256:2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730" ;
   cat:license "Apache-2.0" ;
-  rdfs:label "qwen2.5:7b" ;
+  rdfs:label "qwen2.5:14b" ;
+  dct:subject "model" .
+
+res:mdl-d5d9c3ba00 a cat:Model ;
+  cat:modelDigest "sha256:e6a7edc1a4d7d9b2de136a221a57336b76316cfe53a252aeba814496c5ae439d" ;
+  cat:license "MIT" ;
+  rdfs:label "deepseek-r1:8b" ;
+  dct:subject "model" .
+
+res:mdl-d9d80f1b68 a cat:Model ;
+  cat:modelDigest "sha256:dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff" ;
+  cat:license "LicenseRef-Llama-3.2-Community" ;
+  rdfs:label "llama3.2:1b" ;
   dct:subject "model" .
 
