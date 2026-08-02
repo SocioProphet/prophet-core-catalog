@@ -69,7 +69,11 @@ def main() -> int:
 
     datasets: list[tuple[str, dict]] = []
     if DATASETS_DIR.exists():
-        for path in sorted(DATASETS_DIR.rglob("*.json")):
+        # Only ``datasets/<name>/manifest.json`` files are dataset manifests.
+        # Data payloads (classifier sets, corpora, etc.) also live under a
+        # dataset directory as ``*.json`` but must NOT be schema-validated as
+        # manifests, so match the manifest filename explicitly.
+        for path in sorted(DATASETS_DIR.glob("*/manifest.json")):
             record = load_json(path)
             label = rel(path)
             problems += check_schema(record, dataset_schema, label=label)

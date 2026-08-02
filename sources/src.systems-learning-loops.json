@@ -1,0 +1,31 @@
+{
+  "id": "src.systems-learning-loops",
+  "name": "Systems Learning Loops (SocioProphet estate repo)",
+  "domain": "code",
+  "provider": "SocioProphet/systems-learning-loops",
+  "access": {
+    "method": "bulk-download",
+    "auth": "service-account",
+    "endpoint": "https://github.com/SocioProphet/systems-learning-loops",
+    "rate_limit": "n/a"
+  },
+  "license": {
+    "class": "unknown",
+    "commercial_use": false,
+    "redistribution": "unknown",
+    "terms_url": "https://github.com/SocioProphet/systems-learning-loops/blob/main/LICENSE"
+  },
+  "freshness": {
+    "cadence": "ad-hoc",
+    "expected_lag": "commit-driven"
+  },
+  "policy": {
+    "privacy_class": "restricted-public",
+    "product_eligible": true,
+    "notes": "First-party estate repo (organization visibility), harvested read-only. License not machine-verified; see repo LICENSE. observed_at 2026-08-02."
+  },
+  "provenance": {
+    "strength": "primary",
+    "canonical_url": "https://github.com/SocioProphet/systems-learning-loops"
+  }
+}
