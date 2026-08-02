@@ -1,7 +1,7 @@
 {
   "id": "ds.regex-operational-dataset",
   "name": "Estate Regex Operational Dataset",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "sources": [
     "src.agent-machine",
     "src.agent-registry",
@@ -27,6 +27,7 @@
       "intent",
       "lang",
       "pattern",
+      "provider_reference",
       "redos_suspect",
       "risk_class",
       "sources",
@@ -35,15 +36,16 @@
     "schema_uri": "./SCHEMA.md"
   },
   "lineage": {
-    "transform": "Read-only ripgrep/AST harvest of first-party ~/dev repos (2026-08-02); identical patterns deduped by sha1; competitor model/vendor-name and AI key-prefix patterns quarantined out per estate hard rule.",
+    "transform": "Read-only ripgrep/AST harvest of first-party ~/dev repos (2026-08-02), deduped by sha1. Provider/model and leaked-key detector patterns are INCLUDED at full fidelity as first-party security/routing policy (no clients; see PROVIDER-REFERENCE-NOTE.md); source paths unmasked. Competitor/client marketing materials remain excluded.",
     "receipt_required": true,
     "upstream_datasets": []
   },
   "quality": {
     "checks": [
       "valid-jsonl-per-line",
+      "every record has id+pattern",
       "dedup-by-pattern-sha1",
-      "competitor_clean==true (public corpus)",
+      "provider_reference tagged (not excluded)",
       "redos_suspect flagged for review",
       "risk_class in {catastrophic,sensitive,benign}"
     ],

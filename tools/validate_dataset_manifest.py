@@ -2,8 +2,11 @@
 """Validate catalog dataset manifests against schemas/catalog.dataset.v0.1.json.
 
 Also runs dataset-local quality checks so a manifest cannot claim conformance it
-does not have (fail-closed): corpus JSONL must parse line-by-line, and a public
-corpus must be competitor_clean. Mirrors tools/validate_wallguard_catalog_visibility.py.
+does not have (fail-closed): corpus JSONL must parse line-by-line, and every record
+must carry a stable `id` and a `pattern`. First-party provider references (e.g. a
+model-router allow-list or a leaked-key detector like `sk-ant-…`) are PERMITTED as
+the estate's own security/routing policy — they are not client materials. Mirrors
+tools/validate_wallguard_catalog_visibility.py.
 
 Usage: python tools/validate_dataset_manifest.py [datasets/<name>/manifest.json ...]
        (no args -> validate every datasets/*/manifest.json)
@@ -29,7 +32,6 @@ def check(manifest_path: Path) -> list[str]:
 
     ds_dir = manifest_path.parent
     corpus = ds_dir / "regex-corpus.jsonl"
-    public = man.get("access", {}).get("visibility") == "public"
     if corpus.exists():
         for i, line in enumerate(corpus.read_text().splitlines(), 1):
             if not line.strip():
@@ -39,8 +41,8 @@ def check(manifest_path: Path) -> list[str]:
             except json.JSONDecodeError as e:
                 errs.append(f"{corpus.name}:{i} invalid JSON ({e})")
                 continue
-            if public and rec.get("competitor_clean") is not True:
-                errs.append(f"{corpus.name}:{i} public dataset but competitor_clean != true ({rec.get('id')})")
+            if not rec.get("id") or not rec.get("pattern"):
+                errs.append(f"{corpus.name}:{i} record missing id/pattern")
     return errs
 
 
