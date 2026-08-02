@@ -27,4 +27,4 @@ Seeded 2026-08-02 by a read-only harvest of 13 first-party `~/dev` repos.
 - `category` and `risk_class` are **curation seeds**, not final governance labels. Extraction is honest-but-heuristic (JS/TS `/…/` literals are ambiguous); a small residue may sit in `category: other`.
 
 ## Expanding it
-Add records to `regex-corpus.jsonl` (same schema, `id = rx-<sha1[0:10] of pattern>`), keep it competitor-clean, re-run the validator, bump `manifest.json` `version`.
+Add records to `regex-corpus.jsonl` (same schema, `id = rx-<sha1[0:10] of pattern>`), keep client/competitor *marketing* materials out (first-party provider/security patterns are fine — tag `provider_reference: true`), re-run the validator, bump `manifest.json` `version`.
