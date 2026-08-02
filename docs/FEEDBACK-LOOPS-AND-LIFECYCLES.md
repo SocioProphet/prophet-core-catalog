@@ -37,5 +37,6 @@ This document and `ds.feedback-loops` are themselves catalog assets: they carry 
 contribution loop they describe. The catalog catalogs its own governance — which is the point.
 
 The one loop still open by an operator action, not code: **catalog-contribution** is
-`live-pending-token` until the `CATALOG_CONTRIB_TOKEN` org secret is set. That is recorded honestly
+`live-pending-token` until the `CATALOG_APP_ID` + `CATALOG_APP_PRIVATE_KEY` org secrets are set (the
+`socioprophet-catalog-contributor` App, whose token is minted in CI). That is recorded honestly
 here rather than reported as done.
