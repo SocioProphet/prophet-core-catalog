@@ -1,0 +1,159 @@
+@base <https://socioprophet.github.io/ontogenesis/> .
+@prefix cat:   <https://socioprophet.github.io/ontogenesis/domains/estate-catalog#> .
+@prefix upper: <https://socioprophet.github.io/ontogenesis/upper#> .
+@prefix kko:   <http://kbpedia.org/ontologies/kko#> .
+@prefix dom:   <https://socioprophet.github.io/ontogenesis/domains/metadata#> .
+@prefix drm:   <https://socioprophet.github.io/ontogenesis/domains/data-reference#> .
+@prefix srm:   <https://socioprophet.github.io/ontogenesis/domains/service-reference#> .
+@prefix enrm:  <https://socioprophet.github.io/ontogenesis/domains/environment-reference#> .
+@prefix legal: <https://socioprophet.github.io/ontogenesis/domains/legal#> .
+@prefix mp:    <https://spec.sourceos.dev/vocab/model-plane#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<Domains/estate-catalog/estate-catalog.ttl> a owl:Ontology ;
+  dct:title "Ontogenesis Domain — Estate Catalog (binding layer)" ;
+  dct:description "The estate binding vocabulary: one roof over the estate's already-fragmented catalog classes so agents reason over the graph instead of reading every repo. Does NOT re-mint Catalog/Dataset/Service/Infrastructure — it BINDS the existing ontogenesis fragments (dom:Dataset, drm:Dataset, srm:Service, enrm:CriticalInfrastructure, legal:RepositoryAsset) and the model-plane provider (mp:InferenceProvider) under cat:EstateResource, adds the genuinely-new Model catalog, and supplies the cross-catalog object properties that are the reasoning fabric. Grounded in KBpedia/KKO (http://kbpedia.org/ontologies/kko#) — the same upper language HellGraph uses — so estate and graph share one binding language. The instance/population layer is SocioProphet/prophet-core-catalog (Source/Dataset/App/Receipt manifests + per-repo extractors); this module is the TBox those instances are typed by." ;
+  owl:versionInfo "0.1.0" ;
+  owl:imports <Upper/upper-core.ttl> ,
+    <Domains/metadata.ttl> ,
+    <Domains/data-reference.ttl> ,
+    <Domains/service-reference.ttl> ,
+    <Domains/environment-reference.ttl> ,
+    <Domains/org-legal.ttl> ,
+    <Domains/model-plane/inference-provider.ttl> ,
+    <http://kbpedia.org/ontologies/kko> .
+
+# ------------------------------------------------------------------
+# Roots
+# ------------------------------------------------------------------
+cat:EstateResource a owl:Class ;
+  rdfs:subClassOf upper:Entity ;
+  skos:closeMatch kko:Particulars ;
+  rdfs:label "Estate Resource" ;
+  rdfs:comment "Any first-class thing the estate catalog tracks and reasons over — a dataset, model, asset, service, or piece of infrastructure. Rooted at upper:Entity (the common ancestor of information artifacts, systems, and agents) so heterogeneous resources bind under one roof without type conflict; aligned to kko:Particulars (actual existents) as the shared KBpedia language." .
+
+cat:CatalogEntry a owl:Class ;
+  rdfs:subClassOf upper:InformationArtifact ;
+  skos:closeMatch kko:Methodeutic ;
+  rdfs:label "Catalog Entry" ;
+  rdfs:comment "The governed catalog RECORD about an estate resource (owner, status, provenance) — distinct from the resource itself, which it cat:describes. Corresponds to a prophet-core-catalog manifest (catalog.source/dataset/app/receipt)." .
+
+# ------------------------------------------------------------------
+# Model catalog (genuinely new — links the Model Plane, #129)
+# ------------------------------------------------------------------
+cat:Model a owl:Class ;
+  rdfs:subClassOf cat:EstateResource ;
+  skos:closeMatch kko:Forms ;
+  rdfs:label "Model" ;
+  rdfs:comment "A catalogued model. Bound to the Model Plane by cat:modelDigest (= sourceos-spec ModelManifest.modelDigest) and cat:servedBy → mp:InferenceProvider. Carries cat:license so the MIT/Apache-only rule is reasoned over the graph." .
+
+cat:ModelAdapter a owl:Class ;
+  rdfs:subClassOf cat:EstateResource ;
+  rdfs:label "Model Adapter" ;
+  rdfs:comment "A catalogued LoRA adapter (= sourceos-spec ModelAdapterManifest), bound to its base via cat:adapterOf → cat:Model." .
+
+cat:Infrastructure a owl:Class ;
+  rdfs:subClassOf cat:EstateResource ;
+  skos:closeMatch kko:Systems ;
+  rdfs:label "Infrastructure" ;
+  rdfs:comment "A piece of estate infrastructure (cluster, environment, registry, runner, storage bucket, compute). Binds the existing enrm:CriticalInfrastructure under the catalog roof." .
+
+# ------------------------------------------------------------------
+# Bind the existing estate fragments under one roof (reconcile, don't re-mint)
+# ------------------------------------------------------------------
+dom:Dataset             rdfs:subClassOf cat:EstateResource .
+drm:Dataset             rdfs:subClassOf cat:EstateResource .
+srm:Service             rdfs:subClassOf cat:EstateResource .
+enrm:CriticalInfrastructure rdfs:subClassOf cat:Infrastructure .
+legal:RepositoryAsset   rdfs:subClassOf cat:EstateResource .
+mp:InferenceProvider    rdfs:subClassOf cat:EstateResource .
+
+# ------------------------------------------------------------------
+# Identity / governance datatype properties (on the record)
+# ------------------------------------------------------------------
+cat:catalogId a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:domain cat:CatalogEntry ; rdfs:range xsd:string ;
+  rdfs:label "catalog id" ;
+  rdfs:comment "Stable catalog identifier, e.g. a prophet-core-catalog id (src.*, ds.*, app.*, rcpt.*)." .
+
+cat:owner a owl:DatatypeProperty ;
+  rdfs:domain cat:CatalogEntry ; rdfs:range xsd:string ;
+  rdfs:label "owner" ; rdfs:comment "Accountable owner (org/team/person ref)." .
+
+cat:status a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:domain cat:CatalogEntry ; rdfs:range xsd:string ;
+  rdfs:label "status" ; rdfs:comment "Lifecycle: active | deprecated | retired." .
+
+cat:provenanceRef a owl:DatatypeProperty ;
+  rdfs:domain cat:CatalogEntry ; rdfs:range xsd:string ;
+  rdfs:label "provenance ref" ; rdfs:comment "URN/URL of the provenance or lineage receipt (e.g. a prophet-core-catalog rcpt.*)." .
+
+cat:modelDigest a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:domain cat:Model ; rdfs:range xsd:string ;
+  rdfs:label "model digest" ; rdfs:comment "sha256: content address = sourceos-spec ModelManifest.modelDigest; the join key to the model store." .
+
+cat:license a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:domain cat:Model ; rdfs:range xsd:string ;
+  rdfs:label "license" ; rdfs:comment "SPDX identifier; the estate reasons MIT/Apache-only over this (non-Apache/MIT e.g. LicenseRef-Gemma is visibly flagged)." .
+
+# ------------------------------------------------------------------
+# Cross-catalog object properties = the reasoning fabric
+# ------------------------------------------------------------------
+cat:describes a owl:ObjectProperty ;
+  rdfs:domain cat:CatalogEntry ; rdfs:range cat:EstateResource ;
+  rdfs:label "describes" ; rdfs:comment "Links a catalog record to the resource it catalogues." .
+
+cat:dependsOn a owl:ObjectProperty ;
+  rdfs:domain cat:EstateResource ; rdfs:range cat:EstateResource ;
+  rdfs:label "depends on" ; rdfs:comment "Generic estate dependency edge; the basis for blast-radius reasoning." .
+
+cat:runsOn a owl:ObjectProperty ;
+  rdfs:subPropertyOf cat:dependsOn ;
+  rdfs:domain cat:EstateResource ; rdfs:range cat:Infrastructure ;
+  rdfs:label "runs on" ; rdfs:comment "A service/model runs on infrastructure." .
+
+cat:deployedTo a owl:ObjectProperty ;
+  rdfs:subPropertyOf cat:runsOn ;
+  rdfs:domain cat:EstateResource ; rdfs:range cat:Infrastructure ;
+  rdfs:label "deployed to" ; rdfs:comment "Deployment target environment/cluster." .
+
+cat:consumesData a owl:ObjectProperty ;
+  rdfs:subPropertyOf cat:dependsOn ;
+  rdfs:domain cat:EstateResource ; rdfs:range dom:Dataset ;
+  rdfs:label "consumes data" ; rdfs:comment "Reads/ingests a dataset." .
+
+cat:producesData a owl:ObjectProperty ;
+  rdfs:domain cat:EstateResource ; rdfs:range dom:Dataset ;
+  rdfs:label "produces data" ;
+  rdfs:comment "Writes/derives a dataset (lineage/output). Deliberately NOT a subPropertyOf cat:dependsOn: a producer does not depend on its output — the dependency runs the other way (the dataset depends on its producer). Keeping it out of the dependsOn closure keeps blast-radius/dependency traversals correct." .
+
+cat:usesModel a owl:ObjectProperty ;
+  rdfs:subPropertyOf cat:dependsOn ;
+  rdfs:domain cat:EstateResource ; rdfs:range cat:Model ;
+  rdfs:label "uses model" ; rdfs:comment "A service/application uses a catalogued model." .
+
+cat:servedBy a owl:ObjectProperty ;
+  rdfs:domain cat:Model ; rdfs:range mp:InferenceProvider ;
+  rdfs:label "served by" ; rdfs:comment "The Model Plane provider that serves this model — the join into the model-plane residency graph (#129)." .
+
+cat:adapterOf a owl:ObjectProperty ;
+  rdfs:domain cat:ModelAdapter ; rdfs:range cat:Model ;
+  rdfs:label "adapter of" ; rdfs:comment "The base model this adapter binds to." .
+
+cat:storedIn a owl:ObjectProperty ;
+  rdfs:subPropertyOf cat:dependsOn ;
+  rdfs:domain cat:EstateResource ; rdfs:range cat:Infrastructure ;
+  rdfs:label "stored in" ; rdfs:comment "The registry/bucket/store holding this asset." .
+
+cat:exposes a owl:ObjectProperty ;
+  rdfs:domain cat:EstateResource ; rdfs:range cat:EstateResource ;
+  rdfs:label "exposes" ; rdfs:comment "A service exposes an API/endpoint resource." .
+
+cat:governedBy a owl:ObjectProperty ;
+  rdfs:domain cat:EstateResource ; rdfs:range upper:Policy ;
+  rdfs:label "governed by" ; rdfs:comment "Policy/contract governing this resource." .

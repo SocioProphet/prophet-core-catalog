@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install validator dependency
-        run: python3 -m pip install jsonschema
+      - name: Install validator dependencies
+        run: python3 -m pip install -r requirements.txt
 
       - name: Validate catalog manifests
         run: make validate
