@@ -1,0 +1,31 @@
+{
+  "id": "src.pypi.numpy",
+  "name": "NumPy (PyPI)",
+  "domain": "internal-operations/libraries",
+  "provider": "NumPy Developers",
+  "access": {
+    "method": "bulk-download",
+    "auth": "none",
+    "endpoint": "https://pypi.org/project/numpy/",
+    "rate_limit": "n/a"
+  },
+  "license": {
+    "class": "permissive",
+    "commercial_use": true,
+    "redistribution": "allowed",
+    "terms_url": "https://github.com/numpy/numpy/blob/main/LICENSE.txt"
+  },
+  "freshness": {
+    "cadence": "ad-hoc",
+    "expected_lag": "release-driven"
+  },
+  "policy": {
+    "privacy_class": "public",
+    "product_eligible": true,
+    "notes": "BSD-3-Clause permissive OSS. Vendored as a scientific-compute dependency; permitted under estate policy (standard libraries allowed if documented and cataloged)."
+  },
+  "provenance": {
+    "strength": "official",
+    "canonical_url": "https://numpy.org/"
+  }
+}
