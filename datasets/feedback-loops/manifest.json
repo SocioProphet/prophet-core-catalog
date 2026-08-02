@@ -1,0 +1,65 @@
+{
+  "id": "ds.feedback-loops",
+  "name": "Estate Feedback Loops & Asset Lifecycles",
+  "version": "0.1.0",
+  "sources": [
+    "src.prophet-core-catalog",
+    "src.git-ops-standards",
+    "src.prophet-mesh",
+    "src.prophet-platform",
+    "src.socioprophet-seed-deck",
+    "src.sociosphere",
+    "src.socioprophet-standards-storage",
+    "src.procybernetica"
+  ],
+  "schema": {
+    "format": "document",
+    "fields": [
+      "id",
+      "name",
+      "kind",
+      "trigger",
+      "steps",
+      "feedback_signal",
+      "closes_when",
+      "recorded_in",
+      "dogfood",
+      "status",
+      "related_datasets",
+      "asset_class",
+      "states",
+      "transition_guard"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "Authored 2026-08-02 from the estate's own governance activity (dogfooding): each loop/lifecycle captured with its trigger, feedback signal, and where it is recorded.",
+    "receipt_required": true,
+    "upstream_datasets": [
+      "ds.regex-operational-dataset",
+      "ds.rules-policies",
+      "ds.topic-vocabulary",
+      "ds.ci-workflows-tests"
+    ]
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line",
+      "every record has id",
+      "dogfood flag present",
+      "recorded_in points to a real PR/issue/file"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
