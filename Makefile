@@ -16,4 +16,5 @@ estate-graph:
 # estate-catalog vocabulary, and the live-proof SPARQL query returns rows.
 validate-estate-graph:
 	python3 tools/emit_estate_graph.py
+	@git diff --exit-code -- datasets/estate-graph/estate-graph.ttl || { echo "ERR: datasets/estate-graph/estate-graph.ttl is stale vs sources/ — run 'make estate-graph' and commit"; exit 1; }
 	python3 tools/validate_estate_graph.py
