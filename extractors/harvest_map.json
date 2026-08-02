@@ -1,0 +1,54 @@
+{
+  "_doc": "Per-dataset harvest wiring — the single source of truth binding each catalog dataset to its per-repo extractor and telling tools/assemble_dataset.py how to reassemble the dataset's PRIMARY file(s) from the refreshed contributions/<repo>.jsonl shards. A dataset listed here SELF-REFRESHES: the central catalog-refresh workflow runs its extractor over every estate repo, writes a shard per repo, and the harvest assembler rebuilds the primary file(s) below. Datasets NOT listed here (topic-vocabulary, stemmer-policy) are central-rebuild — see docs/CATALOG-EXTRACTORS.md. merge: 'single-owner' = each id is owned by exactly one repo (concat + dedup by id); 'union' = the same id may recur across repos and its list fields are unioned (used_by/consumers). primary_files maps each committed monolith to an optional id_prefix that routes shard records to it (a shard may feed >1 primary file, e.g. adrs.jsonl + docs.jsonl). contrib_dir defaults to 'contributions'. preserve names top-level files the assembler must NOT touch.",
+  "datasets": {
+    "schemas-contracts": {
+      "extractor": "extract_schemas_contracts",
+      "merge": "single-owner",
+      "primary_files": {"contracts.jsonl": {}}
+    },
+    "services-endpoints": {
+      "extractor": "extract_services_endpoints",
+      "merge": "single-owner",
+      "primary_files": {"services.jsonl": {}}
+    },
+    "ontologies": {
+      "extractor": "extract_ontologies",
+      "merge": "single-owner",
+      "primary_files": {"ontologies.jsonl": {}},
+      "preserve": ["third-party-vendored.jsonl"]
+    },
+    "adrs-docs": {
+      "extractor": "extract_adrs_docs",
+      "merge": "single-owner",
+      "primary_files": {
+        "adrs.jsonl": {"id_prefix": "adr."},
+        "docs.jsonl": {"id_prefix": "doc."}
+      }
+    },
+    "agents-manifests": {
+      "extractor": "extract_agents_manifests",
+      "merge": "single-owner",
+      "primary_files": {"agents.jsonl": {}}
+    },
+    "rules-policies": {
+      "extractor": "extract_rules_policies",
+      "merge": "single-owner",
+      "primary_files": {"policies.jsonl": {}}
+    },
+    "ci-workflows-tests": {
+      "extractor": "extract_ci_workflows_tests",
+      "merge": "single-owner",
+      "primary_files": {
+        "ci-workflows.jsonl": {"id_prefix": "wf-"},
+        "tests.jsonl": {"id_prefix": "ts-"}
+      }
+    },
+    "models": {
+      "extractor": "extract_models",
+      "contrib_dir": "harvest",
+      "merge": "union",
+      "primary_files": {"models.jsonl": {"id_prefix": "mdl-"}},
+      "preserve": ["runtime-model-digests.jsonl"]
+    }
+  }
+}

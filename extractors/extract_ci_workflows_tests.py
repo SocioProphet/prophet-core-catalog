@@ -1,26 +1,17 @@
 #!/usr/bin/env python3
-"""ci-workflows-tests extractor (ds.ci-workflows-tests) — HOOK/thin.
+"""ci-workflows-tests extractor (ds.ci-workflows-tests).
 
-Emits ONE repo's contribution shard: the repo's CI surface — GitHub Actions
-workflows and their jobs, plus a rollup of the repo's test files — so the
-catalog can reason about which gates each repo actually runs and where its
-tests live (feeds the estate-ci-health / gate-gap audits).
+Emits ONE repo's contribution shard covering BOTH primary files of the dataset:
+GitHub Actions workflows (`wf-*` ids -> datasets/ci-workflows-tests/ci-workflows.jsonl)
+and the repo's test suites (`ts-*` ids -> datasets/ci-workflows-tests/tests.jsonl), in
+the SAME record schemas as those files (see SCHEMA.md). The two families are told apart
+by id prefix (`wf-` / `ts-`), which is how the harvest assembler routes them back.
 
     python3 extractors/extract_ci_workflows_tests.py <repo_path> <repo_name> [--out FILE]
 
-Record schema (v0, stable enough to build on; refine as consumers appear):
-
-    {"id": "ci-<sha1[:10]>",              # stable per (repo, kind, key)
-     "kind": "workflow" | "test-suite",
-     "name": "<workflow name | test dir>",
-     "triggers": ["push", "pull_request", ...],   # workflow only
-     "jobs": ["build", "validate", ...],           # workflow only
-     "test_count": <int>,                          # test-suite only
-     "sources": [{"repo","file","line"}],
-     "provider_reference": false}
-
-Read-only, stdlib-only, deterministic. YAML is parsed with a deliberately small
-line-scanner (no PyYAML dependency) — good enough for on/jobs/name keys.
+`wf id = wf-<sha1[:10] of repo/path>`; `ts id = ts-<sha1[:10] of repo|path|framework>`
+— both stable, idempotent, byte-compatible with the central harvest. YAML is read with
+a small stdlib line scanner (no PyYAML). Read-only, deterministic.
 """
 from __future__ import annotations
 
@@ -30,29 +21,34 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _common import iter_files, read_text, rel, sha1_10, run  # noqa: E402
+from _common import iter_files, read_text, rel, sha1_hex, run  # noqa: E402
 
-TEST_EXTS = {".py", ".ts", ".tsx", ".js", ".jsx", ".mjs", ".rs", ".go"}
-_TEST_NAME = re.compile(r"(^|[._-])(test|spec)([._-]|$)|(^|/)tests?/", re.IGNORECASE)
 _TOP_KEY = re.compile(r"^([A-Za-z_][\w-]*):")
-_LIST_ITEM = re.compile(r"^\s*-\s*([A-Za-z_][\w./-]*)")
-# job/trigger scanning is a heuristic line-scan; these keys are structural noise
-# that must never be reported as a job name or a trigger.
 _NOISE = {
-    "runs-on", "steps", "needs", "if", "name", "uses", "with", "env",
-    "permissions", "strategy", "matrix", "outputs", "container", "services",
-    "defaults", "concurrency", "timeout-minutes", "continue-on-error",
-    "branches", "tags", "paths", "types", "branches-ignore", "paths-ignore",
-    "tags-ignore", "inputs", "secrets", "cron",
+    "runs-on", "steps", "needs", "if", "name", "uses", "with", "env", "permissions",
+    "strategy", "matrix", "outputs", "container", "services", "defaults", "concurrency",
+    "timeout-minutes", "continue-on-error", "branches", "tags", "paths", "types",
+    "branches-ignore", "paths-ignore", "tags-ignore", "inputs", "secrets", "cron",
+}
+_FAIL_OPEN = [
+    (re.compile(r"continue-on-error:\s*true"), "continue-on-error:true"),
+    (re.compile(r"\|\|\s*true"), "|| true"),
+    (re.compile(r"\bexit\s+0\b"), "exit 0"),
+    (re.compile(r"\|\|\s*echo"), "|| echo (swallow)"),
+]
+
+_TEST_FRAMEWORKS = {
+    "pytest": (re.compile(r"(^|/)(test_[^/]+\.py|conftest\.py)$"), "test_*.py / conftest.py"),
+    "jest-vitest": (re.compile(r"\.(test|spec)\.(t|j)sx?$"), "*.test.ts / *.spec.js"),
+    "cargo": (re.compile(r"(^|/)tests?/.+\.rs$|(^|/)[^/]+\.rs$"), "rust #[test]"),
+    "go": (re.compile(r"_test\.go$"), "*_test.go"),
 }
 
 
-def _parse_workflow(text: str) -> tuple[str, list[str], list[str]]:
-    """Return (name, triggers, jobs) from a minimal line scan of an Actions YAML."""
+def _parse_workflow(text: str):
     name, triggers, jobs = "", [], []
-    lines = text.splitlines()
     section = None
-    for ln in lines:
+    for ln in text.splitlines():
         m = _TOP_KEY.match(ln)
         if m:
             key = m.group(1)
@@ -63,14 +59,11 @@ def _parse_workflow(text: str) -> tuple[str, list[str], list[str]]:
                     name = after
             if key == "on":
                 inline = ln.split(":", 1)[1].strip().lstrip("[").rstrip("]")
-                for t in re.split(r"[,\s]+", inline):
-                    t = t.strip().strip("'\"")
-                    if t:
-                        triggers.append(t)
+                triggers += [t.strip().strip("'\"") for t in re.split(r"[,\s]+", inline) if t.strip()]
             continue
         if section == "on":
             m2 = re.match(r"^\s{1,4}([A-Za-z_][\w-]*):", ln)
-            li = _LIST_ITEM.match(ln)
+            li = re.match(r"^\s*-\s*([A-Za-z_][\w./-]*)", ln)
             if m2:
                 triggers.append(m2.group(1))
             elif li:
@@ -84,44 +77,77 @@ def _parse_workflow(text: str) -> tuple[str, list[str], list[str]]:
     return name, triggers, jobs
 
 
-def extract(repo_path: str, repo_name: str) -> list[dict]:
-    records: list[dict] = []
-    # 1) workflows
+def _workflow_records(repo, repo_path) -> list[dict]:
+    out = []
     wf_dir = os.path.join(repo_path, ".github", "workflows")
-    if os.path.isdir(wf_dir):
-        for path in iter_files(wf_dir, {".yml", ".yaml"}):
-            text = read_text(path)
-            if text is None:
-                continue
-            relpath = rel(repo_path, path)
-            name, triggers, jobs = _parse_workflow(text)
-            records.append({
-                "id": "ci-" + sha1_10(f"{repo_name}\x00workflow\x00{relpath}"),
-                "kind": "workflow",
-                "name": name or Path(relpath).stem,
-                "triggers": triggers,
-                "jobs": jobs,
-                "sources": [{"repo": repo_name, "file": relpath, "line": 1}],
-                "provider_reference": False,
-            })
-    # 2) test-suite rollup, one record per directory that holds test files
-    test_dirs: dict[str, int] = {}
-    for path in iter_files(repo_path, TEST_EXTS):
+    if not os.path.isdir(wf_dir):
+        return out
+    for path in iter_files(wf_dir, {".yml", ".yaml"}):
+        text = read_text(path)
+        if text is None:
+            continue
         relpath = rel(repo_path, path)
-        if _TEST_NAME.search(relpath):
-            d = str(Path(relpath).parent)
-            test_dirs[d] = test_dirs.get(d, 0) + 1
-    for d, count in test_dirs.items():
-        records.append({
-            "id": "ci-" + sha1_10(f"{repo_name}\x00test-suite\x00{d}"),
-            "kind": "test-suite",
-            "name": d,
-            "test_count": count,
-            "sources": [{"repo": repo_name, "file": d, "line": 0}],
-            "provider_reference": False,
+        name, triggers, jobs = _parse_workflow(text)
+        fail_open = sorted({label for rx, label in _FAIL_OPEN if rx.search(text)})
+        gating = bool(jobs) and any(t in ("pull_request", "push", "merge_group") for t in triggers)
+        out.append({
+            "id": "wf-" + sha1_hex(f"{repo}/{relpath}", 10),
+            "repo": repo, "path": relpath, "type": "github-actions",
+            "name": name or Path(relpath).stem, "triggers": triggers, "jobs": jobs,
+            "gating": gating, "fail_open_signals": fail_open, "last_status": None,
         })
-    records.sort(key=lambda r: r["id"])
-    return records
+    return out
+
+
+def _test_records(repo, repo_path) -> list[dict]:
+    # group test files by (framework, containing dir); tested_target = that dir's leaf.
+    groups: dict[tuple[str, str], list[str]] = {}
+    for path in iter_files(repo_path, {".py", ".ts", ".tsx", ".js", ".jsx", ".rs", ".go"}):
+        relpath = rel(repo_path, path)
+        for fw, (rx, _desc) in _TEST_FRAMEWORKS.items():
+            if fw == "cargo":
+                if not relpath.endswith(".rs"):
+                    continue
+                # a .rs file counts as a test suite if it is under a tests/ dir OR
+                # actually declares #[test] / #[tokio::test] (not just mentions it).
+                under_tests = "/tests/" in ("/" + relpath) or relpath.startswith("tests/")
+                if not under_tests:
+                    txt = read_text(path)
+                    if not txt or ("#[test]" not in txt and "#[tokio::test]" not in txt):
+                        continue
+            elif not rx.search(relpath):
+                continue
+            d = str(Path(relpath).parent)
+            groups.setdefault((fw, d), []).append(relpath)
+            break
+    out = []
+    for (fw, d), files in groups.items():
+        tested = Path(d).name or Path(d).parent.name or repo
+        # crude test_count: count test functions/cases across the group's files
+        count = 0
+        for f in files:
+            txt = read_text(os.path.join(repo_path, f))
+            if not txt:
+                continue
+            if fw == "pytest":
+                count += len(re.findall(r"^\s*def\s+test_\w+", txt, re.MULTILINE))
+            elif fw == "jest-vitest":
+                count += len(re.findall(r"\b(it|test)\s*\(", txt))
+            elif fw == "cargo":
+                count += len(re.findall(r"#\[(?:tokio::)?test\]", txt))
+            elif fw == "go":
+                count += len(re.findall(r"^func\s+Test\w+", txt, re.MULTILINE))
+        out.append({
+            "id": "ts-" + sha1_hex(f"{repo}|{d}|{fw}", 10),
+            "repo": repo, "path": d, "framework": fw,
+            "test_count": count, "file_count": len(files), "tested_target": tested,
+        })
+    return out
+
+
+def extract(repo_path: str, repo_name: str) -> list[dict]:
+    records = _workflow_records(repo_name, repo_path) + _test_records(repo_name, repo_path)
+    return sorted(records, key=lambda r: r["id"])
 
 
 if __name__ == "__main__":
