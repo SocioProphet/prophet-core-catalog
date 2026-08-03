@@ -1,0 +1,14 @@
+{
+  "id": "urn:srcos:glossary:release-gate",
+  "type": "GlossaryTerm",
+  "specVersion": "2.0.0",
+  "name": "release gate",
+  "definition": "A fail-closed check a service must pass to be release-ready; a gate that cannot fail is not a gate.",
+  "status": "approved",
+  "relations": [
+    {
+      "predicate": "skos:related",
+      "target": "urn:srcos:glossary:promote-to-platform"
+    }
+  ]
+}

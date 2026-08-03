@@ -1,6 +1,6 @@
-.PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph catalog-index emit-datahub verify-percolation verify-catalog-mcp-transport
+.PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph catalog-index emit-datahub verify-percolation verify-catalog-mcp-transport validate-srcos-glossary
 
-validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation verify-catalog-mcp-transport
+validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation verify-catalog-mcp-transport validate-srcos-glossary
 
 # House-protocol conformance: the catalog MCP surface MUST ride the TriTRPC transport
 # profile (canonical JSON + sha256 digest binding + typed media type + typed envelope +
@@ -28,6 +28,11 @@ validate-wallguard-catalog-visibility:
 
 validate-internal-ops-libraries:
 	python3 tools/validate_internal_ops_libraries.py
+
+# Drift-guard: the generated SourceOS governance glossary must match its seed (edit the
+# generator/seed, not glossary.jsonl). The governance vocabulary is itself governed.
+validate-srcos-glossary:
+	python3 tools/ingest_srcos_glossary.py --check
 
 # Population (P2) + cross-catalog dependency edges (P3): emit the estate graph.
 estate-graph:

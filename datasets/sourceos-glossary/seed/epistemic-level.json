@@ -1,0 +1,14 @@
+{
+  "id": "urn:srcos:glossary:epistemic-level",
+  "type": "GlossaryTerm",
+  "specVersion": "2.0.0",
+  "name": "epistemic level",
+  "definition": "The MEET of attestation and verification on a receipt \u2014 Proved, Speculative, or Refuted; recomputed by the validator, never merely declared.",
+  "status": "approved",
+  "relations": [
+    {
+      "predicate": "skos:related",
+      "target": "urn:srcos:glossary:attestation"
+    }
+  ]
+}
