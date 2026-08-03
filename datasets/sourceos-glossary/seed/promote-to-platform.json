@@ -1,0 +1,14 @@
+{
+  "id": "urn:srcos:glossary:promote-to-platform",
+  "type": "GlossaryTerm",
+  "specVersion": "2.0.0",
+  "name": "promote to platform",
+  "definition": "Moving a catalogued dataset or document to platform scope, authorized only by an approved Data-Acquisition Request (the meet of governance and IP/legal review).",
+  "status": "approved",
+  "relations": [
+    {
+      "predicate": "skos:related",
+      "target": "urn:srcos:glossary:release-gate"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "urn:srcos:glossary:attestation",
+  "type": "GlossaryTerm",
+  "specVersion": "2.0.0",
+  "name": "attestation",
+  "definition": "A signed statement that an artifact was built and verified; its absence yields a Speculative epistemic level, never Proved.",
+  "status": "approved",
+  "relations": [
+    {
+      "predicate": "skos:related",
+      "target": "urn:srcos:glossary:epistemic-level"
+    }
+  ]
+}

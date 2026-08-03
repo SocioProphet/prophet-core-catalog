@@ -1,0 +1,14 @@
+{
+  "id": "urn:srcos:glossary:governed-loop",
+  "type": "GlossaryTerm",
+  "specVersion": "2.0.0",
+  "name": "governed loop",
+  "definition": "A correction/convergence loop admissible only when bounded, convergent, fail-closed, and admitted by the superconscious; the only place a cycle is legitimate.",
+  "status": "approved",
+  "relations": [
+    {
+      "predicate": "skos:related",
+      "target": "urn:srcos:glossary:operational-dag"
+    }
+  ]
+}

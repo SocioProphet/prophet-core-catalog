@@ -1,0 +1,9 @@
+{
+  "id": "urn:srcos:glossary:data-class",
+  "type": "GlossaryTerm",
+  "specVersion": "2.0.0",
+  "name": "data class",
+  "definition": "An ontologically-typed data-side governance node (OntoDT/OntoDQ) binding a datatype-ontology class, a business glossary term, and a valid-values domain.",
+  "status": "approved",
+  "relations": []
+}

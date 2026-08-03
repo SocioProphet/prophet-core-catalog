@@ -1,0 +1,48 @@
+{
+  "id": "ds.sourceos-glossary",
+  "name": "SourceOS Governance Vocabulary (glossary)",
+  "version": "0.1.0",
+  "sources": [
+    "src.sourceos-spec"
+  ],
+  "schema": {
+    "format": "jsonl",
+    "fields": [
+      "id",
+      "name",
+      "kind",
+      "definition",
+      "source",
+      "related_terms",
+      "narrower_terms",
+      "repos"
+    ],
+    "schema_uri": "./README.md"
+  },
+  "lineage": {
+    "transform": "Generated from the sourceos-spec GlossaryTerm contract via the governed draft->approved alignment promotion (capture + vector-align + implement meet). Only APPROVED governance terms are ingested; drafts are excluded. Edit tools/ingest_srcos_glossary.py or the seed, not glossary.jsonl.",
+    "receipt_required": true,
+    "upstream_datasets": []
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line (glossary.jsonl)",
+      "every term has id+name+kind+definition",
+      "kind == governance",
+      "glossary.jsonl matches the seed (tools/ingest_srcos_glossary.py --check)",
+      "approved-only (no draft terms)"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}
