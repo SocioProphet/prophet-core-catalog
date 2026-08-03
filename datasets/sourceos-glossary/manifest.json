@@ -6,7 +6,7 @@
     "src.sourceos-spec"
   ],
   "schema": {
-    "format": "jsonl",
+    "format": "document",
     "fields": [
       "id",
       "name",
