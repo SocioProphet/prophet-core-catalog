@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DS = ROOT / "datasets" / "sourceos-glossary"
 SEED = DS / "seed"
 OUT = DS / "glossary.jsonl"
+TERMS_OUT = DS / "terms.jsonl"   # asset records (so the dataset percolates), one per governance term
 
 
 def load_terms() -> list[dict]:
@@ -57,9 +58,31 @@ def to_glossary_row(term: dict) -> dict:
     }
 
 
-def render(terms: list[dict]) -> str:
-    rows = sorted((to_glossary_row(t) for t in terms), key=lambda r: r["id"])
+def to_term_asset(term: dict) -> dict:
+    slug = term["id"].split(":")[-1]
+    g = to_glossary_row(term)
+    return {
+        "id": f"srcos-term-{slug}",
+        "name": term["name"],
+        "kind": "governance-term",
+        "term": slug,
+        "definition": term["definition"],
+        "repo": "sourceos-spec",
+        "source": "sourceos-spec",
+        "related_terms": g["related_terms"],
+    }
+
+
+def render(rows: list[dict]) -> str:
     return "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows)
+
+
+def render_glossary(terms: list[dict]) -> str:
+    return render(sorted((to_glossary_row(t) for t in terms), key=lambda r: r["id"]))
+
+
+def render_terms(terms: list[dict]) -> str:
+    return render(sorted((to_term_asset(t) for t in terms), key=lambda r: r["id"]))
 
 
 def main() -> int:
@@ -70,16 +93,18 @@ def main() -> int:
     if not terms:
         print("no approved GlossaryTerm seed found", file=sys.stderr)
         return 1
-    jsonl = render(terms)
+    outputs = {OUT: render_glossary(terms), TERMS_OUT: render_terms(terms)}
     if args.check:
-        current = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
-        if current != jsonl:
-            print(f"STALE: {OUT} does not match `ingest_srcos_glossary.py`; regenerate.", file=sys.stderr)
+        stale = [p.name for p, want in outputs.items()
+                 if (p.read_text(encoding="utf-8") if p.exists() else "") != want]
+        if stale:
+            print(f"STALE: {stale} do not match `ingest_srcos_glossary.py`; regenerate.", file=sys.stderr)
             return 1
-        print(f"OK: {OUT} up to date ({len(terms)} governance terms)")
+        print(f"OK: glossary.jsonl + terms.jsonl up to date ({len(terms)} governance terms)")
         return 0
-    OUT.write_text(jsonl, encoding="utf-8")
-    print(f"wrote {OUT} ({len(terms)} governance terms)")
+    for p, want in outputs.items():
+        p.write_text(want, encoding="utf-8")
+    print(f"wrote glossary.jsonl + terms.jsonl ({len(terms)} governance terms)")
     return 0
 
 
