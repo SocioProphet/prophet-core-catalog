@@ -1,0 +1,55 @@
+{
+  "id": "ds.classification-admissibility",
+  "name": "Estate Classification Admissibility & Trust Grading",
+  "version": "0.1.0",
+  "sources": [
+    "src.sourceos-spec"
+  ],
+  "schema": {
+    "format": "document",
+    "fields": [
+      "id",
+      "estate",
+      "generated_at",
+      "cold_start_phase",
+      "layers",
+      "admissible_count",
+      "degraded_count",
+      "n_eff",
+      "n_eff_floor",
+      "pos_available",
+      "grade",
+      "grade_note"
+    ],
+    "schema_uri": "./SCHEMA.md"
+  },
+  "lineage": {
+    "transform": "Projection of EstateAdmissibilityReport documents (sourceos-spec schemas/EstateAdmissibilityReport.json, SP-FPRINT-STACK-001 section 4) into a catalog row per estate, with a derived A-F trust grade. The grade is RECOMPUTED from the layer states and n_eff by tools/grade_classification_admissibility.py — it is never carried in the source document, so a report cannot assert a grade its own measurements do not support.",
+    "receipt_required": true,
+    "upstream_datasets": [
+      "ds.schemas-contracts"
+    ]
+  },
+  "quality": {
+    "checks": [
+      "valid-jsonl-per-line",
+      "every record carries all six fingerprint layers (an omitted layer is indistinguishable from an admissible one)",
+      "every inadmissible layer carries a named reason from the closed set",
+      "grade recomputed from layers + n_eff, never asserted",
+      "pos_available false whenever n_eff is below floor",
+      "degraded layers cannot count toward an A grade"
+    ],
+    "minimum_quality_gate": "seed"
+  },
+  "access": {
+    "visibility": "public",
+    "owners": [
+      "@mdheller"
+    ],
+    "allowed_roles": [
+      "agent",
+      "platform",
+      "reviewer"
+    ]
+  }
+}

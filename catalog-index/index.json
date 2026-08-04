@@ -1,9 +1,9 @@
 {
   "generated_by": "tools/build_catalog_index.py",
-  "datasets": 13,
-  "assets": 56148,
+  "datasets": 14,
+  "assets": 56155,
   "glossary_terms": 7731,
-  "edges": 33516,
+  "edges": 33518,
   "registry": [
     {
       "dataset": "adrs-docs",
@@ -25,6 +25,13 @@
       "version": "0.1.0",
       "assets": 1142,
       "sources": 121
+    },
+    {
+      "dataset": "classification-admissibility",
+      "id": "ds.classification-admissibility",
+      "version": "0.1.0",
+      "assets": 1,
+      "sources": 1
     },
     {
       "dataset": "feedback-loops",
@@ -65,7 +72,7 @@
       "dataset": "schemas-contracts",
       "id": "ds.schemas-contracts",
       "version": "0.1.0",
-      "assets": 2328,
+      "assets": 2334,
       "sources": 90
     },
     {

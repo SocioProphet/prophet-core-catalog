@@ -1,6 +1,6 @@
 .PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph catalog-index emit-datahub verify-percolation verify-catalog-mcp-transport validate-srcos-glossary validate-no-case-collisions
 
-validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation verify-catalog-mcp-transport validate-srcos-glossary validate-no-case-collisions
+validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation verify-catalog-mcp-transport validate-srcos-glossary validate-no-case-collisions validate-classification-admissibility
 
 # House-protocol conformance: the catalog MCP surface MUST ride the TriTRPC transport
 # profile (canonical JSON + sha256 digest binding + typed media type + typed envelope +
@@ -20,6 +20,9 @@ emit-datahub: catalog-index
 # Fail-closed canary: the catalog must actually PERCOLATE (be answerable), not just
 # validate as write-only git. Rebuilds the index and asserts every dataset is covered,
 # the glossary + edges are non-empty, and canonical queries return real answers.
+validate-classification-admissibility:
+	python3 tools/grade_classification_admissibility.py validate
+
 verify-percolation:
 	python3 tools/verify_percolation.py
 
