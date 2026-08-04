@@ -5998,7 +5998,7 @@
 {"from": "code://sociosphere/standards/schemas/adaptation/topicspace.v1.json", "kind": "imports", "line": 22, "record_type": "GraphEdge", "to": "rx://rx-700ad56a04"}
 {"category": "other", "cell_id": "rx://rx-700c7a58cf", "intent": "", "kind": "pattern", "provider_reference": false, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "benign", "use_count": 1}
 {"from": "code://Noetica/agent-machine/lib/rag-trust.ts", "kind": "imports", "line": 32, "record_type": "GraphEdge", "to": "rx://rx-700c7a58cf"}
-{"category": "classifier", "cell_id": "rx://rx-700dae1dd3", "intent": "", "kind": "pattern", "provider_reference": true, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "catastrophic", "use_count": 1}
+{"category": "secret", "cell_id": "rx://rx-700dae1dd3", "intent": "", "kind": "pattern", "provider_reference": true, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "catastrophic", "use_count": 1}
 {"from": "code://Noetica/agent-machine/lib/agent-session.test.ts", "kind": "imports", "line": 129, "record_type": "GraphEdge", "to": "rx://rx-700dae1dd3"}
 {"category": "other", "cell_id": "rx://rx-700ead3dd6", "intent": "", "kind": "pattern", "provider_reference": false, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "benign", "use_count": 1}
 {"from": "code://SCOPE-D/intel/github/sg_repo_miner.py", "kind": "imports", "line": 58, "record_type": "GraphEdge", "to": "rx://rx-700ead3dd6"}
@@ -11900,7 +11900,7 @@
 {"from": "code://Noetica/agent-machine/lib/fog-bridge.ts", "kind": "imports", "line": 28, "record_type": "GraphEdge", "to": "rx://rx-ab687b9b7d"}
 {"category": "validation", "cell_id": "rx://rx-ab80b03f66", "intent": "", "kind": "pattern", "provider_reference": false, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "benign", "use_count": 1}
 {"from": "code://Noetica/agent-machine/lib/noetica-events.ts", "kind": "imports", "line": 273, "record_type": "GraphEdge", "to": "rx://rx-ab80b03f66"}
-{"category": "classifier", "cell_id": "rx://rx-ab8e18c434", "intent": "", "kind": "pattern", "provider_reference": true, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "sensitive", "use_count": 1}
+{"category": "path", "cell_id": "rx://rx-ab8e18c434", "intent": "", "kind": "pattern", "provider_reference": true, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "sensitive", "use_count": 1}
 {"from": "code://Noetica/agent-machine/lib/router.ts", "kind": "imports", "line": 574, "record_type": "GraphEdge", "to": "rx://rx-ab8e18c434"}
 {"category": "other", "cell_id": "rx://rx-ab95458876", "intent": "", "kind": "pattern", "provider_reference": false, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "catastrophic", "use_count": 1}
 {"from": "code://Noetica/agent-machine/lib/claude-memory-id.test.ts", "kind": "imports", "line": 38, "record_type": "GraphEdge", "to": "rx://rx-ab95458876"}
@@ -14406,7 +14406,7 @@
 {"from": "code://Noetica/components/settings/panels/ModelsPanel.tsx", "kind": "imports", "line": 281, "record_type": "GraphEdge", "to": "rx://rx-d833a0f82f"}
 {"category": "other", "cell_id": "rx://rx-d84c53fb41", "intent": "", "kind": "pattern", "provider_reference": false, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "benign", "use_count": 1}
 {"from": "code://Noetica/agent-machine/lib/content-lifecycle.ts", "kind": "imports", "line": 32, "record_type": "GraphEdge", "to": "rx://rx-d84c53fb41"}
-{"category": "classifier", "cell_id": "rx://rx-d84d9c09e7", "intent": "", "kind": "pattern", "provider_reference": true, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "sensitive", "use_count": 1}
+{"category": "url", "cell_id": "rx://rx-d84d9c09e7", "intent": "", "kind": "pattern", "provider_reference": true, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "sensitive", "use_count": 1}
 {"from": "code://Noetica/agent-machine/lib/router.ts", "kind": "imports", "line": 561, "record_type": "GraphEdge", "to": "rx://rx-d84d9c09e7"}
 {"category": "validation", "cell_id": "rx://rx-d858b1ee6f", "intent": "", "kind": "pattern", "provider_reference": false, "record_type": "SemanticCell", "redos_suspect": false, "risk_class": "benign", "use_count": 1}
 {"from": "code://Noetica/agent-machine/lib/graph-surface.ts", "kind": "imports", "line": 131, "record_type": "GraphEdge", "to": "rx://rx-d858b1ee6f"}
