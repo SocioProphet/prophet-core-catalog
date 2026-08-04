@@ -1,9 +1,9 @@
 {
   "generated_by": "tools/build_catalog_index.py",
-  "datasets": 12,
-  "assets": 56141,
-  "glossary_terms": 7724,
-  "edges": 37360,
+  "datasets": 13,
+  "assets": 56148,
+  "glossary_terms": 7731,
+  "edges": 33516,
   "registry": [
     {
       "dataset": "adrs-docs",
@@ -74,6 +74,13 @@
       "version": "0.1.0",
       "assets": 430,
       "sources": 27
+    },
+    {
+      "dataset": "sourceos-glossary",
+      "id": "ds.sourceos-glossary",
+      "version": "0.1.0",
+      "assets": 7,
+      "sources": 1
     },
     {
       "dataset": "stemmer-policy",

@@ -1,6 +1,6 @@
-.PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph catalog-index emit-datahub verify-percolation verify-catalog-mcp-transport validate-srcos-glossary
+.PHONY: validate validate-wallguard-catalog-visibility validate-internal-ops-libraries estate-graph validate-estate-graph catalog-index emit-datahub verify-percolation verify-catalog-mcp-transport validate-srcos-glossary validate-no-case-collisions
 
-validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation verify-catalog-mcp-transport validate-srcos-glossary
+validate: validate-wallguard-catalog-visibility validate-internal-ops-libraries validate-estate-graph verify-percolation verify-catalog-mcp-transport validate-srcos-glossary validate-no-case-collisions
 
 # House-protocol conformance: the catalog MCP surface MUST ride the TriTRPC transport
 # profile (canonical JSON + sha256 digest binding + typed media type + typed envelope +
@@ -22,6 +22,13 @@ emit-datahub: catalog-index
 # the glossary + edges are non-empty, and canonical queries return real answers.
 verify-percolation:
 	python3 tools/verify_percolation.py
+
+# Git is case-sensitive; macOS and Windows are not. Two tracked paths differing only by
+# case can never both exist on disk, so the working tree is permanently dirty and every
+# unrelated PR carries a spurious diff. Worse here: shards are named after repos, so a
+# case-variant filename splits one repo into two across the estate graph.
+validate-no-case-collisions:
+	python3 tools/validate_no_case_collisions.py
 
 validate-wallguard-catalog-visibility:
 	python3 tools/validate_wallguard_catalog_visibility.py
